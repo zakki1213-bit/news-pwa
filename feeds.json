@@ -6,7 +6,7 @@
       "color": "#2563eb",
       "feeds": [
         { "name": "ICT教育ニュース", "url": "https://ict-enews.net/feed/" },
-        { "name": "リセマム", "url": "https://resemom.jp/rss/" },
+        { "name": "リセマム", "url": "https://resemom.jp/rss/index.rdf" },
         { "name": "Google: 高校教育", "url": "https://news.google.com/rss/search?q=%E9%AB%98%E6%A0%A1%E6%95%99%E8%82%B2&hl=ja&gl=JP&ceid=JP:ja" },
         { "name": "Google: ICT教育", "url": "https://news.google.com/rss/search?q=ICT%E6%95%99%E8%82%B2&hl=ja&gl=JP&ceid=JP:ja" },
         { "name": "Google: GIGAスクール", "url": "https://news.google.com/rss/search?q=GIGA%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB&hl=ja&gl=JP&ceid=JP:ja" },

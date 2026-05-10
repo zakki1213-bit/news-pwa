@@ -1,0 +1,12 @@
+{
+  "name": "news-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
