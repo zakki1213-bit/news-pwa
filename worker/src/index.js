@@ -51,10 +51,13 @@ export default {
     }
 
     try {
+      // Resolve Google News URL to actual article URL if needed
+      const resolvedUrl = await resolveGoogleNewsUrl(url);
+
       // Fetch article HTML (follow redirects)
-      const articleRes = await fetchWithTimeout(url, {
+      const articleRes = await fetchWithTimeout(resolvedUrl, {
         headers: {
-          'User-Agent': 'Mozilla/5.0 (compatible; NewsPWA-Summarizer/1.0)',
+          'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
           'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
           'Accept-Language': 'ja,en;q=0.5',
         },
@@ -96,6 +99,49 @@ function json(obj, status, cors) {
     status,
     headers: { ...cors, 'Content-Type': 'application/json; charset=utf-8' },
   });
+}
+
+async function resolveGoogleNewsUrl(url) {
+  if (!/^https?:\/\/news\.google\.com\/(rss\/)?articles\//.test(url)) return url;
+  try {
+    const pageRes = await fetchWithTimeout(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
+        'Accept-Language': 'ja,en;q=0.5',
+      },
+      redirect: 'follow',
+    });
+    if (!pageRes.ok) return url;
+    const html = await pageRes.text();
+    const tsM = html.match(/data-n-a-ts="(\d+)"/);
+    const sgM = html.match(/data-n-a-sg="([^"]+)"/);
+    const idM = html.match(/data-n-a-id="([^"]+)"/);
+    if (!tsM || !sgM || !idM) return url;
+    const id = idM[1], ts = Number(tsM[1]), sg = sgM[1];
+
+    const innerJson = JSON.stringify([
+      'garturlreq',
+      [['X','X',['X','X'],null,null,1,1,'US:en',null,1,null,null,null,null,null,0,1],
+       'X','X',1,[1,1,1],1,1,null,0,0,null,0],
+      id, ts, sg,
+    ]);
+    const reqArr = [[['Fbv4je', innerJson, null, 'generic']]];
+    const body = 'f.req=' + encodeURIComponent(JSON.stringify(reqArr));
+
+    const batchRes = await fetchWithTimeout('https://news.google.com/_/DotsSplashUi/data/batchexecute', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+      body,
+    });
+    if (!batchRes.ok) return url;
+    const text = await batchRes.text();
+    // Response: )]}'\n[["wrb.fr","Fbv4je","[\"garturlres\",\"<URL>\",1,...]",...]]
+    const m = text.match(/\\"garturlres\\",\\"(https?:[^\\]+)\\"/);
+    if (m && m[1]) return m[1];
+    return url;
+  } catch {
+    return url;
+  }
 }
 
 async function fetchWithTimeout(url, opts) {
