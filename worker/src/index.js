@@ -9,7 +9,8 @@ const ALLOWED_ORIGINS = [
   'https://zakki1213-bit.github.io',
 ];
 
-const MIN_CHARS = 500;
+const MIN_CHARS = 200;       // これ未満ならtitle+snippetをfallback合算
+const MIN_TOTAL_CHARS = 30;  // 全合算でもこれ未満なら要約諦め
 const MAX_INPUT_CHARS = 30000;
 const FETCH_TIMEOUT_MS = 12000;
 
@@ -39,10 +40,12 @@ export default {
       return json({ error: 'forbidden', message: 'Origin not allowed' }, 403, cors);
     }
 
-    let url;
+    let url, title, snippet;
     try {
       const body = await request.json();
       url = body.url;
+      title = body.title || '';
+      snippet = body.snippet || '';
     } catch {
       return json({ error: 'invalid_json' }, 400, cors);
     }
@@ -52,7 +55,9 @@ export default {
 
     try {
       // Resolve Google News URL to actual article URL if needed
+      const isGoogleNews = /^https?:\/\/news\.google\.com\//.test(url);
       const resolvedUrl = await resolveGoogleNewsUrl(url);
+      const resolvedOk = (resolvedUrl !== url);
 
       // Fetch article HTML (follow redirects)
       const articleRes = await fetchWithTimeout(resolvedUrl, {
@@ -64,34 +69,42 @@ export default {
         redirect: 'follow',
       });
 
-      if (!articleRes.ok) {
-        return json({
-          ok: false,
-          reason: 'fetch_failed',
-          message: `本文を取得できませんでした (HTTP ${articleRes.status})`,
-        }, 200, cors);
+      // Google News解決失敗時はOG画像も諦める（GoogleのCDNアイコンが返るため）
+      const skipOg = isGoogleNews && !resolvedOk;
+
+      let html = '';
+      let text = '';
+      let ogImage = null;
+      if (articleRes.ok) {
+        html = await articleRes.text();
+        text = extractMainContent(html);
+        ogImage = skipOg ? null : extractOgImage(html, articleRes.url || resolvedUrl);
       }
 
-      const html = await articleRes.text();
-      const text = extractMainContent(html);
-      const ogImage = extractOgImage(html, articleRes.url || resolvedUrl);
+      // 本文が短ければtitle+snippetをfallbackとして合算
+      let inputText = text;
+      if (inputText.length < MIN_CHARS) {
+        const supplement = [title, snippet].filter(Boolean).join('\n');
+        if (supplement) inputText = (text + '\n' + supplement).trim();
+      }
 
-      if (text.length < MIN_CHARS) {
+      if (inputText.length < MIN_TOTAL_CHARS) {
         return json({
           ok: false,
-          reason: 'too_short',
-          message: '本文を取得できませんでした（有料記事や動的読み込みの可能性があります）',
+          reason: articleRes.ok ? 'too_short' : 'fetch_failed',
+          message: '記事の情報が少なすぎて要約を生成できませんでした',
           ogImage,
         }, 200, cors);
       }
 
       // Summarize with Gemini
-      const summary = await callGemini(text.slice(0, MAX_INPUT_CHARS), env.GEMINI_API_KEY);
+      const summary = await callGemini(inputText.slice(0, MAX_INPUT_CHARS), env.GEMINI_API_KEY);
       return json({
         ok: true,
         summary,
         ogImage,
-        charsUsed: Math.min(text.length, MAX_INPUT_CHARS),
+        charsUsed: Math.min(inputText.length, MAX_INPUT_CHARS),
+        usedFallback: text.length < MIN_CHARS,
       }, 200, cors);
 
     } catch (err) {
@@ -164,7 +177,7 @@ async function fetchWithTimeout(url, opts) {
 // 汎用アイコン（Googleニュース、はてなfavicon等）はマガジン用には使えないので除外
 function isGenericIconUrl(u) {
   if (!u) return true;
-  return /favicon\.|news\.google\.com\/favicon|googleusercontent\.com\/(news|s2\/favicons)|st-hatena\.com\/favicon|apple-touch-icon|\/icon-?\d+x\d+\.|gstatic\.com\/news/i.test(u);
+  return /favicon\.|news\.google\.com|googleusercontent\.com|st-hatena\.com|apple-touch-icon|\/icon-?\d+x\d+\.|gstatic\.com\/news|gnews_favicon/i.test(u);
 }
 
 function extractOgImage(html, baseUrl) {
@@ -232,20 +245,18 @@ async function callGemini(text, apiKey) {
   if (!apiKey) throw new Error('GEMINI_API_KEY が設定されていません');
 
   const prompt =
-    `以下のニュース記事の内容を、日本語で 3〜5段落の読み物に書き直してください。
+    `以下のニュース素材を、日本語で読み物として書き直してください。
 
 書き方の指示：
-- 1段落目: リード。何が起きたか・どんなニュースかを簡潔に
-- 2〜3段落目: 詳細・背景・関係者・具体的な数値や事実
-- 最後の段落: 影響、今後の見通し、注目すべきポイント
-- 自然で読みやすい文体、客観的、推測や憶測は書かない
-- 元記事の文章をそのままコピーせず、自分の言葉で書く（言い換え）
-- 各段落は2〜4文程度
-- 全体で400〜700文字程度
+- 情報量に応じて 1〜5段落で書く（素材が短ければ短く、豊富なら3〜5段落）
+- 段落の構成：1段落目はリード（何が起きたか）、続く段落で詳細・背景・数値、最後に影響や注目点
+- 自然で読みやすい文体、客観的、素材に書かれていない事実は推測で補わない
+- 元の文章をそのままコピーせず自分の言葉で書く（言い換え）
 - 段落と段落の間は空行（\\n\\n）で区切る
 - 箇条書きや見出しは使わない
+- 素材が断片的でも、与えられた範囲だけで自然な日本語にまとめる
 
-記事本文：
+ニュース素材：
 ${text}`;
 
   const res = await fetch(`${GEMINI_ENDPOINT}?key=${encodeURIComponent(apiKey)}`, {

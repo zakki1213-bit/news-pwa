@@ -109,7 +109,7 @@ async function saveCache(cache) {
   await fs.writeFile(CACHE_PATH, JSON.stringify(cache));
 }
 
-async function enrichOne(url) {
+async function enrichOne(item) {
   const ctrl = new AbortController();
   const tm = setTimeout(() => ctrl.abort(), ENRICH_TIMEOUT_MS);
   try {
@@ -119,7 +119,7 @@ async function enrichOne(url) {
         'Content-Type': 'application/json',
         'Origin': WORKER_ORIGIN,
       },
-      body: JSON.stringify({ url }),
+      body: JSON.stringify({ url: item.url, title: item.title, snippet: item.snippet }),
       signal: ctrl.signal,
     });
     if (!res.ok) {
@@ -168,7 +168,7 @@ async function main() {
 
   let done = 0;
   for (const it of toEnrich) {
-    const e = await enrichOne(it.url);
+    const e = await enrichOne(it);
     cache[it.url] = e;
     done++;
     if (done % 10 === 0) {
