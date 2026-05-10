@@ -250,11 +250,119 @@
     font-weight: 500;
   }
   .btn:hover { filter: brightness(1.05); }
+  .btn-outline {
+    background: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+  }
+  /* Modal */
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal {
+    background: var(--bg-card);
+    border-radius: 12px;
+    max-width: 640px;
+    width: 100%;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,.3);
+  }
+  .modal-head {
+    padding: .9rem 1.1rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: .75rem;
+  }
+  .modal-head .modal-title {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 600;
+    flex: 1;
+    min-width: 0;
+  }
+  .modal-head .topic {
+    display: inline-block;
+    padding: .1rem .5rem;
+    border-radius: 4px;
+    color: #fff;
+    font-size: .7rem;
+    font-weight: 600;
+    margin-bottom: .35rem;
+  }
+  .modal-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text-dim);
+    padding: 0 .25rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .modal-body {
+    padding: 1rem 1.1rem;
+    flex: 1;
+    overflow-y: auto;
+    font-size: .92rem;
+    line-height: 1.75;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .modal-body.error,
+  .modal-loading {
+    color: var(--text-dim);
+    text-align: center;
+    padding: 2rem 1.25rem;
+  }
+  .modal-foot {
+    padding: .8rem 1.1rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .75rem;
+    font-size: .78rem;
+    color: var(--text-dim);
+  }
+  .modal-foot .source {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+  }
+  .modal-foot .btn { white-space: nowrap; flex-shrink: 0; padding: .45rem 1rem; font-size: .85rem; }
+  .spinner {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--border);
+    border-top-color: var(--primary);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+    vertical-align: middle;
+    margin-right: .5rem;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
   @media (max-width: 600px) {
     h1 { font-size: 1.05rem; }
     .header-row { gap: .5rem; padding: .6rem .75rem .4rem; }
     main { padding: .75rem; }
     .grid { gap: .75rem; }
+    .modal-body { font-size: .88rem; line-height: 1.7; }
   }
 </style>
 </head>
@@ -277,7 +385,28 @@
   </div>
 </main>
 
+<div class="modal-backdrop" id="modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-head">
+      <div style="flex:1;min-width:0">
+        <span class="topic" id="modal-topic"></span>
+        <h2 class="modal-title" id="modal-title"></h2>
+      </div>
+      <button class="modal-close" id="modal-close" aria-label="閉じる">×</button>
+    </div>
+    <div class="modal-body" id="modal-body"></div>
+    <div class="modal-foot">
+      <span class="source" id="modal-source"></span>
+      <a class="btn" id="modal-link" href="#" target="_blank" rel="noopener noreferrer">元記事を開く</a>
+    </div>
+  </div>
+</div>
+
 <script>
+const SUMMARIZER_URL = 'https://news-summarizer.zakki1213.workers.dev';
+const SUMMARY_CACHE_KEY = 'news-pwa.summaries';
+const SUMMARY_TTL_MS = 7 * 86400 * 1000;
+
 const STATE = {
   data: null,
   filterTopic: 'all',
@@ -308,6 +437,22 @@ function saveReadState(map) {
 const READ_MAP = loadReadState();
 STATE.readSet = new Set(READ_MAP.keys());
 
+function loadSummaryCache() {
+  try {
+    const raw = localStorage.getItem(SUMMARY_CACHE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch { return {}; }
+}
+function saveSummaryCache() {
+  const now = Date.now();
+  const cleaned = {};
+  for (const [k, v] of Object.entries(SUMMARY_CACHE)) {
+    if (now - v.ts < SUMMARY_TTL_MS) cleaned[k] = v;
+  }
+  localStorage.setItem(SUMMARY_CACHE_KEY, JSON.stringify(cleaned));
+}
+const SUMMARY_CACHE = loadSummaryCache();
+
 function escapeHtml(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
@@ -334,12 +479,78 @@ async function loadNews() {
     const res = await fetch('news.json', { cache: 'no-cache' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     STATE.data = await res.json();
+    STATE.itemMap = new Map(STATE.data.items.map(i => [i.url, i]));
     renderFilters();
     render();
   } catch (e) {
     document.getElementById('grid').innerHTML =
       `<div class="empty">ニュースを取得できませんでした<br><small>${escapeHtml(e.message)}</small></div>`;
   }
+}
+
+function openSummary(item) {
+  const modal = document.getElementById('modal');
+  const titleEl = document.getElementById('modal-title');
+  const topicEl = document.getElementById('modal-topic');
+  const bodyEl = document.getElementById('modal-body');
+  const sourceEl = document.getElementById('modal-source');
+  const linkEl = document.getElementById('modal-link');
+
+  titleEl.textContent = item.title;
+  topicEl.textContent = item.topicName;
+  topicEl.style.background = item.topicColor || '#6b7280';
+  sourceEl.textContent = item.source;
+  linkEl.href = item.url;
+  bodyEl.classList.remove('error');
+  bodyEl.innerHTML = '<div class="modal-loading"><span class="spinner"></span>本文を取得して要約中…</div>';
+  modal.hidden = false;
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  STATE.readSet.add(item.url);
+  READ_MAP.set(item.url, Date.now());
+  saveReadState(READ_MAP);
+
+  const cached = SUMMARY_CACHE[item.url];
+  if (cached && Date.now() - cached.ts < SUMMARY_TTL_MS) {
+    showSummary(cached);
+    return;
+  }
+
+  fetch(SUMMARIZER_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ url: item.url }),
+  })
+    .then(r => r.json())
+    .then(data => {
+      const entry = { ...data, ts: Date.now() };
+      SUMMARY_CACHE[item.url] = entry;
+      saveSummaryCache();
+      showSummary(entry);
+    })
+    .catch(err => {
+      bodyEl.classList.add('error');
+      bodyEl.textContent = '通信エラー: ' + (err.message || err);
+    });
+}
+
+function showSummary(entry) {
+  const bodyEl = document.getElementById('modal-body');
+  if (entry.ok && entry.summary) {
+    bodyEl.classList.remove('error');
+    bodyEl.textContent = entry.summary;
+  } else {
+    bodyEl.classList.add('error');
+    bodyEl.textContent = entry.message || '要約を取得できませんでした。元記事をご覧ください。';
+  }
+}
+
+function closeModal() {
+  const modal = document.getElementById('modal');
+  modal.hidden = true;
+  modal.classList.remove('open');
+  document.body.style.overflow = '';
 }
 
 function renderFilters() {
@@ -416,17 +627,26 @@ function render() {
   grid.innerHTML = html;
 
   grid.querySelectorAll('.card').forEach(a => {
-    a.addEventListener('click', () => {
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
       const url = a.dataset.url;
-      STATE.readSet.add(url);
-      READ_MAP.set(url, Date.now());
-      saveReadState(READ_MAP);
+      const item = STATE.itemMap.get(url);
+      if (!item) { window.open(url, '_blank', 'noopener'); return; }
       a.classList.add('read');
+      openSummary(item);
     });
   });
   const more = document.getElementById('more');
   if (more) more.addEventListener('click', () => { STATE.renderLimit += 60; render(); });
 }
+
+document.getElementById('modal-close').addEventListener('click', closeModal);
+document.getElementById('modal').addEventListener('click', (e) => {
+  if (e.target.id === 'modal') closeModal();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && !document.getElementById('modal').hidden) closeModal();
+});
 
 document.getElementById('search').addEventListener('input', e => {
   STATE.search = e.target.value;
