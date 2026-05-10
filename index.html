@@ -188,6 +188,12 @@
     font-size: .72rem;
     color: var(--text-dim);
   }
+  .card-head-right {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    flex-shrink: 0;
+  }
   .card-badge {
     padding: .1rem .5rem;
     border-radius: 4px;
@@ -197,6 +203,50 @@
     white-space: nowrap;
   }
   .card-time { white-space: nowrap; }
+  .card-bookmark {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px 4px;
+    line-height: 0;
+    color: var(--text-dim);
+    opacity: .55;
+    transition: opacity .15s, color .15s, transform .1s;
+    border-radius: 4px;
+  }
+  .card-bookmark:hover { opacity: 1; transform: scale(1.1); }
+  .card-bookmark svg { width: 16px; height: 16px; display: block; }
+  .card-bookmark.saved { color: #f59e0b; opacity: 1; }
+  .card-memo {
+    background: rgba(245, 158, 11, .08);
+    border-left: 3px solid #f59e0b;
+    border-radius: 4px;
+    padding: .4rem .55rem;
+    font-size: .78rem;
+    color: var(--text);
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-actions {
+    display: flex;
+    gap: .35rem;
+    margin-top: .25rem;
+  }
+  .card-actions button {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: .25rem .55rem;
+    font-size: .75rem;
+    cursor: pointer;
+    color: var(--text-dim);
+  }
+  .card-actions button:hover { border-color: var(--primary); color: var(--primary); }
   .card-title {
     font-size: .98rem;
     font-weight: 600;
@@ -371,6 +421,73 @@
     margin-right: .5rem;
   }
   @keyframes spin { to { transform: rotate(360deg); } }
+  /* FAB */
+  .fab {
+    position: fixed;
+    bottom: 1.2rem;
+    right: 1.2rem;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(0,0,0,.25);
+    z-index: 50;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fab:hover { filter: brightness(1.05); }
+  /* Settings button */
+  .icon-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: .4rem .5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.05rem;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .icon-btn:hover { border-color: var(--primary); color: var(--primary); }
+  /* Form fields in modals */
+  .form-row { display: flex; flex-direction: column; gap: .3rem; margin-bottom: .85rem; }
+  .form-row label { font-size: .82rem; color: var(--text-dim); font-weight: 500; }
+  .form-row input,
+  .form-row textarea {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 8px;
+    padding: .55rem .7rem;
+    font-size: .92rem;
+    font-family: inherit;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .form-row input:focus,
+  .form-row textarea:focus { outline: none; border-color: var(--primary); }
+  .form-row textarea { resize: vertical; min-height: 80px; }
+  .form-help { font-size: .78rem; color: var(--text-dim); line-height: 1.55; margin: 0 0 .6rem; }
+  .modal-foot.between { justify-content: space-between; }
+  .btn-danger {
+    background: transparent;
+    color: #dc2626;
+    border: 1px solid #dc2626;
+    padding: .45rem 1rem;
+    border-radius: 8px;
+    font-size: .85rem;
+    cursor: pointer;
+  }
+  .btn-danger:hover { background: #dc2626; color: #fff; }
+  .sync-status { font-size: .78rem; color: var(--text-dim); }
+  .sync-status.ok { color: #059669; }
+  .sync-status.err { color: #dc2626; }
   @media (max-width: 600px) {
     h1 { font-size: 1.05rem; }
     .header-row { gap: .5rem; padding: .6rem .75rem .4rem; }
@@ -386,6 +503,7 @@
     <h1>📰 ニュース</h1>
     <input type="search" class="search-box" id="search" placeholder="検索（タイトル・本文・出典）" autocomplete="off">
     <label class="toggle"><input type="checkbox" id="unread-only">未読のみ</label>
+    <button class="icon-btn" id="settings-open" aria-label="設定" title="設定">⚙</button>
   </div>
   <div class="filters" id="filters"></div>
 </header>
@@ -398,6 +516,84 @@
     <div class="loading">ニュースを取得しています…</div>
   </div>
 </main>
+
+<button class="fab" id="paste-open" aria-label="記事を保存">+</button>
+
+<!-- Memo edit modal -->
+<div class="modal-backdrop" id="memo-modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-head">
+      <h2 class="modal-title" id="memo-modal-title">メモ</h2>
+      <button class="modal-close" data-close="memo-modal" aria-label="閉じる">×</button>
+    </div>
+    <div class="modal-body">
+      <p class="form-help" id="memo-target-title"></p>
+      <div class="form-row">
+        <label for="memo-input">メモ（自由に書けます）</label>
+        <textarea id="memo-input" rows="6" placeholder="授業ネタ、期末考査用、など"></textarea>
+      </div>
+    </div>
+    <div class="modal-foot between">
+      <button class="btn-danger" id="memo-delete">保存解除</button>
+      <button class="btn" id="memo-save">保存</button>
+    </div>
+  </div>
+</div>
+
+<!-- URL paste modal -->
+<div class="modal-backdrop" id="paste-modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-head">
+      <h2 class="modal-title">記事を保存（URL貼り付け）</h2>
+      <button class="modal-close" data-close="paste-modal" aria-label="閉じる">×</button>
+    </div>
+    <div class="modal-body">
+      <p class="form-help">北海道新聞などPWAの一覧に出てこない記事を保存できます。</p>
+      <div class="form-row">
+        <label for="paste-url">URL（必須）</label>
+        <input type="url" id="paste-url" placeholder="https://...">
+      </div>
+      <div class="form-row">
+        <label for="paste-title">タイトル（任意）</label>
+        <input type="text" id="paste-title" placeholder="未入力ならURLが表示されます">
+      </div>
+      <div class="form-row">
+        <label for="paste-memo">メモ（任意）</label>
+        <textarea id="paste-memo" rows="4"></textarea>
+      </div>
+    </div>
+    <div class="modal-foot">
+      <button class="btn" id="paste-save">保存</button>
+    </div>
+  </div>
+</div>
+
+<!-- Settings modal -->
+<div class="modal-backdrop" id="settings-modal" hidden>
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-head">
+      <h2 class="modal-title">設定</h2>
+      <button class="modal-close" data-close="settings-modal" aria-label="閉じる">×</button>
+    </div>
+    <div class="modal-body">
+      <h3 style="margin:0 0 .4rem;font-size:.95rem">Gist同期（PCとスマホで保存記事を共有）</h3>
+      <p class="form-help">
+        GitHubトークン（gist権限）が必要です。<br>
+        <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">トークンを発行する</a>
+        → Repository accessは「Public Repositories (read-only)」、 Account permissionsで「Gists: Read and write」を有効に。
+      </p>
+      <div class="form-row">
+        <label for="gh-token">GitHubトークン</label>
+        <input type="password" id="gh-token" placeholder="ghp_... または github_pat_..." autocomplete="off">
+      </div>
+      <p class="sync-status" id="sync-status">未接続</p>
+    </div>
+    <div class="modal-foot between">
+      <button class="btn-outline" id="sync-now">今すぐ同期</button>
+      <button class="btn" id="settings-save">保存</button>
+    </div>
+  </div>
+</div>
 
 <div class="modal-backdrop" id="modal" hidden>
   <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
@@ -423,11 +619,16 @@ const STATE = {
   search: '',
   unreadOnly: false,
   readSet: new Set(),
+  saved: {},
+  gist: { token: '', gistId: '', lastSyncAt: 0, lastSyncStatus: '' },
   renderLimit: 60,
 };
 
 const READ_KEY = 'news-pwa.read';
 const READ_RETENTION_DAYS = 60;
+const SAVED_KEY = 'news-pwa.saved';
+const GIST_KEY = 'news-pwa.gist';
+const GIST_FILENAME = 'news-pwa-saved.json';
 
 function loadReadState() {
   try {
@@ -446,6 +647,159 @@ function saveReadState(map) {
 
 const READ_MAP = loadReadState();
 STATE.readSet = new Set(READ_MAP.keys());
+
+function loadSaved() {
+  try {
+    const raw = localStorage.getItem(SAVED_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch { return {}; }
+}
+function saveSavedToLocal() {
+  localStorage.setItem(SAVED_KEY, JSON.stringify(STATE.saved));
+}
+function loadGistConfig() {
+  try {
+    const raw = localStorage.getItem(GIST_KEY);
+    return raw ? JSON.parse(raw) : { token: '', gistId: '', lastSyncAt: 0, lastSyncStatus: '' };
+  } catch { return { token: '', gistId: '', lastSyncAt: 0, lastSyncStatus: '' }; }
+}
+function saveGistConfig() {
+  localStorage.setItem(GIST_KEY, JSON.stringify(STATE.gist));
+}
+STATE.saved = loadSaved();
+STATE.gist = loadGistConfig();
+
+let SYNC_TIMER = null;
+function scheduleSync() {
+  if (!STATE.gist.token) return;
+  clearTimeout(SYNC_TIMER);
+  SYNC_TIMER = setTimeout(() => syncSavedToGist().catch(() => {}), 5000);
+}
+
+async function ghFetch(path, opts = {}) {
+  const headers = {
+    'Accept': 'application/vnd.github+json',
+    'Authorization': `Bearer ${STATE.gist.token}`,
+    'X-GitHub-Api-Version': '2022-11-28',
+    ...(opts.headers || {}),
+  };
+  const res = await fetch(`https://api.github.com${path}`, { ...opts, headers });
+  if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text().catch(() => '')}`);
+  return res.json();
+}
+
+async function findOrCreateGist() {
+  // existing?
+  if (STATE.gist.gistId) return STATE.gist.gistId;
+  // search user's gists for our filename
+  try {
+    const list = await ghFetch('/gists?per_page=100');
+    const found = list.find(g => g.files && g.files[GIST_FILENAME]);
+    if (found) {
+      STATE.gist.gistId = found.id;
+      saveGistConfig();
+      return found.id;
+    }
+  } catch {}
+  // create new
+  const created = await ghFetch('/gists', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      description: 'news-pwa: あとで読む（自動生成）',
+      public: false,
+      files: { [GIST_FILENAME]: { content: JSON.stringify({ saved: {} }) } },
+    }),
+  });
+  STATE.gist.gistId = created.id;
+  saveGistConfig();
+  return created.id;
+}
+
+async function syncSavedToGist() {
+  if (!STATE.gist.token) return;
+  try {
+    setSyncStatus('syncing', '同期中…');
+    const id = await findOrCreateGist();
+    const body = { saved: STATE.saved, modifiedAt: Date.now() };
+    await ghFetch(`/gists/${id}`, {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        files: { [GIST_FILENAME]: { content: JSON.stringify(body) } },
+      }),
+    });
+    STATE.gist.lastSyncAt = Date.now();
+    STATE.gist.lastSyncStatus = 'ok';
+    saveGistConfig();
+    setSyncStatus('ok', `同期完了 ${new Date().toLocaleTimeString('ja-JP')}`);
+  } catch (err) {
+    STATE.gist.lastSyncStatus = 'error';
+    saveGistConfig();
+    setSyncStatus('err', '同期エラー: ' + (err.message || err));
+  }
+}
+
+async function syncSavedFromGist() {
+  if (!STATE.gist.token) return;
+  try {
+    setSyncStatus('syncing', '読み込み中…');
+    const id = await findOrCreateGist();
+    const data = await ghFetch(`/gists/${id}`);
+    const file = data.files && data.files[GIST_FILENAME];
+    if (file && file.content) {
+      const remote = JSON.parse(file.content);
+      if (remote && remote.saved) {
+        // merge: prefer newer modifiedAt per item
+        for (const [url, rItem] of Object.entries(remote.saved)) {
+          const local = STATE.saved[url];
+          if (!local || (rItem.modifiedAt || 0) > (local.modifiedAt || 0)) {
+            STATE.saved[url] = rItem;
+          }
+        }
+        saveSavedToLocal();
+      }
+    }
+    STATE.gist.lastSyncAt = Date.now();
+    STATE.gist.lastSyncStatus = 'ok';
+    saveGistConfig();
+    setSyncStatus('ok', `読み込み完了 ${new Date().toLocaleTimeString('ja-JP')}`);
+  } catch (err) {
+    STATE.gist.lastSyncStatus = 'error';
+    saveGistConfig();
+    setSyncStatus('err', '同期エラー: ' + (err.message || err));
+  }
+}
+
+function setSyncStatus(cls, text) {
+  const el = document.getElementById('sync-status');
+  if (!el) return;
+  el.className = 'sync-status ' + (cls || '');
+  el.textContent = text;
+}
+
+function isSaved(url) { return !!STATE.saved[url]; }
+
+function toggleSave(item) {
+  if (isSaved(item.url)) {
+    delete STATE.saved[item.url];
+  } else {
+    STATE.saved[item.url] = {
+      url: item.url,
+      title: item.title,
+      source: item.source || '',
+      topicId: item.topicId || '',
+      topicName: item.topicName || '',
+      topicColor: item.topicColor || '',
+      memo: '',
+      savedAt: Date.now(),
+      modifiedAt: Date.now(),
+      isPasted: !!item.isPasted,
+    };
+  }
+  saveSavedToLocal();
+  scheduleSync();
+}
 
 function escapeHtml(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -518,7 +872,9 @@ function closeModal() {
 function renderFilters() {
   const el = document.getElementById('filters');
   const all = { id: 'all', name: 'すべて', color: '#6b7280' };
-  const chips = [all, ...STATE.data.topics];
+  const savedCount = Object.keys(STATE.saved).length;
+  const savedChip = { id: '__saved__', name: `📑 あとで読む${savedCount ? `（${savedCount}）` : ''}`, color: '#f59e0b' };
+  const chips = [all, ...STATE.data.topics, savedChip];
   el.innerHTML = chips.map(t => {
     const active = STATE.filterTopic === t.id;
     const style = active ? `style="background:${t.color};border-color:${t.color};color:#fff"` : '';
@@ -534,21 +890,51 @@ function renderFilters() {
   });
 }
 
+function getSavedAsItems() {
+  // savedの全件を表示用itemに変換。news.jsonに同URLがあればそれをマージ
+  const arr = [];
+  for (const [url, s] of Object.entries(STATE.saved)) {
+    const newsItem = STATE.itemMap ? STATE.itemMap.get(url) : null;
+    arr.push({
+      url,
+      title: s.title || (newsItem && newsItem.title) || url,
+      snippet: newsItem ? newsItem.snippet : '',
+      summary: newsItem ? newsItem.summary : '',
+      image: newsItem ? newsItem.image : null,
+      ogImage: newsItem ? newsItem.ogImage : null,
+      pubDate: s.savedAt,
+      source: s.source || (newsItem && newsItem.source) || 'メモ',
+      topicId: s.topicId || (newsItem && newsItem.topicId) || 'saved',
+      topicName: s.topicName || (newsItem && newsItem.topicName) || 'あとで読む',
+      topicColor: s.topicColor || (newsItem && newsItem.topicColor) || '#f59e0b',
+      isPasted: !!s.isPasted,
+    });
+  }
+  return arr.sort((a, b) => b.pubDate - a.pubDate);
+}
+
 function filterItems() {
   const q = STATE.search.trim().toLowerCase();
-  return STATE.data.items.filter(it => {
-    if (STATE.filterTopic !== 'all' && it.topicId !== STATE.filterTopic) return false;
-    if (STATE.unreadOnly && STATE.readSet.has(it.url)) return false;
+  const isSavedView = STATE.filterTopic === '__saved__';
+  const baseItems = isSavedView ? getSavedAsItems() : STATE.data.items;
+  return baseItems.filter(it => {
+    if (!isSavedView && STATE.filterTopic !== 'all' && it.topicId !== STATE.filterTopic) return false;
+    if (STATE.unreadOnly && !isSavedView && STATE.readSet.has(it.url)) return false;
     if (q) {
-      const blob = (it.title + ' ' + (it.snippet || '') + ' ' + it.source).toLowerCase();
+      const memo = STATE.saved[it.url]?.memo || '';
+      const blob = (it.title + ' ' + (it.snippet || '') + ' ' + (it.summary || '') + ' ' + it.source + ' ' + memo).toLowerCase();
       if (!blob.includes(q)) return false;
     }
     return true;
   });
 }
 
+const BOOKMARK_SVG = '<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M6 3a2 2 0 00-2 2v16l8-3.5L20 21V5a2 2 0 00-2-2H6z"/></svg>';
+const BOOKMARK_OUTLINE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg"><path d="M6 3a2 2 0 00-2 2v16l8-3.5L20 21V5a2 2 0 00-2-2H6z"/></svg>';
+
 function renderCard(it) {
   const isRead = STATE.readSet.has(it.url);
+  const saved = isSaved(it.url);
   const imgSrc = it.ogImage || it.image;
   const thumb = imgSrc
     ? `<div class="card-thumb"><img src="${escapeHtml(imgSrc)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.card-thumb').remove()"></div>`
@@ -556,17 +942,31 @@ function renderCard(it) {
   const body = it.summary
     ? `<div class="card-summary">${escapeHtml(it.summary)}</div>`
     : (it.snippet ? `<p class="card-snippet">${escapeHtml(it.snippet)}</p>` : '');
+  const memo = saved && STATE.saved[it.url].memo
+    ? `<div class="card-memo">${escapeHtml(STATE.saved[it.url].memo)}</div>`
+    : '';
+  const bookmarkSvg = saved ? BOOKMARK_SVG : BOOKMARK_OUTLINE_SVG;
+  const isSavedView = STATE.filterTopic === '__saved__';
+  const memoBtn = saved
+    ? `<button class="memo-btn" data-action="memo" data-url="${escapeHtml(it.url)}">${STATE.saved[it.url].memo ? 'メモを編集' : 'メモを書く'}</button>`
+    : '';
+  const actions = isSavedView ? `<div class="card-actions">${memoBtn}</div>` : '';
   return `
     <a class="card${isRead ? ' read' : ''}" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer" data-url="${escapeHtml(it.url)}">
       ${thumb}
       <div class="card-body">
         <div class="card-head">
           <span class="card-badge" style="background:${escapeHtml(it.topicColor || '#6b7280')}">${escapeHtml(it.topicName)}</span>
-          <span class="card-time">${timeAgo(it.pubDate)}</span>
+          <span class="card-head-right">
+            <span class="card-time">${timeAgo(it.pubDate)}</span>
+            <button class="card-bookmark${saved ? ' saved' : ''}" data-action="bookmark" data-url="${escapeHtml(it.url)}" aria-label="${saved ? '保存解除' : '保存'}" title="${saved ? '保存解除' : '保存'}">${bookmarkSvg}</button>
+          </span>
         </div>
         <h3 class="card-title">${escapeHtml(it.title)}</h3>
         ${body}
+        ${memo}
         <div class="card-source">${escapeHtml(it.source)}</div>
+        ${actions}
       </div>
     </a>`;
 }
@@ -592,9 +992,28 @@ function render() {
 
   grid.querySelectorAll('.card').forEach(a => {
     a.addEventListener('click', (e) => {
+      // 個別ボタン（ブックマーク/メモ）はカード遷移しない
+      const btn = e.target.closest('[data-action]');
+      if (btn) {
+        e.preventDefault();
+        e.stopPropagation();
+        const url = btn.dataset.url;
+        const action = btn.dataset.action;
+        if (action === 'bookmark') {
+          const item = STATE.itemMap?.get(url) || getSavedAsItems().find(x => x.url === url);
+          if (item) {
+            toggleSave(item);
+            renderFilters();
+            render();
+          }
+        } else if (action === 'memo') {
+          openMemoModal(url);
+        }
+        return;
+      }
       e.preventDefault();
       const url = a.dataset.url;
-      const item = STATE.itemMap.get(url);
+      const item = STATE.itemMap?.get(url) || getSavedAsItems().find(x => x.url === url);
       if (!item) { window.open(url, '_blank', 'noopener'); return; }
       a.classList.add('read');
       openSummary(item);
@@ -608,8 +1027,136 @@ document.getElementById('modal-close').addEventListener('click', closeModal);
 document.getElementById('modal').addEventListener('click', (e) => {
   if (e.target.id === 'modal') closeModal();
 });
+
+// 共通: モーダル開閉
+function openModalById(id) {
+  const m = document.getElementById(id);
+  m.hidden = false;
+  m.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeModalById(id) {
+  const m = document.getElementById(id);
+  m.hidden = true;
+  m.classList.remove('open');
+  document.body.style.overflow = '';
+}
+document.querySelectorAll('[data-close]').forEach(b =>
+  b.addEventListener('click', () => closeModalById(b.dataset.close))
+);
+['memo-modal', 'paste-modal', 'settings-modal'].forEach(id => {
+  document.getElementById(id).addEventListener('click', (e) => {
+    if (e.target.id === id) closeModalById(id);
+  });
+});
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && !document.getElementById('modal').hidden) closeModal();
+  if (e.key !== 'Escape') return;
+  ['modal', 'memo-modal', 'paste-modal', 'settings-modal'].forEach(id => {
+    if (!document.getElementById(id).hidden) closeModalById(id);
+  });
+});
+
+// Memo modal
+let MEMO_TARGET_URL = '';
+function openMemoModal(url) {
+  const item = STATE.saved[url];
+  if (!item) return;
+  MEMO_TARGET_URL = url;
+  document.getElementById('memo-target-title').textContent = item.title;
+  document.getElementById('memo-input').value = item.memo || '';
+  openModalById('memo-modal');
+  setTimeout(() => document.getElementById('memo-input').focus(), 50);
+}
+document.getElementById('memo-save').addEventListener('click', () => {
+  const v = document.getElementById('memo-input').value;
+  const it = STATE.saved[MEMO_TARGET_URL];
+  if (it) {
+    it.memo = v;
+    it.modifiedAt = Date.now();
+    saveSavedToLocal();
+    scheduleSync();
+  }
+  closeModalById('memo-modal');
+  render();
+});
+document.getElementById('memo-delete').addEventListener('click', () => {
+  if (!confirm('保存解除しますか？（メモも削除されます）')) return;
+  delete STATE.saved[MEMO_TARGET_URL];
+  saveSavedToLocal();
+  scheduleSync();
+  closeModalById('memo-modal');
+  renderFilters();
+  render();
+});
+
+// Paste URL modal
+document.getElementById('paste-open').addEventListener('click', () => {
+  document.getElementById('paste-url').value = '';
+  document.getElementById('paste-title').value = '';
+  document.getElementById('paste-memo').value = '';
+  openModalById('paste-modal');
+  setTimeout(() => document.getElementById('paste-url').focus(), 50);
+});
+document.getElementById('paste-save').addEventListener('click', () => {
+  const url = document.getElementById('paste-url').value.trim();
+  const title = document.getElementById('paste-title').value.trim();
+  const memo = document.getElementById('paste-memo').value;
+  if (!url || !/^https?:\/\//.test(url)) {
+    alert('有効なURLを入力してください');
+    return;
+  }
+  STATE.saved[url] = {
+    url,
+    title: title || url,
+    source: '貼り付け',
+    topicId: 'saved',
+    topicName: 'あとで読む',
+    topicColor: '#f59e0b',
+    memo,
+    savedAt: Date.now(),
+    modifiedAt: Date.now(),
+    isPasted: true,
+  };
+  saveSavedToLocal();
+  scheduleSync();
+  closeModalById('paste-modal');
+  renderFilters();
+  render();
+});
+
+// Settings modal
+document.getElementById('settings-open').addEventListener('click', () => {
+  document.getElementById('gh-token').value = STATE.gist.token || '';
+  if (STATE.gist.lastSyncAt) {
+    setSyncStatus(STATE.gist.lastSyncStatus === 'ok' ? 'ok' : (STATE.gist.lastSyncStatus === 'error' ? 'err' : ''),
+      `前回: ${new Date(STATE.gist.lastSyncAt).toLocaleString('ja-JP')}（${STATE.gist.lastSyncStatus || '不明'}）`);
+  } else {
+    setSyncStatus('', STATE.gist.token ? '未同期' : '未接続');
+  }
+  openModalById('settings-modal');
+});
+document.getElementById('settings-save').addEventListener('click', async () => {
+  const t = document.getElementById('gh-token').value.trim();
+  STATE.gist.token = t;
+  saveGistConfig();
+  if (t) {
+    await syncSavedFromGist();
+    await syncSavedToGist();
+    renderFilters();
+    render();
+  } else {
+    setSyncStatus('', '未接続');
+  }
+});
+document.getElementById('sync-now').addEventListener('click', async () => {
+  if (!STATE.gist.token) {
+    alert('先にトークンを入力してください');
+    return;
+  }
+  await syncSavedFromGist();
+  await syncSavedToGist();
+  renderFilters();
+  render();
 });
 
 document.getElementById('search').addEventListener('input', e => {
@@ -624,6 +1171,7 @@ document.getElementById('unread-only').addEventListener('change', e => {
 });
 
 loadNews();
+if (STATE.gist.token) syncSavedFromGist().catch(() => {});
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
