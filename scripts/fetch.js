@@ -11,7 +11,7 @@ const ENRICH_TIMEOUT_MS = 35000;
 const CACHE_PATH = 'enrichment-cache.json';
 const ENRICH_TTL_OK_DAYS = 30;
 const ENRICH_TTL_FAIL_DAYS = 1;
-const MAX_ENRICH_PER_RUN = parseInt(process.env.MAX_ENRICH_PER_RUN || '200', 10);
+const MAX_ENRICH_PER_RUN = parseInt(process.env.MAX_ENRICH_PER_RUN || '50', 10);
 
 const parser = new Parser({
   timeout: TIMEOUT_MS,
@@ -123,7 +123,9 @@ async function enrichOne(item) {
       signal: ctrl.signal,
     });
     if (!res.ok) {
-      return { status: 'http_' + res.status, summary: null, ogImage: null, fetchedAt: Date.now() };
+      let body = '';
+      try { body = await res.text(); } catch {}
+      return { status: 'http_' + res.status, error: body.slice(0, 300), summary: null, ogImage: null, fetchedAt: Date.now() };
     }
     const data = await res.json();
     return {
@@ -167,8 +169,16 @@ async function main() {
   console.log(`[Phase 2] Enrichment開始: ${toEnrich.length} items（キャッシュ${Object.keys(cache).length}件、上限${MAX_ENRICH_PER_RUN}件/run）`);
 
   let done = 0;
+  let aborted = false;
   for (const it of toEnrich) {
     const e = await enrichOne(it);
+    // Geminiクォータ枯渇を検知 → 即abort（無駄打ちしない）
+    const isRateLimit = e.status?.startsWith('http_5') && /\b429\b|RESOURCE_EXHAUSTED|exceeded.*quota/i.test(e.error || '');
+    if (isRateLimit) {
+      console.log(`! Gemini APIレート上限を検知。${done}件で中断します（次回スケジュールで再開）`);
+      aborted = true;
+      break;
+    }
     cache[it.url] = e;
     done++;
     if (done % 10 === 0) {
@@ -178,7 +188,7 @@ async function main() {
     await sleep(ENRICH_DELAY_MS);
   }
   await saveCache(cache);
-  console.log(`[Phase 2] 完了: ${done} 件処理`);
+  console.log(`[Phase 2] ${aborted ? '中断' : '完了'}: ${done} 件処理`);
 
   // 3) 各itemにenrichmentを反映
   let okCount = 0, imgCount = 0;
