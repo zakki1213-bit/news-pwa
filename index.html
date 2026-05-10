@@ -132,8 +132,11 @@
     grid-template-columns: 1fr;
     gap: .6rem;
   }
-  @media (min-width: 900px) {
-    .grid { grid-template-columns: 1fr 1fr; gap: .75rem; }
+  @media (min-width: 760px) {
+    .grid { grid-template-columns: 1fr 1fr; gap: .7rem; }
+  }
+  @media (min-width: 1100px) {
+    .grid { grid-template-columns: 1fr 1fr 1fr; gap: .75rem; }
   }
   .card {
     background: var(--bg-card);
@@ -211,6 +214,17 @@
     line-height: 1.5;
     display: -webkit-box;
     -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-summary {
+    font-size: .82rem;
+    color: var(--text);
+    line-height: 1.55;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
@@ -403,10 +417,6 @@
 </div>
 
 <script>
-const SUMMARIZER_URL = 'https://news-summarizer.zakki1213.workers.dev';
-const SUMMARY_CACHE_KEY = 'news-pwa.summaries.v2';
-const SUMMARY_TTL_MS = 7 * 86400 * 1000;
-
 const STATE = {
   data: null,
   filterTopic: 'all',
@@ -436,22 +446,6 @@ function saveReadState(map) {
 
 const READ_MAP = loadReadState();
 STATE.readSet = new Set(READ_MAP.keys());
-
-function loadSummaryCache() {
-  try {
-    const raw = localStorage.getItem(SUMMARY_CACHE_KEY);
-    return raw ? JSON.parse(raw) : {};
-  } catch { return {}; }
-}
-function saveSummaryCache() {
-  const now = Date.now();
-  const cleaned = {};
-  for (const [k, v] of Object.entries(SUMMARY_CACHE)) {
-    if (now - v.ts < SUMMARY_TTL_MS) cleaned[k] = v;
-  }
-  localStorage.setItem(SUMMARY_CACHE_KEY, JSON.stringify(cleaned));
-}
-const SUMMARY_CACHE = loadSummaryCache();
 
 function escapeHtml(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -489,64 +483,29 @@ async function loadNews() {
 }
 
 function openSummary(item) {
-  const modal = document.getElementById('modal');
-  const titleEl = document.getElementById('modal-title');
-  const topicEl = document.getElementById('modal-topic');
-  const bodyEl = document.getElementById('modal-body');
-  const sourceEl = document.getElementById('modal-source');
-  const linkEl = document.getElementById('modal-link');
-
-  titleEl.textContent = item.title;
-  topicEl.textContent = item.topicName;
-  topicEl.style.background = item.topicColor || '#6b7280';
-  sourceEl.textContent = item.source;
-  linkEl.href = item.url;
-  bodyEl.classList.remove('error');
-  bodyEl.innerHTML = '<div class="modal-loading"><span class="spinner"></span>本文を取得して要約中…</div>';
-  modal.hidden = false;
-  modal.classList.add('open');
-  document.body.style.overflow = 'hidden';
-
   STATE.readSet.add(item.url);
   READ_MAP.set(item.url, Date.now());
   saveReadState(READ_MAP);
 
-  const cached = SUMMARY_CACHE[item.url];
-  if (cached && Date.now() - cached.ts < SUMMARY_TTL_MS) {
-    showSummary(cached);
+  // 要約が事前生成済みならモーダル表示、なければ即元記事を開く
+  if (!item.summary) {
+    window.open(item.url, '_blank', 'noopener,noreferrer');
     return;
   }
 
-  fetch(SUMMARIZER_URL, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ url: item.url }),
-  })
-    .then(r => r.json())
-    .then(data => {
-      const entry = { ...data, ts: Date.now() };
-      SUMMARY_CACHE[item.url] = entry;
-      saveSummaryCache();
-      showSummary(entry);
-    })
-    .catch(err => {
-      bodyEl.classList.add('error');
-      bodyEl.textContent = '通信エラー: ' + (err.message || err);
-    });
-}
-
-function showSummary(entry) {
+  const modal = document.getElementById('modal');
+  document.getElementById('modal-title').textContent = item.title;
+  const topicEl = document.getElementById('modal-topic');
+  topicEl.textContent = item.topicName;
+  topicEl.style.background = item.topicColor || '#6b7280';
+  document.getElementById('modal-source').textContent = item.source;
+  document.getElementById('modal-link').href = item.url;
   const bodyEl = document.getElementById('modal-body');
-  if (entry.ok && entry.summary) {
-    bodyEl.classList.remove('error');
-    bodyEl.textContent = entry.summary;
-    return;
-  }
-  // 要約取れない → モーダル閉じて元記事を新規タブで開く
-  const linkEl = document.getElementById('modal-link');
-  const url = linkEl.href;
-  closeModal();
-  if (url) window.open(url, '_blank', 'noopener,noreferrer');
+  bodyEl.classList.remove('error');
+  bodyEl.textContent = item.summary;
+  modal.hidden = false;
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
 }
 
 function closeModal() {
@@ -590,10 +549,13 @@ function filterItems() {
 
 function renderCard(it) {
   const isRead = STATE.readSet.has(it.url);
-  const thumb = it.image
-    ? `<div class="card-thumb"><img src="${escapeHtml(it.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.card-thumb').remove()"></div>`
+  const imgSrc = it.ogImage || it.image;
+  const thumb = imgSrc
+    ? `<div class="card-thumb"><img src="${escapeHtml(imgSrc)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.card-thumb').remove()"></div>`
     : '';
-  const snippet = it.snippet ? `<p class="card-snippet">${escapeHtml(it.snippet)}</p>` : '';
+  const body = it.summary
+    ? `<div class="card-summary">${escapeHtml(it.summary)}</div>`
+    : (it.snippet ? `<p class="card-snippet">${escapeHtml(it.snippet)}</p>` : '');
   return `
     <a class="card${isRead ? ' read' : ''}" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer" data-url="${escapeHtml(it.url)}">
       ${thumb}
@@ -603,7 +565,7 @@ function renderCard(it) {
           <span class="card-time">${timeAgo(it.pubDate)}</span>
         </div>
         <h3 class="card-title">${escapeHtml(it.title)}</h3>
-        ${snippet}
+        ${body}
         <div class="card-source">${escapeHtml(it.source)}</div>
       </div>
     </a>`;

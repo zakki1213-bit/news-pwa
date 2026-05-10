@@ -4,31 +4,37 @@ import fs from 'node:fs/promises';
 const RETENTION_DAYS = 30;
 const SNIPPET_MAX = 220;
 const TIMEOUT_MS = 15000;
+const WORKER_URL = 'https://news-summarizer.zakki1213.workers.dev';
+const WORKER_ORIGIN = 'https://zakki1213-bit.github.io';
+const ENRICH_DELAY_MS = 4500;          // 15 RPM = 1/4s, +500ms margin
+const ENRICH_TIMEOUT_MS = 35000;
+const CACHE_PATH = 'enrichment-cache.json';
+const ENRICH_TTL_OK_DAYS = 30;
+const ENRICH_TTL_FAIL_DAYS = 1;
+const MAX_ENRICH_PER_RUN = parseInt(process.env.MAX_ENRICH_PER_RUN || '200', 10);
 
 const parser = new Parser({
   timeout: TIMEOUT_MS,
   headers: {
-    'User-Agent': 'Mozilla/5.0 (compatible; NewsPWA/1.0; +https://github.com/zakki1213-bit/news-pwa)'
+    'User-Agent': 'Mozilla/5.0 (compatible; NewsPWA/1.0; +https://github.com/zakki1213-bit/news-pwa)',
   },
   customFields: {
     item: [
       ['media:thumbnail', 'mediaThumbnail', { keepArray: false }],
       ['media:content', 'mediaContent', { keepArray: false }],
-      ['enclosure', 'enclosure']
-    ]
-  }
+      ['enclosure', 'enclosure'],
+    ],
+  },
 });
+
+const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 function stripHtml(s) {
   return String(s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
 }
 
 function pickImage(item) {
-  // 1. enclosure (image)
-  if (item.enclosure?.url && (item.enclosure.type || '').startsWith('image/')) {
-    return item.enclosure.url;
-  }
-  // 2. media:thumbnail / media:content
+  if (item.enclosure?.url && (item.enclosure.type || '').startsWith('image/')) return item.enclosure.url;
   const mt = item.mediaThumbnail;
   if (mt) {
     if (typeof mt === 'string') return mt;
@@ -41,11 +47,9 @@ function pickImage(item) {
     if (mc.url) return mc.url;
     if (mc.$ && mc.$.url) return mc.$.url;
   }
-  // 3. <img> in content / content:encoded
   const html = item['content:encoded'] || item.content || item.summary || '';
   const m = String(html).match(/<img[^>]+src=["']([^"']+)["']/i);
-  if (m) return m[1];
-  return null;
+  return m ? m[1] : null;
 }
 
 function pickSnippet(item) {
@@ -64,7 +68,7 @@ function pickDate(item) {
 async function fetchOne(topic, feed) {
   try {
     const res = await parser.parseURL(feed.url);
-    const items = (res.items || []).map((it) => ({
+    const items = (res.items || []).map(it => ({
       url: it.link,
       title: stripHtml(it.title || '(no title)'),
       snippet: pickSnippet(it),
@@ -73,13 +77,65 @@ async function fetchOne(topic, feed) {
       source: feed.name,
       topicId: topic.id,
       topicName: topic.name,
-      topicColor: topic.color
-    })).filter((x) => x.url);
+      topicColor: topic.color,
+    })).filter(x => x.url);
     console.log(`OK  ${topic.name} / ${feed.name}: ${items.length} items`);
     return items;
   } catch (err) {
     console.warn(`ERR ${topic.name} / ${feed.name}: ${err.message}`);
     return [];
+  }
+}
+
+async function loadCache() {
+  try {
+    const raw = await fs.readFile(CACHE_PATH, 'utf8');
+    return JSON.parse(raw);
+  } catch { return {}; }
+}
+
+async function pruneCache(cache) {
+  const now = Date.now();
+  const cleaned = {};
+  for (const [k, v] of Object.entries(cache)) {
+    if (!v?.fetchedAt) continue;
+    const ttlDays = (v.status === 'ok' || v.status === 'too_short') ? ENRICH_TTL_OK_DAYS : ENRICH_TTL_FAIL_DAYS;
+    if (now - v.fetchedAt < ttlDays * 86400 * 1000) cleaned[k] = v;
+  }
+  return cleaned;
+}
+
+async function saveCache(cache) {
+  await fs.writeFile(CACHE_PATH, JSON.stringify(cache));
+}
+
+async function enrichOne(url) {
+  const ctrl = new AbortController();
+  const tm = setTimeout(() => ctrl.abort(), ENRICH_TIMEOUT_MS);
+  try {
+    const res = await fetch(WORKER_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Origin': WORKER_ORIGIN,
+      },
+      body: JSON.stringify({ url }),
+      signal: ctrl.signal,
+    });
+    if (!res.ok) {
+      return { status: 'http_' + res.status, summary: null, ogImage: null, fetchedAt: Date.now() };
+    }
+    const data = await res.json();
+    return {
+      status: data.ok ? 'ok' : (data.reason || 'failed'),
+      summary: data.ok ? (data.summary || null) : null,
+      ogImage: data.ogImage || null,
+      fetchedAt: Date.now(),
+    };
+  } catch (err) {
+    return { status: 'error', summary: null, ogImage: null, fetchedAt: Date.now() };
+  } finally {
+    clearTimeout(tm);
   }
 }
 
@@ -90,8 +146,9 @@ async function main() {
   const cutoff = Date.now() - RETENTION_DAYS * 86400 * 1000;
   const map = new Map();
 
+  // 1) RSS取得
   for (const topic of cfg.topics) {
-    const tasks = topic.feeds.map((f) => fetchOne(topic, f));
+    const tasks = topic.feeds.map(f => fetchOne(topic, f));
     const results = await Promise.all(tasks);
     for (const arr of results) {
       for (const item of arr) {
@@ -101,21 +158,47 @@ async function main() {
       }
     }
   }
-
   const items = [...map.values()].sort((a, b) => b.pubDate - a.pubDate);
+  console.log(`[Phase 1] RSS集約完了: ${items.length} items`);
+
+  // 2) Enrichment（要約＋OG画像）
+  let cache = await pruneCache(await loadCache());
+  const toEnrich = items.filter(it => !cache[it.url]).slice(0, MAX_ENRICH_PER_RUN);
+  console.log(`[Phase 2] Enrichment開始: ${toEnrich.length} items（キャッシュ${Object.keys(cache).length}件、上限${MAX_ENRICH_PER_RUN}件/run）`);
+
+  let done = 0;
+  for (const it of toEnrich) {
+    const e = await enrichOne(it.url);
+    cache[it.url] = e;
+    done++;
+    if (done % 10 === 0) {
+      console.log(`  enriched ${done}/${toEnrich.length} [${e.status}] ${it.title.slice(0, 40)}`);
+      await saveCache(cache);
+    }
+    await sleep(ENRICH_DELAY_MS);
+  }
+  await saveCache(cache);
+  console.log(`[Phase 2] 完了: ${done} 件処理`);
+
+  // 3) 各itemにenrichmentを反映
+  let okCount = 0, imgCount = 0;
+  for (const it of items) {
+    const e = cache[it.url];
+    if (!e) continue;
+    if (e.summary) { it.summary = e.summary; okCount++; }
+    if (e.ogImage) { it.ogImage = e.ogImage; imgCount++; }
+    if (e.status) it.summaryStatus = e.status;
+  }
+  console.log(`[Phase 3] 反映完了: 要約 ${okCount}/${items.length}、OG画像 ${imgCount}/${items.length}`);
 
   const out = {
     generatedAt: new Date().toISOString(),
     retentionDays: RETENTION_DAYS,
-    topics: cfg.topics.map((t) => ({ id: t.id, name: t.name, color: t.color })),
-    items
+    topics: cfg.topics.map(t => ({ id: t.id, name: t.name, color: t.color })),
+    items,
   };
-
   await fs.writeFile('news.json', JSON.stringify(out));
   console.log(`Saved news.json: ${items.length} items`);
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+main().catch(e => { console.error(e); process.exit(1); });

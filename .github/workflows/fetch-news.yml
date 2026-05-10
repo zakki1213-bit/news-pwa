@@ -23,11 +23,11 @@ jobs:
       - name: Fetch RSS
         run: node scripts/fetch.js
 
-      - name: Commit news.json
+      - name: Commit news.json and cache
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json
+          git add news.json enrichment-cache.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

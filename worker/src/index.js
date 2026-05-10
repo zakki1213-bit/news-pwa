@@ -74,18 +74,25 @@ export default {
 
       const html = await articleRes.text();
       const text = extractMainContent(html);
+      const ogImage = extractOgImage(html, articleRes.url || resolvedUrl);
 
       if (text.length < MIN_CHARS) {
         return json({
           ok: false,
           reason: 'too_short',
           message: '本文を取得できませんでした（有料記事や動的読み込みの可能性があります）',
+          ogImage,
         }, 200, cors);
       }
 
       // Summarize with Gemini
       const summary = await callGemini(text.slice(0, MAX_INPUT_CHARS), env.GEMINI_API_KEY);
-      return json({ ok: true, summary, charsUsed: Math.min(text.length, MAX_INPUT_CHARS) }, 200, cors);
+      return json({
+        ok: true,
+        summary,
+        ogImage,
+        charsUsed: Math.min(text.length, MAX_INPUT_CHARS),
+      }, 200, cors);
 
     } catch (err) {
       const msg = err && err.message ? err.message : String(err);
@@ -152,6 +159,30 @@ async function fetchWithTimeout(url, opts) {
   } finally {
     clearTimeout(timer);
   }
+}
+
+function extractOgImage(html, baseUrl) {
+  const patterns = [
+    /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
+    /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["']/i,
+  ];
+  for (const re of patterns) {
+    const m = html.match(re);
+    if (m && m[1]) {
+      let u = m[1].trim()
+        .replace(/&amp;/g, '&')
+        .replace(/&#x2F;/gi, '/')
+        .replace(/&quot;/g, '"');
+      if (u.startsWith('//')) u = 'https:' + u;
+      else if (u.startsWith('/') && baseUrl) {
+        try { u = new URL(u, baseUrl).toString(); } catch {}
+      }
+      return u;
+    }
+  }
+  return null;
 }
 
 function extractMainContent(html) {
