@@ -1,0 +1,55 @@
+{
+  "topics": [
+    {
+      "id": "education",
+      "name": "教育・ICT",
+      "color": "#2563eb",
+      "feeds": [
+        { "name": "ICT教育ニュース", "url": "https://ict-enews.net/feed/" },
+        { "name": "リセマム", "url": "https://resemom.jp/rss/" },
+        { "name": "Google: 高校教育", "url": "https://news.google.com/rss/search?q=%E9%AB%98%E6%A0%A1%E6%95%99%E8%82%B2&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: ICT教育", "url": "https://news.google.com/rss/search?q=ICT%E6%95%99%E8%82%B2&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: GIGAスクール", "url": "https://news.google.com/rss/search?q=GIGA%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AB&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: 探究学習", "url": "https://news.google.com/rss/search?q=%E6%8E%A2%E7%A9%B6%E5%AD%A6%E7%BF%92&hl=ja&gl=JP&ceid=JP:ja" }
+      ]
+    },
+    {
+      "id": "business",
+      "name": "商業・簿記・会計",
+      "color": "#059669",
+      "feeds": [
+        { "name": "Google: 商業高校", "url": "https://news.google.com/rss/search?q=%E5%95%86%E6%A5%AD%E9%AB%98%E6%A0%A1&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: 簿記", "url": "https://news.google.com/rss/search?q=%E7%B0%BF%E8%A8%98&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: 会計", "url": "https://news.google.com/rss/search?q=%E4%BC%9A%E8%A8%88&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: 税理士", "url": "https://news.google.com/rss/search?q=%E7%A8%8E%E7%90%86%E5%A3%AB&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: インボイス", "url": "https://news.google.com/rss/search?q=%E3%82%A4%E3%83%B3%E3%83%9C%E3%82%A4%E3%82%B9&hl=ja&gl=JP&ceid=JP:ja" }
+      ]
+    },
+    {
+      "id": "ai_tech",
+      "name": "AI・プログラミング",
+      "color": "#7c3aed",
+      "feeds": [
+        { "name": "ITmedia AI+", "url": "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml" },
+        { "name": "Publickey", "url": "https://www.publickey1.jp/atom.xml" },
+        { "name": "はてブIT人気", "url": "https://b.hatena.ne.jp/hotentry/it.rss" },
+        { "name": "Google: Claude AI", "url": "https://news.google.com/rss/search?q=Claude+AI&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: Anthropic", "url": "https://news.google.com/rss/search?q=Anthropic&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: 生成AI", "url": "https://news.google.com/rss/search?q=%E7%94%9F%E6%88%90AI&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: プログラミング教育", "url": "https://news.google.com/rss/search?q=%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E6%95%99%E8%82%B2&hl=ja&gl=JP&ceid=JP:ja" }
+      ]
+    },
+    {
+      "id": "hokkaido",
+      "name": "北海道ローカル",
+      "color": "#dc2626",
+      "feeds": [
+        { "name": "Google: 北海道", "url": "https://news.google.com/rss/search?q=%E5%8C%97%E6%B5%B7%E9%81%93&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: 北海道新聞", "url": "https://news.google.com/rss/search?q=%E5%8C%97%E6%B5%B7%E9%81%93%E6%96%B0%E8%81%9E&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: 経済の伝書鳩", "url": "https://news.google.com/rss/search?q=%E7%B5%8C%E6%B8%88%E3%81%AE%E4%BC%9D%E6%9B%B8%E9%B3%A9&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: 北見", "url": "https://news.google.com/rss/search?q=%E5%8C%97%E8%A6%8B&hl=ja&gl=JP&ceid=JP:ja" },
+        { "name": "Google: オホーツク", "url": "https://news.google.com/rss/search?q=%E3%82%AA%E3%83%9B%E3%83%BC%E3%83%84%E3%82%AF&hl=ja&gl=JP&ceid=JP:ja" }
+      ]
+    }
+  ]
+}
