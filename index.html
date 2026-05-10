@@ -142,29 +142,27 @@
     box-shadow: var(--shadow);
     cursor: pointer;
     transition: transform .12s, box-shadow .15s, opacity .15s;
-    display: grid;
-    grid-template-columns: 120px 1fr;
+    display: flex;
+    flex-direction: row;
     gap: .85rem;
     padding: .75rem;
     text-decoration: none;
     color: inherit;
     border: 1px solid transparent;
-    align-items: stretch;
+    align-items: flex-start;
   }
   .card:hover {
     transform: translateY(-1px);
     box-shadow: var(--shadow-hover);
   }
   .card.read { opacity: .55; }
-  .card.no-thumb { grid-template-columns: 1fr; }
   .card-thumb {
-    aspect-ratio: 4/3;
+    flex: 0 0 96px;
+    width: 96px;
+    height: 96px;
     background: var(--border);
     border-radius: 6px;
     overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .card-thumb img {
     width: 100%;
@@ -173,10 +171,11 @@
     display: block;
   }
   .card-body {
+    flex: 1 1 auto;
+    min-width: 0;
     display: flex;
     flex-direction: column;
     gap: .35rem;
-    min-width: 0;
   }
   .card-head {
     display: flex;
@@ -224,7 +223,8 @@
     white-space: nowrap;
   }
   @media (max-width: 600px) {
-    .card { grid-template-columns: 96px 1fr; gap: .65rem; padding: .6rem; }
+    .card { gap: .6rem; padding: .55rem; }
+    .card-thumb { flex: 0 0 78px; width: 78px; height: 78px; }
     .card-title { font-size: .92rem; }
     .card-snippet { -webkit-line-clamp: 2; font-size: .78rem; }
   }
@@ -540,10 +540,13 @@ function showSummary(entry) {
   if (entry.ok && entry.summary) {
     bodyEl.classList.remove('error');
     bodyEl.textContent = entry.summary;
-  } else {
-    bodyEl.classList.add('error');
-    bodyEl.textContent = entry.message || '要約を取得できませんでした。元記事をご覧ください。';
+    return;
   }
+  // 要約取れない → モーダル閉じて元記事を新規タブで開く
+  const linkEl = document.getElementById('modal-link');
+  const url = linkEl.href;
+  closeModal();
+  if (url) window.open(url, '_blank', 'noopener,noreferrer');
 }
 
 function closeModal() {
@@ -588,12 +591,11 @@ function filterItems() {
 function renderCard(it) {
   const isRead = STATE.readSet.has(it.url);
   const thumb = it.image
-    ? `<div class="card-thumb"><img src="${escapeHtml(it.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.parentElement.classList.add('no-thumb');this.parentElement.remove()"></div>`
+    ? `<div class="card-thumb"><img src="${escapeHtml(it.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.card-thumb').remove()"></div>`
     : '';
-  const noThumbCls = it.image ? '' : ' no-thumb';
   const snippet = it.snippet ? `<p class="card-snippet">${escapeHtml(it.snippet)}</p>` : '';
   return `
-    <a class="card${isRead ? ' read' : ''}${noThumbCls}" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer" data-url="${escapeHtml(it.url)}">
+    <a class="card${isRead ? ' read' : ''}" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer" data-url="${escapeHtml(it.url)}">
       ${thumb}
       <div class="card-body">
         <div class="card-head">
