@@ -485,9 +485,63 @@
     cursor: pointer;
   }
   .btn-danger:hover { background: #dc2626; color: #fff; }
-  .sync-status { font-size: .78rem; color: var(--text-dim); }
+  .sync-status { font-size: .78rem; color: var(--text-dim); margin: .4rem 0; }
   .sync-status.ok { color: #059669; }
   .sync-status.err { color: #dc2626; }
+  .settings-actions {
+    display: flex;
+    gap: .5rem;
+    justify-content: flex-end;
+    margin-top: .4rem;
+  }
+  .settings-actions button { padding: .4rem .9rem; font-size: .85rem; border-radius: 6px; }
+  .feed-row {
+    display: flex;
+    gap: .5rem;
+    align-items: flex-start;
+    padding: .5rem .6rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: .35rem;
+    background: var(--bg);
+  }
+  .feed-row .feed-info {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+  }
+  .feed-row .feed-name { font-size: .85rem; font-weight: 500; color: var(--text); }
+  .feed-row .feed-url {
+    font-size: .72rem;
+    color: var(--text-dim);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .feed-del {
+    background: none;
+    border: none;
+    color: #dc2626;
+    cursor: pointer;
+    font-size: 1.1rem;
+    line-height: 1;
+    padding: 2px 6px;
+    border-radius: 4px;
+    flex-shrink: 0;
+  }
+  .feed-del:hover { background: rgba(220, 38, 38, .1); }
+  #feed-topic {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 8px;
+    padding: .5rem .7rem;
+    font-size: .92rem;
+    font-family: inherit;
+    width: 100%;
+  }
   @media (max-width: 600px) {
     h1 { font-size: 1.05rem; }
     .header-row { gap: .5rem; padding: .6rem .75rem .4rem; }
@@ -578,19 +632,50 @@
     <div class="modal-body">
       <h3 style="margin:0 0 .4rem;font-size:.95rem">Gist同期（PCとスマホで保存記事を共有）</h3>
       <p class="form-help">
-        GitHubトークン（gist権限）が必要です。<br>
-        <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">トークンを発行する</a>
-        → Repository accessは「Public Repositories (read-only)」、 Account permissionsで「Gists: Read and write」を有効に。
+        GitHubトークン（Gist Read/write、news-pwa Contents Read/write）が必要です。<br>
+        <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">トークン設定を開く</a>
       </p>
       <div class="form-row">
         <label for="gh-token">GitHubトークン</label>
         <input type="password" id="gh-token" placeholder="ghp_... または github_pat_..." autocomplete="off">
       </div>
       <p class="sync-status" id="sync-status">未接続</p>
+      <div class="settings-actions">
+        <button class="btn-outline" id="sync-now">今すぐ同期</button>
+        <button class="btn" id="settings-save">トークン保存</button>
+      </div>
+
+      <hr style="margin:1.4rem 0;border:0;border-top:1px solid var(--border)">
+
+      <h3 style="margin:0 0 .4rem;font-size:.95rem">情報源の管理</h3>
+      <p class="form-help">トピックを選んでフィードを追加・削除できます。「変更を保存」で feeds.json を更新します。次の毎時実行（最大1時間後）で反映。</p>
+      <div class="form-row">
+        <label for="feed-topic">トピック</label>
+        <select id="feed-topic"></select>
+      </div>
+      <div id="feed-list"></div>
+      <details style="margin-top:.6rem">
+        <summary style="cursor:pointer;font-size:.85rem;color:var(--text-dim)">+ 新しいフィードを追加</summary>
+        <div style="padding-top:.6rem">
+          <div class="form-row">
+            <label for="new-feed-name">名前</label>
+            <input type="text" id="new-feed-name" placeholder="例: NHK教育">
+          </div>
+          <div class="form-row">
+            <label for="new-feed-url">RSS URL</label>
+            <input type="url" id="new-feed-url" placeholder="https://...">
+          </div>
+          <button class="btn-outline" id="add-feed-btn">このトピックに追加</button>
+        </div>
+      </details>
+      <p class="sync-status" id="feeds-status" style="margin-top:.8rem">未読み込み</p>
+      <div class="settings-actions">
+        <button class="btn-outline" id="feeds-reload">再読み込み</button>
+        <button class="btn" id="feeds-save">変更を保存</button>
+      </div>
     </div>
-    <div class="modal-foot between">
-      <button class="btn-outline" id="sync-now">今すぐ同期</button>
-      <button class="btn" id="settings-save">保存</button>
+    <div class="modal-foot">
+      <button class="btn-outline" data-close="settings-modal" style="width:100%;padding:.55rem 1rem">閉じる</button>
     </div>
   </div>
 </div>
@@ -1134,6 +1219,14 @@ document.getElementById('settings-open').addEventListener('click', () => {
     setSyncStatus('', STATE.gist.token ? '未同期' : '未接続');
   }
   openModalById('settings-modal');
+  // 情報源管理は初回open時にロード
+  if (!FEEDS_CONFIG && STATE.gist.token) {
+    loadFeedsFromRepo();
+  } else if (FEEDS_CONFIG) {
+    renderFeedsManagement();
+  } else {
+    setFeedsStatus('', 'GitHubトークン保存後に読み込めます');
+  }
 });
 document.getElementById('settings-save').addEventListener('click', async () => {
   const t = document.getElementById('gh-token').value.trim();
@@ -1158,6 +1251,128 @@ document.getElementById('sync-now').addEventListener('click', async () => {
   renderFilters();
   render();
 });
+
+// ========== Feeds management (Step 6) ==========
+const REPO_OWNER = 'zakki1213-bit';
+const REPO_NAME = 'news-pwa';
+let FEEDS_CONFIG = null;
+let FEEDS_SHA = '';
+let FEEDS_DIRTY = false;
+let FEEDS_SELECTED_TOPIC = null;
+
+function setFeedsStatus(cls, text) {
+  const el = document.getElementById('feeds-status');
+  if (!el) return;
+  el.className = 'sync-status ' + (cls || '');
+  el.textContent = text;
+}
+
+function utf8ToBase64(s) {
+  return btoa(unescape(encodeURIComponent(s)));
+}
+function base64ToUtf8(b) {
+  return decodeURIComponent(escape(atob(b.replace(/\s/g, ''))));
+}
+
+async function loadFeedsFromRepo() {
+  if (!STATE.gist.token) {
+    setFeedsStatus('err', 'GitHubトークンが未設定です');
+    return;
+  }
+  try {
+    setFeedsStatus('', '読み込み中…');
+    const data = await ghFetch(`/repos/${REPO_OWNER}/${REPO_NAME}/contents/feeds.json`);
+    const json = JSON.parse(base64ToUtf8(data.content));
+    FEEDS_CONFIG = json;
+    FEEDS_SHA = data.sha;
+    FEEDS_DIRTY = false;
+    if (!FEEDS_SELECTED_TOPIC && json.topics?.length) {
+      FEEDS_SELECTED_TOPIC = json.topics[0].id;
+    }
+    renderFeedsManagement();
+    setFeedsStatus('ok', `読み込み完了 ${new Date().toLocaleTimeString('ja-JP')}`);
+  } catch (err) {
+    setFeedsStatus('err', '読み込みエラー: ' + (err.message || err));
+  }
+}
+
+async function saveFeedsToRepo() {
+  if (!STATE.gist.token) { alert('GitHubトークンが必要です'); return; }
+  if (!FEEDS_CONFIG) { alert('先に再読み込みしてください'); return; }
+  try {
+    setFeedsStatus('', '保存中…');
+    const content = JSON.stringify(FEEDS_CONFIG, null, 2) + '\n';
+    const res = await ghFetch(`/repos/${REPO_OWNER}/${REPO_NAME}/contents/feeds.json`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        message: 'Update feeds.json from PWA',
+        content: utf8ToBase64(content),
+        sha: FEEDS_SHA,
+      }),
+    });
+    FEEDS_SHA = res.content?.sha || FEEDS_SHA;
+    FEEDS_DIRTY = false;
+    setFeedsStatus('ok', `保存完了 ${new Date().toLocaleTimeString('ja-JP')}（次の毎時実行で反映）`);
+  } catch (err) {
+    setFeedsStatus('err', '保存エラー: ' + (err.message || err));
+  }
+}
+
+function renderFeedsManagement() {
+  if (!FEEDS_CONFIG) return;
+  const sel = document.getElementById('feed-topic');
+  sel.innerHTML = FEEDS_CONFIG.topics.map(t =>
+    `<option value="${escapeHtml(t.id)}"${t.id === FEEDS_SELECTED_TOPIC ? ' selected' : ''}>${escapeHtml(t.name)}</option>`
+  ).join('');
+  const topic = FEEDS_CONFIG.topics.find(t => t.id === FEEDS_SELECTED_TOPIC);
+  const list = document.getElementById('feed-list');
+  if (!topic) { list.innerHTML = ''; return; }
+  list.innerHTML = topic.feeds.map((f, i) => `
+    <div class="feed-row">
+      <div class="feed-info">
+        <div class="feed-name">${escapeHtml(f.name)}</div>
+        <div class="feed-url" title="${escapeHtml(f.url)}">${escapeHtml(f.url)}</div>
+      </div>
+      <button class="feed-del" data-idx="${i}" aria-label="削除" title="削除">×</button>
+    </div>
+  `).join('');
+  list.querySelectorAll('.feed-del').forEach(b =>
+    b.addEventListener('click', () => {
+      const i = Number(b.dataset.idx);
+      if (!confirm(`「${topic.feeds[i].name}」を削除しますか？`)) return;
+      topic.feeds.splice(i, 1);
+      FEEDS_DIRTY = true;
+      renderFeedsManagement();
+      setFeedsStatus('', '未保存の変更があります');
+    })
+  );
+}
+
+document.getElementById('feed-topic').addEventListener('change', (e) => {
+  FEEDS_SELECTED_TOPIC = e.target.value;
+  renderFeedsManagement();
+});
+document.getElementById('add-feed-btn').addEventListener('click', () => {
+  if (!FEEDS_CONFIG) { alert('先に再読み込みしてください'); return; }
+  const name = document.getElementById('new-feed-name').value.trim();
+  const url = document.getElementById('new-feed-url').value.trim();
+  if (!name || !url) { alert('名前とURLの両方を入力してください'); return; }
+  if (!/^https?:\/\//.test(url)) { alert('URLが不正です'); return; }
+  const topic = FEEDS_CONFIG.topics.find(t => t.id === FEEDS_SELECTED_TOPIC);
+  if (!topic) return;
+  topic.feeds.push({ name, url });
+  FEEDS_DIRTY = true;
+  document.getElementById('new-feed-name').value = '';
+  document.getElementById('new-feed-url').value = '';
+  renderFeedsManagement();
+  setFeedsStatus('', '未保存の変更があります');
+});
+document.getElementById('feeds-reload').addEventListener('click', () => {
+  if (FEEDS_DIRTY && !confirm('未保存の変更があります。破棄して再読み込みしますか？')) return;
+  loadFeedsFromRepo();
+});
+document.getElementById('feeds-save').addEventListener('click', saveFeedsToRepo);
 
 document.getElementById('search').addEventListener('input', e => {
   STATE.search = e.target.value;
