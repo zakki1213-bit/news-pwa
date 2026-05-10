@@ -115,7 +115,7 @@
     border-color: var(--primary);
   }
   main {
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 1rem;
   }
@@ -129,65 +129,84 @@
   }
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-    gap: 1rem;
+    grid-template-columns: 1fr;
+    gap: .6rem;
+  }
+  @media (min-width: 900px) {
+    .grid { grid-template-columns: 1fr 1fr; gap: .75rem; }
   }
   .card {
     background: var(--bg-card);
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: var(--shadow);
     cursor: pointer;
-    transition: transform .15s, box-shadow .15s, opacity .15s;
-    display: flex;
-    flex-direction: column;
+    transition: transform .12s, box-shadow .15s, opacity .15s;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: .85rem;
+    padding: .75rem;
     text-decoration: none;
     color: inherit;
     border: 1px solid transparent;
+    align-items: stretch;
   }
   .card:hover {
-    transform: translateY(-2px);
+    transform: translateY(-1px);
     box-shadow: var(--shadow-hover);
   }
-  .card.read {
-    opacity: .55;
-  }
-  .card-image {
-    aspect-ratio: 16/9;
-    width: 100%;
-    object-fit: cover;
+  .card.read { opacity: .55; }
+  .card.no-thumb { grid-template-columns: 1fr; }
+  .card-thumb {
+    aspect-ratio: 4/3;
     background: var(--border);
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
   }
   .card-body {
-    padding: .75rem 1rem 1rem;
-    flex: 1;
     display: flex;
     flex-direction: column;
+    gap: .35rem;
+    min-width: 0;
+  }
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: .5rem;
+    font-size: .72rem;
+    color: var(--text-dim);
   }
   .card-badge {
-    display: inline-block;
-    align-self: flex-start;
-    padding: .15rem .55rem;
+    padding: .1rem .5rem;
     border-radius: 4px;
     font-size: .7rem;
     color: #fff;
     font-weight: 600;
-    letter-spacing: .02em;
+    white-space: nowrap;
   }
+  .card-time { white-space: nowrap; }
   .card-title {
     font-size: .98rem;
     font-weight: 600;
     margin: 0;
     line-height: 1.4;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
   .card-snippet {
-    font-size: .85rem;
+    font-size: .82rem;
     color: var(--text-dim);
     margin: 0;
     line-height: 1.5;
@@ -196,18 +215,18 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
-  .card-meta {
-    font-size: .75rem;
+  .card-source {
+    font-size: .72rem;
     color: var(--text-dim);
     margin-top: auto;
-    display: flex;
-    justify-content: space-between;
-    gap: .5rem;
-  }
-  .card-meta .source {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  @media (max-width: 600px) {
+    .card { grid-template-columns: 96px 1fr; gap: .65rem; padding: .6rem; }
+    .card-title { font-size: .92rem; }
+    .card-snippet { -webkit-line-clamp: 2; font-size: .78rem; }
   }
   .empty, .loading {
     text-align: center;
@@ -357,21 +376,22 @@ function filterItems() {
 
 function renderCard(it) {
   const isRead = STATE.readSet.has(it.url);
-  const img = it.image
-    ? `<img class="card-image" src="${escapeHtml(it.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
+  const thumb = it.image
+    ? `<div class="card-thumb"><img src="${escapeHtml(it.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentElement.parentElement.classList.add('no-thumb');this.parentElement.remove()"></div>`
     : '';
+  const noThumbCls = it.image ? '' : ' no-thumb';
   const snippet = it.snippet ? `<p class="card-snippet">${escapeHtml(it.snippet)}</p>` : '';
   return `
-    <a class="card${isRead ? ' read' : ''}" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer" data-url="${escapeHtml(it.url)}">
-      ${img}
+    <a class="card${isRead ? ' read' : ''}${noThumbCls}" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer" data-url="${escapeHtml(it.url)}">
+      ${thumb}
       <div class="card-body">
-        <span class="card-badge" style="background:${escapeHtml(it.topicColor || '#6b7280')}">${escapeHtml(it.topicName)}</span>
+        <div class="card-head">
+          <span class="card-badge" style="background:${escapeHtml(it.topicColor || '#6b7280')}">${escapeHtml(it.topicName)}</span>
+          <span class="card-time">${timeAgo(it.pubDate)}</span>
+        </div>
         <h3 class="card-title">${escapeHtml(it.title)}</h3>
         ${snippet}
-        <div class="card-meta">
-          <span class="source">${escapeHtml(it.source)}</span>
-          <span>${timeAgo(it.pubDate)}</span>
-        </div>
+        <div class="card-source">${escapeHtml(it.source)}</div>
       </div>
     </a>`;
 }
