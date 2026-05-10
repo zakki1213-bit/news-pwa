@@ -1,4 +1,4 @@
-const CACHE_NAME = 'news-pwa-v8';
+const CACHE_NAME = 'news-pwa-v9';
 const ASSETS = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', (e) => {

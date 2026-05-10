@@ -128,16 +128,105 @@
     color: var(--text-dim);
   }
   .grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: .6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 720px;
+    margin: 0 auto;
   }
-  @media (min-width: 760px) {
-    .grid { grid-template-columns: 1fr 1fr; gap: .7rem; }
+  /* Magazine article */
+  .article {
+    background: var(--bg-card);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    padding: 1.5rem;
+    transition: opacity .15s;
   }
-  @media (min-width: 1100px) {
-    .grid { grid-template-columns: 1fr 1fr 1fr; gap: .75rem; }
+  .article.read { opacity: .65; }
+  .article-meta {
+    display: flex;
+    align-items: center;
+    gap: .55rem;
+    margin-bottom: .35rem;
+    font-size: .78rem;
+    color: var(--text-dim);
+    flex-wrap: wrap;
   }
+  .article-badge {
+    padding: .15rem .55rem;
+    border-radius: 4px;
+    color: #fff;
+    font-size: .72rem;
+    font-weight: 600;
+  }
+  .article-source { font-weight: 500; }
+  .article-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.45;
+    margin: .3rem 0 1rem;
+    color: var(--text);
+  }
+  .article-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1.1rem;
+    background: var(--border);
+    display: block;
+  }
+  .article-body {
+    font-size: .95rem;
+    line-height: 1.9;
+    color: var(--text);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-bottom: 1.1rem;
+  }
+  .article-body.snippet-only {
+    color: var(--text-dim);
+    font-size: .9rem;
+    line-height: 1.7;
+    font-style: italic;
+  }
+  .article-actions {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+    border-top: 1px solid var(--border);
+    padding-top: .9rem;
+    flex-wrap: wrap;
+  }
+  .vote-btn, .article-actions .icon-action {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: .42rem .85rem;
+    cursor: pointer;
+    color: var(--text);
+    font-size: .85rem;
+    transition: all .15s;
+    display: inline-flex;
+    align-items: center;
+    gap: .3rem;
+  }
+  .vote-btn:hover { border-color: var(--primary); }
+  .vote-btn.up.active { background: rgba(5,150,105,.12); border-color: #059669; color: #059669; }
+  .vote-btn.down.active { background: rgba(220,38,38,.12); border-color: #dc2626; color: #dc2626; }
+  .article-actions .icon-action.saved { background: rgba(245,158,11,.12); border-color: #f59e0b; color: #f59e0b; }
+  .article-actions .open-btn {
+    margin-left: auto;
+    background: transparent;
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: .42rem .9rem;
+    cursor: pointer;
+    font-size: .82rem;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .article-actions .open-btn:hover { color: var(--primary); border-color: var(--primary); }
+  /* legacy card styles (still used by 「あとで読む」preview cards if any) */
   .card {
     background: var(--bg-card);
     border-radius: 10px;
@@ -556,6 +645,10 @@
   <div class="header-row">
     <h1>📰 ニュース</h1>
     <input type="search" class="search-box" id="search" placeholder="検索（タイトル・本文・出典）" autocomplete="off">
+    <select class="icon-btn" id="sort-mode" title="並び順" style="padding:.45rem .55rem;font-size:.85rem">
+      <option value="recommended">おすすめ順</option>
+      <option value="recent">新着順</option>
+    </select>
     <label class="toggle"><input type="checkbox" id="unread-only">未読のみ</label>
     <button class="icon-btn" id="settings-open" aria-label="設定" title="設定">⚙</button>
   </div>
@@ -701,17 +794,20 @@
 const STATE = {
   data: null,
   filterTopic: 'all',
+  sortMode: 'recommended',
   search: '',
   unreadOnly: false,
   readSet: new Set(),
   saved: {},
+  votes: {},
   gist: { token: '', gistId: '', lastSyncAt: 0, lastSyncStatus: '' },
-  renderLimit: 60,
+  renderLimit: 30,
 };
 
 const READ_KEY = 'news-pwa.read';
 const READ_RETENTION_DAYS = 60;
 const SAVED_KEY = 'news-pwa.saved';
+const VOTES_KEY = 'news-pwa.votes';
 const GIST_KEY = 'news-pwa.gist';
 const GIST_FILENAME = 'news-pwa-saved.json';
 
@@ -751,8 +847,49 @@ function loadGistConfig() {
 function saveGistConfig() {
   localStorage.setItem(GIST_KEY, JSON.stringify(STATE.gist));
 }
+function loadVotes() {
+  try {
+    const raw = localStorage.getItem(VOTES_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch { return {}; }
+}
+function saveVotesToLocal() {
+  localStorage.setItem(VOTES_KEY, JSON.stringify(STATE.votes));
+}
 STATE.saved = loadSaved();
+STATE.votes = loadVotes();
 STATE.gist = loadGistConfig();
+
+// 好みスコア: 投票したアイテムの topicId / source を加算減算
+let AFFINITY_CACHE = null;
+function rebuildAffinity() {
+  AFFINITY_CACHE = { topic: {}, source: {} };
+  for (const [url, dir] of Object.entries(STATE.votes)) {
+    const sign = dir === 'up' ? 1 : -1;
+    const it = STATE.itemMap?.get(url) || STATE.saved[url];
+    if (!it) continue;
+    if (it.topicId) AFFINITY_CACHE.topic[it.topicId] = (AFFINITY_CACHE.topic[it.topicId] || 0) + sign;
+    if (it.source)  AFFINITY_CACHE.source[it.source]  = (AFFINITY_CACHE.source[it.source]  || 0) + sign;
+  }
+}
+function affinityScore(it) {
+  if (!AFFINITY_CACHE) rebuildAffinity();
+  let s = 0;
+  if (it.topicId && AFFINITY_CACHE.topic[it.topicId]) s += AFFINITY_CACHE.topic[it.topicId];
+  if (it.source && AFFINITY_CACHE.source[it.source]) s += AFFINITY_CACHE.source[it.source];
+  return s;
+}
+function vote(url, dir) {
+  const cur = STATE.votes[url];
+  if (cur === dir) {
+    delete STATE.votes[url];
+  } else {
+    STATE.votes[url] = dir;
+  }
+  saveVotesToLocal();
+  AFFINITY_CACHE = null;
+  scheduleSync();
+}
 
 let SYNC_TIMER = null;
 function scheduleSync() {
@@ -806,7 +943,7 @@ async function syncSavedToGist() {
   try {
     setSyncStatus('syncing', '同期中…');
     const id = await findOrCreateGist();
-    const body = { saved: STATE.saved, modifiedAt: Date.now() };
+    const body = { saved: STATE.saved, votes: STATE.votes, modifiedAt: Date.now() };
     await ghFetch(`/gists/${id}`, {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
@@ -835,7 +972,6 @@ async function syncSavedFromGist() {
     if (file && file.content) {
       const remote = JSON.parse(file.content);
       if (remote && remote.saved) {
-        // merge: prefer newer modifiedAt per item
         for (const [url, rItem] of Object.entries(remote.saved)) {
           const local = STATE.saved[url];
           if (!local || (rItem.modifiedAt || 0) > (local.modifiedAt || 0)) {
@@ -843,6 +979,12 @@ async function syncSavedFromGist() {
           }
         }
         saveSavedToLocal();
+      }
+      if (remote && remote.votes) {
+        // 投票はリモート優先（最新マシンの判断を尊重）
+        STATE.votes = { ...STATE.votes, ...remote.votes };
+        saveVotesToLocal();
+        AFFINITY_CACHE = null;
       }
     }
     STATE.gist.lastSyncAt = Date.now();
@@ -968,7 +1110,7 @@ function renderFilters() {
   el.querySelectorAll('.chip').forEach(b => {
     b.addEventListener('click', () => {
       STATE.filterTopic = b.dataset.id;
-      STATE.renderLimit = 60;
+      STATE.renderLimit = 30;
       renderFilters();
       render();
     });
@@ -1002,7 +1144,7 @@ function filterItems() {
   const q = STATE.search.trim().toLowerCase();
   const isSavedView = STATE.filterTopic === '__saved__';
   const baseItems = isSavedView ? getSavedAsItems() : STATE.data.items;
-  return baseItems.filter(it => {
+  const filtered = baseItems.filter(it => {
     if (!isSavedView && STATE.filterTopic !== 'all' && it.topicId !== STATE.filterTopic) return false;
     if (STATE.unreadOnly && !isSavedView && STATE.readSet.has(it.url)) return false;
     if (q) {
@@ -1012,48 +1154,74 @@ function filterItems() {
     }
     return true;
   });
+
+  if (STATE.sortMode === 'recommended' && !isSavedView) {
+    rebuildAffinity();
+    // 好みスコア降順、同点なら新着順
+    filtered.sort((a, b) => {
+      const sa = affinityScore(a);
+      const sb = affinityScore(b);
+      if (sa !== sb) return sb - sa;
+      return b.pubDate - a.pubDate;
+    });
+  } else {
+    // 新着順（あとで読む は保存日時順）
+    filtered.sort((a, b) => b.pubDate - a.pubDate);
+  }
+  return filtered;
 }
 
 const BOOKMARK_SVG = '<svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M6 3a2 2 0 00-2 2v16l8-3.5L20 21V5a2 2 0 00-2-2H6z"/></svg>';
 const BOOKMARK_OUTLINE_SVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg"><path d="M6 3a2 2 0 00-2 2v16l8-3.5L20 21V5a2 2 0 00-2-2H6z"/></svg>';
 
+const BOOKMARK_FILLED_SMALL = '<svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M6 3a2 2 0 00-2 2v16l8-3.5L20 21V5a2 2 0 00-2-2H6z"/></svg>';
+const BOOKMARK_OUTLINE_SMALL = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M6 3a2 2 0 00-2 2v16l8-3.5L20 21V5a2 2 0 00-2-2H6z"/></svg>';
+
 function renderCard(it) {
   const isRead = STATE.readSet.has(it.url);
   const saved = isSaved(it.url);
-  const imgSrc = it.ogImage || it.image;
-  const thumb = imgSrc
-    ? `<div class="card-thumb"><img src="${escapeHtml(imgSrc)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('.card-thumb').remove()"></div>`
+  const vote = STATE.votes ? STATE.votes[it.url] : null;
+  const hasSummary = !!it.summary;
+  const hasImage = !!it.ogImage;
+
+  const meta = `
+    <div class="article-meta">
+      <span class="article-badge" style="background:${escapeHtml(it.topicColor || '#6b7280')}">${escapeHtml(it.topicName)}</span>
+      <span class="article-source">${escapeHtml(it.source)}</span>
+      <span>${timeAgo(it.pubDate)}</span>
+    </div>`;
+
+  const img = hasImage
+    ? `<img class="article-image" src="${escapeHtml(it.ogImage)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
     : '';
-  const body = it.summary
-    ? `<div class="card-summary">${escapeHtml(it.summary)}</div>`
-    : (it.snippet ? `<p class="card-snippet">${escapeHtml(it.snippet)}</p>` : '');
+
+  const body = hasSummary
+    ? `<div class="article-body">${escapeHtml(it.summary)}</div>`
+    : `<div class="article-body snippet-only">${escapeHtml(it.snippet || '（記事の本文を読み込み中）')}</div>`;
+
   const memo = saved && STATE.saved[it.url].memo
-    ? `<div class="card-memo">${escapeHtml(STATE.saved[it.url].memo)}</div>`
+    ? `<div class="card-memo" style="margin-bottom:1rem">${escapeHtml(STATE.saved[it.url].memo)}</div>`
     : '';
-  const bookmarkSvg = saved ? BOOKMARK_SVG : BOOKMARK_OUTLINE_SVG;
-  const isSavedView = STATE.filterTopic === '__saved__';
+
   const memoBtn = saved
-    ? `<button class="memo-btn" data-action="memo" data-url="${escapeHtml(it.url)}">${STATE.saved[it.url].memo ? 'メモを編集' : 'メモを書く'}</button>`
+    ? `<button class="icon-action" data-action="memo" data-url="${escapeHtml(it.url)}" title="メモ">📝</button>`
     : '';
-  const actions = isSavedView ? `<div class="card-actions">${memoBtn}</div>` : '';
+
   return `
-    <a class="card${isRead ? ' read' : ''}" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer" data-url="${escapeHtml(it.url)}">
-      ${thumb}
-      <div class="card-body">
-        <div class="card-head">
-          <span class="card-badge" style="background:${escapeHtml(it.topicColor || '#6b7280')}">${escapeHtml(it.topicName)}</span>
-          <span class="card-head-right">
-            <span class="card-time">${timeAgo(it.pubDate)}</span>
-            <button class="card-bookmark${saved ? ' saved' : ''}" data-action="bookmark" data-url="${escapeHtml(it.url)}" aria-label="${saved ? '保存解除' : '保存'}" title="${saved ? '保存解除' : '保存'}">${bookmarkSvg}</button>
-          </span>
-        </div>
-        <h3 class="card-title">${escapeHtml(it.title)}</h3>
-        ${body}
-        ${memo}
-        <div class="card-source">${escapeHtml(it.source)}</div>
-        ${actions}
+    <article class="article${isRead ? ' read' : ''}" data-url="${escapeHtml(it.url)}">
+      ${meta}
+      <h2 class="article-title">${escapeHtml(it.title)}</h2>
+      ${img}
+      ${body}
+      ${memo}
+      <div class="article-actions">
+        <button class="vote-btn up${vote === 'up' ? ' active' : ''}" data-action="vote-up" data-url="${escapeHtml(it.url)}" title="好み">👍</button>
+        <button class="vote-btn down${vote === 'down' ? ' active' : ''}" data-action="vote-down" data-url="${escapeHtml(it.url)}" title="興味なし">👎</button>
+        <button class="icon-action${saved ? ' saved' : ''}" data-action="bookmark" data-url="${escapeHtml(it.url)}" title="${saved ? '保存解除' : 'あとで読む'}" aria-label="${saved ? '保存解除' : 'あとで読む'}">${saved ? BOOKMARK_FILLED_SMALL : BOOKMARK_OUTLINE_SMALL}</button>
+        ${memoBtn}
+        <a class="open-btn" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer" data-action="open" data-url="${escapeHtml(it.url)}">元記事を開く ↗</a>
       </div>
-    </a>`;
+    </article>`;
 }
 
 function render() {
@@ -1075,37 +1243,43 @@ function render() {
   }
   grid.innerHTML = html;
 
-  grid.querySelectorAll('.card').forEach(a => {
-    a.addEventListener('click', (e) => {
-      // 個別ボタン（ブックマーク/メモ）はカード遷移しない
+  grid.querySelectorAll('.article').forEach(art => {
+    art.addEventListener('click', (e) => {
       const btn = e.target.closest('[data-action]');
-      if (btn) {
-        e.preventDefault();
-        e.stopPropagation();
-        const url = btn.dataset.url;
-        const action = btn.dataset.action;
-        if (action === 'bookmark') {
-          const item = STATE.itemMap?.get(url) || getSavedAsItems().find(x => x.url === url);
-          if (item) {
-            toggleSave(item);
-            renderFilters();
-            render();
-          }
-        } else if (action === 'memo') {
-          openMemoModal(url);
-        }
-        return;
-      }
-      e.preventDefault();
-      const url = a.dataset.url;
+      if (!btn) return;
+      const action = btn.dataset.action;
+      const url = btn.dataset.url;
       const item = STATE.itemMap?.get(url) || getSavedAsItems().find(x => x.url === url);
-      if (!item) { window.open(url, '_blank', 'noopener'); return; }
-      a.classList.add('read');
-      openSummary(item);
+
+      // ボタン操作で既読化（元記事を開くを含む）
+      if (!STATE.readSet.has(url)) {
+        STATE.readSet.add(url);
+        READ_MAP.set(url, Date.now());
+        saveReadState(READ_MAP);
+        art.classList.add('read');
+      }
+
+      if (action === 'open') return; // <a>のデフォルト遷移に任せる
+
+      e.preventDefault();
+      e.stopPropagation();
+      if (action === 'bookmark' && item) {
+        toggleSave(item);
+        renderFilters();
+        render();
+      } else if (action === 'memo') {
+        openMemoModal(url);
+      } else if (action === 'vote-up') {
+        vote(url, 'up');
+        render();
+      } else if (action === 'vote-down') {
+        vote(url, 'down');
+        render();
+      }
     });
   });
   const more = document.getElementById('more');
-  if (more) more.addEventListener('click', () => { STATE.renderLimit += 60; render(); });
+  if (more) more.addEventListener('click', () => { STATE.renderLimit += 30; render(); });
 }
 
 document.getElementById('modal-close').addEventListener('click', closeModal);
@@ -1376,12 +1550,17 @@ document.getElementById('feeds-save').addEventListener('click', saveFeedsToRepo)
 
 document.getElementById('search').addEventListener('input', e => {
   STATE.search = e.target.value;
-  STATE.renderLimit = 60;
+  STATE.renderLimit = 30;
   render();
 });
 document.getElementById('unread-only').addEventListener('change', e => {
   STATE.unreadOnly = e.target.checked;
-  STATE.renderLimit = 60;
+  STATE.renderLimit = 30;
+  render();
+});
+document.getElementById('sort-mode').addEventListener('change', e => {
+  STATE.sortMode = e.target.value;
+  STATE.renderLimit = 30;
   render();
 });
 

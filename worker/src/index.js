@@ -161,8 +161,16 @@ async function fetchWithTimeout(url, opts) {
   }
 }
 
+// 汎用アイコン（Googleニュース、はてなfavicon等）はマガジン用には使えないので除外
+function isGenericIconUrl(u) {
+  if (!u) return true;
+  return /favicon\.|news\.google\.com\/favicon|googleusercontent\.com\/(news|s2\/favicons)|st-hatena\.com\/favicon|apple-touch-icon|\/icon-?\d+x\d+\.|gstatic\.com\/news/i.test(u);
+}
+
 function extractOgImage(html, baseUrl) {
   const patterns = [
+    /<meta[^>]+property=["']og:image:secure_url["'][^>]+content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image:secure_url["']/i,
     /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
     /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
     /<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i,
@@ -179,6 +187,7 @@ function extractOgImage(html, baseUrl) {
       else if (u.startsWith('/') && baseUrl) {
         try { u = new URL(u, baseUrl).toString(); } catch {}
       }
+      if (isGenericIconUrl(u)) continue;
       return u;
     }
   }
@@ -223,11 +232,18 @@ async function callGemini(text, apiKey) {
   if (!apiKey) throw new Error('GEMINI_API_KEY が設定されていません');
 
   const prompt =
-    `以下のニュース記事の本文を、日本語で3〜5項目の箇条書きで要約してください。
-- 各項目は1文で簡潔に
-- 事実のみ。推測・憶測・「とのことです」のような伝聞表現は避ける
-- 重要な数値・固有名詞は省かない
-- 各項目の先頭に「・」を付ける
+    `以下のニュース記事の内容を、日本語で 3〜5段落の読み物に書き直してください。
+
+書き方の指示：
+- 1段落目: リード。何が起きたか・どんなニュースかを簡潔に
+- 2〜3段落目: 詳細・背景・関係者・具体的な数値や事実
+- 最後の段落: 影響、今後の見通し、注目すべきポイント
+- 自然で読みやすい文体、客観的、推測や憶測は書かない
+- 元記事の文章をそのままコピーせず、自分の言葉で書く（言い換え）
+- 各段落は2〜4文程度
+- 全体で400〜700文字程度
+- 段落と段落の間は空行（\\n\\n）で区切る
+- 箇条書きや見出しは使わない
 
 記事本文：
 ${text}`;
