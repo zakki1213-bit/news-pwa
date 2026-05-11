@@ -14,7 +14,7 @@ const MIN_TOTAL_CHARS = 30;  // 全合算でもこれ未満なら要約諦め
 const MAX_INPUT_CHARS = 30000;
 const FETCH_TIMEOUT_MS = 12000;
 
-const GEMINI_MODEL = 'gemini-2.5-flash';
+const GEMINI_MODEL = 'gemini-2.5-flash-lite';
 const GEMINI_ENDPOINT =
   `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`;
 
