@@ -12,6 +12,7 @@ const CACHE_PATH = 'enrichment-cache.json';
 const ENRICH_TTL_OK_DAYS = 30;
 const ENRICH_TTL_FAIL_DAYS = 1;
 const MAX_ENRICH_PER_RUN = parseInt(process.env.MAX_ENRICH_PER_RUN || '50', 10);
+const ENRICH_MAX_AGE_HOURS = parseInt(process.env.ENRICH_MAX_AGE_HOURS || '3', 10);  // pubDateがこの時間以内の記事のみenrich
 
 const parser = new Parser({
   timeout: TIMEOUT_MS,
@@ -163,10 +164,13 @@ async function main() {
   const items = [...map.values()].sort((a, b) => b.pubDate - a.pubDate);
   console.log(`[Phase 1] RSS集約完了: ${items.length} items`);
 
-  // 2) Enrichment（要約＋OG画像）
+  // 2) Enrichment（要約＋OG画像） - 新しい記事のみ対象
   let cache = await pruneCache(await loadCache());
-  const toEnrich = items.filter(it => !cache[it.url]).slice(0, MAX_ENRICH_PER_RUN);
-  console.log(`[Phase 2] Enrichment開始: ${toEnrich.length} items（キャッシュ${Object.keys(cache).length}件、上限${MAX_ENRICH_PER_RUN}件/run）`);
+  const enrichCutoff = Date.now() - ENRICH_MAX_AGE_HOURS * 3600 * 1000;
+  const candidates = items.filter(it => !cache[it.url]);
+  const toEnrich = candidates.filter(it => it.pubDate >= enrichCutoff).slice(0, MAX_ENRICH_PER_RUN);
+  const skippedOld = candidates.length - toEnrich.length;
+  console.log(`[Phase 2] Enrichment開始: ${toEnrich.length} items（キャッシュ${Object.keys(cache).length}件、新着のみ最大${MAX_ENRICH_PER_RUN}件/run、過去記事${skippedOld}件は対象外）`);
 
   let done = 0;
   let aborted = false;
