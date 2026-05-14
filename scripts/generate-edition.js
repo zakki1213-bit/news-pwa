@@ -1,16 +1,15 @@
 import fs from 'node:fs/promises';
-import path from 'node:path';
 
 const WORKER_URL = 'https://news-summarizer.zakki1213.workers.dev';
 const WORKER_ORIGIN = 'https://zakki1213-bit.github.io';
 const HOURS_WINDOW = parseInt(process.env.EDITION_HOURS || '12', 10);
-const MAX_PER_SECTION = parseInt(process.env.MAX_PER_SECTION || '20', 10);
-const TIMEOUT_MS = 60000;
-const BETWEEN_CALLS_MS = 20000;   // セクション間の待機
-const RETRY_WAIT_MS = 35000;      // 429時のリトライ前待機
+const ARTICLES_PER_TOPIC = parseInt(process.env.ARTICLES_PER_TOPIC || '8', 10);
+const TIMEOUT_MS = 120000;
+const BETWEEN_CALLS_MS = 20000;
+const RETRY_WAIT_MS = 35000;
 const KIND = process.env.EDITION_KIND === 'evening' ? 'evening' : 'morning';
 
-const sleep = ms => new Promise(r => setTimeout(r, ms));
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function nowJSTParts() {
   const now = new Date();
@@ -41,15 +40,20 @@ async function callWorkerOnce(payload) {
   }
 }
 
-// 429時に1回だけ大きく待ってリトライ
-async function callWorker(payload) {
+async function callWorker(payload, label) {
+  console.log(`→ ${label}`);
   let res = await callWorkerOnce(payload);
   if (!res.ok && /\b429\b|RESOURCE_EXHAUSTED/i.test(res.message || '')) {
-    console.log(`  ↻ 429検知 → ${RETRY_WAIT_MS/1000}秒待ってリトライ`);
+    console.log(`  ↻ 429 → ${RETRY_WAIT_MS / 1000}秒待ってリトライ`);
     await sleep(RETRY_WAIT_MS);
     res = await callWorkerOnce(payload);
   }
+  if (!res.ok) console.warn(`  ! 失敗: ${(res.message || '').slice(0, 200)}`);
   return res;
+}
+
+function makeRef(a) {
+  return { title: a.title, url: a.url, source: a.source, topicId: a.topicId };
 }
 
 async function main() {
@@ -60,114 +64,143 @@ async function main() {
   const newsRaw = await fs.readFile('news.json', 'utf8');
   const news = JSON.parse(newsRaw);
   const cutoff = Date.now() - HOURS_WINDOW * 3600 * 1000;
-  const recent = news.items.filter(it => it.pubDate >= cutoff);
-  console.log(`直近${HOURS_WINDOW}時間の記事: ${recent.length} 件`);
+  const recent = news.items.filter((it) => it.pubDate >= cutoff);
+  console.log(`直近${HOURS_WINDOW}時間の記事: ${recent.length}件`);
 
-  // トピックごとにグルーピング、各最大MAX_PER_SECTION件
-  const byTopic = new Map();
-  for (const t of news.topics) byTopic.set(t.id, { topic: t, articles: [] });
-  for (const it of recent) {
-    const g = byTopic.get(it.topicId);
-    if (g && g.articles.length < MAX_PER_SECTION) g.articles.push(it);
-  }
-
-  // セクション本文生成
-  const sections = [];
-  const references = [];
-  let callIdx = 0;
+  // 候補を作る（トピックごとに最大ARTICLES_PER_TOPIC件、最新順）
+  const candidates = [];
   for (const t of news.topics) {
-    const g = byTopic.get(t.id);
-    if (!g || g.articles.length === 0) {
-      console.log(`- ${t.name}: 記事なし → スキップ`);
-      continue;
-    }
-    if (callIdx > 0) {
-      console.log(`  …${BETWEEN_CALLS_MS/1000}秒待機`);
-      await sleep(BETWEEN_CALLS_MS);
-    }
-    console.log(`- ${t.name}: ${g.articles.length}件で執筆中...`);
-    callIdx++;
-    const articles = g.articles.map(a => ({
-      title: a.title,
-      source: a.source,
-      snippet: a.snippet || a.summary || '',
-      url: a.url,
-    }));
-    const res = await callWorker({
-      type: 'edition_section',
-      kind: KIND,
-      topicName: t.name,
-      articles,
-    });
-    if (res.ok && res.body) {
-      sections.push({
-        topicId: t.id,
-        topicName: t.name,
-        color: t.color,
-        body: res.body,
-      });
-      for (const a of g.articles) {
-        references.push({
-          topicId: t.id,
-          title: a.title,
-          source: a.source,
-          url: a.url,
-        });
-      }
-    } else {
-      console.warn(`  ! 失敗: ${res.message}`);
-    }
+    const sorted = recent.filter((it) => it.topicId === t.id).sort((a, b) => b.pubDate - a.pubDate).slice(0, ARTICLES_PER_TOPIC);
+    candidates.push(...sorted);
+  }
+  console.log(`候補記事: ${candidates.length}件（各トピック最大${ARTICLES_PER_TOPIC}件）`);
+
+  if (candidates.length < 5) {
+    console.error('候補が少なすぎます。終了。');
+    process.exit(0);
   }
 
-  // リード（編集後記的）生成
+  const articlesForApi = candidates.map((a) => ({
+    title: a.title,
+    source: a.source,
+    snippet: a.snippet || a.summary || '',
+    topicName: a.topicName,
+  }));
+
+  // 1) curate
+  const curate = await callWorker({ type: 'edition_curate', articles: articlesForApi }, 'curate（記事選定）');
+  if (!curate.ok) { console.error('curate失敗。終了。'); process.exit(1); }
+  console.log(`  top=[${curate.top}], mid=[${curate.mid.join(',')}], briefs=[${curate.briefs.join(',')}]`);
+
+  // 2) top writeup
+  await sleep(BETWEEN_CALLS_MS);
+  const topArticle = candidates[curate.top];
+  const topRes = await callWorker(
+    { type: 'edition_writeup', length: 'long', articles: [{ title: topArticle.title, source: topArticle.source, snippet: topArticle.snippet, topicName: topArticle.topicName }] },
+    'top（一面トップ執筆）'
+  );
+
+  // 3) mid writeup
+  await sleep(BETWEEN_CALLS_MS);
+  const midArticles = curate.mid.map((i) => candidates[i]).filter(Boolean);
+  const midRes = await callWorker(
+    { type: 'edition_writeup', length: 'medium', articles: midArticles.map((a) => ({ title: a.title, source: a.source, snippet: a.snippet, topicName: a.topicName })) },
+    `mid（中段${midArticles.length}本執筆）`
+  );
+
+  // 4) briefs writeup
+  await sleep(BETWEEN_CALLS_MS);
+  const briefArticles = curate.briefs.map((i) => candidates[i]).filter(Boolean);
+  const briefRes = await callWorker(
+    { type: 'edition_writeup', length: 'short', articles: briefArticles.map((a) => ({ title: a.title, source: a.source, snippet: a.snippet, topicName: a.topicName })) },
+    `briefs（ベタ${briefArticles.length}本執筆）`
+  );
+
+  // 5) lead
+  await sleep(BETWEEN_CALLS_MS);
   let lead = '';
-  if (sections.length > 0) {
-    console.log(`  …${BETWEEN_CALLS_MS/1000}秒待機`);
-    await sleep(BETWEEN_CALLS_MS);
-    console.log('- リード執筆中...');
-    const r = await callWorker({
-      type: 'edition_lead',
-      kind: KIND,
-      date: dateStr,
-      sections: sections.map(s => ({ topicName: s.topicName, body: s.body })),
-    });
-    if (r.ok && r.lead) lead = r.lead;
-    else console.warn(`  ! リード失敗: ${r.message}`);
+  if (topRes.ok && (topRes.stories || []).length > 0) {
+    const leadRes = await callWorker(
+      {
+        type: 'edition_lead',
+        kind: KIND,
+        date: dateStr,
+        topStory: topRes.stories[0],
+        midStories: (midRes.ok && midRes.stories) || [],
+      },
+      'lead（リード執筆）'
+    );
+    if (leadRes.ok) lead = leadRes.lead || '';
   }
+
+  // assemble
+  const topStory = (topRes.ok && topRes.stories?.[0]) ? {
+    title: topRes.stories[0].title,
+    body: topRes.stories[0].body,
+    topicId: topArticle.topicId,
+    topicName: topArticle.topicName,
+    color: topArticle.topicColor,
+    references: [makeRef(topArticle)],
+  } : null;
+
+  const midStories = (midRes.ok ? midRes.stories : []).map((s, i) => {
+    const a = midArticles[i];
+    if (!a) return null;
+    return {
+      title: s.title,
+      body: s.body,
+      topicId: a.topicId,
+      topicName: a.topicName,
+      color: a.topicColor,
+      references: [makeRef(a)],
+    };
+  }).filter(Boolean);
+
+  const briefs = (briefRes.ok ? briefRes.stories : []).map((s, i) => {
+    const a = briefArticles[i];
+    if (!a) return null;
+    return {
+      title: s.title,
+      body: s.body,
+      topicId: a.topicId,
+      topicName: a.topicName,
+      color: a.topicColor,
+      url: a.url,
+      source: a.source,
+    };
+  }).filter(Boolean);
 
   const edition = {
     type: KIND,
     date: dateStr,
     generatedAt: jst.toISOString().replace('Z', '+09:00'),
     lead,
-    sections,
-    references,
+    topStory,
+    midStories,
+    briefs,
   };
 
-  // 保存
   await fs.mkdir('editions', { recursive: true });
   const filename = `editions/${dateStr}-${KIND}.json`;
   await fs.writeFile(filename, JSON.stringify(edition, null, 2));
   console.log(`保存: ${filename}`);
 
-  // インデックス更新
   let index = { editions: [] };
   try {
     const raw = await fs.readFile('editions/index.json', 'utf8');
     index = JSON.parse(raw);
   } catch {}
-  // 同じ日・同じ種別を除外して追加
-  index.editions = index.editions.filter(e => !(e.date === dateStr && e.type === KIND));
+  index.editions = (index.editions || []).filter((e) => !(e.date === dateStr && e.type === KIND));
   index.editions.unshift({
     type: KIND,
     date: dateStr,
     generatedAt: edition.generatedAt,
     file: `${dateStr}-${KIND}.json`,
   });
-  // 最大60件保持（朝夕で30日分）
   index.editions = index.editions.slice(0, 60);
   await fs.writeFile('editions/index.json', JSON.stringify(index, null, 2));
-  console.log(`一覧更新: ${index.editions.length} 件`);
+  console.log(`一覧更新: ${index.editions.length}件`);
+  console.log(`完了: トップ${topStory ? 'あり' : 'なし'} / 中段${midStories.length}本 / ベタ${briefs.length}本`);
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+main().catch((e) => { console.error(e); process.exit(1); });
