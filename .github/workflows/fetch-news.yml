@@ -14,6 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      # 紙面PWA（朝刊・夕刊）にGeminiクォータを集中させるため、
+      # 個別記事のenrichment（要約・OG画像）を一時停止中
+      # 再開する場合はこの環境変数を削除または '50' に戻す
+      MAX_ENRICH_PER_RUN: '0'
     steps:
       - uses: actions/checkout@v4
 
