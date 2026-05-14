@@ -1,0 +1,15 @@
+{
+  "name": "朝刊夕刊",
+  "short_name": "朝刊夕刊",
+  "description": "AIが書く1日2回の新聞紙面",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fbfaf6",
+  "theme_color": "#1a1a1a",
+  "orientation": "portrait",
+  "lang": "ja",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

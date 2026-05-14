@@ -40,15 +40,25 @@ export default {
       return json({ error: 'forbidden', message: 'Origin not allowed' }, 403, cors);
     }
 
-    let url, title, snippet;
+    let body;
     try {
-      const body = await request.json();
-      url = body.url;
-      title = body.title || '';
-      snippet = body.snippet || '';
+      body = await request.json();
     } catch {
       return json({ error: 'invalid_json' }, 400, cors);
     }
+
+    // 紙面生成API（朝刊・夕刊）
+    if (body.type === 'edition_section') {
+      return await handleEditionSection(body, env, cors);
+    }
+    if (body.type === 'edition_lead') {
+      return await handleEditionLead(body, env, cors);
+    }
+
+    // 既存：個別記事の要約
+    const url = body.url;
+    const title = body.title || '';
+    const snippet = body.snippet || '';
     if (!url || typeof url !== 'string' || !/^https?:\/\//.test(url)) {
       return json({ error: 'invalid_url' }, 400, cors);
     }
@@ -98,7 +108,10 @@ export default {
       }
 
       // Summarize with Gemini
-      const summary = await callGemini(inputText.slice(0, MAX_INPUT_CHARS), env.GEMINI_API_KEY);
+      const summary = await callGemini(
+        buildSummaryPrompt(inputText.slice(0, MAX_INPUT_CHARS)),
+        env.GEMINI_API_KEY
+      );
       return json({
         ok: true,
         summary,
@@ -241,11 +254,73 @@ function extractMainContent(html) {
   return text;
 }
 
-async function callGemini(text, apiKey) {
-  if (!apiKey) throw new Error('GEMINI_API_KEY が設定されていません');
+// ===== 紙面（朝刊・夕刊）生成 =====
 
-  const prompt =
-    `以下のニュース素材を、日本語で読み物として書き直してください。
+async function handleEditionSection(body, env, cors) {
+  const { topicName, articles, kind } = body;
+  if (!topicName || !Array.isArray(articles) || articles.length === 0) {
+    return json({ ok: false, message: 'topicNameとarticlesが必要です' }, 400, cors);
+  }
+  const editionLabel = kind === 'evening' ? '夕刊' : '朝刊';
+  const list = articles.slice(0, 30).map((a, i) =>
+    `[${i + 1}] ${a.title || '(no title)'}\n出典: ${a.source || '-'}\n概要: ${a.snippet || '-'}`
+  ).join('\n\n');
+
+  const prompt = `あなたは新聞の編集者です。${editionLabel}「${topicName}」セクションの本文を日本語で書いてください。
+
+ルール：
+- 400〜600字
+- 段落2〜3つ、段落間は空行（\\n\\n）
+- 個別ニュースを羅列せず、複数のニュースをつなげて「今このトピックで何が起きているか」を読み物として書く
+- 数値や固有名詞は素材から正確に拾う、推測で補わない
+- 「〜とのことだ」のような伝聞語は避け、客観的な書き口
+- 箇条書き・見出し・「以下〜」のような枕詞を使わない
+
+ニュース素材（${articles.length}件）：
+
+${list}`;
+
+  try {
+    const text = await callGemini(prompt, env.GEMINI_API_KEY);
+    return json({ ok: true, body: text.trim() }, 200, cors);
+  } catch (err) {
+    return json({ ok: false, message: err.message || String(err) }, 500, cors);
+  }
+}
+
+async function handleEditionLead(body, env, cors) {
+  const { sections, kind, date } = body;
+  if (!Array.isArray(sections) || sections.length === 0) {
+    return json({ ok: false, message: 'sectionsが必要です' }, 400, cors);
+  }
+  const editionLabel = kind === 'evening' ? '夕刊' : '朝刊';
+  const summaries = sections.map(s =>
+    `■${s.topicName}\n${(s.body || '').slice(0, 300)}…`
+  ).join('\n\n');
+
+  const prompt = `あなたは新聞の編集者です。${date} ${editionLabel}のリード（編集後記のような短い導入文）を日本語で書いてください。
+
+ルール：
+- 80〜120字、1〜2段落
+- 今日（または昨夜から今朝）のニュース全体を俯瞰して、読者に語りかける口調
+- 個別事件の詳述ではなく、今日読者に伝えたい主題やテーマを示す
+- 箇条書き・見出しは使わない
+
+各セクションの内容：
+
+${summaries}`;
+
+  try {
+    const text = await callGemini(prompt, env.GEMINI_API_KEY);
+    return json({ ok: true, lead: text.trim() }, 200, cors);
+  } catch (err) {
+    return json({ ok: false, message: err.message || String(err) }, 500, cors);
+  }
+}
+
+// 個別記事要約用のプロンプト構築
+function buildSummaryPrompt(text) {
+  return `以下のニュース素材を、日本語で読み物として書き直してください。
 
 書き方の指示：
 - 情報量に応じて 1〜5段落で書く（素材が短ければ短く、豊富なら3〜5段落）
@@ -258,6 +333,10 @@ async function callGemini(text, apiKey) {
 
 ニュース素材：
 ${text}`;
+}
+
+async function callGemini(prompt, apiKey) {
+  if (!apiKey) throw new Error('GEMINI_API_KEY が設定されていません');
 
   const res = await fetch(`${GEMINI_ENDPOINT}?key=${encodeURIComponent(apiKey)}`, {
     method: 'POST',

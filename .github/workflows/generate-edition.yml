@@ -1,0 +1,66 @@
+name: Generate Edition
+
+on:
+  schedule:
+    - cron: '50 19 * * *'  # 4:50 JST → morning
+    - cron: '50 7 * * *'   # 16:50 JST → evening
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: 'morning or evening'
+        type: choice
+        default: morning
+        options: [morning, evening]
+
+concurrency:
+  group: generate-edition
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Determine kind
+        run: |
+          if [ -n "${{ github.event.inputs.kind }}" ]; then
+            echo "EDITION_KIND=${{ github.event.inputs.kind }}" >> $GITHUB_ENV
+          elif [ "${{ github.event.schedule }}" = "50 19 * * *" ]; then
+            echo "EDITION_KIND=morning" >> $GITHUB_ENV
+          else
+            echo "EDITION_KIND=evening" >> $GITHUB_ENV
+          fi
+
+      - name: Pull latest (news.json may have updated)
+        run: git pull origin main
+
+      - name: Install (no deps needed but safety)
+        run: npm install --omit=dev || true
+
+      - name: Generate edition
+        run: node scripts/generate-edition.js
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add editions/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Add ${EDITION_KIND} edition [auto]"
+          for i in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            git pull --rebase --autostash origin main
+          done
+          exit 1

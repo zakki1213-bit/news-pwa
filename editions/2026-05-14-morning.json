@@ -1,0 +1,226 @@
+{
+  "type": "morning",
+  "date": "2026-05-14",
+  "generatedAt": "2026-05-14T22:47:32.594+09:00",
+  "lead": "",
+  "sections": [
+    {
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "body": "教育現場では、デジタル化の波が加速する一方で、家庭環境による学習機会の格差是正が喫緊の課題となっています。Kids Code Clubが募集を開始した「デジタル探求プログラム2026」は、経済的な理由でPCやインターネット環境に恵まれない全国の小学3年生から中学3年生を対象に、プログラミングなどのデジタルスキル習得機会を無償で提供します。2022年から続くこのプログラムは、PC本体やWi-Fiルーターの貸与に加え、多様なデジタル作品づくりを学べるオンラインクラブや、ITキャリア教育、セキュリティ・メディアリテラシー講座まで網羅しており、参加者はスタッフの個別サポートを受けながら、自身のペースで学習を進めることができます。これは、学校から貸与される端末の利用制限など、自宅学習環境におけるデジタル格差を埋めるための重要な取り組みと言えるでしょう。\n\nこうしたデジタルスキルの習得支援と並行して、実践的な学びの場を提供する動きも活発化しています。東海大学付属甲府高校では、横浜の町工場社長を招き、生徒が直接指導を受ける「総合的な探究の時間」を実施しており、地域産業との連携による生きた知識の習得を目指しています。また、城西大学薬学部は高校生向けに「リアル薬剤師」と題した全4回のプログラムを提供し、専門職への理解を深める機会を設けています。これらの取り組みは、生徒たちが将来の進路を具体的にイメージし、主体的に学習に取り組むための刺激となることが期待されます。\n\n夏休み期間中には、子供たちが芸術や科学に触れる多様なイベントが企画されています。住友不動産グループは、6,000名を無料招待する「サマーステップコンサート」を開催し、ミュージカルやクラシックの名曲をオーケストラ演奏で楽しむ機会を提供します。指揮者体験コーナーも設けられ、音楽への親しみやすさを高めます。さらに、琵琶湖博物館では高校生を対象とした珪藻研究の合宿講座が、奄美市ではGIGAスクール構想の進展に伴うDX推進が、それぞれ新たな段階を迎えています。これらの動きは、教育の多様化と質の向上を目指す社会全体の流れを映し出しています。"
+    },
+    {
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "body": "企業会計における不正行為への監視が強まる中、複数の企業で会計処理に関する問題が浮上しています。モーター大手ニデックでは、不正会計が判明したことを受け、京都での「永守記念館」建設プロジェクトの中止を検討する事態に発展しました。株主の理解を得ることが難しいと判断した模様です。この件は、監査体制の厳格化が進む中でも、会計不正が後を絶たない現状を示唆しています。ニデックでは、会計不正に加え、品質に関する不適切行為の疑いも判明しており、経営全体への影響が懸念されます。\n\n一方、地方自治体では、行政サービスの効率化や財政運営の適正化に向けた動きが見られます。札幌市は、里塚斎場の建て替えに向けた調査費を一般会計の補正予算案に計上しました。また、伊予市では、988万円を含む一般会計補正予算案など4件が原案通り可決されました。これらの動きは、地域社会のインフラ整備や行政サービスの維持・向上に必要な財源確保と、その執行プロセスにおける会計処理の重要性を示しています。さらに、中津市では、Google Cloud環境で「FAST財務会計」システムの導入構築を開始しており、行政事務のデジタル化と効率化を目指しています。\n\nこうした会計を取り巻く環境の変化は、企業や自治体だけでなく、税理士業界にも影響を与えています。税理士業務の効率化を目指し、AIを活用した税理士特化型AI「ZeiPilot」の無料オンライン説明会が開催されるなど、新たな技術導入の動きが活発化しています。また、ミロク情報サービスは、会計事務所や企業向けにオンラインセミナーを開催し、最新の会計情報やシステム活用法を提供しています。ビジネスブレイン太田昭和は、通期決算を発表し、会計システムコンサルティング事業の動向が注目されています。これらの動きは、会計・税務分野における専門家の役割や、業務のあり方が変化していくことを示唆しています。"
+    }
+  ],
+  "references": [
+    {
+      "topicId": "education",
+      "title": "住みたい街ランキング首都圏版、吉祥寺が8年連続1位…子供あり世帯に人気の駅は？",
+      "source": "リセマム",
+      "url": "https://resemom.jp/article/2026/05/14/86073.html"
+    },
+    {
+      "topicId": "education",
+      "title": "城西大学薬学部、高校生向け「リアル薬剤師」全4回",
+      "source": "リセマム",
+      "url": "https://resemom.jp/article/2026/05/14/86072.html"
+    },
+    {
+      "topicId": "education",
+      "title": "小中学生にPC無償貸与「デジタル探求プログラム」参加者募集、5/26締切",
+      "source": "リセマム",
+      "url": "https://resemom.jp/article/2026/05/14/86071.html"
+    },
+    {
+      "topicId": "education",
+      "title": "東海大付属甲府高校と横浜の町工場社長が直接授業をする「総合的な探究の時間」を実施 - ニコニコニュース",
+      "source": "Google: 探究学習",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1OZlJiQUotS0huOGhNSGtwUDJDMU8tRnRvLXFSeUU1QmZ0S0ZtRFg4RjJ0cmFJWnVmUlBVTVFiYlItZmdfT21IeV9rUFJDVWxacW9CTllfZWlOT2V1eVRyY3pJZ21xc3k3U1JfcGhTWTNsWEpZM0lvQlNhMA?oc=5"
+    },
+    {
+      "topicId": "education",
+      "title": "住みここちランキング首都圏版、駅1位「馬車道」自治体は中央区が8年連続トップ",
+      "source": "リセマム",
+      "url": "https://resemom.jp/article/2026/05/14/86070.html"
+    },
+    {
+      "topicId": "education",
+      "title": "【中学受験】【高校受験】女子学院など13校「キリスト教学校フェア」7/25",
+      "source": "リセマム",
+      "url": "https://resemom.jp/article/2026/05/14/86069.html"
+    },
+    {
+      "topicId": "education",
+      "title": "2026年梅雨、期間は短くても大雨に警戒…ウェザーニュース見通し",
+      "source": "リセマム",
+      "url": "https://resemom.jp/article/2026/05/14/86068.html"
+    },
+    {
+      "topicId": "education",
+      "title": "【夏休み2026】サマーステップコンサート7/24、6,000名無料招待…指揮者体験も",
+      "source": "リセマム",
+      "url": "https://resemom.jp/article/2026/05/14/86067.html"
+    },
+    {
+      "topicId": "education",
+      "title": "【夏休み2026】高校生向け珪藻研究、合宿講座7/25-27…琵琶湖博物館",
+      "source": "リセマム",
+      "url": "https://resemom.jp/article/2026/05/14/86066.html"
+    },
+    {
+      "topicId": "education",
+      "title": "小中高生対象「はたらくすがた」写真コンテスト、9/16まで作品募集",
+      "source": "リセマム",
+      "url": "https://resemom.jp/article/2026/05/14/86065.html"
+    },
+    {
+      "topicId": "education",
+      "title": "奄美で進むDX GIGAスクール構想5年、新たな段階へ 奄美市（南海日日新聞） - Yahoo!ニュース",
+      "source": "Google: GIGAスクール",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IRmZzdlRiNzBBblpvay1rckNYREczRHFKMEl5QnI1N3oyb094RHJRbndKWElfR1RvRmM5ZEZpZTBTS1VCaVdMZ3hyckF4VG1NYXRUb1ZLd0FYZVEtZk5ZUF82V0hDdExabEl5N25ZbGhDRXNBalczN0Vvd01nbG8?oc=5"
+    },
+    {
+      "topicId": "education",
+      "title": "熊本県が教育改革の「先導拠点校」に4校を選定 3年で最大62億円の交付目指し国に申請へ 菊池農業・天草工業・人吉・熊本 - Yahoo!ニュース",
+      "source": "Google: 高校教育",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1saDZnOXFSb0JVV2gzVDdLV1Y0enEzLTE0OVBHSFFrWGt2anluXzNOcUpDT2VueVRmeEdyVlRpTU1OZzgyVklPenBlWmFUVDV3czR5cnR2bUxUWm90NUhUSDdSYVVhRHlCTUlTQWFVdUVnOGNjbGI4NnowSWt6Wm8?oc=5"
+    },
+    {
+      "topicId": "education",
+      "title": "【夏休み2026】幼児・小中学生「宿泊＆日帰り体験学習」STS夏ツアー…小笠原キャンプも",
+      "source": "リセマム",
+      "url": "https://resemom.jp/article/2026/05/14/86064.html"
+    },
+    {
+      "topicId": "education",
+      "title": "国家公務員2026、一般職（大卒程度）申込み2年連続増…教養区分は5割増",
+      "source": "リセマム",
+      "url": "https://resemom.jp/article/2026/05/14/86063.html"
+    },
+    {
+      "topicId": "business",
+      "title": "ニデック、「永守記念館」中止検討＝不正会計判明で - 時事通信ニュース",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hYlV1YVQ1V05ucnJuNXdzdjlvNTItdTF5ZmdJakJ1SFhnWlBsMmpFS3pWTmJBTXlydWFSX0xqQW11aEZMNWJvWlFqcTRGVGtKVk42WA?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "ニデック、「永守記念館」中止検討＝不正会計判明で - Excite エキサイト",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Lb204WDVvTkZjRTNIcTEtb1U3b1JtWnZWa2VWSkF6S1NPWHBTbWxWZll1ZmFkNVNDNE9tWTYzc1VHTFV6X3NIQTlBRkN4M1lITWJsV1NoZmJFVFpGTWg2Ng?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "里塚斎場建て替え 札幌市が調査費計上を発表 一般会計の補正予算案 - 北海道新聞デジタル",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJc19Pa1BpSXNWS1VNempXVlNKUzRaUnQzNUMyS3k4MklaZDloN2xNVXhCWmdQd2JING5VeTFfWm51OGNNemtWNy1MYkUyUXJfT3h5NGhBZzYtUQ?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "［市議会］伊予市（14日・臨時）一般会計補正予算988万円など４件を原案可決 - 愛媛新聞",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uM25yaERka0EtRFVzQ3dHcVpGT2UxdmRxNHNqcEFXTW1KVTQxdE5OWjNya3R1YWFXZVQydHhkUDJ6NW5JMFZJcnlaTzNXXzFfMWREY3dPM1htamRtMkUxbw?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "【通期決算発表】 ビジネスブレイン太田昭和：会計システムコンサル、金融業界向けシステ…(フィスコ) - Yahoo!ファイナンス",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbmF3NEo2dmdDX1hvSWpqcHhKcl9YVlhHSUxQNHBuajFPMDREOTJyazR2RjVzdVUxWW9NOEhVU0lPQ1NsSnk1UW54Q1V5VlZtUW9scnBFQXpNbXctOFdub1liWE5YQ2NJWEFMaldhRF9FTUZyRHF0azhZbVRtd2Jsc2JlLS1zTFk?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "脱・税理士の菅原氏が斬る！『75歳以上の医療費がついに3割負担か!? 高齢者だけでなく現役世代にも迫る地獄とは。』 - ライブドアニュース",
+      "source": "Google: 税理士",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54cXRyUkphRVRQYjhjWXRuWVJUVjl4U29pelNOalJDOWIwUUgxTmlvOU1vc3AzYko0UmJPR3B4Zm5UUWw1bXd2ejk0TTFjWG8ya3lTVzBzS3docGkyTVZ3?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "【参加受付中】―会計事務所様・企業様向け― ミロク情報サービス オンラインセミナーのご案内 - ニコニコニュース",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsQ1l4dTdncVhRZndSLTZtbkNXcGlIUmd5a3NLLU51MWRpVHpYWWlDUFhfckQ5UHBPajRhbnNCMmZINk5qY0UzbHdzZF9vRmtUNlF3MUZnVUQtalFwMHJSMEV2UDd0bnEyTTJyTTVpTnBtVDcyU2xjOFlpbw?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "ベビーカレンダー[7363]：2026年12月期第１四半期決算短信の開示が四半期末後45日を超えることに関するお知らせ 2026年5月14日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1GTlJxQmZSTWMzajVUQjA2elJTSmJuQVNyR2gyb01rYXpSTEJaZ1d4UGtkQVdacktqMWhiVEFnZ295VTA3MGlmdlczNjAwYlRGemZjelZNNlB5aWJHdjlnMllYdURHcERNOEE?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "税理士の繁忙期が変わる。20人超のAIから案件別にチーム編成できる税理士特化型AI「ZeiPilot」無料オンライン説明会 - 愛媛新聞",
+      "source": "Google: 税理士",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1jalBfdGxTSUg1eUJXNGRkc2plRXF1WDA4YnhjRFNYeGxsVlZLcWhaTWFkQkxKUkpzSVZRNjYzWDU0cVRiY2Y2WWVzMFlyYVhwRU9SaWJoS1FBTjA?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "ニデック・KDDI系も陥った会計不正 監査厳格化でもなくならない - 日経ビジネス電子版",
+      "source": "Google: 簿記",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1yM1VCWnFYSVdqQld5LXg1RVE1ekg4cXZmdU5ka0twWEdhYkJ1THZSeml1TG9HT2twZzlKTHk2UkowVUt5TktTZmhRc3Y2cWNldEI1N01QV2RxT2s5X1dhT2ozSFhRcVU?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "【速報】ニデックが「永守記念館」の京都建設計画「中止」検討 不正会計判明、株主理解得られないと判断 - 京都新聞デジタル",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBjVmp6d3dCZ09tYVYxUy1MamQ3cFV0MVExRXFFOGl2Mm5VeGpBVnhxdU01N2xwZWpkbUtNaVpxY3BLU1ZVcktoUWU5OTFScXllTmtBTFd1dW0?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "モーター大手・ニデックによる不正 会計に続き、品質に関する不適切行為の疑い判明 - ライブドアニュース",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XMEVCbXpEOHRackVqOXlGVkJ0V21seTB5dG4xTEFYQXBGR1dDZ0hzTmlMNEpISmxua2lpQ2N2WEcxSzg4REtOMEJCazBtaXVydmhSR005Qmo3Mk0zRHZN?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "ビープラッツ[4381]：会計監査人の異動に関するお知らせ 2026年5月14日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOEJHQThyZXNUWEQwTXhyQ1hHZl8xTWpvN2xrUzdKck95VFBoemhrdWpPTmdrT0dYbEhhZk5KRXJ0el9pMHE3azU4VHJqVnR0WXpYOGt3b1VhMXQwQ2hoQzZWWFJiZVJldUdpV1Z6NmVSQW1DM3RjRTNiaXp4Sk53Q004WDJLQ1dqSXhCb0cwakNVQ3VPd2d4enFWTnlWU0hBNUo5WWNMYlluMlg2MmhWcVY5Z2NjclJINzJRZnlNSkxSNXpSRW9nRURzUFg?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "セキ[7857]：会計監査人の異動に関するお知らせ 2026年5月14日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa0pCZHQ0M09YM01JRHZyWjloRzVNWXgwUHJYRlhyaFk4c0kyRUJQRExuMlJLaW9KNmtpYjZSUnNZblNMbmlNRUZkZUJ1YWwzVVBITGRzbTdMWWd4WE00QkpSRzMyZGszdXRaT2tjOUpWbFFKYmxsSk9YRkRDbFZkc2FXNlVWWk9mVjA0WmFWdnREQnR1aVE5VjZCdFlwV0VfZGRZRllxZ1VhTHh1ZEFXZWJvNHd0ZTg0MHZuT0trRlNIckZQYVhMUWNMWmg?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "Ｒｅｔｔｙ[7356]：2026年９月期第２四半期（中間期）決算短信〔日本基準〕(非連結) 2026年5月14日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVVlpOTJBUE90eDlQWEJ5MncxT0ZkLWt2M1IyWHN4MGgtYk9VLVJXT3VYa3hrNmRndnBDa3FCcDYwdjg4UnFkNGlHNHZwaWJxNUFjdmZ1TGJKQ3NCc2gySkxKdjNlTTltSzVidy1HLXdMUWt2eERqMTFwSEpQUTJyaUNlVGRWcmNuR0k0ZzZGaFlDTElISWk0V0tZbUpRQnFSSmtlcXlCajdmb1Z1T1Q1aHRmalJKZFlxQ0hwVEsxOE84UnZiUUhvd09kZVM?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "【セミナー】『こんな評価方法、知らなかった！実例と判決・裁決の重要エッセンスからつかむ 税理士のための「時価」の算出方法 Q&A 改訂版』出版記念オンラインセミナー開催決定！ - Koubo",
+      "source": "Google: 税理士",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmWU9uc1paUnMwVzJwU1d2M2NqT2wxTzBjQmZvdnNXeTMxaTU3OFNRYmU2MDFFYWlzWjV4M3lrOTlTUHdOUEtEY2h2QnI2VzEyM2h2eVB6dFZaSUlDV1lJ?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "「FAST財務会計」を中津市へ導入 Google Cloud環境で構築開始 - ニコニコニュース",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE05Nmp6RG43dEtQdDY0ZUNoaDlrRkoyMDJEcDhwRHN0dHBhV2toWnR3Q2oyRVYyaFRrZC1xZVNMMXNnV2FEVkVISFB2RmVOWFlyVU5MdmRpY0dZaXBUaXVNaExzcFZsSmJDN3J6eVgtSXhlYk9TWHByU05WWQ?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "Anthropicがビジネス分析・広告キャンペーン・簿記などの自動化ができる「Claude for Small Business」をリリース - GIGAZINE",
+      "source": "Google: 簿記",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KU1ZqeHZXMmY0RURKTzNMMGNEa2xVaGl5VU9nWmtnNmV0M1J3dnJBREFYU1lHQnVjUUUzZm0xNjhTem11NWVYVEtJUDFlb3gwLXJrR2hudWs0dlQ2U21TbzU4S0ZwaVRKNDA2aFBn?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "SAP、IDC MarketScape：ワールドワイド炭素会計・管理アプリケーション部門 2026年版ベンダー評価でリーダーに認定 - SAP News Center",
+      "source": "Google: 簿記",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPckVVUlctdnowbnFHMzNuOERYa19KQkYzM3pFN0ZuQlpJa1ZGX2xBMUVwWmIwcE1Ec2hUSFhZMlBlM2J6WTFrNVNtTzBraGhQNHFuZm5EeUhwYmtjU2tQY21HMkdVRkJPUjRBMXhqWnlWMTZEd0t5Qi1Ba2hmbVRqQXhnRnlQekN0aEdJZVlQdUdMRmZmNUxfZ3FPQk1IZExXbGRsQkZOOGEtOExGNkE?oc=5"
+    },
+    {
+      "topicId": "business",
+      "title": "「FAST財務会計」を中津市へ導入 Google Cloud環境で構築開始 - 愛媛新聞",
+      "source": "Google: 会計",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oVEdVNkRmUGpuTGl2S051cFd3d09fd2JqT3Nuc21hR0RWOXc4eUVwRGlPa05MVlFSYTlqdW5PT2VoNU5yLVMxS2VOdVJlWE45cGpwUGtWQ0U3NjA?oc=5"
+    }
+  ]
+}

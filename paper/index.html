@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>朝刊夕刊</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1a1a1a">
+<style>
+  :root {
+    --bg: #fbfaf6;
+    --paper: #ffffff;
+    --ink: #1a1a1a;
+    --ink-dim: #555;
+    --rule: #1a1a1a;
+    --rule-soft: #d6d3cf;
+    --accent: #b91c1c;
+    --shadow: 0 1px 3px rgba(0,0,0,.06), 0 4px 14px rgba(0,0,0,.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a1a;
+      --paper: #232323;
+      --ink: #e8e6e0;
+      --ink-dim: #a8a59f;
+      --rule: #e8e6e0;
+      --rule-soft: #3a3a3a;
+      --accent: #f87171;
+      --shadow: 0 1px 3px rgba(0,0,0,.4), 0 4px 14px rgba(0,0,0,.5);
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Noto Serif JP", "MS Mincho", serif;
+    line-height: 1.85;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "palt";
+  }
+  header.bar {
+    position: sticky;
+    top: 0;
+    background: var(--paper);
+    border-bottom: 1px solid var(--rule-soft);
+    padding: .7rem 1rem;
+    z-index: 100;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04);
+  }
+  .bar-row {
+    max-width: 720px;
+    margin: 0 auto;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .bar-title {
+    font-weight: 700;
+    margin-right: auto;
+    font-size: 1.05rem;
+    letter-spacing: .04em;
+  }
+  .tab {
+    background: transparent;
+    border: 1px solid var(--rule-soft);
+    color: var(--ink);
+    padding: .35rem .8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: .9rem;
+  }
+  .tab.active {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+  }
+  select.tab {
+    appearance: none;
+    -webkit-appearance: none;
+    padding-right: 1.6rem;
+    background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+    background-position: calc(100% - 14px) 50%, calc(100% - 9px) 50%;
+    background-size: 5px 5px;
+    background-repeat: no-repeat;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem 4rem;
+  }
+  .paper-mast {
+    text-align: center;
+    padding: 1.2rem 0 .8rem;
+    border-top: 4px double var(--rule);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 1.5rem;
+  }
+  .paper-mast .kind {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: .3em;
+    margin-bottom: .2rem;
+  }
+  .paper-mast .meta {
+    font-size: .85rem;
+    color: var(--ink-dim);
+    letter-spacing: .15em;
+  }
+  .paper-mast .meta .pub {
+    margin-left: 1rem;
+  }
+  .lead {
+    padding: 1rem 1.2rem;
+    margin: 0 0 2rem;
+    border-left: 4px solid var(--accent);
+    background: rgba(185, 28, 28, 0.04);
+    font-size: 1rem;
+    line-height: 1.95;
+  }
+  @media (prefers-color-scheme: dark) {
+    .lead { background: rgba(248, 113, 113, 0.08); }
+  }
+  .section {
+    margin: 0 0 2.4rem;
+  }
+  .section-head {
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: .55rem 0;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+  }
+  .section-mark {
+    display: inline-block;
+    width: 6px;
+    height: 1.3em;
+    background: var(--topic-color, var(--ink));
+  }
+  .section-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: .12em;
+  }
+  .section-body {
+    font-size: 1rem;
+    line-height: 2;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-indent: 1em;
+  }
+  .section-body p { margin: 0 0 .9rem; text-indent: 1em; }
+  .refs {
+    margin-top: 3rem;
+    padding-top: 1.2rem;
+    border-top: 2px solid var(--rule-soft);
+  }
+  .refs h3 {
+    font-size: .9rem;
+    margin: 0 0 .6rem;
+    letter-spacing: .15em;
+    color: var(--ink-dim);
+  }
+  .refs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: .82rem;
+    line-height: 1.7;
+  }
+  .refs li {
+    padding: .25rem 0;
+    border-bottom: 1px dotted var(--rule-soft);
+  }
+  .refs li:last-child { border-bottom: none; }
+  .refs a {
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--ink-dim);
+  }
+  .refs .src {
+    color: var(--ink-dim);
+    margin-left: .5em;
+    font-size: .76rem;
+  }
+  .empty, .loading {
+    text-align: center;
+    padding: 4rem 1rem;
+    color: var(--ink-dim);
+  }
+  @media (max-width: 600px) {
+    main { padding: 1rem .9rem 4rem; }
+    .paper-mast .kind { font-size: 1.6rem; }
+    .section-body { font-size: .95rem; line-height: 1.95; }
+    .lead { padding: .8rem 1rem; font-size: .95rem; }
+  }
+</style>
+</head>
+<body>
+<header class="bar">
+  <div class="bar-row">
+    <span class="bar-title">📰 朝刊夕刊</span>
+    <button class="tab" data-kind="morning" id="tab-morning">朝刊</button>
+    <button class="tab" data-kind="evening" id="tab-evening">夕刊</button>
+    <select class="tab" id="select-date" aria-label="日付選択"></select>
+  </div>
+</header>
+<main id="main">
+  <div class="loading">読み込み中…</div>
+</main>
+
+<script>
+const STATE = { kind: 'morning', date: null, index: null };
+
+function pad(n){return String(n).padStart(2,'0');}
+function fmtPubDate(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  const days = ['日','月','火','水','木','金','土'];
+  return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日（${days[d.getDay()]}）`;
+}
+function fmtPubTime(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return `発行 ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+function escapeHtml(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+
+async function loadIndex() {
+  const res = await fetch('../editions/index.json', { cache: 'no-cache' });
+  if (!res.ok) throw new Error('index.json取得失敗');
+  STATE.index = await res.json();
+}
+
+async function loadEdition(date, kind) {
+  const res = await fetch(`../editions/${date}-${kind}.json`, { cache: 'no-cache' });
+  if (!res.ok) throw new Error(`${date}-${kind}.json取得失敗`);
+  return res.json();
+}
+
+function buildSelectOptions() {
+  const sel = document.getElementById('select-date');
+  const dates = [...new Set(STATE.index.editions.map(e => e.date))];
+  sel.innerHTML = dates.map(d => `<option value="${escapeHtml(d)}"${d===STATE.date?' selected':''}>${escapeHtml(d)}</option>`).join('');
+}
+
+function findEdition(date, kind) {
+  return STATE.index.editions.find(e => e.date === date && e.type === kind);
+}
+
+function render(edition) {
+  const main = document.getElementById('main');
+  if (!edition) {
+    main.innerHTML = '<div class="empty">この紙面はまだありません</div>';
+    return;
+  }
+  const kindLabel = edition.type === 'evening' ? '夕刊' : '朝刊';
+  const pubDate = fmtPubDate(edition.generatedAt);
+  const pubTime = fmtPubTime(edition.generatedAt);
+  const refsByTopic = {};
+  for (const r of (edition.references || [])) {
+    if (!refsByTopic[r.topicId]) refsByTopic[r.topicId] = [];
+    refsByTopic[r.topicId].push(r);
+  }
+  const sectionsHtml = (edition.sections || []).map(s => {
+    const bodyParas = s.body.split(/\n\s*\n/).map(p => `<p>${escapeHtml(p).replace(/\n/g, '<br>')}</p>`).join('');
+    return `
+      <section class="section">
+        <div class="section-head" style="--topic-color:${escapeHtml(s.color || '#1a1a1a')}">
+          <span class="section-mark"></span>
+          <h2 class="section-title">${escapeHtml(s.topicName)}</h2>
+        </div>
+        <div class="section-body">${bodyParas}</div>
+      </section>`;
+  }).join('');
+  const refsHtml = (edition.references && edition.references.length) ? `
+    <section class="refs">
+      <h3>参考記事</h3>
+      <ul>
+        ${edition.references.map(r => `
+          <li>
+            <a href="${escapeHtml(r.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.title)}</a>
+            <span class="src">${escapeHtml(r.source || '')}</span>
+          </li>`).join('')}
+      </ul>
+    </section>` : '';
+  main.innerHTML = `
+    <div class="paper-mast">
+      <div class="kind">${kindLabel}</div>
+      <div class="meta">${pubDate}<span class="pub">${pubTime}</span></div>
+    </div>
+    ${edition.lead ? `<div class="lead">${escapeHtml(edition.lead)}</div>` : ''}
+    ${sectionsHtml || '<div class="empty">本日の${kindLabel}は準備中です</div>'}
+    ${refsHtml}
+  `;
+}
+
+async function refresh() {
+  document.getElementById('tab-morning').classList.toggle('active', STATE.kind === 'morning');
+  document.getElementById('tab-evening').classList.toggle('active', STATE.kind === 'evening');
+  const main = document.getElementById('main');
+  main.innerHTML = '<div class="loading">読み込み中…</div>';
+  const meta = findEdition(STATE.date, STATE.kind);
+  if (!meta) {
+    main.innerHTML = `<div class="empty">${STATE.date} の${STATE.kind === 'evening' ? '夕刊' : '朝刊'}はありません</div>`;
+    return;
+  }
+  try {
+    const ed = await loadEdition(STATE.date, STATE.kind);
+    render(ed);
+  } catch (e) {
+    main.innerHTML = `<div class="empty">読み込みエラー: ${escapeHtml(e.message)}</div>`;
+  }
+}
+
+async function init() {
+  try {
+    await loadIndex();
+    if (!STATE.index.editions.length) {
+      document.getElementById('main').innerHTML = '<div class="empty">まだ紙面が生成されていません</div>';
+      return;
+    }
+    const latest = STATE.index.editions[0];
+    STATE.date = latest.date;
+    STATE.kind = latest.type;
+    buildSelectOptions();
+    await refresh();
+  } catch (e) {
+    document.getElementById('main').innerHTML = `<div class="empty">起動エラー: ${escapeHtml(e.message)}</div>`;
+  }
+}
+
+document.getElementById('tab-morning').addEventListener('click', () => { STATE.kind = 'morning'; refresh(); });
+document.getElementById('tab-evening').addEventListener('click', () => { STATE.kind = 'evening'; refresh(); });
+document.getElementById('select-date').addEventListener('change', (e) => { STATE.date = e.target.value; refresh(); });
+
+init();
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+}
+</script>
+</body>
+</html>
