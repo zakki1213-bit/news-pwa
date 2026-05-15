@@ -1,43 +1,42 @@
 {
   "type": "morning",
   "date": "2026-05-16",
-  "generatedAt": "2026-05-16T00:27:53.145+09:00",
-  "lead": "本日の紙面では、教育分野における高校改革の新たな動き、AI技術の進化と社会への浸透、そして商業分野での会計処理や広報費に関する課題など、多岐にわたるニュースをお届けします。北海道からは、地域活性化に向けた取り組みや高校野球の話題も登場します。AIの進展は目覚ましく、ビジネスや生活のあらゆる場面でその影響が見られます。一方で、公的事業における広報費の使途や保存に関する指摘もあり、透明性の確保が改めて問われています。教育現場では、探究学習や不登校支援にAIやXR技術が活用され始めており、今後の展開が注目されます。",
+  "generatedAt": "2026-05-16T05:44:25.977+09:00",
+  "lead": "本日の紙面では、教育分野における高校改革の動きと、AI技術の進化が社会に与える影響に注目しました。また、商業分野では実務に役立つ知識習得の機会を提供し、北海道からは地域活性化に向けた取り組みを伝えます。",
   "topStory": {
-    "title": "マイナポイント広報費、資料不保存 会計検査院が指摘",
-    "body": "政府が約211億円を投じたマイナポイント事業の広報費について、投下媒体や量などの決定経緯に関する資料が総務省などによって適切に保存されていなかったことが、会計検査院の指摘で明らかになった。同院は、事業の透明性確保と今後の同様の事業における教訓とするため、資料の適切な保存を求めている。\n\n会計検査院は、マイナポイント事業の広報戦略とその効果について詳細な調査を実施。その過程で、事業の意思決定プロセスを検証するために不可欠な資料が、一部の担当部署で保存されていなかったことを確認した。具体的には、どのメディアにどれだけの予算を配分し、どのようなメッセージを発信したかといった詳細な記録が、後から検証できるようになっていなかったという。\n\nこの指摘に対し、総務省は「資料の管理体制に不備があった」と認めつつも、「事業の目的は達成されており、国民への周知は十分に行われた」との見解を示している。しかし、会計検査院は、将来的な行政事業の評価や説明責任を果たす上で、こうした経緯資料の保存は極めて重要であると強調。今回の件を教訓とし、各省庁に対して、公的資金を用いた事業における資料管理の徹底を求める方針だ。\n\nマイナポイント事業は、マイナンバーカードの普及促進を目的として実施され、多額の公的資金が投入された。その広報活動の効果や費用対効果については、これまでも議論があった。今回の会計検査院の指摘は、事業の執行プロセスにおける透明性や説明責任の重要性を改めて浮き彫りにした形だ。国民の税金がどのように使われ、どのような効果を生んだのかを検証できる体制の整備が、今後の行政運営において不可欠となるだろう。",
-    "topicId": "business",
-    "topicName": "商業・簿記・会計",
-    "color": "#059669",
+    "title": "高校教育改革の議論加速 ラーケーション制度も焦点",
+    "body": "文部科学省は、新たな高校教育改革に向けた策定委員会を設置した。学校教育にとどまらず、生徒が学校外での多様な学びを深める「ラーケーション」制度の導入についても、総合教育会議で活発な議論が行われている。\n\nこの改革は、変化の激しい社会に対応できる人材育成を目指すもので、従来の画一的な教育から、生徒一人ひとりの興味関心や能力に応じた柔軟な学びへと転換を図ることを目的としている。ラーケーション制度は、企業でのインターンシップやボランティア活動、美術館や博物館での学習などを単位として認定するもので、学校外での実践的な学びを単位化することで、生徒の主体的な学習意欲の向上と、社会との接点の拡大が期待されている。\n\n策定委員会では、制度導入に向けた具体的なカリキュラム設計や、評価方法、教員の役割など、多岐にわたる論点が検討される見通しだ。特に、学校と地域社会、産業界との連携をいかに強化するかが、制度成功の鍵を握るとみられている。また、全国の高校で実施される「先導拠点校」の選定も進んでおり、先進的な取り組みが全国に波及するよう、文部科学省は支援を強化する方針だ。\n\n今回の高校教育改革は、日本の将来を担う若者たちの学びのあり方を大きく変える可能性を秘めている。策定委員会の議論の行方と、ラーケーション制度の具体的な内容について、今後も注目が集まる。",
+    "topicId": "education",
+    "topicName": "教育・ICT",
+    "color": "#2563eb",
     "references": [
       {
-        "title": "政府のマイナポイント広報費（約211億円）の “投下媒体・量など決定経緯資料”を総務省などが保存せず 会計検査院「適切に保存するべき」 - TBS NEWS DIG",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9PSzBqNzZSdElEWkhKcnltcnQ3NnA1RVNLZVlzWG55UVE3Y3c0aGV0Z2JKdVI1OS15TVc5UmJGTEFzYjhDWUVLZXNVNzJ3UFNScVFIM29lOA?oc=5",
-        "source": "Google: 会計",
-        "topicId": "business"
+        "title": "高校教育改革の策定委員会が設置 学校外で学びを深める「ラーケーション」制度も議論 総合教育会議 - ｄメニューニュース",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XcnFtUnN3YUFQV0dSeWloaFBlVFAyS2d2RWM5Y1FGbnlFeWpvbGRJZmRMWjNSRUJJQnZxQlBVWG1HTTJSa1Y3SEV5V2JXZnBaVFRCTjZMbVU1amZDR1ZDVm9FOWx0ZG1HNW9CYldjVdIBdEFVX3lxTFAxTnIwcVNWV2REdkpoa05wdy1rVnVXd2l6V2VtSmJxRTRFMjF1Z0RTZEh2clc1c25rSjh2RUF3RFQyR2o3NDJCbU9uaXpiVGNWN1EwVjFzS2R1SkdBMF96Xy1PU1JfWXVPSnhVdUlaQlg4ZjVQ?oc=5",
+        "source": "Google: 高校教育",
+        "topicId": "education"
       }
-    ],
-    "ogImage": "https://newsdig.ismcdn.jp/mwimgs/a/8/1200w/img_a8a8b006251dc87999d55ddb46678164393959.jpg"
+    ]
   },
   "midStories": [
     {
-      "title": "中国企業AIモデル、一部性能でGPT超え",
-      "body": "中国のAI開発企業が、新たな大規模言語モデル「Ring-2.6-1T」を発表した。このモデルは、一部のタスクにおいて、既存の最先端モデルであるGPT-5.4を凌駕する性能を示すとされている。AI分野における国際的な競争が激化する中、中国企業の技術力が急速に向上していることを示す事例として注目が集まっている。\n\n「Ring-2.6-1T」は、膨大なデータセットを用いて学習されており、特に自然言語理解や生成能力において高い精度を発揮するという。開発企業は、このモデルが様々な産業分野での応用が期待できるとしており、今後の技術開発の方向性にも影響を与える可能性がある。\n\nGPTシリーズを開発するOpenAIをはじめ、各国のAI研究機関や企業は、さらなる高性能化を目指して開発競争を続けている。今回の中国企業の発表は、AI分野における技術的優位性を巡る国際的な動向に新たな展開をもたらすものとみられる。",
+      "title": "AI「クロード・ミュトス」協力で自民党が意見交換",
+      "body": "AI開発企業アンソロピック社の幹部が自民党本部を訪れ、同社が開発したAI「クロード・ミュトス」に関する協力について意見交換を行った。AI技術の急速な発展と、それに伴う社会への影響が国内外で議論される中、政党としてもAI技術の理解と活用に向けた動きを加速させている。\n\n意見交換では、AIの安全性や倫理的な課題、そして国内産業への応用可能性などが話し合われたとみられる。特に、高度な対話能力を持つとされるクロード・ミュトスのようなAIが、行政サービスや国民生活にどのような影響を与えるか、また、その活用にあたっての法整備やガイドラインの必要性などが議論の的となった。\n\nアンソロピック社は、AIの安全な開発と普及を目指しており、各国政府との対話を通じて、AI技術の健全な発展に向けた協力を模索している。今回の自民党との会談も、その一環として位置づけられる。AI技術は、経済成長や社会課題の解決に貢献する一方で、偽情報やプライバシー侵害などのリスクも指摘されており、官民一体となった取り組みが求められている。",
       "topicId": "ai_tech",
       "topicName": "AI・プログラミング",
       "color": "#7c3aed",
       "references": [
         {
-          "title": "中国企業のAIモデル「Ring-2.6-1T」が公開、一部エージェント性能でGPT-5.4超え - ビジネス+IT",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTVXo1MmtjSDRTdWNrZEpDZFpqYkwwNVNSbFljN1Y0VXh5bEszc1dNalpvVWQ2dEZ6NWZMMUJaVHdWMl9tcWV1NmxJRi1jb0NoQUlv?oc=5",
-          "source": "Google: 生成AI",
+          "title": "アンソロピック社幹部が自民党本部を訪問 AI「クロード・ミュトス」めぐる協力で意見交換 - FNNプライムオンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5FbkRkY0VfR21hdUU1YTFaMkZLZTYzdnRhSW9uNnJkT3Y1UDk0RXk1cXlNODlQbEpvUExZY2U5TkdyS29tT2Nad05Fa2JnZw?oc=5",
+          "source": "Google: Claude AI",
           "topicId": "ai_tech"
         }
       ]
     },
     {
-      "title": "金融庁、AIリスク対策で官民作業部会",
-      "body": "金融庁は、AI技術の急速な発展に伴うリスクに対応するため、国内外の主要AI開発企業や専門家と共に、官民作業部会を設置した。この部会では、AIが金融システムに与える潜在的な脅威や、倫理的な課題、規制のあり方などについて議論を進める。Anthropic、OpenAI、Googleといった企業が参加しており、国際的な連携も視野に入れた議論が期待される。\n\n作業部会では、AIによる市場操作、サイバーセキュリティへの影響、差別的な判断を引き起こす可能性のあるアルゴリズムなど、多岐にわたるリスク要因が検討される。また、AI技術の進展に合わせた柔軟な規制枠組みの構築や、国際的な協調体制の確立も重要なテーマとなる。\n\n金融庁は、AI技術の利便性を享受しつつ、そのリスクを適切に管理することで、健全な金融市場の維持・発展を目指すとしている。今回の官民連携による取り組みは、AI時代の金融システムのあり方を模索する上で重要な一歩となるだろう。",
+      "title": "金融庁、AIリスク対応で官民作業部会を発足",
+      "body": "金融庁は、AI技術の急速な進化に伴うリスクに対応するため、Anthropic、OpenAI、Googleなどの民間企業と連携し、官民作業部会を発足させた。AIが金融分野に与える影響は大きく、その脅威に挑むための防衛戦略が急務となっている。\n\n作業部会では、AIによる不正行為の検知や、サイバーセキュリティ対策の強化、そしてAIを活用した新たな金融サービスの開発におけるリスク管理などが議論される。特に、Claude Mythosのような高度なAIがもたらす可能性のある金融システムへの影響について、専門家たちが分析を進める。\n\n金融庁は、AI技術の利便性を享受しつつ、潜在的なリスクを最小限に抑えるための包括的な対策を講じる方針だ。官民の知見を結集し、安全で信頼性の高い金融システムの構築を目指す。",
       "topicId": "ai_tech",
       "topicName": "AI・プログラミング",
       "color": "#7c3aed",
@@ -48,12 +47,11 @@
           "source": "Google: Claude AI",
           "topicId": "ai_tech"
         }
-      ],
-      "ogImage": "https://innovatopia.jp/wp-content/uploads/2026/05/TaTsu_A_high-tech_conceptual_illustration_symbolizing_a_publi_e44ee70e-0e64-4556-a354-432f204ecd34_0.png"
+      ]
     },
     {
-      "title": "高校教育改革、静岡県立４校が拠点校に",
-      "body": "文部科学省は、高校教育改革を推進するため、全国初となる「先導拠点校」に静岡県立の４校を採択した。これらの学校は、新たな教育課程や指導方法の開発・実践をリードし、その成果を全国の高校へ普及させる役割を担う。採択されたのは、浜松工業、焼津水産、沼津東、静岡中央の４校である。\n\n今回の取り組みは、変化の激しい社会に対応できる人材育成を目指す高校教育の抜本的な見直しの一環として行われる。各拠点校は、探究学習の深化、ICT活用能力の向上、地域との連携強化などを重点課題とし、先進的な教育実践を展開していく。文科省は、これらの学校の活動を支援し、その成果を全国の教育現場に還元していく方針だ。\n\n静岡県教育委員会は、県内の高校が全国のモデルとなる機会を得たことを歓迎しており、各校と連携しながら、教育改革の推進に努めるとしている。この取り組みが、今後の日本の高校教育の質的向上にどのように貢献するかが注目される。",
+      "title": "高校教育改革、静岡県立4校が全国初の拠点校に",
+      "body": "文部科学省は、高校教育改革を推進するため、「先導拠点校」として全国で初めて静岡県立高校4校を選定した。浜松工業、焼津水産、沼津東、静岡中央の各高校が、新たな教育モデルの実践と普及を担う。\n\nこれらの拠点校は、探究学習の深化や、学校外での多様な学びを取り入れる「ラーケーション」制度の試行など、改革の最前線を担う。文部科学省は、これらの学校での取り組みを全国に共有し、教育改革の加速を目指す方針だ。\n\n選定された高校は、地域の実情や特色を生かしながら、生徒の主体性や創造性を育む教育プログラムの開発に取り組む。今回の選定は、全国の高校教育の質の向上に向けた重要な一歩となることが期待される。",
       "topicId": "education",
       "topicName": "教育・ICT",
       "color": "#2563eb",
@@ -67,26 +65,34 @@
       ]
     },
     {
-      "title": "動画生成AIのRunway、日本市場へ本格進出",
-      "body": "米国のAIスタートアップ企業Runwayは、動画生成AI技術の開発で知られる同社が、日本市場に本格進出することを発表した。CEOは、日本のクリエイティブ産業の質の高さを評価し、60億円を超える投資を行う計画を明らかにした。これにより、日本の映像制作やコンテンツ産業におけるAI技術の活用が加速すると期待される。\n\nRunwayは、テキストや画像から高品質な動画を生成するAI技術を提供しており、既に世界中のクリエイターから注目を集めている。日本市場への進出にあたり、現地のクリエイターコミュニティとの連携強化や、日本市場のニーズに合わせたサービス開発を進める方針だ。\n\n同社は、AI技術がコンテンツ制作のプロセスを革新し、新たな表現の可能性を広げると考えている。今回の日本進出が、国内の映像制作分野における技術革新や、新たなビジネスチャンスの創出につながることが期待されている。",
-      "topicId": "ai_tech",
-      "topicName": "AI・プログラミング",
-      "color": "#7c3aed",
+      "title": "実務で役立つビジネス・IT基礎知識セミナー開催",
+      "body": "6月3日（水）に、実務で役立つビジネスとITの基礎知識を学ぶ無料セミナーが開催される。Vol.1では、「企業活動の全体像がわかる ～データ・会計・DXで理解する企業のしくみ～」をテーマに、データ活用、会計、デジタルトランスフォーメーション（DX）を通じて企業の仕組みを解説する。\n\n本セミナーは、ビジネスパーソンが現代の企業活動を理解するために不可欠な知識を習得することを目的としている。特に、DXの進展やデータ活用の重要性が増す中で、企業の全体像を把握する能力は、あらゆる職種において求められている。\n\n参加者は、会計の基本から、データ分析、そしてDXが企業にもたらす変革まで、体系的に学ぶことができる。この機会を通じて、実務に直結する知識を身につけ、自身のキャリアアップに繋げることが期待される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
       "references": [
         {
-          "title": "動画生成AIのRunwayが日本進出、60億円超を投資 「日本は世界で最も洗練されたクリエイティブ産業持つ」とCEO",
-          "url": "https://www.itmedia.co.jp/aiplus/articles/2605/15/news108.html",
-          "source": "ITmedia AI+",
-          "topicId": "ai_tech"
+          "title": "6/3（水）無料セミナー「実務で使えるビジネスとITの基礎知識 Vol.1 企業活動の全体像がわかる ～データ・会計・DXで理解する企業のしくみ～」を開催 - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Ja1VuR1pZcGZSLXU4SmlBbjlIeVhpS1BzRzlaQ1FLczN4elhNei1neGJKeUM5TG4xNGV5V0NsQlgxMWlobURWYjJoVHZQX2NqOUZfcjdXMlZCRkFGSVFsU0R6QlFHbmlTcWc?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
         }
-      ],
-      "ogImage": "https://image.itmedia.co.jp/aiplus/articles/2605/15/cover_news108.jpg"
+      ]
     }
   ],
   "briefs": [
     {
-      "title": "XR・AIソリューション、教育現場を支援",
-      "body": "XR（拡張現実）やAI（人工知能）を活用した教育ソリューションが、教育現場の課題解決に貢献している。累計導入自治体数130以上の実績を持つサービスでは、不登校支援や探究学習の質の向上を目指し、新たな学びの形を提案している。",
+      "title": "高校教育改革、静岡県立4校が全国初「先導拠点校」に",
+      "body": "文部科学省は、高校教育改革を推進する「先導拠点校」として、静岡県立高校4校（浜松工業、焼津水産、沼津東、静岡中央）を全国で初めて採択した。これらの学校は、新たな教育モデルの実践と普及を担う。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1YeGVuai1lWFBDc3p3UWt0aThFQnFDX1hBU3Ezb0I0cTM2bVNlV1YzYTE4Y3ZYLUZPaFZOQVRGaHp4NGRBN3F5eGVpM2hTQQ?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "XR・AIソリューション、教育現場の課題解決に貢献",
+      "body": "「九州教育現場支援EXPO」では、XRやAIを活用した教育ソリューションが紹介された。累計130以上の自治体で導入されている不登校支援や探究学習サービスなどが、教育現場の課題解決に貢献している。",
       "topicId": "education",
       "topicName": "教育・ICT",
       "color": "#2563eb",
@@ -94,49 +100,40 @@
       "source": "Google: 探究学習"
     },
     {
-      "title": "ビジネスとIT基礎知識セミナー開催",
-      "body": "6月3日（水）に、実務で役立つビジネスとITの基礎知識に関する無料セミナーが開催される。企業活動の全体像をデータ、会計、DXの視点から理解することを目的とし、ビジネスパーソンにとって有益な情報が提供される予定だ。",
-      "topicId": "business",
-      "topicName": "商業・簿記・会計",
-      "color": "#059669",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Ja1VuR1pZcGZSLXU4SmlBbjlIeVhpS1BzRzlaQ1FLczN4elhNei1neGJKeUM5TG4xNGV5V0NsQlgxMWlobURWYjJoVHZQX2NqOUZfcjdXMlZCRkFGSVFsU0R6QlFHbmlTcWc?oc=5",
-      "source": "Google: 会計"
+      "title": "中国AIモデル「Ring-2.6-1T」公開、性能でGPT超え",
+      "body": "中国企業が開発したAIモデル「Ring-2.6-1T」が公開された。一部のエージェント性能において、GPT-5.4を上回るとされ、生成AI分野における国際的な競争が激化している。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTVXo1MmtjSDRTdWNrZEpDZFpqYkwwNVNSbFljN1Y0VXh5bEszc1dNalpvVWQ2dEZ6NWZMMUJaVHdWMl9tcWV1NmxJRi1jb0NoQUlv?oc=5",
+      "source": "Google: 生成AI"
     },
     {
-      "title": "有給休暇ルール変更、専門家が解説",
-      "body": "有給休暇に関するルールが変更される可能性について、税理士資格を持つ菅原氏が解説する。財務のプロフェッショナルが、変更内容とその影響について、分かりやすく徹底的に解説するとしている。",
+      "title": "北大、地域課題解決キャンプ開催 道外学生の旅費無料",
+      "body": "北海道大学は9月、「地域課題解決キャンプ」を開催する。道外からの参加学生の旅費と宿泊費は無料となり、地域活性化に向けた学生の取り組みを支援する。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/15/86085.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "高岡の税理士法人「ホライズン」破産開始",
+      "body": "高岡市の税理士法人「税理士法人ホライズン」が破産開始決定を受けた。負債総額は調査中。地域経済に影響を与える可能性がある。",
       "topicId": "business",
       "topicName": "商業・簿記・会計",
       "color": "#059669",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRbGxlZll1NWpYRGdLck5naFUwY0RQQ09CSVBFM1ItV0JoOF9lV0JGdENLNVhqRWxrRW5YcHU0WTREaklQOWVkem1FWVZYZkJ2RUh3UENxdXVZcVEyMTVr?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFVzY0RTBWTFlhcGNHR0V4TVhhd3kwUXNVeEhsMjNQb1laWFJRZVNIWW9vZHA2QloxdWk2RFV3S2JMbG1fRkRkbnR0QQ?oc=5",
       "source": "Google: 税理士"
     },
     {
-      "title": "ニデック、不正会計の調査報告書公表",
-      "body": "ニデックは、不正会計問題に関する第三者調査委員会がまとめた調査報告書を公表した。報告書では、不正の経緯や原因、再発防止策などについて詳細が記されているとみられる。",
-      "topicId": "business",
-      "topicName": "商業・簿記・会計",
-      "color": "#059669",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RR1dxd0tTUEhSYzlxSHZVb0RCd1pNdVBzNEttNHNlRmJSUzJKMnJPZ0NKcllVemhwWXF6RjF6bVZUMWl2SEc3Q2xhVXJiVFZvaVNGOTg3U2U0YTZNQ0lpaDNSc3hhR0dCZ2Ytb3VNa3A?oc=5",
-      "source": "Google: 会計"
-    },
-    {
-      "title": "高校改革モデルケース、北海道内4校申請",
-      "body": "北海道内の4校が、文部科学省が進める高校教育改革のモデルケースとなるべく、先導拠点校への申請を行った。道教委は、これらの学校が地域や社会のニーズに応じた教育を推進していくことを期待している。",
+      "title": "春の高校野球・旭川支部予選 旭東・旭明成が決定戦へ",
+      "body": "春の高校野球・旭川支部予選で、旭東高校と旭明成高校が勝利し、支部代表決定戦に進出した。熱戦が繰り広げられている。",
       "topicId": "hokkaido",
       "topicName": "北海道ローカル",
       "color": "#dc2626",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBOQWxYZ1N3TWdUc0RCS1NSV19HQ2lxQ24tQmVGVGViZ19QdDFXRVQyRml6eHZYdW4zT1hMNTdfZW1NMDZDbUt2cXdfRDdsU0hXX296OTVDdFlKUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8tZVpHb1U0VVc0YjVXUURsNkFNTUxmLWNNUEJLd25GN1FDMm9Wcm1VTWVfTExJckFMSER0dlVPVTZqZ1BWR044NDlyc2l3UGRadV9mSWxxdDZWaGI4LXZBTzN6MVVIN1ozN25ma3AxMzl3ZkdpQWk0UlpabVLSAYIBQVVfeXFMTVlvbDBuQnNxR3VNTTUxbVZMeFdHN3BFanRwRjFISUpOZnVmOTZqQXM1ckFYMlppWkdlaWtsdjdTRkRJYk1IYjN3S2tJUFB2TGxyUE9maTBZZGo1ekRGLWtjYWt3NERUdnZKYWs3al9La2dmSk1xd0ZPN3RVWnJtVkJlUQ?oc=5",
       "source": "Google: 北海道 高校"
-    },
-    {
-      "title": "オホーツクで今年初の猛暑日記録",
-      "body": "北海道オホーツク地方の美幌町では、29.6℃を記録し、今年全国で初めての猛暑日となった。一方、札幌では三吉神社例大祭が開催され、伝統的なみこしが街を彩った。週末は過ごしやすい陽気になる見込み。",
-      "topicId": "hokkaido",
-      "topicName": "北海道ローカル",
-      "color": "#dc2626",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41OGtxeXBKTmNyTUEwa3BDZUtwbUd2Y0xDcEU1WlhDMDFEajZqVDhUQ2s0Slo0OWJWSk91aXZ5NWs3ZzQxWHBZeldkQ0pXRXkzZlJPQV9UOA?oc=5",
-      "source": "Google: オホーツク"
     }
   ]
 }
