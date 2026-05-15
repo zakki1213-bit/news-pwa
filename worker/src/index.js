@@ -47,6 +47,11 @@ export default {
       return json({ error: 'invalid_json' }, 400, cors);
     }
 
+    // OG画像だけ取得（Gemini呼ばない、軽量）
+    if (body.type === 'fetch_meta') {
+      return await handleFetchMeta(body, env, cors);
+    }
+
     // 紙面生成API（新聞紙面型）
     if (body.type === 'edition_oneshot') {
       return await handleEditionOneshot(body, env, cors);
@@ -260,11 +265,40 @@ function extractMainContent(html) {
   return text;
 }
 
+// ===== fetch_meta: OG画像のみ取得（Geminiを呼ばない軽量版） =====
+
+async function handleFetchMeta(body, env, cors) {
+  const { url } = body;
+  if (!url || typeof url !== 'string' || !/^https?:\/\//.test(url)) {
+    return json({ ok: false, message: 'invalid_url' }, 400, cors);
+  }
+  try {
+    const isGoogleNews = /^https?:\/\/news\.google\.com\//.test(url);
+    const resolvedUrl = await resolveGoogleNewsUrl(url);
+    const resolvedOk = (resolvedUrl !== url);
+    const res = await fetchWithTimeout(resolvedUrl, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'ja,en;q=0.5',
+      },
+      redirect: 'follow',
+    });
+    if (!res.ok) return json({ ok: false, message: `HTTP ${res.status}` }, 200, cors);
+    const html = await res.text();
+    const skipOg = isGoogleNews && !resolvedOk;
+    const ogImage = skipOg ? null : extractOgImage(html, res.url || resolvedUrl);
+    return json({ ok: true, ogImage, resolvedUrl: resolvedOk ? resolvedUrl : null }, 200, cors);
+  } catch (err) {
+    return json({ ok: false, message: (err && err.message) || String(err) }, 200, cors);
+  }
+}
+
 // ===== 紙面（新聞紙面型・朝刊・夕刊）生成 =====
 
 // 単一コールで紙面全体を生成（curate+writeup+lead を1回で）
 async function handleEditionOneshot(body, env, cors) {
-  const { articles, kind, date } = body;
+  const { articles, kind, date, preferences } = body;
   if (!Array.isArray(articles) || articles.length === 0) {
     return json({ ok: false, message: 'articlesが必要です' }, 400, cors);
   }
@@ -273,6 +307,25 @@ async function handleEditionOneshot(body, env, cors) {
   const list = articles.map((a, i) =>
     `[${i}] ${a.title} | ${a.topicName || '-'} | ${a.source || '-'} | ${(a.snippet || '').slice(0, 150)}`
   ).join('\n');
+
+  // 好み傾向のフォーマット
+  let prefSection = '';
+  if (preferences && typeof preferences === 'object') {
+    const fmt = (obj) => Object.entries(obj || {})
+      .filter(([, v]) => v !== 0)
+      .sort((a, b) => Math.abs(b[1]) - Math.abs(a[1]))
+      .slice(0, 12)
+      .map(([k, v]) => `${k}(${v > 0 ? '+' : ''}${v})`)
+      .join(', ');
+    const topicPref = fmt(preferences.topics);
+    const sourcePref = fmt(preferences.sources);
+    if (topicPref || sourcePref) {
+      prefSection = `\n読者の好み傾向（過去評価より。+は好む、−は興味薄め）：
+${topicPref ? `- トピック: ${topicPref}` : ''}
+${sourcePref ? `- 出典: ${sourcePref}` : ''}
+強い好みは top/mid の選定で優先し、興味薄めは briefs か除外を検討。ただし極端に偏らせず、紙面のバランスも保つこと。\n`;
+    }
+  }
 
   const prompt = `あなたは新聞の編集者です。${date} ${editionLabel}の紙面を作ってください。
 
@@ -298,7 +351,7 @@ async function handleEditionOneshot(body, env, cors) {
 - 「以下〜」「本稿では〜」のような枕詞は不要
 
 各選定記事は articleIdx で素材リストの番号 [0]〜[${articles.length - 1}] を指してください。
-
+${prefSection}
 記事リスト：
 ${list}`;
 

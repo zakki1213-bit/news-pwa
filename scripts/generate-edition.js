@@ -59,6 +59,18 @@ function makeRef(a) {
   return { title: a.title, url: a.url, source: a.source, topicId: a.topicId };
 }
 
+function aggregatePreferences(votes) {
+  const topics = {};
+  const sources = {};
+  for (const v of Object.values(votes || {})) {
+    const sign = v.vote === 'up' ? 1 : (v.vote === 'down' ? -1 : 0);
+    if (!sign) continue;
+    if (v.topicName) topics[v.topicName] = (topics[v.topicName] || 0) + sign;
+    if (v.source)    sources[v.source]   = (sources[v.source]   || 0) + sign;
+  }
+  return { topics, sources };
+}
+
 async function main() {
   const { dateStr, jst } = nowJSTParts();
   const editionLabel = KIND === 'evening' ? '夕刊' : '朝刊';
@@ -90,9 +102,22 @@ async function main() {
     topicName: a.topicName,
   }));
 
+  // 投票履歴から好み集計
+  let preferences = null;
+  try {
+    const vraw = await fs.readFile('paper/votes.json', 'utf8');
+    const vdata = JSON.parse(vraw);
+    preferences = aggregatePreferences(vdata.votes || {});
+    const tCount = Object.keys(preferences.topics).length;
+    const sCount = Object.keys(preferences.sources).length;
+    console.log(`好み集計: トピック${tCount}件、出典${sCount}件の評価`);
+  } catch {
+    console.log('好み: votes.jsonなし（フラットに生成）');
+  }
+
   // 一括生成
   const res = await callWorkerWithRetry(
-    { type: 'edition_oneshot', kind: KIND, date: dateStr, articles: articlesForApi },
+    { type: 'edition_oneshot', kind: KIND, date: dateStr, articles: articlesForApi, preferences },
     `紙面一括生成（候補${articlesForApi.length}件）`
   );
 
@@ -138,6 +163,27 @@ async function main() {
       source: a.source,
     };
   }).filter(Boolean);
+
+  // 写真取得（top + mid のOG画像を並列）
+  console.log('→ OG画像取得（top + mid）');
+  async function fetchOg(url) {
+    if (!url) return null;
+    try {
+      const r = await callWorkerOnce({ type: 'fetch_meta', url });
+      return r.ok ? r.ogImage : null;
+    } catch { return null; }
+  }
+  const ogPromises = [];
+  if (topStory && topArticle?.url) {
+    ogPromises.push(fetchOg(topArticle.url).then((og) => { if (og) topStory.ogImage = og; }));
+  }
+  midStories.forEach((m, i) => {
+    const a = candidates[(res.mid || [])[i]?.articleIdx];
+    if (a?.url) ogPromises.push(fetchOg(a.url).then((og) => { if (og) m.ogImage = og; }));
+  });
+  await Promise.all(ogPromises);
+  const ogCount = (topStory?.ogImage ? 1 : 0) + midStories.filter((m) => m.ogImage).length;
+  console.log(`  OG画像取得: ${ogCount}/${ogPromises.length}件`);
 
   const edition = {
     type: KIND,

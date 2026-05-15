@@ -157,6 +157,24 @@
     margin: .4rem 0 1.2rem;
     letter-spacing: .02em;
   }
+  .top-hero {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    background: var(--rule-soft);
+    margin: 0 0 1.3rem;
+    display: block;
+    border-radius: 2px;
+  }
+  .mid-thumb {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    background: var(--rule-soft);
+    margin-bottom: .65rem;
+    display: block;
+    border-radius: 2px;
+  }
   .top-story .body {
     font-size: 1.02rem;
     line-height: 2;
@@ -291,6 +309,128 @@
     margin-left: .4rem;
   }
 
+  /* 投票ボタン */
+  .vote-row {
+    display: flex;
+    gap: .4rem;
+    margin-top: 1rem;
+    padding-top: .7rem;
+    border-top: 1px dotted var(--rule-soft);
+    align-items: center;
+  }
+  .vote-row.compact { margin-top: .4rem; padding-top: .3rem; border-top: none; }
+  .vote-btn {
+    background: var(--paper);
+    border: 1px solid var(--rule-soft);
+    color: var(--ink-dim);
+    border-radius: 999px;
+    padding: .3rem .8rem;
+    cursor: pointer;
+    font-size: .82rem;
+    font-family: inherit;
+    transition: all .15s;
+    display: inline-flex;
+    align-items: center;
+    gap: .25rem;
+  }
+  .vote-btn:hover { color: var(--ink); border-color: var(--ink); }
+  .vote-btn.up.active { background: rgba(5, 150, 105, .12); border-color: #059669; color: #059669; }
+  .vote-btn.down.active { background: rgba(220, 38, 38, .12); border-color: #dc2626; color: #dc2626; }
+  .vote-status {
+    margin-left: auto;
+    font-size: .72rem;
+    color: var(--ink-light);
+  }
+  /* 設定モーダル */
+  .modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal-box {
+    background: var(--paper);
+    color: var(--ink);
+    border-radius: 8px;
+    max-width: 480px;
+    width: 100%;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,.3);
+  }
+  .modal-head {
+    padding: .9rem 1.1rem;
+    border-bottom: 1px solid var(--rule-soft);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .modal-head h2 { margin: 0; font-size: 1.05rem; font-weight: 700; }
+  .modal-close {
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: var(--ink-dim);
+    padding: 0 .25rem;
+  }
+  .modal-body {
+    padding: 1rem 1.1rem;
+    overflow-y: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+    line-height: 1.6;
+  }
+  .modal-body label { display: block; font-size: .85rem; font-weight: 500; color: var(--ink-dim); margin-bottom: .3rem; }
+  .modal-body input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: .55rem .7rem;
+    border: 1px solid var(--rule-soft);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--ink);
+    font-size: .92rem;
+    font-family: inherit;
+  }
+  .modal-body p { font-size: .82rem; color: var(--ink-dim); line-height: 1.6; margin: .5rem 0; }
+  .modal-body .help { font-size: .78rem; line-height: 1.6; }
+  .modal-foot {
+    padding: .8rem 1.1rem;
+    border-top: 1px solid var(--rule-soft);
+    display: flex;
+    gap: .5rem;
+    justify-content: flex-end;
+  }
+  .btn-primary {
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    padding: .5rem 1.2rem;
+    border-radius: 6px;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: .9rem;
+  }
+  .btn-secondary {
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid var(--rule-soft);
+    padding: .5rem 1.2rem;
+    border-radius: 6px;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: .9rem;
+  }
+  .status-line { font-size: .8rem; margin: .6rem 0; color: var(--ink-dim); }
+  .status-line.ok { color: #059669; }
+  .status-line.err { color: #dc2626; }
   .empty, .loading {
     text-align: center;
     padding: 4rem 1rem;
@@ -314,14 +454,53 @@
     <button class="tab" data-kind="morning" id="tab-morning">朝刊</button>
     <button class="tab" data-kind="evening" id="tab-evening">夕刊</button>
     <select class="tab" id="select-date" aria-label="日付選択"></select>
+    <button class="tab" id="settings-open" aria-label="設定" title="設定">⚙</button>
   </div>
 </header>
 <main id="main">
   <div class="loading">読み込み中…</div>
 </main>
 
+<!-- 設定モーダル -->
+<div class="modal-backdrop" id="settings-modal">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h2>設定</h2>
+      <button class="modal-close" id="settings-close" aria-label="閉じる">×</button>
+    </div>
+    <div class="modal-body">
+      <p class="help">👍/👎の投票をリポジトリ（paper/votes.json）に保存して、次回以降の紙面生成に反映させます。</p>
+      <p class="help">必要な権限：<a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener">トークン設定を開く</a> →
+        Repository accessは zakki1213-bit/news-pwa を選択、 Repository permissions → <strong>Contents: Read and write</strong> を有効に。</p>
+      <div style="margin-top:.8rem">
+        <label for="gh-token">GitHubトークン</label>
+        <input type="password" id="gh-token" placeholder="github_pat_..." autocomplete="off">
+      </div>
+      <p class="status-line" id="sync-status">未接続</p>
+    </div>
+    <div class="modal-foot">
+      <button class="btn-secondary" id="sync-now-btn">いま同期</button>
+      <button class="btn-primary" id="settings-save">保存</button>
+    </div>
+  </div>
+</div>
+
 <script>
-const STATE = { kind: 'morning', date: null, index: null };
+const REPO_OWNER = 'zakki1213-bit';
+const REPO_NAME = 'news-pwa';
+const VOTES_PATH = 'paper/votes.json';
+const VOTES_LOCAL_KEY = 'paper.votes';
+const TOKEN_LOCAL_KEY = 'paper.token';
+const SYNC_DEBOUNCE_MS = 8000;
+
+const STATE = {
+  kind: 'morning',
+  date: null,
+  index: null,
+  votes: {},          // url -> { vote, title, topicId, topicName, source, votedAt }
+  votesSha: null,     // remote sha for paper/votes.json
+  token: '',
+};
 
 function pad(n){return String(n).padStart(2,'0');}
 function fmtPubDate(iso) {
@@ -336,6 +515,131 @@ function fmtPubTime(iso) {
   return `発行 ${pad(d.getHours())}:${pad(d.getMinutes())}`;
 }
 function escapeHtml(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+
+// ==================== 投票・設定 ====================
+function loadVotesLocal() {
+  try { return JSON.parse(localStorage.getItem(VOTES_LOCAL_KEY) || '{}'); } catch { return {}; }
+}
+function saveVotesLocal() {
+  localStorage.setItem(VOTES_LOCAL_KEY, JSON.stringify(STATE.votes));
+}
+STATE.votes = loadVotesLocal();
+STATE.token = localStorage.getItem(TOKEN_LOCAL_KEY) || '';
+
+function utf8ToBase64(s) { return btoa(unescape(encodeURIComponent(s))); }
+function base64ToUtf8(b) { return decodeURIComponent(escape(atob(b.replace(/\s/g, '')))); }
+
+async function ghFetch(path, opts = {}) {
+  const headers = {
+    'Accept': 'application/vnd.github+json',
+    'Authorization': `Bearer ${STATE.token}`,
+    'X-GitHub-Api-Version': '2022-11-28',
+    ...(opts.headers || {}),
+  };
+  const res = await fetch(`https://api.github.com${path}`, { ...opts, headers });
+  if (!res.ok) throw new Error(`GitHub API ${res.status}`);
+  return res.json();
+}
+
+async function loadVotesFromRepo() {
+  if (!STATE.token) return;
+  try {
+    const data = await ghFetch(`/repos/${REPO_OWNER}/${REPO_NAME}/contents/${VOTES_PATH}`);
+    STATE.votesSha = data.sha;
+    const remote = JSON.parse(base64ToUtf8(data.content));
+    if (remote && remote.votes) {
+      for (const [url, v] of Object.entries(remote.votes)) {
+        const local = STATE.votes[url];
+        if (!local || (v.votedAt || 0) > (local.votedAt || 0)) STATE.votes[url] = v;
+      }
+      saveVotesLocal();
+    }
+    setSyncStatus('ok', `読込完了 ${new Date().toLocaleTimeString('ja-JP')}`);
+  } catch (err) {
+    if (/\b404\b/.test(err.message)) {
+      STATE.votesSha = null;
+      setSyncStatus('', '初回（リポジトリにvotes.jsonなし）');
+    } else {
+      setSyncStatus('err', '読込エラー: ' + err.message);
+    }
+  }
+}
+
+async function saveVotesToRepo() {
+  if (!STATE.token) return;
+  try {
+    setSyncStatus('', '同期中…');
+    const content = JSON.stringify({
+      modifiedAt: new Date().toISOString(),
+      votes: STATE.votes,
+    }, null, 2) + '\n';
+    const body = {
+      message: 'Update paper/votes.json from PWA',
+      content: utf8ToBase64(content),
+    };
+    if (STATE.votesSha) body.sha = STATE.votesSha;
+    const res = await ghFetch(`/repos/${REPO_OWNER}/${REPO_NAME}/contents/${VOTES_PATH}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body),
+    });
+    STATE.votesSha = res.content?.sha || STATE.votesSha;
+    setSyncStatus('ok', `同期完了 ${new Date().toLocaleTimeString('ja-JP')}`);
+  } catch (err) {
+    if (/\b409\b/.test(err.message)) {
+      // sha競合 → 再読込してマージ後リトライ
+      await loadVotesFromRepo();
+      try {
+        const content = JSON.stringify({ modifiedAt: new Date().toISOString(), votes: STATE.votes }, null, 2) + '\n';
+        await ghFetch(`/repos/${REPO_OWNER}/${REPO_NAME}/contents/${VOTES_PATH}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: 'Update paper/votes.json (merged)', content: utf8ToBase64(content), sha: STATE.votesSha }),
+        });
+        setSyncStatus('ok', `同期完了（マージ） ${new Date().toLocaleTimeString('ja-JP')}`);
+      } catch (e2) {
+        setSyncStatus('err', '同期エラー: ' + e2.message);
+      }
+    } else {
+      setSyncStatus('err', '同期エラー: ' + err.message);
+    }
+  }
+}
+
+let SYNC_TIMER = null;
+function scheduleSync() {
+  if (!STATE.token) return;
+  clearTimeout(SYNC_TIMER);
+  SYNC_TIMER = setTimeout(() => { saveVotesToRepo().catch(() => {}); }, SYNC_DEBOUNCE_MS);
+}
+
+function setSyncStatus(cls, text) {
+  const el = document.getElementById('sync-status');
+  if (!el) return;
+  el.className = 'status-line ' + (cls || '');
+  el.textContent = text;
+}
+
+function voteFor(item, dir) {
+  if (!item || !item.url) return;
+  const cur = STATE.votes[item.url];
+  if (cur && cur.vote === dir) {
+    delete STATE.votes[item.url];
+  } else {
+    STATE.votes[item.url] = {
+      vote: dir,
+      title: item.title || '',
+      topicId: item.topicId || '',
+      topicName: item.topicName || '',
+      source: item.source || (item.references && item.references[0] && item.references[0].source) || '',
+      votedAt: Date.now(),
+    };
+  }
+  saveVotesLocal();
+  scheduleSync();
+}
+
+function getVoteState(url) { return STATE.votes[url]?.vote || null; }
 function toParagraphs(text) {
   const parts = String(text || '').split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
   return parts.map(p => `<p>${escapeHtml(p).replace(/\n/g, '<br>')}</p>`).join('');
@@ -360,8 +664,21 @@ function findEdition(date, kind) {
   return STATE.index.editions.find(e => e.date === date && e.type === kind);
 }
 
+function voteRow(url, opts = {}) {
+  const v = getVoteState(url);
+  const cls = opts.compact ? ' compact' : '';
+  return `<div class="vote-row${cls}">
+    <button class="vote-btn up${v === 'up' ? ' active' : ''}" data-action="vote-up" data-url="${escapeHtml(url)}" type="button">👍 いいね</button>
+    <button class="vote-btn down${v === 'down' ? ' active' : ''}" data-action="vote-down" data-url="${escapeHtml(url)}" type="button">👎 興味ない</button>
+  </div>`;
+}
+
 function renderTopStory(t) {
   if (!t) return '';
+  const hero = t.ogImage
+    ? `<img class="top-hero" src="${escapeHtml(t.ogImage)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
+    : '';
+  const url = (t.references && t.references[0] && t.references[0].url) || '';
   return `
     <section class="top-story" style="--topic-color:${escapeHtml(t.color || '#1a1a1a')}">
       <div>
@@ -369,19 +686,28 @@ function renderTopStory(t) {
         <span class="top-topic">${escapeHtml(t.topicName || '')}</span>
       </div>
       <h1>${escapeHtml(t.title)}</h1>
+      ${hero}
       <div class="body">${toParagraphs(t.body)}</div>
+      ${url ? voteRow(url) : ''}
     </section>`;
 }
 function renderMidSection(arr) {
   if (!arr || !arr.length) return '';
-  const items = arr.map(s => `
+  const items = arr.map(s => {
+    const thumb = s.ogImage
+      ? `<img class="mid-thumb" src="${escapeHtml(s.ogImage)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`
+      : '';
+    const url = (s.references && s.references[0] && s.references[0].url) || '';
+    return `
     <article class="mid-story" style="--topic-color:${escapeHtml(s.color || '#1a1a1a')}">
+      ${thumb}
       <div class="topic">${escapeHtml(s.topicName || '')}</div>
       <h2>${escapeHtml(s.title)}</h2>
       <div class="body">${toParagraphs(s.body)}</div>
-      ${(s.references && s.references[0]) ? `<a class="ref-link" href="${escapeHtml(s.references[0].url)}" target="_blank" rel="noopener noreferrer">▸ ${escapeHtml(s.references[0].source || '元記事')}</a>` : ''}
-    </article>
-  `).join('');
+      ${url ? `<a class="ref-link" href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">▸ ${escapeHtml(s.references[0].source || '元記事')}</a>` : ''}
+      ${url ? voteRow(url, { compact: true }) : ''}
+    </article>`;
+  }).join('');
   return `
     <section class="mid-section">
       <div class="mid-section-head">中段</div>
@@ -397,6 +723,7 @@ function renderBriefs(arr) {
         <h3><a href="${escapeHtml(b.url || '#')}" target="_blank" rel="noopener noreferrer">${escapeHtml(b.title)}</a><span class="src">${escapeHtml(b.source || '')}</span></h3>
       </div>
       <p class="body">${escapeHtml(b.body)}</p>
+      ${b.url ? voteRow(b.url, { compact: true }) : ''}
     </div>
   `).join('');
   return `
@@ -406,7 +733,9 @@ function renderBriefs(arr) {
     </section>`;
 }
 
+let CURRENT_EDITION = null;
 function render(edition) {
+  CURRENT_EDITION = edition;
   const main = document.getElementById('main');
   if (!edition) { main.innerHTML = '<div class="empty">この紙面はまだありません</div>'; return; }
   const kindLabel = edition.type === 'evening' ? '夕刊' : '朝刊';
@@ -468,7 +797,82 @@ document.getElementById('tab-morning').addEventListener('click', () => { STATE.k
 document.getElementById('tab-evening').addEventListener('click', () => { STATE.kind = 'evening'; refresh(); });
 document.getElementById('select-date').addEventListener('change', (e) => { STATE.date = e.target.value; refresh(); });
 
+// 投票ボタンクリック処理（イベント委譲）
+document.getElementById('main').addEventListener('click', (e) => {
+  const btn = e.target.closest('[data-action^="vote-"]');
+  if (!btn) return;
+  e.preventDefault();
+  const url = btn.dataset.url;
+  const dir = btn.dataset.action === 'vote-up' ? 'up' : 'down';
+  // 該当の記事情報を見つける（render時の data 構造から）
+  const article = findArticleByUrl(url);
+  if (!article) return;
+  voteFor(article, dir);
+  // ボタン見た目更新（再render不要な軽量版）
+  btn.closest('.vote-row').querySelectorAll('.vote-btn').forEach((b) => b.classList.remove('active'));
+  const v = getVoteState(url);
+  if (v) {
+    const targetBtn = btn.closest('.vote-row').querySelector(`.vote-btn.${v}`);
+    if (targetBtn) targetBtn.classList.add('active');
+  }
+});
+
+function findArticleByUrl(url) {
+  if (!CURRENT_EDITION) return null;
+  const t = CURRENT_EDITION.topStory;
+  if (t && t.references && t.references[0] && t.references[0].url === url) {
+    return { url, title: t.title, topicId: t.topicId, topicName: t.topicName, source: t.references[0].source };
+  }
+  for (const m of (CURRENT_EDITION.midStories || [])) {
+    if (m.references && m.references[0] && m.references[0].url === url) {
+      return { url, title: m.title, topicId: m.topicId, topicName: m.topicName, source: m.references[0].source };
+    }
+  }
+  for (const b of (CURRENT_EDITION.briefs || [])) {
+    if (b.url === url) {
+      return { url, title: b.title, topicId: b.topicId, topicName: b.topicName, source: b.source };
+    }
+  }
+  return null;
+}
+
+// 設定モーダル
+function openSettings() {
+  document.getElementById('gh-token').value = STATE.token || '';
+  if (STATE.token) setSyncStatus('', '接続済み（同期可）');
+  else setSyncStatus('', '未接続');
+  document.getElementById('settings-modal').classList.add('open');
+}
+function closeSettings() { document.getElementById('settings-modal').classList.remove('open'); }
+document.getElementById('settings-open').addEventListener('click', openSettings);
+document.getElementById('settings-close').addEventListener('click', closeSettings);
+document.getElementById('settings-modal').addEventListener('click', (e) => {
+  if (e.target.id === 'settings-modal') closeSettings();
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && document.getElementById('settings-modal').classList.contains('open')) closeSettings();
+});
+document.getElementById('settings-save').addEventListener('click', async () => {
+  const t = document.getElementById('gh-token').value.trim();
+  STATE.token = t;
+  if (t) {
+    localStorage.setItem(TOKEN_LOCAL_KEY, t);
+    await loadVotesFromRepo();
+    await saveVotesToRepo();
+  } else {
+    localStorage.removeItem(TOKEN_LOCAL_KEY);
+    setSyncStatus('', '未接続');
+  }
+});
+document.getElementById('sync-now-btn').addEventListener('click', async () => {
+  if (!STATE.token) { setSyncStatus('err', 'トークン未設定'); return; }
+  await loadVotesFromRepo();
+  await saveVotesToRepo();
+  refresh();
+});
+
 init();
+if (STATE.token) loadVotesFromRepo().catch(() => {});
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
