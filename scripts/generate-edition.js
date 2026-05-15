@@ -170,20 +170,25 @@ async function main() {
     if (!url) return null;
     try {
       const r = await callWorkerOnce({ type: 'fetch_meta', url });
-      return r.ok ? r.ogImage : null;
+      return (r && r.ok) ? (r.ogImage || null) : null;
     } catch { return null; }
   }
-  const ogPromises = [];
-  if (topStory && topArticle?.url) {
-    ogPromises.push(fetchOg(topArticle.url).then((og) => { if (og) topStory.ogImage = og; }));
-  }
+  // 並列フェッチ → 結果を配列で受け取り → 同期的に代入
+  const ogUrls = [];
+  ogUrls.push(topStory && topArticle?.url ? topArticle.url : null);
   midStories.forEach((m, i) => {
     const a = candidates[(res.mid || [])[i]?.articleIdx];
-    if (a?.url) ogPromises.push(fetchOg(a.url).then((og) => { if (og) m.ogImage = og; }));
+    ogUrls.push(a?.url || null);
   });
-  await Promise.all(ogPromises);
-  const ogCount = (topStory?.ogImage ? 1 : 0) + midStories.filter((m) => m.ogImage).length;
-  console.log(`  OG画像取得: ${ogCount}/${ogPromises.length}件`);
+  const ogResults = await Promise.all(ogUrls.map((u) => u ? fetchOg(u) : Promise.resolve(null)));
+  // 代入
+  if (topStory && ogResults[0]) topStory.ogImage = ogResults[0];
+  for (let i = 0; i < midStories.length; i++) {
+    const og = ogResults[i + 1];
+    if (og) midStories[i].ogImage = og;
+  }
+  const ogCount = ogResults.filter(Boolean).length;
+  console.log(`  OG画像取得: ${ogCount}/${ogUrls.filter(Boolean).length}件 (top=${!!ogResults[0]})`);
 
   const edition = {
     type: KIND,

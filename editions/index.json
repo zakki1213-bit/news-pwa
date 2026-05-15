@@ -3,7 +3,11 @@
     {
       "type": "morning",
       "date": "2026-05-16",
+<<<<<<< Updated upstream
       "generatedAt": "2026-05-16T00:18:07.066+09:00",
+=======
+      "generatedAt": "2026-05-16T00:18:25.851+09:00",
+>>>>>>> Stashed changes
       "file": "2026-05-16-morning.json"
     },
     {
