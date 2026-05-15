@@ -48,6 +48,9 @@ export default {
     }
 
     // 紙面生成API（新聞紙面型）
+    if (body.type === 'edition_oneshot') {
+      return await handleEditionOneshot(body, env, cors);
+    }
     if (body.type === 'edition_curate') {
       return await handleEditionCurate(body, env, cors);
     }
@@ -258,6 +261,100 @@ function extractMainContent(html) {
 }
 
 // ===== 紙面（新聞紙面型・朝刊・夕刊）生成 =====
+
+// 単一コールで紙面全体を生成（curate+writeup+lead を1回で）
+async function handleEditionOneshot(body, env, cors) {
+  const { articles, kind, date } = body;
+  if (!Array.isArray(articles) || articles.length === 0) {
+    return json({ ok: false, message: 'articlesが必要です' }, 400, cors);
+  }
+  const editionLabel = kind === 'evening' ? '夕刊' : '朝刊';
+
+  const list = articles.map((a, i) =>
+    `[${i}] ${a.title} | ${a.topicName || '-'} | ${a.source || '-'} | ${(a.snippet || '').slice(0, 150)}`
+  ).join('\n');
+
+  const prompt = `あなたは新聞の編集者です。${date} ${editionLabel}の紙面を作ってください。
+
+以下のニュース記事リストから記事を選んで、それぞれ見出しと本文を書きます。
+
+紙面構成：
+- top: 一面トップ 1本（最も重要・話題性の高い記事を大きく扱う）、本文 600〜900字 / 4〜5段落
+- mid: 中段 4本（注目記事）、本文 各 250〜350字 / 2〜3段落
+- briefs: ベタ 6本（押さえておくべき記事）、本文 各 80〜120字 / 1段落
+- lead: 編集後記 80〜120字 / 1段落（紙面全体を俯瞰した導入文）
+
+選定基準：
+- 公共性・社会的影響度・速報性
+- 教育・商業・AI・北海道の各分野からバランスよく
+- 同種・類似ニュースは1本に絞る
+- top / mid / briefs で重複しない
+
+執筆ルール：
+- 見出しは30字以内、新聞らしい簡潔な表現（センセーショナルにしない）
+- 本文の段落間は空行（\\n\\n）で区切る
+- 数値や固有名詞は素材から正確に拾う、推測で補わない
+- 客観的な文体、箇条書き不可、伝聞語（〜とのこと等）避ける
+- 「以下〜」「本稿では〜」のような枕詞は不要
+
+各選定記事は articleIdx で素材リストの番号 [0]〜[${articles.length - 1}] を指してください。
+
+記事リスト：
+${list}`;
+
+  const schema = {
+    type: 'OBJECT',
+    properties: {
+      lead: { type: 'STRING' },
+      top: {
+        type: 'OBJECT',
+        properties: {
+          articleIdx: { type: 'INTEGER' },
+          title: { type: 'STRING' },
+          body: { type: 'STRING' },
+        },
+        required: ['articleIdx', 'title', 'body'],
+      },
+      mid: {
+        type: 'ARRAY',
+        items: {
+          type: 'OBJECT',
+          properties: {
+            articleIdx: { type: 'INTEGER' },
+            title: { type: 'STRING' },
+            body: { type: 'STRING' },
+          },
+          required: ['articleIdx', 'title', 'body'],
+        },
+      },
+      briefs: {
+        type: 'ARRAY',
+        items: {
+          type: 'OBJECT',
+          properties: {
+            articleIdx: { type: 'INTEGER' },
+            title: { type: 'STRING' },
+            body: { type: 'STRING' },
+          },
+          required: ['articleIdx', 'title', 'body'],
+        },
+      },
+    },
+    required: ['lead', 'top', 'mid', 'briefs'],
+  };
+
+  try {
+    const text = await callGemini(prompt, env.GEMINI_API_KEY, {
+      responseSchema: schema,
+      maxOutputTokens: 8000,
+      temperature: 0.4,
+    });
+    const data = JSON.parse(text);
+    return json({ ok: true, ...data }, 200, cors);
+  } catch (err) {
+    return json({ ok: false, message: err.message || String(err) }, 500, cors);
+  }
+}
 
 async function handleEditionCurate(body, env, cors) {
   const { articles } = body;

@@ -4,9 +4,8 @@ const WORKER_URL = 'https://news-summarizer.zakki1213.workers.dev';
 const WORKER_ORIGIN = 'https://zakki1213-bit.github.io';
 const HOURS_WINDOW = parseInt(process.env.EDITION_HOURS || '12', 10);
 const ARTICLES_PER_TOPIC = parseInt(process.env.ARTICLES_PER_TOPIC || '8', 10);
-const TIMEOUT_MS = 120000;
-const BETWEEN_CALLS_MS = 20000;
-const RETRY_WAIT_MS = 35000;
+const TIMEOUT_MS = 180000;        // 単一コールはGeminiが長文を吐くので余裕を持つ
+const RETRY_WAIT_MS = 60000;      // 429時のリトライ前待機
 const KIND = process.env.EDITION_KIND === 'evening' ? 'evening' : 'morning';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -32,7 +31,7 @@ async function callWorkerOnce(payload) {
     });
     const text = await res.text();
     let data;
-    try { data = JSON.parse(text); } catch { data = { ok: false, message: text.slice(0, 200) }; }
+    try { data = JSON.parse(text); } catch { data = { ok: false, message: text.slice(0, 300) }; }
     if (!res.ok) data.ok = false;
     return data;
   } finally {
@@ -40,16 +39,20 @@ async function callWorkerOnce(payload) {
   }
 }
 
-async function callWorker(payload, label) {
+async function callWorkerWithRetry(payload, label, maxRetries = 2) {
   console.log(`→ ${label}`);
-  let res = await callWorkerOnce(payload);
-  if (!res.ok && /\b429\b|RESOURCE_EXHAUSTED/i.test(res.message || '')) {
-    console.log(`  ↻ 429 → ${RETRY_WAIT_MS / 1000}秒待ってリトライ`);
-    await sleep(RETRY_WAIT_MS);
-    res = await callWorkerOnce(payload);
+  for (let i = 0; i <= maxRetries; i++) {
+    const res = await callWorkerOnce(payload);
+    if (res.ok) return res;
+    const isRate = /\b429\b|RESOURCE_EXHAUSTED/i.test(res.message || '');
+    console.warn(`  ! 試行${i + 1}失敗: ${(res.message || '').slice(0, 150)}`);
+    if (i < maxRetries && isRate) {
+      console.log(`  ↻ ${RETRY_WAIT_MS / 1000}秒待ってリトライ`);
+      await sleep(RETRY_WAIT_MS);
+    } else {
+      return res;
+    }
   }
-  if (!res.ok) console.warn(`  ! 失敗: ${(res.message || '').slice(0, 200)}`);
-  return res;
 }
 
 function makeRef(a) {
@@ -59,7 +62,7 @@ function makeRef(a) {
 async function main() {
   const { dateStr, jst } = nowJSTParts();
   const editionLabel = KIND === 'evening' ? '夕刊' : '朝刊';
-  console.log(`=== ${dateStr} ${editionLabel} 生成開始 ===`);
+  console.log(`=== ${dateStr} ${editionLabel} 生成開始（単一コール方式）===`);
 
   const newsRaw = await fs.readFile('news.json', 'utf8');
   const news = JSON.parse(newsRaw);
@@ -87,64 +90,30 @@ async function main() {
     topicName: a.topicName,
   }));
 
-  // 1) curate
-  const curate = await callWorker({ type: 'edition_curate', articles: articlesForApi }, 'curate（記事選定）');
-  if (!curate.ok) { console.error('curate失敗。終了。'); process.exit(1); }
-  console.log(`  top=[${curate.top}], mid=[${curate.mid.join(',')}], briefs=[${curate.briefs.join(',')}]`);
-
-  // 2) top writeup
-  await sleep(BETWEEN_CALLS_MS);
-  const topArticle = candidates[curate.top];
-  const topRes = await callWorker(
-    { type: 'edition_writeup', length: 'long', articles: [{ title: topArticle.title, source: topArticle.source, snippet: topArticle.snippet, topicName: topArticle.topicName }] },
-    'top（一面トップ執筆）'
+  // 一括生成
+  const res = await callWorkerWithRetry(
+    { type: 'edition_oneshot', kind: KIND, date: dateStr, articles: articlesForApi },
+    `紙面一括生成（候補${articlesForApi.length}件）`
   );
 
-  // 3) mid writeup
-  await sleep(BETWEEN_CALLS_MS);
-  const midArticles = curate.mid.map((i) => candidates[i]).filter(Boolean);
-  const midRes = await callWorker(
-    { type: 'edition_writeup', length: 'medium', articles: midArticles.map((a) => ({ title: a.title, source: a.source, snippet: a.snippet, topicName: a.topicName })) },
-    `mid（中段${midArticles.length}本執筆）`
-  );
-
-  // 4) briefs writeup
-  await sleep(BETWEEN_CALLS_MS);
-  const briefArticles = curate.briefs.map((i) => candidates[i]).filter(Boolean);
-  const briefRes = await callWorker(
-    { type: 'edition_writeup', length: 'short', articles: briefArticles.map((a) => ({ title: a.title, source: a.source, snippet: a.snippet, topicName: a.topicName })) },
-    `briefs（ベタ${briefArticles.length}本執筆）`
-  );
-
-  // 5) lead
-  await sleep(BETWEEN_CALLS_MS);
-  let lead = '';
-  if (topRes.ok && (topRes.stories || []).length > 0) {
-    const leadRes = await callWorker(
-      {
-        type: 'edition_lead',
-        kind: KIND,
-        date: dateStr,
-        topStory: topRes.stories[0],
-        midStories: (midRes.ok && midRes.stories) || [],
-      },
-      'lead（リード執筆）'
-    );
-    if (leadRes.ok) lead = leadRes.lead || '';
+  if (!res.ok) {
+    console.error('紙面生成失敗。終了。');
+    process.exit(1);
   }
 
-  // assemble
-  const topStory = (topRes.ok && topRes.stories?.[0]) ? {
-    title: topRes.stories[0].title,
-    body: topRes.stories[0].body,
+  // 組み立て
+  const topArticle = res.top && candidates[res.top.articleIdx];
+  const topStory = (res.top && topArticle) ? {
+    title: res.top.title,
+    body: res.top.body,
     topicId: topArticle.topicId,
     topicName: topArticle.topicName,
     color: topArticle.topicColor,
     references: [makeRef(topArticle)],
   } : null;
 
-  const midStories = (midRes.ok ? midRes.stories : []).map((s, i) => {
-    const a = midArticles[i];
+  const midStories = (res.mid || []).map((s) => {
+    const a = candidates[s.articleIdx];
     if (!a) return null;
     return {
       title: s.title,
@@ -156,8 +125,8 @@ async function main() {
     };
   }).filter(Boolean);
 
-  const briefs = (briefRes.ok ? briefRes.stories : []).map((s, i) => {
-    const a = briefArticles[i];
+  const briefs = (res.briefs || []).map((s) => {
+    const a = candidates[s.articleIdx];
     if (!a) return null;
     return {
       title: s.title,
@@ -174,7 +143,7 @@ async function main() {
     type: KIND,
     date: dateStr,
     generatedAt: jst.toISOString().replace('Z', '+09:00'),
-    lead,
+    lead: res.lead || '',
     topStory,
     midStories,
     briefs,
@@ -200,7 +169,7 @@ async function main() {
   index.editions = index.editions.slice(0, 60);
   await fs.writeFile('editions/index.json', JSON.stringify(index, null, 2));
   console.log(`一覧更新: ${index.editions.length}件`);
-  console.log(`完了: トップ${topStory ? 'あり' : 'なし'} / 中段${midStories.length}本 / ベタ${briefs.length}本`);
+  console.log(`完了: lead=${edition.lead ? 'あり' : 'なし'} / トップ=${topStory ? 'あり' : 'なし'} / 中段${midStories.length}本 / ベタ${briefs.length}本`);
 }
 
 main().catch((e) => { console.error(e); process.exit(1); });
