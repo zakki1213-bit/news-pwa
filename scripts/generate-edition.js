@@ -189,10 +189,6 @@ async function main() {
   }
   const ogCount = ogResults.filter(Boolean).length;
   console.log(`  OG画像取得: ${ogCount}/${ogUrls.filter(Boolean).length}件 (top=${!!ogResults[0]})`);
-  console.log(`  DEBUG topStory.ogImage:`, topStory?.ogImage);
-  console.log(`  DEBUG midStories[0].ogImage:`, midStories[0]?.ogImage);
-  console.log(`  DEBUG midStories.length:`, midStories.length);
-  console.log(`  DEBUG ogResults:`, ogResults.map(r => r ? r.slice(0, 60) : null));
 
   const edition = {
     type: KIND,
@@ -206,12 +202,7 @@ async function main() {
 
   await fs.mkdir('editions', { recursive: true });
   const filename = `editions/${dateStr}-${KIND}.json`;
-  const serialized = JSON.stringify(edition, null, 2);
-  console.log(`DEBUG serialized contains ogImage: ${serialized.includes('"ogImage"')}`);
-  await fs.writeFile(filename, serialized);
-  // Read back to verify
-  const back = await fs.readFile(filename, 'utf8');
-  console.log(`DEBUG file contains ogImage: ${back.includes('"ogImage"')}`);
+  await fs.writeFile(filename, JSON.stringify(edition, null, 2));
   console.log(`保存: ${filename}`);
 
   let index = { editions: [] };
