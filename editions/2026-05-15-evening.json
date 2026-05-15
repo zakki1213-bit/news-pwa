@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-05-15",
+  "generatedAt": "2026-05-15T19:07:47.583+09:00",
+  "lead": "マイナポイント事業の巨額返納から、AIが身近な悩みに寄り添う試み、そして国際的な技術競争まで。テクノロジーの光と影、そして地域社会の温かさが交錯する今日。子どもたちの安全を守るための課題も浮き彫りになり、私たちは変化の速い時代をどう生き抜くべきか、改めて考えさせられます。",
+  "topStory": {
+    "title": "マイナポイント事業、1.4兆円返納 93万枚に会計検査院指摘",
+    "body": "マイナンバーカード取得促進のため実施されたマイナポイント事業で、約1.4兆円の事業費のうち、93万枚のカードが返納されていたことが会計検査院の指摘で明らかになった。同院は、事業の実施にあたり、カードの管理や返納に関する事務手続きが適切に行われていなかった可能性を指摘し、今後の改善を求めている。\n\nマイナポイント事業は、マイナンバーカードの普及と消費活性化を目的として、2021年9月から開始された。カード保有者に対し、最大2万円分のポイントが付与される仕組みで、多くの国民がカードを取得・利用するきっかけとなった。しかし、その裏で、事業終了後やカード保有者の死亡などにより、93万枚ものカードが返納されていた事実は、事業の効率性や管理体制に疑問を投げかけている。\n\n会計検査院の調査によると、返納されたカードの多くは、適切な手続きを経ずに返納されていた可能性があり、一部ではカードの紛失や不正利用のリスクも懸念される。同院は、返納されたカードの管理状況や、その後の処理についても詳細な調査を進める方針だ。事業費1.4兆円という巨額の税金が投じられた事業であるだけに、その執行状況に対する国民の関心は高い。\n\n今回の会計検査院の指摘を受け、政府はマイナンバーカードの管理体制の見直しを迫られることになるだろう。カードの取得から返納、そして廃棄に至るまでの全プロセスにおける透明性と安全性の確保が、今後の重要な課題となる。国民が安心してマイナンバーカードを利用できる環境を整備するため、具体的な対策が求められている。\n\nマイナポイント事業は一定のカード普及効果をもたらしたものの、今回の会計検査院の指摘は、事業の実施における課題を浮き彫りにした。今後、同様の事業を実施する際には、より慎重な計画と厳格な管理体制が不可欠となる。国民の税金を有効活用するためにも、事業の成果と課題の両面から検証を深める必要がある。",
+    "topicId": "business",
+    "topicName": "商業・簿記・会計",
+    "color": "#059669",
+    "references": [
+      {
+        "title": "マイナポイント事業、1.4兆円 「返納」93万枚 会計検査院（毎日新聞） - Yahoo!ニュース",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBObDJ5ZGJuSUVENTNPQy1ncW5QWlRmRU5aRGtmT041cVJ2QmpSSmhQMzE4WFBmWUJKYWl4UDVNVmhZWUJVX3g0TEE2WVZiZTdFVUJ4NmsyNldDWVFfU0lrZHZBWXFsd2hFcjREMktpcFhPX0g0N3djNkRybXljTE0?oc=5",
+        "source": "Google: 会計",
+        "topicId": "business"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "別府市、LINEでAI相談窓口開設 子供や妊婦の悩みに24時間対応",
+      "body": "別府市は、子供や妊婦などが気軽に悩みを相談できるLINE上のAI相談窓口を24時間体制で開設した。このサービスは、生成AIを活用し、専門家ではない市民にも親しみやすい対話形式で対応することを目指している。\n\n市民からの相談に対し、AIが匿名で、かつプライバシーに配慮しながら回答を提供する。市は「気軽に話しかけてほしい」と利用を呼びかけている。この取り組みは、地域住民のメンタルヘルスケアの一環として、新たなアプローチを試みるものだ。2026年5月15日に日テレNEWS NNNで報じられた。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "子供や妊婦などの悩みに生成AIが回答 LINEで24時間対応 別府市「気軽におしゃべりして」大分（2026年5月15日掲載） - 日テレNEWS NNN",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wYWxiQ1JscUlubHI3dlVFNGF2N0dNT2J0LWcyenpvYzg1N0Z0QlI0VjZITnR5S0JjUjVQd3JSWVd3MnhjakFfR0d4VlJMNG9NcXdSNzkwREN4M2pWMDN3bXhBRmdOeGREb1NZMnNIbUF0NjItZ1I5cTBIcUg2VEU?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "米中AI競争、2028年の行方予測 Anthropicが論文発表",
+      "body": "AI開発企業Anthropicは、2028年における米中のAI競争に関する予測論文を発表した。論文では、両国の技術開発競争がもたらす二つの異なるシナリオが提示されている。\n\nこれらのシナリオは、AI技術の発展が国際社会に与える影響の大きさを浮き彫りにしている。急速に進展するAI分野における米中の動向は、今後の世界情勢を左右する重要な要素となる可能性が高い。論文は、AIの未来像について考察を促す内容となっている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "Anthropicが「2028年の米中AI競争」予測論文を発表 提示された“2つのシナリオ”が示す未来とは - Real Sound｜リアルサウンド",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MQ1RCdHQwNk1GaUtnZGNyR2VEenJOMDhtN3kwNFMzOXJsZjNGZE1oNlQ1SVBCczVKX252T1FrV2owSFlsR19DVjdvbE1LejdiSFVpOFptRFpJWnJSTU0tRtIBZkFVX3lxTE9jaVJKdHNSa2ExR1FLUXRuM1QyeV9lU1h5X21FOTQwVHVIaGxtYU00dUNzRS10cFFVQVo2R0VoTlB1T2p6QXNvOUZmd2xHdEZRMEl5Y29BMEdGSWE3UXQ3OHZSVjVjQQ?oc=5",
+          "source": "Google: Anthropic",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "部活顧問が生徒送迎でレンタカー事故 教育長が陳謝",
+      "body": "北海道で、部活動の顧問がレンタカーで生徒を送迎中に事故を起こした問題で、道教委の教育長は「周知が適切ではなかった」と述べ、緊急会見を開いて謝罪した。\n\n事故の発生を受け、道教委は再発防止策の検討を急いでいる。部活動における生徒の安全確保は喫緊の課題であり、今回の事態を重く受け止めている。教育長は、今後、同様の事態が発生しないよう、指導体制の見直しや関係者への注意喚起を徹底する方針を示した。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "「周知が適切ではなかった」部活顧問がレンタカーで生徒送迎し事故 教育長が緊急会見 道教委 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mZ1hQYUtHYm9vOGhrOXR5akM2WXdrRUpxT0w4cWQ2RGdpelhiZGsyN2lSMjZJb2FLMU1OX1R1V0dhZFZMYlRKR3F1MTRGdl8wTjZpUkc5T05IbFhoZ1BmbHhzaWliVnByVG1KeEJUWEFYWTI3M3BtUURYY2NoT3c?oc=5",
+          "source": "Google: 北海道 教育",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "美幌町で今年最高の29.6℃ 札幌では三吉神社例大祭開催",
+      "body": "北海道オホーツク地方の美幌町では15日、今年一番となる29.6℃を記録した。一方、札幌市内では三吉神社の例大祭が開催され、伝統的なみこしが街を練り歩き、多くの市民でにぎわった。\n\n週末にかけては、北海道の広い範囲で過ごしやすい陽気になる見込み。日中の気温は20℃前後までとなり、行楽には適した気候となるだろう。ただし、朝晩は冷え込むため、服装での調整が必要となる。最新の気象情報に注意してほしい。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "【2026年一番の暑さ】オホーツクの美幌町で29.6℃記録！札幌では三吉神社例大祭が開催 伝統みこしが街を彩る_週末は過ごしやすい陽気に - UHB 北海道文化放送",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41OGtxeXBKTmNyTUEwa3BDZUtwbUd2Y0xDcEU1WlhDMDFEajZqVDhUQ2s0Slo0OWJWSk91aXZ5NWs3ZzQxWHBZeldkQ0pXRXkzZlJPQV9UOA?oc=5",
+          "source": "Google: オホーツク",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "高校教育改革、静岡県立４校が全国初の拠点校に",
+      "body": "文部科学省は高校教育改革の一環として、静岡県立高校４校を全国初の拠点校に採択した。これらの学校は、新たな教育課程やICT活用などを推進する役割を担う。全国のモデルケースとして、今後の高校教育の在り方に大きな影響を与えることが期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQS1VMVk9aOVc2U0NFUG1PZ2F4dmQwMmxvNm1rV1dhdmZleGQ1WEMzZXR1MXFjbXpqZGNpbDZvbjVFZWtyWU1xdWxManQyV1BWVV91Q2R5dUs?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "北大、地域課題解決キャンプで道外学生の旅費無料",
+      "body": "北海道大学は、地域課題の解決を目指す学生を対象とした「地域課題解決キャンプ」を開催する。このキャンプでは、道外からの参加学生に対し、旅費と宿泊費を無償で提供する。学生の多様な視点を取り入れ、地域活性化に繋がるアイデア創出を目指す。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/15/86085.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "有給休暇ルール変更？財務のプロが解説",
+      "body": "脱税理士の菅原氏が、有給休暇のルールが大きく変更される可能性について指摘した。変更内容について、財務のプロが詳しく解説する。労働者の権利に関わる重要な変更となる可能性があり、今後の動向が注目される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRbGxlZll1NWpYRGdLck5naFUwY0RQQ09CSVBFM1ItV0JoOF9lV0JGdENLNVhqRWxrRW5YcHU0WTREaklQOWVkem1FWVZYZkJ2RUh3UENxdXVZcVEyMTVr?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "ニデック、不正会計の調査報告書を公表",
+      "body": "ニデックは、不正会計問題に関する第三者調査委員会の調査報告書を公表した。報告書では、不正の経緯や原因などが詳細にまとめられている。同社は、今回の報告書に基づき、再発防止策を徹底するとしている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RR1dxd0tTUEhSYzlxSHZVb0RCd1pNdVBzNEttNHNlRmJSUzJKMnJPZ0NKcllVemhwWXF6RjF6bVZUMWl2SEc3Q2xhVXJiVFZvaVNGOTg3U2U0YTZNQ0lpaDNSc3hhR0dCZ2Ytb3VNa3A?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "日体大付属支援学校、生徒が育てたブドウでワイン完成",
+      "body": "日本体育大学付属好投支援学校の生徒たちが育てたブドウを使い、ワインが完成した。このワインのお披露目会が開催され、生徒たちの努力が実を結んだ成果が披露された。地域との連携も深まる取り組みとなった。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DNE5CeG1rN2hNV1ppSEdpV2RYR2dkNmRVaFZrU3pnaXFMRVB4YVc3Y3V3VTA5WXVBdE12YnZDcV9zSlVvSDY4UlVtS09SLVlFZGVseEZlWDVNdw?oc=5",
+      "source": "Google: 網走"
+    },
+    {
+      "title": "高校野球、全道切符かけ決勝へ 各支部予選熱戦",
+      "body": "第26回春季高校野球北海道大会の支部予選が終了し、駒大苫小牧、北海、東海大札幌などが全道大会出場をかけた決勝に進出した。各支部で熱戦が繰り広げられ、全道大会への切符をかけた最後の戦いに挑む。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wOFFjdU1QN2xYaXcwUS1lcm9VUjQ0eXFGZ2xmbno3ZWVRMFRHaWFqcjc0VE5hU29yWjFwLW9KcTBPWjVHZ256dkIzYlk1a1BzX3RQSXpYSTVkQ1dwUl93VEtyTW9GSll5RkYxZk9ZcG1EYXVkUGQ1bmZZdXlQXzQ?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
