@@ -189,6 +189,10 @@ async function main() {
   }
   const ogCount = ogResults.filter(Boolean).length;
   console.log(`  OG画像取得: ${ogCount}/${ogUrls.filter(Boolean).length}件 (top=${!!ogResults[0]})`);
+  console.log(`  DEBUG topStory.ogImage:`, topStory?.ogImage);
+  console.log(`  DEBUG midStories[0].ogImage:`, midStories[0]?.ogImage);
+  console.log(`  DEBUG midStories.length:`, midStories.length);
+  console.log(`  DEBUG ogResults:`, ogResults.map(r => r ? r.slice(0, 60) : null));
 
   const edition = {
     type: KIND,
