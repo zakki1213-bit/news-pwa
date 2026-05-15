@@ -206,7 +206,12 @@ async function main() {
 
   await fs.mkdir('editions', { recursive: true });
   const filename = `editions/${dateStr}-${KIND}.json`;
-  await fs.writeFile(filename, JSON.stringify(edition, null, 2));
+  const serialized = JSON.stringify(edition, null, 2);
+  console.log(`DEBUG serialized contains ogImage: ${serialized.includes('"ogImage"')}`);
+  await fs.writeFile(filename, serialized);
+  // Read back to verify
+  const back = await fs.readFile(filename, 'utf8');
+  console.log(`DEBUG file contains ogImage: ${back.includes('"ogImage"')}`);
   console.log(`保存: ${filename}`);
 
   let index = { editions: [] };
