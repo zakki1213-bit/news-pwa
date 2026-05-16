@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-05-17",
+  "generatedAt": "2026-05-17T05:31:26.274+09:00",
+  "lead": "生成AIの進化が目覚ましい。ビジネスでの活用が進む一方、サイバーリスクへの懸念も浮上。本紙では、AIの最新動向と、その影響を多角的に報じる。",
+  "topStory": {
+    "title": "生成AIのサイバーリスク、攻撃者視点で評価の新サービス",
+    "body": "EYSCは16日、攻撃者の視点から生成AIのサイバーリスクを評価する新サービスを発表した。近年、生成AIの急速な進化と普及に伴い、その利用におけるセキュリティリスクが大きな懸念となっている。特に、悪意のある攻撃者が生成AIを悪用する可能性は無視できない。\n\n新サービスでは、専門家チームが攻撃者の手法や思考プロセスを模倣し、生成AIシステムに潜む脆弱性を特定する。これにより、企業は潜在的な脅威を事前に把握し、対策を講じることが可能となる。具体的には、不正なコード生成、情報漏洩、サービス妨害攻撃などのリスクを評価し、具体的な改善策を提案する。\n\nEYSCの担当者は、「生成AIはビジネスに革新をもたらす一方で、新たなセキュリティ課題を生み出している。本サービスを通じて、企業が安全に生成AIを活用できる環境を整備したい」とコメントしている。同社は、今後も生成AIを取り巻くセキュリティ環境の変化に対応したサービスを提供していく方針だ。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "EYSC、攻撃者視点で生成AIのサイバーリスクを評価する新サービス発表 - EnterpriseZine",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1QVzkwbmFjSHlaLXFTWHprQUxJNUNONjhETW9oZjhTRWFDVmpUSlV2VUU5S1ZVWGhUSjBpWjNpWk5NQzhweDdySXROeFprN0xJTW1DYjRn?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "阪急電鉄、生成AIでコンタクトセンター業務を効率化",
+      "body": "阪急電鉄は、コンタクトセンター業務の基盤インフラを刷新し、生成AIを活用した業務効率化を進めている。同社では、顧客からの問い合わせ対応や予約受付など、多岐にわたる業務をコンタクトセンターで担っているが、近年増加する問い合わせ件数に対し、人員確保や応対品質の維持が課題となっていた。\n\n今回のインフラ刷新では、最新のAI技術を導入し、特に問い合わせ内容の自動分類やFAQの自動生成、オペレーターの応対支援などに生成AIを活用する。これにより、オペレーターの負担軽減と、より迅速かつ的確な顧客対応の実現を目指す。将来的には、顧客の過去の問い合わせ履歴や嗜好を分析し、パーソナライズされた情報提供も視野に入れている。\n\n同社は、この取り組みを通じて、顧客満足度の向上と、業務効率化によるコスト削減の両立を図るとしている。今後も、AI技術の活用範囲を広げ、鉄道事業全体のサービス向上に繋げていく考えだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "阪急電鉄、コンタクトセンター業務の基盤インフラを刷新 生成AI活用で業務効率化 - EnterpriseZine",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sdDRNVE5rVEh5dXRyQWY4N2NWTmdkdXgwd1g4YTFScVNTTVh5YndMdzlUbmVuWWtLNnJSMGJnWkZRU29jaGNhT21VS1ZSSkZybnBTc093?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "ドコモ、生成AI活用の新サービス「SyncMe」先行レビュー",
+      "body": "NTTドコモは、生成AIを活用した新たなパーソナル秘書サービス「SyncMe」の提供を開始する。長年提供されてきた「iコンシェル」の機能を大幅に拡張し、ユーザー一人ひとりのライフスタイルに合わせた情報提供やタスク管理を行う。先行レビューによると、その能力は「究極のパーソナル秘書」と呼ぶにふさわしいという。\n\n「SyncMe」は、ユーザーのスケジュール、メール、通話履歴などの情報を統合的に分析し、最適な行動を提案する。例えば、会議の前に必要な資料を自動で収集・要約したり、移動中に最適なルートを案内したりする。また、ユーザーの好みや過去の行動履歴に基づき、レストランの予約やイベント情報のレコメンドも行う。\n\nドコモは、「SyncMe」を通じて、ユーザーの日常業務の効率化と、より豊かな生活の実現を支援していくとしている。AI技術の進化を背景に、個々のユーザーに最適化されたサービス提供を目指す同社の取り組みに注目が集まる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "「iコンシェル」から生成AIへ、ドコモの新サービス「SyncMe」が実現する究極のパーソナル秘書体験を先行レビュー - @DIME アットダイム",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFBpbW9QRUhIRWNoX18xTGFxZGdieGZkYmwxdlJGeDdYUU5KZGFjV2txZUZ1ZDJZbUhzZk9QNUhXZlpjYXdz?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "King & Princeら、生成AI「Gemini」新CMに出演",
+      "body": "Googleは、同社が開発した生成AI「Gemini」の新CMに、人気アイドルグループKing & Prince、女優の仲里依紗、YouTuberのHIKAKINを起用した。CMでは、彼らが「Gemini」にアイデアを相談したり、悩みを打ち明けたりする様子が描かれている。\n\nCMは、「Gemini」が持つ創造性や問題解決能力の高さを、著名人との対話を通じて分かりやすく表現している。King & Princeは楽曲制作のアイデアを、仲里依紗はファッションコーディネートの提案を、HIKAKINは動画制作のヒントを「Gemini」に求めている。それぞれの分野で活躍する彼らが、AIとの協働によって新たなインスピレーションを得る姿が印象的だ。\n\nGoogleは、「Gemini」が今後、様々な分野で人々の創造性を刺激し、より良いアイデアを生み出すための強力なパートナーとなることを期待している。今回のCM展開を通じて、より多くの人々に「Gemini」の可能性を知ってもらうことを目指す。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "King ＆ Prince・仲里依紗・HIKAKIN、生成AI「Gemini」新CM登場 アイデアや悩みを相談（モデルプレス） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmMUVWZWZ3emxCVmRSRUtGTVZITkc4SHh6WXBrN3F5UlFjcWJQMkktdjEzYjhCVElEcU16cUVxZUJOdnhQVkxUdlg2U3lKTWV1NjNQZ0tqYlhvR0JiYWVoMGphbjdJeF9rUl8xWVV6X0JNQXlZS3RvZFpZR25sUEE?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "税理士・菅原氏、税金と社会保険の「損しない」知識を解説",
+      "body": "元税理士の菅原氏は、税金と社会保険に関する「損をしない」ための知識を解説するセミナー動画を公開した。多くの人が、自身の税金や社会保険料について十分に理解しておらず、結果的に損をしているケースが少なくないという。\n\n動画では、所得税、法人税、消費税などの基本的な税金の種類から、年金、健康保険、雇用保険といった社会保険制度について、専門的な知識がない人にも分かりやすく解説している。特に、控除や還付制度の活用法、将来的な社会保険料の負担を軽減するための具体的な方法などに重点を置いている。\n\n菅原氏は、「税金や社会保険は、私たちの生活に密接に関わる重要な制度です。正しい知識を身につけることで、将来の経済的な不安を軽減し、より豊かに生活を送ることができます」と述べている。動画は、自身のウェブサイトやSNSで視聴可能となっている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "脱・税理士の菅原氏が徹底解剖！『誰も教えてくれない！税金と社会保険で損したくない人は必ずチェックして下さい』 - ライブドアニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qRVh6c3VMYWctYmJxd3pFZ0lpd243eFpELTdtRXdBenRMQVM5YU5GRTRkRFl3dVM4c19kQ0M3SnNUMmJxOEZqNlZHT20wM243SWdXdkJTSVd1OE5TTzhF?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "生成UIフレームワーク「OpenUI」登場、AIによるUI構築を支援",
+      "body": "「OpenUI」は、生成UIを構築するための新しいフレームワークです。独自の宣言型言語「OpenUI言語」を使用し、AIがUIを構築するための指示を与えます。これにより、開発者はより効率的に、かつ直感的にUIデザインを進めることができます。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://azukiazusa.dev/blog/openui-framework-for-generative-ui/",
+      "source": "はてブIT人気"
+    },
+    {
+      "title": "少数精鋭QA組織のリアル：テスト設計を軸に品質保証のバトンを繋ぐ",
+      "body": "プロダクトが増え続ける組織において、QA（品質保証）がどのように戦うべきか。専門技術としてのテスト設計を軸に、品質保証のバトンを繋いでいくための発表資料が公開されました。少数精鋭のQAチームが直面する課題と解決策が示されています。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://speakerdeck.com/nihonbuson/scaling-qa-organization",
+      "source": "はてブIT人気"
+    },
+    {
+      "title": "県高校総体バレー女子：大分商業、充実の戦力で壁を越えろ",
+      "body": "県高校総体バレーボール女子の特集。大分商業高校は、充実した戦力を擁し、悲願の優勝を目指す。選手たちは日々の厳しい練習に励み、チーム一丸となって勝利を掴み取ろうとしている。強豪校との対戦が予想される中、チームの連携と個々の技術が試される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBaaHZVZ2ItT1BqbTYyMExvMUMwMW1fcmwwZ2RuUUJ3S2JITGRpYTNSVXl3STlDNElQbHJidWxMN1AzT0hBUzA5T0pR?oc=5",
+      "source": "Google: 商業高校"
+    },
+    {
+      "title": "紋別・鴻之舞の遺構、3D保存で歴史を次世代へ",
+      "body": "かつて栄華を誇った紋別市の鴻之舞金山。その歴史的遺構を3Dスキャン技術で保存する取り組みが進められている。これにより、失われゆく鉱山の歴史をデジタルデータとして記録し、次世代へと継承していくことが期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZnJEbUVBSkdZdEV6cVgtWWNJTUxwTUpCcE9JMWZsa0Fqbm1EdEVxaWxvemVqV21DeUJyN0pQVVo1aGNOTHgtOUMxZ1k0VHQtZTZaa0lzUXdTMUYzc2VMTUp6MXFCVHJVVEpXZC1Ic1AxbjhxWmdIY1l2M3pmcjE0RUlURkRDcjd0S1A4VzBlMA?oc=5",
+      "source": "Google: 紋別"
+    },
+    {
+      "title": "網走で火おこし・弓矢体験、モヨロ人の暮らしを学ぶ",
+      "body": "網走市で、古代民族「モヨロ人」の暮らしを体験できるイベントが開催された。参加者は火おこしや弓矢作りなどを体験し、当時の人々の生活に思いを馳せた。自然と共生したモヨロ人の知恵や技術に触れる貴重な機会となった。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa2hqNVJPclJUSTFiSmVJeHM3bzNyOVZxTFJfaEVaMkZNelF2WFFGSnkwRDBEMWctN0FPNDFoY19UR2tENHN6eE1wVlRIbjJGTm1KbnV1dm84OFZvUU1UZzgtZ2c0VG1FQVR3YnVKd0h0MlBLd2twZS1mUV95X0ZveU8zWTFVX01zUldzTFBhdw?oc=5",
+      "source": "Google: 網走"
+    },
+    {
+      "title": "旭川紋別道で事故、上川町内で一部通行止め（16日夜）",
+      "body": "16日夜遅く、旭川紋別自動車道の上川町内で事故が発生し、一部区間で通行止めとなった。事故処理および安全確認のため、解除の見込みは立っていない。ドライバーは迂回路の利用など、最新の交通情報に注意が必要だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE43ZlRCb0J0TGgwdHBkekRsZ0VzTlZ3VFlzc2VvQWZmbEYzTk01UUNEYnBkOXltR19QRTJwNjBCdVNmWk1BZzYzbV92NVpsX0ZJUmhBVFVjeTIwOG1zZXlj0gFkQVVfeXFMTUFlS1h2M0kzOVdIMlUtUUVzdENvUUpONGF6c0YydXhlVXh6WHJ1LTRXQ01ReWNMOFYyVnpldVktb09pVGlKMGx5MzVfTnpXV2t6cnNma1hIZVZmWUFuZDEyNThfcg?oc=5",
+      "source": "Google: 紋別"
+    }
+  ]
+}
