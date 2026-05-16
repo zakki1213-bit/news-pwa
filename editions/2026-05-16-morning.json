@@ -1,18 +1,18 @@
 {
   "type": "morning",
   "date": "2026-05-16",
-  "generatedAt": "2026-05-16T05:44:25.977+09:00",
-  "lead": "本日の紙面では、教育分野における高校改革の動きと、AI技術の進化が社会に与える影響に注目しました。また、商業分野では実務に役立つ知識習得の機会を提供し、北海道からは地域活性化に向けた取り組みを伝えます。",
+  "generatedAt": "2026-05-16T12:04:04.262+09:00",
+  "lead": "教育改革の最前線から、AI技術の活用、そして北海道の地域ニュースまで、今朝の紙面は多岐にわたる話題をお届けします。特に、高校教育の新たな試みや、AIがもたらす社会の変化に注目ください。",
   "topStory": {
-    "title": "高校教育改革の議論加速 ラーケーション制度も焦点",
-    "body": "文部科学省は、新たな高校教育改革に向けた策定委員会を設置した。学校教育にとどまらず、生徒が学校外での多様な学びを深める「ラーケーション」制度の導入についても、総合教育会議で活発な議論が行われている。\n\nこの改革は、変化の激しい社会に対応できる人材育成を目指すもので、従来の画一的な教育から、生徒一人ひとりの興味関心や能力に応じた柔軟な学びへと転換を図ることを目的としている。ラーケーション制度は、企業でのインターンシップやボランティア活動、美術館や博物館での学習などを単位として認定するもので、学校外での実践的な学びを単位化することで、生徒の主体的な学習意欲の向上と、社会との接点の拡大が期待されている。\n\n策定委員会では、制度導入に向けた具体的なカリキュラム設計や、評価方法、教員の役割など、多岐にわたる論点が検討される見通しだ。特に、学校と地域社会、産業界との連携をいかに強化するかが、制度成功の鍵を握るとみられている。また、全国の高校で実施される「先導拠点校」の選定も進んでおり、先進的な取り組みが全国に波及するよう、文部科学省は支援を強化する方針だ。\n\n今回の高校教育改革は、日本の将来を担う若者たちの学びのあり方を大きく変える可能性を秘めている。策定委員会の議論の行方と、ラーケーション制度の具体的な内容について、今後も注目が集まる。",
+    "title": "高校教育改革、先導拠点校に4校採択",
+    "body": "文部科学省は、新たな高校教育改革を推進するため、全国から4校を「改革先導拠点校」として初めて採択した。静岡県の浜松工業高校などが選ばれ、先進的な教育プログラムの開発や実践を通じて、今後の高校教育のあり方を示す役割を担う。\n\n今回の採択は、変化の激しい社会に対応できる人材育成を目指す国の教育改革の一環として行われた。選ばれた高校は、探究学習の深化、STEAM教育の推進、地域社会との連携強化などを重点的に取り組む。浜松工業高校は、特に工業系の専門性を活かし、最新技術を取り入れた実践的な学びを提供する予定だ。\n\n拠点校には、国の財政的支援に加え、専門家による助言や他校とのネットワーク構築の機会が提供される。これにより、教育現場の課題解決や新たな教育手法の開発が加速することが期待されている。\n\n文部科学省は、これらの拠点校での取り組みを全国の高校に共有・普及させることで、高校教育全体の質の向上を目指す方針だ。今回の改革が、未来を担う子供たちの学びをどのように変えていくのか、注目が集まる。",
     "topicId": "education",
     "topicName": "教育・ICT",
     "color": "#2563eb",
     "references": [
       {
-        "title": "高校教育改革の策定委員会が設置 学校外で学びを深める「ラーケーション」制度も議論 総合教育会議 - ｄメニューニュース",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XcnFtUnN3YUFQV0dSeWloaFBlVFAyS2d2RWM5Y1FGbnlFeWpvbGRJZmRMWjNSRUJJQnZxQlBVWG1HTTJSa1Y3SEV5V2JXZnBaVFRCTjZMbVU1amZDR1ZDVm9FOWx0ZG1HNW9CYldjVdIBdEFVX3lxTFAxTnIwcVNWV2REdkpoa05wdy1rVnVXd2l6V2VtSmJxRTRFMjF1Z0RTZEh2clc1c25rSjh2RUF3RFQyR2o3NDJCbU9uaXpiVGNWN1EwVjFzS2R1SkdBMF96Xy1PU1JfWXVPSnhVdUlaQlg4ZjVQ?oc=5",
+        "title": "静岡県の浜松工業高校など4校、初の改革先導拠点校に採択 国の高校教育改革で - 中日新聞Web",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZS3lCZnRlQjFjMERrajNEOHAwQTJkRC1SLWNpZS1LMXk3R2plM0t3TkxuSi1HcmRZTjNTeTdBUDZKY3VwVXBpU054VktuNXF6Tk5ObQ?oc=5",
         "source": "Google: 高校教育",
         "topicId": "education"
       }
@@ -20,120 +20,120 @@
   },
   "midStories": [
     {
-      "title": "AI「クロード・ミュトス」協力で自民党が意見交換",
-      "body": "AI開発企業アンソロピック社の幹部が自民党本部を訪れ、同社が開発したAI「クロード・ミュトス」に関する協力について意見交換を行った。AI技術の急速な発展と、それに伴う社会への影響が国内外で議論される中、政党としてもAI技術の理解と活用に向けた動きを加速させている。\n\n意見交換では、AIの安全性や倫理的な課題、そして国内産業への応用可能性などが話し合われたとみられる。特に、高度な対話能力を持つとされるクロード・ミュトスのようなAIが、行政サービスや国民生活にどのような影響を与えるか、また、その活用にあたっての法整備やガイドラインの必要性などが議論の的となった。\n\nアンソロピック社は、AIの安全な開発と普及を目指しており、各国政府との対話を通じて、AI技術の健全な発展に向けた協力を模索している。今回の自民党との会談も、その一環として位置づけられる。AI技術は、経済成長や社会課題の解決に貢献する一方で、偽情報やプライバシー侵害などのリスクも指摘されており、官民一体となった取り組みが求められている。",
+      "title": "AI、自治体業務を効率化 課題も",
+      "body": "多くの自治体で、人手不足解消のためAIの導入が進んでいる。問い合わせ電話への自動応答や、議会答弁案の作成などに活用され、業務効率化に貢献している事例が報告されている。例えば、ある自治体ではAIチャットボットが問い合わせの4割に対応し、職員の負担を軽減した。\n\nAIは、定型業務の自動化だけでなく、データ分析に基づいた政策立案支援など、幅広い分野での活用が期待されている。しかし、導入コストやプライバシー保護、AIによる判断の誤りなど、懸念の声も根強く残っている。\n\n専門家は、AIを効果的に活用するためには、導入目的を明確にし、十分な検証と職員への研修が不可欠だと指摘している。今後、AIと人間が協調しながら、より質の高い行政サービスを提供していくことが求められる。",
       "topicId": "ai_tech",
       "topicName": "AI・プログラミング",
       "color": "#7c3aed",
       "references": [
         {
-          "title": "アンソロピック社幹部が自民党本部を訪問 AI「クロード・ミュトス」めぐる協力で意見交換 - FNNプライムオンライン",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5FbkRkY0VfR21hdUU1YTFaMkZLZTYzdnRhSW9uNnJkT3Y1UDk0RXk1cXlNODlQbEpvUExZY2U5TkdyS29tT2Nad05Fa2JnZw?oc=5",
-          "source": "Google: Claude AI",
+          "title": "ＡＩを人手不足の自治体業務に、問い合わせ電話４割解決・議会答弁案１分で作成…導入進むが懸念も根強く - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53TGN6ZkRCbVVpc1FDaGJJSzFKaFFwSEZ5Z05OQkFzZHhHcHlsb3hiYURQS2RWalBiQy1waW5WeGlwbFYxQVpBYXNrWk43aEk2djFWU3dET1c1VDgwM3c2OUR3cExYNjR1cEdRZEIwNkR6cklxdzItX1dJMHFFTms?oc=5",
+          "source": "Google: 生成AI",
           "topicId": "ai_tech"
         }
       ]
     },
     {
-      "title": "金融庁、AIリスク対応で官民作業部会を発足",
-      "body": "金融庁は、AI技術の急速な進化に伴うリスクに対応するため、Anthropic、OpenAI、Googleなどの民間企業と連携し、官民作業部会を発足させた。AIが金融分野に与える影響は大きく、その脅威に挑むための防衛戦略が急務となっている。\n\n作業部会では、AIによる不正行為の検知や、サイバーセキュリティ対策の強化、そしてAIを活用した新たな金融サービスの開発におけるリスク管理などが議論される。特に、Claude Mythosのような高度なAIがもたらす可能性のある金融システムへの影響について、専門家たちが分析を進める。\n\n金融庁は、AI技術の利便性を享受しつつ、潜在的なリスクを最小限に抑えるための包括的な対策を講じる方針だ。官民の知見を結集し、安全で信頼性の高い金融システムの構築を目指す。",
-      "topicId": "ai_tech",
-      "topicName": "AI・プログラミング",
-      "color": "#7c3aed",
-      "references": [
-        {
-          "title": "金融庁×Anthropic・OpenAI・Google、AI脅威に挑む官民作業部会発足｜Claude Mythos時代の金融防衛戦略 - innovaTopia",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QMGdXWWo1NTBiTWhwc0xCR1gtVmVIN1RLSWo2c01qTmpFWExzMUEyYTlFUlMxd052OGkyTlAxZk1ScmRLNldxb2hHRUVMSGY5RGFfNlIxNWFsV21BWHZRelgwN0JzMlRqUE1MaUxGclNLYWs?oc=5",
-          "source": "Google: Claude AI",
-          "topicId": "ai_tech"
-        }
-      ]
-    },
-    {
-      "title": "高校教育改革、静岡県立4校が全国初の拠点校に",
-      "body": "文部科学省は、高校教育改革を推進するため、「先導拠点校」として全国で初めて静岡県立高校4校を選定した。浜松工業、焼津水産、沼津東、静岡中央の各高校が、新たな教育モデルの実践と普及を担う。\n\nこれらの拠点校は、探究学習の深化や、学校外での多様な学びを取り入れる「ラーケーション」制度の試行など、改革の最前線を担う。文部科学省は、これらの学校での取り組みを全国に共有し、教育改革の加速を目指す方針だ。\n\n選定された高校は、地域の実情や特色を生かしながら、生徒の主体性や創造性を育む教育プログラムの開発に取り組む。今回の選定は、全国の高校教育の質の向上に向けた重要な一歩となることが期待される。",
-      "topicId": "education",
-      "topicName": "教育・ICT",
-      "color": "#2563eb",
-      "references": [
-        {
-          "title": "高校教育改革で静岡県の県立４校が拠点校として全国初採択 - NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBQS1VMVk9aOVc2U0NFUG1PZ2F4dmQwMmxvNm1rV1dhdmZleGQ1WEMzZXR1MXFjbXpqZGNpbDZvbjVFZWtyWU1xdWxManQyV1BWVV91Q2R5dUs?oc=5",
-          "source": "Google: 高校教育",
-          "topicId": "education"
-        }
-      ]
-    },
-    {
-      "title": "実務で役立つビジネス・IT基礎知識セミナー開催",
-      "body": "6月3日（水）に、実務で役立つビジネスとITの基礎知識を学ぶ無料セミナーが開催される。Vol.1では、「企業活動の全体像がわかる ～データ・会計・DXで理解する企業のしくみ～」をテーマに、データ活用、会計、デジタルトランスフォーメーション（DX）を通じて企業の仕組みを解説する。\n\n本セミナーは、ビジネスパーソンが現代の企業活動を理解するために不可欠な知識を習得することを目的としている。特に、DXの進展やデータ活用の重要性が増す中で、企業の全体像を把握する能力は、あらゆる職種において求められている。\n\n参加者は、会計の基本から、データ分析、そしてDXが企業にもたらす変革まで、体系的に学ぶことができる。この機会を通じて、実務に直結する知識を身につけ、自身のキャリアアップに繋げることが期待される。",
+      "title": "富山商業高、AI活用で模試成績向上",
+      "body": "全国レベルの部活動強豪校として知られる富山商業高校が、AIドリル教材「Monoxer（モノグサ）」を活用し、外部模試の「漢字・語彙」分野で学年平均点9割超を達成した。同校では、学習習慣の確立と個々の理解度に応じた反復学習を支援するため、このAI教材を導入した。\n\n「Monoxer」は、生徒一人ひとりの習熟度に合わせて問題の難易度や出題頻度を最適化する機能を持つ。これにより、効率的な学習が可能となり、苦手分野の克服や知識の定着に繋がった。部活動で忙しい生徒たちにとっても、隙間時間を活用した学習効果が高まったという。\n\n同校は今後も、AI教材の効果的な活用方法を模索し、学力向上と文武両道の実現を目指していく方針だ。今回の成果は、他の教育現場におけるAI活用の参考事例としても注目される。",
       "topicId": "business",
       "topicName": "商業・簿記・会計",
       "color": "#059669",
       "references": [
         {
-          "title": "6/3（水）無料セミナー「実務で使えるビジネスとITの基礎知識 Vol.1 企業活動の全体像がわかる ～データ・会計・DXで理解する企業のしくみ～」を開催 - PR TIMES",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Ja1VuR1pZcGZSLXU4SmlBbjlIeVhpS1BzRzlaQ1FLczN4elhNei1neGJKeUM5TG4xNGV5V0NsQlgxMWlobURWYjJoVHZQX2NqOUZfcjdXMlZCRkFGSVFsU0R6QlFHbmlTcWc?oc=5",
-          "source": "Google: 会計",
+          "title": "全国レベルの部活動強豪校・富山商業高校、「Monoxer（モノグサ）」活用により、外部模試「漢字・語彙」で学年平均点9割超を達成 - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyNTFFLVNsbE9zR0RkRlFkY3drWTZ3V1RDWjVXZEFHLXhwOUtTaGcwMWVUS1YzQkFaNHp5U3FjblFnd0lmd1ItTzRGR252V0RsUmJnQ3IyWW9zNkl2MUpFM0h6ZWZzWm1teWNn?oc=5",
+          "source": "Google: 商業高校",
           "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "ふるさと納税、手数料の実態と増税リスク",
+      "body": "人気の「ふるさと納税」制度において、ポータルサイト等の手数料が寄附額の11.5%に達していることが明らかになった。本来、地域活性化や税制優遇を目的とした制度だが、高額な手数料が実質的な負担増につながるケースも指摘されている。\n\n多くの寄附者が、返礼品の魅力や手軽さからポータルサイトを利用しているが、その手数料が最終的な寄附額に影響を与えている可能性がある。また、制度の複雑化により、本来の趣旨から外れた利用や、意図しない税負担が生じるリスクも懸念されている。\n\n専門家は、制度の透明性を高め、寄附者が手数料の実態を理解した上で利用することの重要性を訴えている。ふるさと納税の恩恵を最大限に受けるためには、制度内容の正確な理解が不可欠である。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "ふるさと納税“ポータルサイト”等の手数料が“寄附額の11.5%” 「得する制度」のはずが…多くの人が気付いていない“増税リスク”とは？ - 弁護士JP",
+          "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9RVzF4U1V3cURUa3JPMTZNX2hZb1Ytb0JWX2lyaTRkOGc5UVYwandFWDNqYlpBVG5UNDFQMHZKeW9TTEtT?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "AIの自律能力、倍増ペース加速",
+      "body": "最新の報告によると、人工知能（AI）の自律サイバー能力が、予想を上回るペースで向上していることが明らかになった。特に、Claude Mythos PreviewやGPT-5.5といった先進的なモデルは、その能力を急速に倍増させているという。\n\nこの技術進歩は、サイバーセキュリティ分野におけるAIの役割を大きく変える可能性がある。AIが自律的に脅威を検知・分析し、対応策を実行する能力が高まることで、より迅速かつ効果的な防御が期待できる。\n\n一方で、AIの自律能力向上は、悪用された場合のリスクも増大させる。AIによるサイバー攻撃の高度化も懸念されており、国際的な協力体制のもと、倫理的なガイドラインの策定や、安全なAI開発の推進が急務となっている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "AISI最新報告:Claude Mythos PreviewとGPT-5.5が示した自律サイバー能力の倍増ペース加速 - innovaTopia",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1zdnctYmxvQy1mVnRvWTduTjRIMnF4V0NEdHZza1Fuc21fVzRsWG9neW51T2pwREVtTk5uZ19aTUdXOHlXMlZmNVJaMGdVc2ZZZEtfSmVjQjh1VnhsS2VZekNLbWpCQ2xxb1hDWjNZSXdWV0E?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
         }
       ]
     }
   ],
   "briefs": [
     {
-      "title": "高校教育改革、静岡県立4校が全国初「先導拠点校」に",
-      "body": "文部科学省は、高校教育改革を推進する「先導拠点校」として、静岡県立高校4校（浜松工業、焼津水産、沼津東、静岡中央）を全国で初めて採択した。これらの学校は、新たな教育モデルの実践と普及を担う。",
-      "topicId": "education",
-      "topicName": "教育・ICT",
-      "color": "#2563eb",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1YeGVuai1lWFBDc3p3UWt0aThFQnFDX1hBU3Ezb0I0cTM2bVNlV1YzYTE4Y3ZYLUZPaFZOQVRGaHp4NGRBN3F5eGVpM2hTQQ?oc=5",
-      "source": "Google: 高校教育"
-    },
-    {
-      "title": "XR・AIソリューション、教育現場の課題解決に貢献",
-      "body": "「九州教育現場支援EXPO」では、XRやAIを活用した教育ソリューションが紹介された。累計130以上の自治体で導入されている不登校支援や探究学習サービスなどが、教育現場の課題解決に貢献している。",
-      "topicId": "education",
-      "topicName": "教育・ICT",
-      "color": "#2563eb",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRSWhDR1Q3N3pmZC1JeGJ5YV94YW5kRXJISW5oWjZOb3g4ZEY4dW5wSms0M0w2RUJINHc2ZWc4S29NOF9lQlAtSHZKZEhXRGYtRmJaT3RaNVg2SmQ4dUNDWUZNckdJdEd4SHdtVjVTRQ?oc=5",
-      "source": "Google: 探究学習"
-    },
-    {
-      "title": "中国AIモデル「Ring-2.6-1T」公開、性能でGPT超え",
-      "body": "中国企業が開発したAIモデル「Ring-2.6-1T」が公開された。一部のエージェント性能において、GPT-5.4を上回るとされ、生成AI分野における国際的な競争が激化している。",
-      "topicId": "ai_tech",
-      "topicName": "AI・プログラミング",
-      "color": "#7c3aed",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTVXo1MmtjSDRTdWNrZEpDZFpqYkwwNVNSbFljN1Y0VXh5bEszc1dNalpvVWQ2dEZ6NWZMMUJaVHdWMl9tcWV1NmxJRi1jb0NoQUlv?oc=5",
-      "source": "Google: 生成AI"
-    },
-    {
-      "title": "北大、地域課題解決キャンプ開催 道外学生の旅費無料",
-      "body": "北海道大学は9月、「地域課題解決キャンプ」を開催する。道外からの参加学生の旅費と宿泊費は無料となり、地域活性化に向けた学生の取り組みを支援する。",
-      "topicId": "education",
-      "topicName": "教育・ICT",
-      "color": "#2563eb",
-      "url": "https://resemom.jp/article/2026/05/15/86085.html",
-      "source": "リセマム"
-    },
-    {
-      "title": "高岡の税理士法人「ホライズン」破産開始",
-      "body": "高岡市の税理士法人「税理士法人ホライズン」が破産開始決定を受けた。負債総額は調査中。地域経済に影響を与える可能性がある。",
-      "topicId": "business",
-      "topicName": "商業・簿記・会計",
-      "color": "#059669",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFVzY0RTBWTFlhcGNHR0V4TVhhd3kwUXNVeEhsMjNQb1laWFJRZVNIWW9vZHA2QloxdWk2RFV3S2JMbG1fRkRkbnR0QQ?oc=5",
-      "source": "Google: 税理士"
-    },
-    {
-      "title": "春の高校野球・旭川支部予選 旭東・旭明成が決定戦へ",
-      "body": "春の高校野球・旭川支部予選で、旭東高校と旭明成高校が勝利し、支部代表決定戦に進出した。熱戦が繰り広げられている。",
+      "title": "北海道興部町でクマ出没",
+      "body": "15日、北海道興部町の市街地近くでクマ1頭が目撃された。付近住民に注意が呼びかけられている。現在のところ、人的被害は報告されていない。",
       "topicId": "hokkaido",
       "topicName": "北海道ローカル",
       "color": "#dc2626",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8tZVpHb1U0VVc0YjVXUURsNkFNTUxmLWNNUEJLd25GN1FDMm9Wcm1VTWVfTExJckFMSER0dlVPVTZqZ1BWR044NDlyc2l3UGRadV9mSWxxdDZWaGI4LXZBTzN6MVVIN1ozN25ma3AxMzl3ZkdpQWk0UlpabVLSAYIBQVVfeXFMTVlvbDBuQnNxR3VNTTUxbVZMeFdHN3BFanRwRjFISUpOZnVmOTZqQXM1ckFYMlppWkdlaWtsdjdTRkRJYk1IYjN3S2tJUFB2TGxyUE9maTBZZGo1ekRGLWtjYWt3NERUdnZKYWs3al9La2dmSk1xd0ZPN3RVWnJtVkJlUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNbXdsQUYzcFdVYTBwM3NVSDEzMDZWUk1XQjRuZ1hNYmI5WEN6Z1BCN1BtNmY3UWZCVGNMWEhMNlVZMDZ4TlFOVmdRSGVlaFNlT3NQVzR1NUo3NUQxdHd4R2xHNW9oeFZrWnVVUElCUTR6d1RuRmZVdUl5dnlSY2tMQTVoUXZQZnJ2R1FoLWNwcGpVdHhPQjZqOHdSRzBXb2cxYXJrbmp1Vl9ZbS13a1U0NWQyMTdOQnFnbGczOFVTOEp2QjFXQzJHSWhQWmliODMtZFg2b0Z5S3pHMHpZQzU5dlZCeHFQZWpFOERiNEhTazlEQdIBogFBVV95cUxPNnJ1MlBKNGlHbFgwY05NR1RESENheUUxakdvdGZfZU1NeUE3VWZmaHNLRFpOUGdBc0liLXZVeGU2YUZNenFVQnQwRFRUN21qYU9OTkVjY0FwSWFaUGRsN0c5Q0g2RThJTlJXLTdkWUpoYmRtcmhDUVhIckcxR1BSa20zaVZibnFTMmFQOFVDdFNDbmRxMkVVRGxtT3Izby14WFE?oc=5",
+      "source": "Google: 興部"
+    },
+    {
+      "title": "北海道北見市で住宅火災、2人死亡",
+      "body": "15日未明、北海道北見市の住宅で火災が発生し、焼け跡から2人の遺体が発見された。この火災で1人がけがを負った。現場からは大量の黒煙が上がっていたという。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PejZlNjZLRmVrVUlFTjQ2QS1jclpwZHVFS3VURm4yNjMxYjY3OVFQSGgyWUV5UEJTcUJTSFl5ZXhUT0ZDZ0F5dHYzekxFdEMzTkhHa2xJQUpnQQ?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "高校野球、北海道大会出場校決定",
+      "body": "16日、北海道春季大会の支部予選で、駒大苫小牧高校など3校が全道大会への出場権を獲得した。熱戦が繰り広げられた予選を勝ち抜いたチームが、全道制覇を目指し決戦に挑む。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ldlgtSF92WGgtT0FsendmazB0MjQ1MjBXSkRkb05GYURLekRCWjRjS3Jwck1ReFpJdzRQNnFDQ2JOaFBqSVpBSU1pMDQtUWJ2cmc?oc=5",
       "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "職場の「主人公症候群」とAI",
+      "body": "職場で自己中心的な行動が目立つ「主人公症候群」に対し、生成AIが新たな対処戦略を示す可能性が指摘されている。AIを活用した客観的な分析や、コミュニケーション支援などが期待される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE81SEFDcmx5WXRLR1RsTjZSaTdlSXNMNldDaFJXR3ljd1JBay1kbzhUS2ZEZVlWYjZGUGRodDJCSUhrSzc1dDRXaS1jUGZmQmpHNEpIRTRod08?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "シャープ、テレビとAIの新サービス",
+      "body": "シャープは、テレビとAIを組み合わせた新たなサービスを発表した。視聴者の好みに合わせたコンテンツ提案や、癒やしを提供する機能などが盛り込まれる予定だ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00Skd3cVFWaUpwU0dPS1FSdWFGOTFYcldIeTFHMVV0OXVabHNrbUlZdEJIMnNTcVQwMjBMeVBFRzlFVFJpbmZBMVNCamVDd0t5VVl0S0ZyelpmMEhBUUhOakczbHZFc28?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "税理士法人、破産開始決定",
+      "body": "高岡市の税理士事務所「税理士法人ホライズン」が、破産開始決定を受けたことが明らかになった。経営状況の悪化が原因とみられる。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xcFlqeFZ6ZEFhWFI5cGpKNkpPTUFnbWlTcmk4SG1aZVBacFhKQU81d1RPVnJuX3gtVTRQVXNGa3Rmc0dQSzIzWjJrM05tYTR4amN4MU0zdVFDZDlmd0F5NXZDZXZoeHc4dllOS3hZOFpUTmUydTRFV0VyZWNWVm8?oc=5",
+      "source": "Google: 税理士"
     }
   ]
 }
