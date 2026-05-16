@@ -59,6 +59,39 @@ function makeRef(a) {
   return { title: a.title, url: a.url, source: a.source, topicId: a.topicId };
 }
 
+// タイトルを正規化して比較しやすくする
+function normTitle(t) {
+  return String(t || '')
+    .toLowerCase()
+    .replace(/[\s\-－—\|｜·・,．。、！？\!\?\(\)\[\]【】「」『』"'`]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// 候補から類似タイトルを1本に絞る（先頭20文字一致 or 共通単語が多い）
+function dedupeCandidates(arr) {
+  const out = [];
+  const keys = [];
+  for (const a of arr) {
+    const n = normTitle(a.title);
+    if (!n) continue;
+    const head = n.slice(0, 18);
+    const words = new Set(n.split(' ').filter((w) => w.length >= 2));
+    let dup = false;
+    for (const k of keys) {
+      if (k.head === head) { dup = true; break; }
+      // 共通単語の割合で判定
+      const common = [...words].filter((w) => k.words.has(w)).length;
+      const denom = Math.min(words.size, k.words.size) || 1;
+      if (common / denom >= 0.7 && common >= 3) { dup = true; break; }
+    }
+    if (dup) continue;
+    keys.push({ head, words });
+    out.push(a);
+  }
+  return out;
+}
+
 function aggregatePreferences(votes) {
   const topics = {};
   const sources = {};
@@ -82,13 +115,14 @@ async function main() {
   const recent = news.items.filter((it) => it.pubDate >= cutoff);
   console.log(`直近${HOURS_WINDOW}時間の記事: ${recent.length}件`);
 
-  // 候補を作る（トピックごとに最大ARTICLES_PER_TOPIC件、最新順）
-  const candidates = [];
+  // 候補を作る（トピックごとに最大ARTICLES_PER_TOPIC件、最新順）→ 全体で類似記事を削除
+  const rawCandidates = [];
   for (const t of news.topics) {
     const sorted = recent.filter((it) => it.topicId === t.id).sort((a, b) => b.pubDate - a.pubDate).slice(0, ARTICLES_PER_TOPIC);
-    candidates.push(...sorted);
+    rawCandidates.push(...sorted);
   }
-  console.log(`候補記事: ${candidates.length}件（各トピック最大${ARTICLES_PER_TOPIC}件）`);
+  const candidates = dedupeCandidates(rawCandidates);
+  console.log(`候補記事: ${candidates.length}件（raw=${rawCandidates.length}、各トピック最大${ARTICLES_PER_TOPIC}件、類似削除後）`);
 
   if (candidates.length < 5) {
     console.error('候補が少なすぎます。終了。');
@@ -125,6 +159,23 @@ async function main() {
     console.error('紙面生成失敗。終了。');
     process.exit(1);
   }
+
+  // articleIdx の重複を後処理で排除（Gemini が守らなかった場合のsafety net）
+  const usedIdx = new Set();
+  if (res.top && typeof res.top.articleIdx === 'number') usedIdx.add(res.top.articleIdx);
+  res.mid = (res.mid || []).filter((s) => {
+    if (typeof s.articleIdx !== 'number') return false;
+    if (usedIdx.has(s.articleIdx)) return false;
+    usedIdx.add(s.articleIdx);
+    return true;
+  });
+  res.briefs = (res.briefs || []).filter((s) => {
+    if (typeof s.articleIdx !== 'number') return false;
+    if (usedIdx.has(s.articleIdx)) return false;
+    usedIdx.add(s.articleIdx);
+    return true;
+  });
+  console.log(`重複排除後: mid=${res.mid.length}本、briefs=${res.briefs.length}本`);
 
   // 組み立て
   const topArticle = res.top && candidates[res.top.articleIdx];
