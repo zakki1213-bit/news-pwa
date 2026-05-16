@@ -1,0 +1,141 @@
+{
+  "type": "evening",
+  "date": "2026-05-16",
+  "generatedAt": "2026-05-16T18:15:52.067+09:00",
+  "lead": "新年度を迎え、教育現場では新たな取り組みが始まっています。高校教育の魅力向上に向けた議論や、AI技術の活用が広がる中、地域社会も活気にあふれています。北海道では、季節の便りとともに、地域に根差した活動が人々の心を和ませています。",
+  "topStory": {
+    "title": "高校教育改革へ委員会設置 ラーケーション導入も議論",
+    "body": "静岡県教育委員会は、高校教育改革の計画を策定するための委員会を設置した。子どもたちが学校外での学びを深める「ラーケーション」の導入についても議論が進められている。\n\nこの委員会では、現代社会のニーズに対応した新たな教育課程の編成や、生徒一人ひとりの多様な学習ニーズに応えるための支援体制の強化などが検討される見通しだ。特に、従来の学校教育にとどまらない、実践的な学びの機会を提供することが重要視されている。\n\n「ラーケーション」は、保護者も同伴して学校外での学習活動に参加できる制度で、実社会との接点を増やし、生徒の主体的な学びを促すことを目的としている。この制度の導入により、家庭と学校が連携し、より包括的な教育環境を構築することを目指す。\n\n県教育委員会は、今後、有識者や現場の教員、保護者などの意見を広く聞きながら、具体的な改革案をまとめていく方針だ。今回の改革が、静岡県の高校教育の質を一層高める契機となることが期待される。",
+    "topicId": "education",
+    "topicName": "教育・ICT",
+    "color": "#2563eb",
+    "references": [
+      {
+        "title": "高校教育改革の計画を策定する委員会を設置 子どもと親が一緒に学校外で学びを深める「ラーケーション」導入も議論 静岡県教育委員会 - Excite エキサイト",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XcnpScWx5R1JUQThJcVpkdnUtSHVaTmhLZWZFOXlnMVZVMkdBUTM3b09JdXBDUHJBWHFhNzQyRUVUOUlQX0ZSdmtPTDdmODFWLUUtNW44UEd0OG5JX1Zreml6aFdRMExlMzZVcWhwdEc?oc=5",
+        "source": "Google: 高校教育",
+        "topicId": "education"
+      }
+    ],
+    "ogImage": "https://s.eximg.jp/exnews/logo/noimg_1200x630_domestic-topic.jpg"
+  },
+  "midStories": [
+    {
+      "title": "生成AI活用、66%が経験",
+      "body": "全国賃貸住宅新聞の調査によると、回答者の66%が生成AIを活用した経験があると答えた。これは、AI技術がビジネスシーンだけでなく、個人の日常的な業務においても広く浸透していることを示唆している。\n\n生成AIは、文章作成、画像生成、プログラミングコード生成など、多岐にわたる分野で活用されており、その利便性の高さから利用者が増加している。特に、業務効率化や新たなアイデア創出のツールとして注目されている。\n\n一方で、AIの利用に関する倫理的な問題や、情報の正確性、著作権などの課題も指摘されており、今後の適切な利用に向けた議論が求められている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "66%が生成AIを活用 - 全国賃貸住宅新聞",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Yb1E3QTlVMUdzUExHWW0yZVl4SEg3TDl3VFItTGFKUzBYUzk0MXcwZURlclloZ1ZtZ2VER1NMWTYyLWYxb3BPUTFRYTFGY0VfTWc?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://www.zenchin.com/style_images/pc/cat3_noimg.jpg"
+    },
+    {
+      "title": "高知県内企業、生成AI活用を模索",
+      "body": "高知県内の企業も、生成AIの活用方法を模索している。南国市の「垣内」では、製品の不具合解決に生成AIが効果を発揮した事例が報告されている。\n\n同社では、複雑な技術的問題が発生した際に、生成AIを活用して原因究明や解決策の立案を試みた。その結果、従来よりも迅速かつ的確に問題点を特定し、解決に至ることができたという。\n\nこの事例は、生成AIが専門的な知識や経験を補完し、企業の課題解決能力を高める可能性を示している。今後、県内企業のさらなるAI活用が期待される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "生成AI、どう活用？ 高知県内の企業も模索 垣内（南国市）は製品不具合解決に効果 - kochinews.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzZUpyMDYySGQ4M3N3c1h4X2ticGR5N2lybzR0TUN0YmtXXy1uYlVVUC05X0xULTFqb0FPM1o1R053eFFtUTdkZHZ4X0pBMjVYSWI4b1FTYlVBS0ZVak9Z?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "津別で今季最高気温29.9度",
+      "body": "北海道津別町で15日、今年一番の暑さとなる29.9度を観測した。北海道内では、各地で気温が上昇し、夏日や真夏日となる地点が相次いだ。\n\nこの暑さにより、熱中症への注意が呼びかけられている。特に高齢者や子供は、こまめな水分補給や涼しい場所での休憩を心がける必要がある。\n\n気象庁によると、今後も高気圧に覆われて晴れる日が続く見込みで、厳しい暑さが予想されるため、引き続き熱中症対策が重要となる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "津別で29.9度 北海道内で今季最高 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBPenhVdDN5TjFqTUp5VTg0eFNlYVY4YUNoOEVpN1Z1UFp1TlJXc0VLOTJzYUlobnpyWXphVnMyOUdwWm1ITExLSVJfa1Vocl9zOXUxUlFqajREM0JUMkxLa04wTlk?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "興部消防団長に消防庁長官表彰",
+      "body": "紋別地区消防組合興部消防団の三山団長が、長年の消防活動への貢献により消防功労者消防庁長官表彰を受賞した。三山団長は43年以上にわたり、地域防災の最前線で活動してきた。\n\n受賞にあたり、三山団長は「これまでの活動を支えてくれた団員や地域の方々に感謝したい。今後も、後進の育成に力を注ぎ、地域の安全を守り続けていきたい」と決意を述べた。\n\n長年の献身的な活動が評価された今回の受賞は、地域社会の安全を守る消防団員の士気を高めるものとなるだろう。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "紋別地区消防組合興部消防団の三山団長に消防功労者消防庁長官表彰 43年超の献身、後進へ継承誓う - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUUhQTGlzbi1UaXhrWklQamVtWmZzR3hrNERLVjJrZGpneU4xdlRqM3Z2VzZJeUIyNjd3c24tVnMxSVIwZGNmRmxfblk3T01tZXc4c2xrR2VOVHpSaWZhS1JrZGdoMWVpSEM2T29fbXZoS1BNeDNBcEtRZ0d1dW1Sd29nWW9qdEpIZ1lnSQ?oc=5",
+          "source": "Google: 興部",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "公立高校の魅力向上へ協議",
+      "body": "静岡県は総合教育会議を開催し、「公立高校の魅力向上」に向けた協議を行った。生徒や保護者にとって魅力的な学校づくりを目指し、具体的な施策について意見交換が行われた。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX1A1Rnp1TExnRDFVUVZfVkszUEh2ZHBSdENaVExpM0daeUxKdExDdE9XczZVTkgyY2dYQWFzYlFGdzFmc29QeDRVN2gzNkVVdU1zVXJrQUw2OFVTdDdSclFaNUJRSVI3SGlpMEF5R3UzNTZvcTR5TTh2clZyaXd0cmVuODNTOFk?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "春季関東高校野球 前橋商がサヨナラ勝ち",
+      "body": "春季関東高校野球大会で、前橋商（群馬2位）が拓大紅陵（千葉3位）に6-5でサヨナラ勝ちを収めた。熱戦が繰り広げられた試合は、観客を魅了した。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBuUUEycklLS0JJSGxvRERPVW5XRVZGUzJtMkwxUTZlN2VZOEw3YzNxc21PeTUtbzdsMWFlT3F4UlM3S2JTTG53b25VZFkyRlZpQ09SQ3J6RHY?oc=5",
+      "source": "Google: 商業高校"
+    },
+    {
+      "title": "松前町立病院会計担当、榊原さん",
+      "body": "北海道松前町の町立病院で会計担当を務める榊原宥人さん（24）が、道からの派遣職員として地域医療を支えている。若手職員の活躍が光る。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1fQ0dkTHVaaEZOeVZrbjVPQU5WU2lrRjM3WG1IRVRaWWgzSjYxTmZhVUZTS0tUR0ZGdlNhLTFBLUtYQ0QyUklwcHh5Z19IS3NjVnQ1bUJKWC1QUQ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "ヒマワリに願う交通安全",
+      "body": "北海道興部町で、園児たちが交通安全を願い、ヒマワリの種をまいた。「ひまわりの絆プロジェクト」の一環で、地域ぐるみで子供たちの安全を見守る取り組みだ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3dqbW9Scnd1VURhQlZkamt1MzVDblA4U1dyTXBseDJ5TjNWQ3RSTnk2ajN0eGhUaTZvaUNSNUR6bktKRDZPcVRWSXNZYzhGUjd4VjJRUkpGNEdRN2Z6ZVJvWk1DU3lXdUpoQzFYOTd1TnRHRWIxdnFObmt0SV95SG5KQVExUXlLTVdHeg?oc=5",
+      "source": "Google: 興部"
+    },
+    {
+      "title": "北見フラワーパラダイス、春まつり開催",
+      "body": "北見フラワーパラダイスで春まつりが開催され、スイセンや芝桜が見頃を迎えている。色とりどりの花々が訪れる人々を楽しませている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tczRZT1VTdnpaUWZTM01vVWp4VFkwa3JTSGFBejZxd2dZZDVsYWdMaGpVV2VDSk1mUEpOSUZLNzBxRHRhdzNZY1hFUUQtT3lFSHJwcFhKOHNRZw?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "興部幼稚園児、ヒマワリの種植え",
+      "body": "興部町の幼稚園児たちが、「ひまわりの絆プロジェクト」としてヒマワリの種を植えた。子供たちの健やかな成長と交通安全を願う、心温まる活動だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU3l2aU5wRG4tZmZjTk5vd0hMMjR5X2NlNmdLRFYwZkdLZWFZdnFsYU5ibFhYRlAxNU4yZElnXzNsTndoaW91MlFXYVVkcmhLSGVPdzNzRFM3a1Z6Qm9ZcTczZG81V1BTdFdHSzQ3cTJVWnZWcHBrZXZ3LV9WTE9KX01IVFQxVEotSEJwWA?oc=5",
+      "source": "Google: 興部"
+    }
+  ]
+}
