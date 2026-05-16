@@ -1,42 +1,27 @@
 {
   "type": "morning",
   "date": "2026-05-16",
-  "generatedAt": "2026-05-16T12:09:33.398+09:00",
-  "lead": "2026年5月16日朝刊。教育現場のAI活用、企業の税務戦略、そして北海道の地域ニュースまで、多岐にわたる最新情報をお届けします。特に、AI技術の進化が教育や自治体業務に与える影響、そして複雑化する税制の動向に注目が集まります。",
+  "generatedAt": "2026-05-16T12:11:03.941+09:00",
+  "lead": "2026年5月16日朝刊。教育改革の最前線からAIの活用、そして北海道の地域ニュースまで、多岐にわたる話題をお届けします。特に、国の高校教育改革における新たな拠点校の選定や、生成AIがもたらす職場環境の変化に注目です。",
   "topStory": {
-    "title": "AI、自治体業務に導入進む 問い合わせ対応や答弁案作成",
-    "body": "人手不足に悩む自治体業務に人工知能（AI）の導入が進んでいる。AIは、住民からの問い合わせ電話の約4割を解決したり、議会の答弁案をわずか1分で作成したりする能力を示している。\n\nAIチャットボットなどを活用することで、職員の負担軽減や業務効率化が期待されている。特に、定型的な問い合わせ対応や情報収集・分析といった分野での活用が先行している。\n\nしかし、AI導入には懸念も根強く残る。個人情報保護やセキュリティ対策、AIによる判断の誤り、そして職員の雇用への影響など、慎重な議論が必要な課題も多い。今後、AIと人間が協調しながら、より質の高い行政サービスを提供していくための制度設計や技術開発が求められる。\n\n一部の自治体では、既にAIを活用した実証実験が行われており、その効果測定と課題抽出が進められている。本格的な導入に向けては、各自治体の状況に合わせた柔軟な対応が不可欠となるだろう。",
-    "topicId": "ai_tech",
-    "topicName": "AI・プログラミング",
-    "color": "#7c3aed",
+    "title": "国が進める高校教育改革、浜松工業高など4校が拠点校に",
+    "body": "文部科学省は、高校教育の質向上を目指す新たな取り組みとして、「教育改革先導拠点校」に浜松工業高校（静岡県）など全国4校を初めて採択したと発表した。これらの学校は、国の教育改革のモデルケースとして、先進的な教育プログラムの開発や実践を主導する役割を担う。\n\n採択された4校は、それぞれ特色ある教育課程や地域連携などを提案。浜松工業高校は、産業界との連携を強化し、実践的なスキルを身につけられるプログラムを推進する。また、ICT（情報通信技術）の活用にも力を入れ、生徒一人ひとりの学習進捗に合わせた個別最適化された学びを提供する方針だ。\n\n今回の取り組みは、急速に変化する社会に対応できる人材育成を目指す国の教育改革の一環。拠点校での成果は全国の高校に共有され、教育内容の標準化や質の底上げに貢献することが期待されている。専門家は、こうした取り組みが、将来の日本を担う若者の育成に不可欠であると指摘している。\n\n文部科学省は、今後も拠点校の活動を支援し、その成果を全国に広めるための体制を整備していく考えだ。これにより、日本の高校教育全体のレベルアップを図ることを目指す。",
+    "topicId": "education",
+    "topicName": "教育・ICT",
+    "color": "#2563eb",
     "references": [
       {
-        "title": "ＡＩを人手不足の自治体業務に、問い合わせ電話４割解決・議会答弁案１分で作成…導入進むが懸念も根強く - Yahoo!ニュース",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53TGN6ZkRCbVVpc1FDaGJJSzFKaFFwSEZ5Z05OQkFzZHhHcHlsb3hiYURQS2RWalBiQy1waW5WeGlwbFYxQVpBYXNrWk43aEk2djFWU3dET1c1VDgwM3c2OUR3cExYNjR1cEdRZEIwNkR6cklxdzItX1dJMHFFTms?oc=5",
-        "source": "Google: 生成AI",
-        "topicId": "ai_tech"
+        "title": "静岡県の浜松工業高校など4校、初の改革先導拠点校に採択 国の高校教育改革で - 中日新聞Web",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZS3lCZnRlQjFjMERrajNEOHAwQTJkRC1SLWNpZS1LMXk3R2plM0t3TkxuSi1HcmRZTjNTeTdBUDZKY3VwVXBpU054VktuNXF6Tk5ObQ?oc=5",
+        "source": "Google: 高校教育",
+        "topicId": "education"
       }
     ]
   },
   "midStories": [
     {
-      "title": "浜松工業高校など4校、国の高校教育改革で拠点校に",
-      "body": "静岡県の浜松工業高校を含む4校が、国の新たな高校教育改革を先導する拠点校に初めて採択された。この取り組みは、変化の激しい社会に対応できる人材育成を目指すもので、各校は特色ある教育プログラムの開発・実践を担う。\n\n採択された学校は、産業界との連携強化や、探求学習の深化などを通じて、生徒の主体的な学びを促進する。具体的には、最新技術の導入や、地域課題の解決に貢献できるような実践的な学びの機会を提供する予定だ。\n\n今回の採択は、全国の高校教育におけるモデルケースとなることが期待されており、今後の教育改革の方向性に大きな影響を与える可能性がある。生徒たちが未来を切り拓く力を育むための、新たな教育の形が示されることになるだろう。",
-      "topicId": "education",
-      "topicName": "教育・ICT",
-      "color": "#2563eb",
-      "references": [
-        {
-          "title": "静岡県の浜松工業高校など4校、初の改革先導拠点校に採択 国の高校教育改革で - 中日新聞Web",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZS3lCZnRlQjFjMERrajNEOHAwQTJkRC1SLWNpZS1LMXk3R2plM0t3TkxuSi1HcmRZTjNTeTdBUDZKY3VwVXBpU054VktuNXF6Tk5ObQ?oc=5",
-          "source": "Google: 高校教育",
-          "topicId": "education"
-        }
-      ]
-    },
-    {
-      "title": "職場の「主人公症候群」 生成AIが示す対処戦略",
-      "body": "職場で「主人公症候群」と呼ばれる、自己中心的で他者の意見を聞き入れない従業員への対応が課題となっている。この問題に対し、生成AIが新たな対処戦略を示す可能性が出てきた。\n\n生成AIは、客観的なデータ分析に基づき、個々の従業員の行動パターンやコミュニケーションスタイルを分析できる。その結果から、対立を避けつつ、建設的な対話や協調を促すための具体的なアプローチを提案することが期待される。\n\n例えば、AIが個々の従業員に合わせたフィードバックを提供したり、チーム内のコミュニケーションを円滑にするためのツールを開発したりすることが考えられる。これにより、組織全体の生産性向上と良好な職場環境の維持に貢献できる可能性がある。",
+      "title": "生成AIが変える職場の力学、主体性を促す対処戦略",
+      "body": "生成AIの普及は、職場で「主人公症候群」とも呼ばれる、個人の過度な自己主張や他者への影響力を増大させる可能性が指摘されている。AIが個人の能力を拡張する一方で、チームワークや協調性を損なうリスクもはらんでいる。\n\nこの課題に対し、生成AIを活用した新たな対処戦略が提案されている。AIが客観的なデータ分析や多様な視点を提供することで、個人の主観に偏った判断を抑制し、より建設的な議論を促進する。例えば、AIに会議の議事録を作成させ、発言の偏りを可視化するなどの活用法が考えられる。\n\n専門家は、AIを単なる効率化ツールとしてだけでなく、組織内のコミュニケーションを円滑にし、健全な職場環境を維持するための補助ツールとして捉えるべきだと提言している。AIとの共存を図りながら、人間中心の職場文化を再構築することが求められている。",
       "topicId": "ai_tech",
       "topicName": "AI・プログラミング",
       "color": "#7c3aed",
@@ -50,23 +35,23 @@
       ]
     },
     {
-      "title": "イーロン・マスク氏「税金未払い」論の真相",
-      "body": "イーロン・マスク氏が「税金を払っていない」という指摘について、アメリカの税制と富裕層の納税の実態を専門家が解説した。この問題は、現代社会における税負担の公平性に関する議論を呼んでいる。\n\n専門家によると、マスク氏のような富裕層は、所得の大部分を株式などの資産で保有しており、その評価益に対する課税は、資産を売却するまで繰り延べられる場合がある。また、税制上の優遇措置や節税スキームの活用も、納税額に影響を与える要因となっている。\n\nこの解説は、単に個人の納税額だけでなく、現代の税制が抱える構造的な問題点や、富裕層に対する「優遇」論の実像に光を当てている。税負担の公平性について、改めて考えるきっかけとなるだろう。",
-      "topicId": "business",
-      "topicName": "商業・簿記・会計",
-      "color": "#059669",
+      "title": "AI、自治体業務に浸透 人手不足解消へ期待と懸念",
+      "body": "全国の自治体で、AI（人工知能）の導入が急速に進んでいる。特に、問い合わせ電話への自動応答や議会答弁案の作成支援など、人手不足が深刻化する現場での活用が期待されている。\n\nAIチャットボットによる問い合わせ対応では、一部の自治体で電話応対件数の4割削減といった効果が報告されている。また、議会答弁案の作成支援では、AIが短時間で複数の選択肢を提示することで、職員の負担軽減に貢献している。これらの導入により、限られた人員で多様化する行政サービスに対応する道が開かれつつある。\n\n一方で、AI導入にはプライバシー保護や情報漏洩のリスク、そしてAIによる判断の誤りといった懸念も根強く残る。総務省は、AI利用に関するガイドライン策定を進めるなど、安全かつ効果的な導入に向けた取り組みを進めている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
       "references": [
         {
-          "title": "イーロン・マスク氏は本当に「税金を払っていない」のか――アメリカ税制と“富裕層優遇”論の実像【国際税理士が解説】 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JemtBb0VFaW9pYkc4ZTIzem1VT0NhOW9Wa0pPLWxvb0tTbWt1VFpDenprM1RvTndhdFVYbUpMekFLa3N4bWR4ZXlpSklJYTJXbHlnSGxzSDN2LUtLN0VWWVJuR1FRUmFTaDVYdGw3V1k5WExWM2gyMTZhWThscFU?oc=5",
-          "source": "Google: 税理士",
-          "topicId": "business"
+          "title": "ＡＩを人手不足の自治体業務に、問い合わせ電話４割解決・議会答弁案１分で作成…導入進むが懸念も根強く - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53TGN6ZkRCbVVpc1FDaGJJSzFKaFFwSEZ5Z05OQkFzZHhHcHlsb3hiYURQS2RWalBiQy1waW5WeGlwbFYxQVpBYXNrWk43aEk2djFWU3dET1c1VDgwM3c2OUR3cExYNjR1cEdRZEIwNkR6cklxdzItX1dJMHFFTms?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
         }
       ]
     },
     {
-      "title": "ふるさと納税の手数料と増税リスク",
-      "body": "ふるさと納税のポータルサイト手数料が寄附額の11.5%に達することが明らかになり、制度の「得する」イメージに疑問符がついている。多くの人が気づいていない増税リスクについても指摘されている。\n\n本来、ふるさと納税は地域活性化と納税者の税負担軽減を目的とした制度だが、ポータルサイトの手数料負担が実質的な負担増につながるケースがある。また、制度の複雑さから、控除上限額を超えて寄附をしてしまうと、かえって税負担が増える可能性も指摘されている。\n\nこの問題は、制度の透明性向上と、納税者へのより丁寧な情報提供の必要性を示唆している。制度を賢く利用するためには、手数料や控除上限額に関する正確な知識が不可欠となるだろう。",
+      "title": "ふるさと納税の手数料、寄付額の11.5%に上限設定へ",
+      "body": "総務省は、ふるさと納税のポータルサイト運営事業者が徴収する手数料について、寄付額の11.5%を上限とする方針を固めた。現在、一部のサイトではこれを超える手数料が徴収されており、制度の趣旨に反するとの指摘があった。\n\nこの上限設定により、自治体への寄付額に対する実質的な負担が増加する可能性が指摘されている。これまで「得する制度」として利用してきた納税者にとっては、制度の理解を深める必要が出てきた。また、ポータルサイト側にも、手数料収入の減少に対応するための経営戦略の見直しが求められる。\n\n今回の見直しは、ふるさと納税制度の適正な運営と、寄付者への公平性を確保することを目的としている。今後、関係省令の改正などを経て、新手数料の上限が適用される見込みだ。",
       "topicId": "business",
       "topicName": "商業・簿記・会計",
       "color": "#059669",
@@ -78,39 +63,27 @@
           "topicId": "business"
         }
       ]
+    },
+    {
+      "title": "北海道北見市で住宅火災、2人死亡1人重傷",
+      "body": "15日午後、北海道北見市で発生した住宅火災により、住人の男女2人が死亡、1人が重傷を負った。消防によると、火は約2時間後に消し止められたが、木造住宅1棟が全焼した。現場からは大量の黒煙が上がっていたという。\n\n警察と消防は、出火原因を詳しく調査している。近隣住民の話では、火災発生時、家の中から激しい炎が見えたとのこと。亡くなったのは高齢の夫婦とみられ、重傷を負ったのはその息子とみられている。\n\nこの火災により、地域住民の間には不安が広がっており、火の取り扱いへの注意喚起が改めて行われている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "住宅火災で２人死亡、１人けが 北海道北見市、「大量に黒煙」 - 山陽新聞デジタル｜さんデジ",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PejZlNjZLRmVrVUlFTjQ2QS1jclpwZHVFS3VURm4yNjMxYjY3OVFQSGgyWUV5UEJTcUJTSFl5ZXhUT0ZDZ0F5dHYzekxFdEMzTkhHa2xJQUpnQQ?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
     }
   ],
   "briefs": [
     {
-      "title": "北海道興部町でクマ出没",
-      "body": "15日、北海道興部町興部でクマの目撃情報があった。町は周辺地域に注意を呼びかけている。付近を通行する際は十分な警戒が必要だ。",
-      "topicId": "hokkaido",
-      "topicName": "北海道ローカル",
-      "color": "#dc2626",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNbXdsQUYzcFdVYTBwM3NVSDEzMDZWUk1XQjRuZ1hNYmI5WEN6Z1BCN1BtNmY3UWZCVGNMWEhMNlVZMDZ4TlFOVmdRSGVlaFNlT3NQVzR1NUo3NUQxdHd4R2xHNW9oeFZrWnVVUElCUTR6d1RuRmZVdUl5dnlSY2tMQTVoUXZQZnJ2R1FoLWNwcGpVdHhPQjZqOHdSRzBXb2cxYXJrbmp1Vl9ZbS13a1U0NWQyMTdOQnFnbGczOFVTOEp2QjFXQzJHSWhQWmliODMtZFg2b0Z5S3pHMHpZQzU5dlZCeHFQZWpFOERiNEhTazlEQdIBogFBVV95cUxPNnJ1MlBKNGlHbFgwY05NR1RESENheUUxakdvdGZfZU1NeUE3VWZmaHNLRFpOUGdBc0liLXZVeGU2YUZNenFVQnQwRFRUN21qYU9OTkVjY0FwSWFaUGRsN0c5Q0g2RThJTlJXLTdkWUpoYmRtcmhDUVhIckcxR1BSa20zaVZibnFTMmFQOFVDdFNDbmRxMkVVRGxtT3Izby14WFE?oc=5",
-      "source": "Google: 興部"
-    },
-    {
-      "title": "北海道北見市で住宅火災、2人死亡",
-      "body": "15日、北海道北見市で発生した住宅火災により、2人が死亡、1人が負傷した。現場からは大量の黒煙が確認された。出火原因を調査中だ。",
-      "topicId": "hokkaido",
-      "topicName": "北海道ローカル",
-      "color": "#dc2626",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PejZlNjZLRmVrVUlFTjQ2QS1jclpwZHVFS3VURm4yNjMxYjY3OVFQSGgyWUV5UEJTcUJTSFl5ZXhUT0ZDZ0F5dHYzekxFdEMzTkhHa2xJQUpnQQ?oc=5",
-      "source": "Google: 北見市"
-    },
-    {
-      "title": "高校野球、駒大苫小牧など全道大会へ",
-      "body": "北海道春季大会の支部予選で、駒大苫小牧高校などが勝利し、16日に2支部で3校の全道大会出場が決まった。熱戦が繰り広げられている。",
-      "topicId": "hokkaido",
-      "topicName": "北海道ローカル",
-      "color": "#dc2626",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ldlgtSF92WGgtT0FsendmazB0MjQ1MjBXSkRkb05GYURLekRCWjRjS3Jwck1ReFpJdzRQNnFDQ2JOaFBqSVpBSU1pMDQtUWJ2cmc?oc=5",
-      "source": "Google: 北海道 高校"
-    },
-    {
-      "title": "富山商業高、AI教材で模試平均点9割超",
-      "body": "全国レベルの部活動強豪校である富山商業高校が、AI教材「Monoxer」を活用し、外部模試の漢字・語彙で学年平均点9割超を達成した。学習効果の高さが示された。",
+      "title": "富山商業高、学習アプリで模試平均点9割超",
+      "body": "全国レベルの部活動強豪校である富山商業高校が、学習支援アプリ「Monoxer」を活用し、外部模試の漢字・語彙分野で学年平均点9割超を達成した。同校は、スポーツだけでなく学業面でも高い成果を目指している。",
       "topicId": "business",
       "topicName": "商業・簿記・会計",
       "color": "#059669",
@@ -118,22 +91,49 @@
       "source": "Google: 商業高校"
     },
     {
-      "title": "シャープ、テレビとAIの新サービス発表",
-      "body": "シャープは、テレビとAIを組み合わせた新たなサービスを発表した。視聴者に「あま～い言葉」で癒やしを提供するという。AIによるパーソナライズされた体験が期待される。",
+      "title": "イーロン・マスク氏の納税額、米税制の複雑さ浮き彫り",
+      "body": "イーロン・マスク氏の納税額を巡る議論は、アメリカの複雑な税制と富裕層への優遇措置の実態を浮き彫りにしている。国際税理士は、表面的な報道だけでなく、税制の仕組み全体を理解することの重要性を指摘している。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JemtBb0VFaW9pYkc4ZTIzem1VT0NhOW9Wa0pPLWxvb0tTbWt1VFpDenprM1RvTndhdFVYbUpMekFLa3N4bWR4ZXlpSklJYTJXbHlnSGxzSDN2LUtLN0VWWVJuR1FRUmFTaDVYdGw3V1k5WExWM2gyMTZhWThscFU?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "富裕層の海外資産防衛、相続税増税で関心高まる",
+      "body": "相続税が55％時代を迎える中、日本の富裕層の間で海外資産の防衛に関心が高まっている。トランプ政権下での税制変動も影響し、資産を守るための戦略が模索されている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51T3l1MmJQcVRLZ3MycDhfX2tUMHBVdThCWXo4RWRpcXRCTUlSNVZLY3NKQ2dnSTJhQm9EeGF2TmlvcmRJNXFrUS0wbFhWeklrWE85WEgtN1BjZEp5NGFMMkxFbldfTXc5XzgtSEFoSVFVX043UGZyT1Z5bU5OVVU?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "北海道興部町でクマ出没、住民に注意呼びかけ",
+      "body": "15日、北海道興部町興部地区でクマが目撃された。町は付近の住民に注意を呼びかけ、パトロールを強化している。けが人の情報はない。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNbXdsQUYzcFdVYTBwM3NVSDEzMDZWUk1XQjRuZ1hNYmI5WEN6Z1BCN1BtNmY3UWZCVGNMWEhMNlVZMDZ4TlFOVmdRSGVlaFNlT3NQVzR1NUo3NUQxdHd4R2xHNW9oeFZrWnVVUElCUTR6d1RuRmZVdUl5dnlSY2tMQTVoUXZQZnJ2R1FoLWNwcGpVdHhPQjZqOHdSRzBXb2cxYXJrbmp1Vl9ZbS13a1U0NWQyMTdOQnFnbGczOFVTOEp2QjFXQzJHSWhQWmliODMtZFg2b0Z5S3pHMHpZQzU5dlZCeHFQZWpFOERiNEhTazlEQdIBogFBVV95cUxPNnJ1MlBKNGlHbFgwY05NR1RESENheUUxakdvdGZfZU1NeUE3VWZmaHNLRFpOUGdBc0liLXZVeGU2YUZNenFVQnQwRFRUN21qYU9OTkVjY0FwSWFaUGRsN0c5Q0g2RThJTlJXLTdkWUpoYmRtcmhDUVhIckcxR1BSa20zaVZibnFTMmFQOFVDdFNDbmRxMkVVRGxtT3Izby14WFE?oc=5",
+      "source": "Google: 興部"
+    },
+    {
+      "title": "北海道春季大会、駒大苫小牧など全道大会へ",
+      "body": "北海道春季高校野球大会の支部予選で、駒大苫小牧高校などが出場権を獲得し、16日に全道大会への切符を手にした。熱戦が繰り広げられている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ldlgtSF92WGgtT0FsendmazB0MjQ1MjBXSkRkb05GYURLekRCWjRjS3Jwck1ReFpJdzRQNnFDQ2JOaFBqSVpBSU1pMDQtUWJ2cmc?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "シャープ、テレビとAI融合の新サービス発表",
+      "body": "シャープは、テレビとAIを組み合わせた新たなサービスを発表した。AIがユーザーの好みに合わせたコンテンツを提案するなど、よりパーソナルな視聴体験を提供する。癒やしをテーマにした機能も搭載される。",
       "topicId": "ai_tech",
       "topicName": "AI・プログラミング",
       "color": "#7c3aed",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00Skd3cVFWaUpwU0dPS1FSdWFGOTFYcldIeTFHMVV0OXVabHNrbUlZdEJIMnNTcVQwMjBMeVBFRzlFVFJpbmZBMVNCamVDd0t5VVl0S0ZyelpmMEhBUUhOakczbHZFc28?oc=5",
       "source": "Google: 生成AI"
-    },
-    {
-      "title": "高岡の税理士法人、破産開始決定",
-      "body": "高岡市の税理士法人ホライズンが破産開始決定を受けた。経営状況が悪化していたとみられる。地域経済への影響が懸念される。",
-      "topicId": "business",
-      "topicName": "商業・簿記・会計",
-      "color": "#059669",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xcFlqeFZ6ZEFhWFI5cGpKNkpPTUFnbWlTcmk4SG1aZVBacFhKQU81d1RPVnJuX3gtVTRQVXNGa3Rmc0dQSzIzWjJrM05tYTR4amN4MU0zdVFDZDlmd0F5NXZDZXZoeHc4dllOS3hZOFpUTmUydTRFV0VyZWNWVm8?oc=5",
-      "source": "Google: 税理士"
     }
   ]
 }
