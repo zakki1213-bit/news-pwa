@@ -63,33 +63,74 @@ function makeRef(a) {
 function normTitle(t) {
   return String(t || '')
     .toLowerCase()
-    .replace(/[\s\-－—\|｜·・,．。、！？\!\?\(\)\[\]【】「」『』"'`]+/g, ' ')
-    .replace(/\s+/g, ' ')
+    .replace(/[\s\-－—\|｜·・,．。、！？\!\?\(\)\[\]【】「」『』"'`]+/g, '')
     .trim();
 }
 
-// 候補から類似タイトルを1本に絞る（先頭20文字一致 or 共通単語が多い）
-function dedupeCandidates(arr) {
+// 文字バイグラム集合
+function bigramSet(s) {
+  const out = new Set();
+  for (let i = 0; i < s.length - 1; i++) out.add(s.substr(i, 2));
+  return out;
+}
+function bigramSim(a, b) {
+  const A = bigramSet(normTitle(a));
+  const B = bigramSet(normTitle(b));
+  if (!A.size || !B.size) return 0;
+  let common = 0;
+  for (const x of A) if (B.has(x)) common++;
+  return common / Math.min(A.size, B.size);
+}
+
+// 候補から類似タイトルを1本に絞る（バイグラム類似度70%以上を重複と判定）
+function dedupeCandidates(arr, threshold = 0.7) {
   const out = [];
-  const keys = [];
   for (const a of arr) {
-    const n = normTitle(a.title);
-    if (!n) continue;
-    const head = n.slice(0, 18);
-    const words = new Set(n.split(' ').filter((w) => w.length >= 2));
-    let dup = false;
-    for (const k of keys) {
-      if (k.head === head) { dup = true; break; }
-      // 共通単語の割合で判定
-      const common = [...words].filter((w) => k.words.has(w)).length;
-      const denom = Math.min(words.size, k.words.size) || 1;
-      if (common / denom >= 0.7 && common >= 3) { dup = true; break; }
-    }
-    if (dup) continue;
-    keys.push({ head, words });
-    out.push(a);
+    const dup = out.some((b) => bigramSim(a.title, b.title) >= threshold);
+    if (!dup) out.push(a);
   }
   return out;
+}
+
+// 過去N編集で取り上げた URL・タイトルを取得
+async function getPreviouslyFeatured(currentDate, currentKind, maxEditions = 4) {
+  const titles = [];
+  const urls = new Set();
+  try {
+    const idxRaw = await fs.readFile('editions/index.json', 'utf8');
+    const idx = JSON.parse(idxRaw);
+    const recent = (idx.editions || [])
+      .filter((e) => !(e.date === currentDate && e.type === currentKind))
+      .slice(0, maxEditions);
+    for (const e of recent) {
+      try {
+        const ed = JSON.parse(await fs.readFile(`editions/${e.file}`, 'utf8'));
+        if (ed.topStory) {
+          titles.push(ed.topStory.title);
+          if (ed.topStory.references?.[0]?.url) urls.add(ed.topStory.references[0].url);
+        }
+        for (const m of ed.midStories || []) {
+          titles.push(m.title);
+          if (m.references?.[0]?.url) urls.add(m.references[0].url);
+        }
+        for (const b of ed.briefs || []) {
+          titles.push(b.title);
+          if (b.url) urls.add(b.url);
+        }
+      } catch {}
+    }
+  } catch {}
+  return { titles, urls };
+}
+
+function filterAgainstPrevious(candidates, prev, threshold = 0.6) {
+  return candidates.filter((c) => {
+    if (prev.urls.has(c.url)) return false;
+    for (const t of prev.titles) {
+      if (bigramSim(c.title, t) >= threshold) return false;
+    }
+    return true;
+  });
 }
 
 function aggregatePreferences(votes) {
@@ -115,14 +156,16 @@ async function main() {
   const recent = news.items.filter((it) => it.pubDate >= cutoff);
   console.log(`直近${HOURS_WINDOW}時間の記事: ${recent.length}件`);
 
-  // 候補を作る（トピックごとに最大ARTICLES_PER_TOPIC件、最新順）→ 全体で類似記事を削除
+  // 候補を作る（トピックごとに最大ARTICLES_PER_TOPIC件、最新順）→ 類似削除 → 過去編集と重複除外
   const rawCandidates = [];
   for (const t of news.topics) {
     const sorted = recent.filter((it) => it.topicId === t.id).sort((a, b) => b.pubDate - a.pubDate).slice(0, ARTICLES_PER_TOPIC);
     rawCandidates.push(...sorted);
   }
-  const candidates = dedupeCandidates(rawCandidates);
-  console.log(`候補記事: ${candidates.length}件（raw=${rawCandidates.length}、各トピック最大${ARTICLES_PER_TOPIC}件、類似削除後）`);
+  const deduped = dedupeCandidates(rawCandidates);
+  const prev = await getPreviouslyFeatured(dateStr, KIND, 4);
+  const candidates = filterAgainstPrevious(deduped, prev);
+  console.log(`候補記事: raw=${rawCandidates.length} → 類似削除後 ${deduped.length} → 既出除外後 ${candidates.length}（過去${prev.urls.size}URL、${prev.titles.length}タイトル参照）`);
 
   if (candidates.length < 5) {
     console.error('候補が少なすぎます。終了。');
