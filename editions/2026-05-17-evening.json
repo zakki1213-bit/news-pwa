@@ -1,0 +1,141 @@
+{
+  "type": "evening",
+  "date": "2026-05-17",
+  "generatedAt": "2026-05-17T18:23:55.698+09:00",
+  "lead": "本日は2026年5月17日夕刊です。AI技術の進化が社会の様々な側面に影響を与える中、教育現場では探究学習の重要性が増しています。商業分野ではオンライン診療や物価高への対応が注目される一方、北海道では高校野球や地域振興の話題が紙面を飾ります。AIと人間の関わり方や、教育のあり方について、多角的に報じます。",
+  "topStory": {
+    "title": "探究学習、全国400校8万2千人が挑戦",
+    "body": "教育と探求社が提供する「クエストエデュケーション」が、全国400校、延べ8万2千人の生徒に広がりを見せている。このプログラムは、生徒たちが実社会の課題解決に取り組む探究学習を支援するもので、ビジネスや社会課題など14種類の多様なテーマが用意されている。\n\n生徒たちは、企業やNPOと連携しながら、プロジェクトベースで学習を進める。これにより、座学だけでは得られない実践的なスキルや、主体的に学ぶ姿勢を育むことが期待されている。例えば、地域活性化や商品開発といったテーマでは、生徒たちが自らアイデアを出し、計画を立て、実行に移すプロセスを経験する。\n\n近年、大学入試における探究学習の評価が高まる中、多くの教育機関がこの種のプログラム導入に関心を示している。クエストエデュケーションは、生徒一人ひとりの興味関心を引き出し、将来社会で活躍するための基盤を築く教育手法として、今後もその重要性を増していくと考えられる。",
+    "topicId": "education",
+    "topicName": "教育・ICT",
+    "color": "#2563eb",
+    "references": [
+      {
+        "title": "400校8万2千人が取り組む14種！ 教育と探求社「クエストエデュケーション」 - ライブドアニュース",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOZl9xOHVINDJkUHpWdFZMWjlzVTFaTV9Za3IzcTJya0JXd0JremZSZnVJaWFzNE4zSHQ0V2t0ZWxJNDl1NV9KdnNzTUktcEpZVXBfY2lTbGdwTGpuam9j?oc=5",
+        "source": "Google: 探究学習",
+        "topicId": "education"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "中小企業向けAIエージェント登場",
+      "body": "Anthropicは、中小企業向けのAIエージェント「Claude for Small Business」を発表した。このサービスは、中小企業が抱える業務効率化や顧客対応の課題解決を支援することを目的としている。\n\nClaude for Small Businessは、自然言語処理能力に優れた大規模言語モデル「Claude」を基盤としており、問い合わせ対応の自動化、資料作成の補助、社内情報の検索など、多様な業務に活用できる。これにより、限られたリソースで事業を運営する中小企業は、AIの力を借りて生産性を向上させることが可能になる。\n\nAI技術の普及は、大企業だけでなく中小企業にも恩恵をもたらし始めている。今回の発表は、AIがより身近なビジネスツールとして活用される時代の到来を予感させるものだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "Anthropic、中小企業向けAIエージェント「Claude for Small Business」発表 - ビジネス+IT",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xWTBkTUhFSG04MTMzeDYydXAwMkZ1RWVhNENmS29rTUhPY1VxSmIzZkcwVE5BUTgyZ0VOaV94dHZrZ0R2Z1JqaXRsZTR1dG1qc21z?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "北海道春の高校野球、公立校旋風",
+      "body": "北海道大会への切符をかけた春季高校野球の支部予選が各地で熱戦を繰り広げ、代表16校が決定した。今年は公立高校の活躍が目立ち、倶知安高校（48年ぶり）、帯広三条高校、旭川東高校など、計6校が全道大会への進出を決めた。\n\n各支部で激戦を制した公立校たちは、強豪私立校としのぎを削り、見事な戦いぶりで観客を魅了した。特に、長年の悲願を達成した倶知安高校の快進撃は、地域に大きな感動を与えている。\n\n春の全道大会は、北海道の高校球児たちの熱い戦いが繰り広げられる注目の舞台となる。公立校旋風がどこまで続くのか、期待が集まる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "【高校野球】春の公立旋風だ 北海道大会代表１６校決定 ４８年ぶりの倶知安や帯広三条、旭川東など公立６校が全道切符獲得 - au Webポータル",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1fVnRQT3dqNGJHNExWOVlSMU9ZYko1b3A4RENqd0p4cEphbTBaTUFVUkxOelAxZ2I2RjJ6dUxRaFhSZmZqX3l2YVAxb0hkNmowaVRsZzdiUmFRQXNqS2cwMm9GN1ozZ3lEbl9aY2tKOU9IYml6TWExSG5EdUowUQ?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "JR東日本、駅ナカでオンライン診療開始",
+      "body": "JR東日本は、駅構内のスペースを活用したオンライン診療サービスを開始した。内科や皮膚科などを対象とし、受付から診察、会計までを約15分で完了できるのが特徴だ。\n\nこのサービスは、多忙な現代人のライフスタイルに合わせたもので、駅を利用するついでに気軽に受診できる利便性を提供している。オンラインでの問診や診察に加え、必要に応じて処方箋の発行や薬の受け取りサポートも行われる。\n\n駅ナカでの医療サービス提供は、新たな都市型インフラの形として注目される。今後、他の路線や駅への展開も視野に入れ、地域医療への貢献を目指すという。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "JR東日本「駅ナカ」でオンライン診療 受付→診察→会計で約15分 内科・皮膚科らが対象 - NCC長崎文化放送",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zN09HVzF1Q3h4SlZKSl9ZeW9MUFo1cWJhWUdlSkhsVTFvMXNibnhfMkRqTFhreHVEbklFTDJpbjZuTTNBQ1dKYkZ6MzBRQXdJT29Zc2dYNDM?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ],
+      "ogImage": "https://news.tv-asahi.co.jp/articles_img/000505687_640.jpg"
+    },
+    {
+      "title": "米国の税務調査、追徴課税に戸惑う日本人",
+      "body": "米国の税務調査において、何十年も遡って追徴課税が課されるケースがあり、日本人がこれに戸惑う事例が報告されている。国際税理士の解説によると、米国の税法は日本と異なり、過去の申告内容に対する調査が厳格に行われる傾向がある。\n\n特に、所得の捕捉や税務申告の正確性に関して、米国では納税者側の立証責任が重い場合がある。これにより、予期せぬ追徴課税が発生し、大きな負担となることがあるという。\n\n国際的なビジネスや移住が増加する中で、各国税制の違いを理解することは不可欠である。専門家は、事前に専門家へ相談し、適切な税務管理を行うことの重要性を訴えている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "何十年にも遡る「追徴課税」--米国の税務調査に日本人が戸惑う理由とは【国際税理士が解説】 (2026年5月17日掲載) - ライブドアニュース",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vQWFmbDY3RE1UN0V2d3V5ek9BcVJld3M5eDNpbUdBcFFMVkhUTG8tOTUyYXpVVDFhNklrWnpfNDlfX1JMX0MtVXlUck5BTjJDM1FwcWp2YkZOX0lmaUE?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ],
+      "ogImage": "https://image.news.livedoor.com/newsimage/stf/a/d/adc3c_1719_1da6b185_3d70e5d4.jpg"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "オホーツク海環境保全へ植樹活動",
+      "body": "紋別市では、オホーツク海の環境保全を目指し、山に木の苗を植える活動が行われた。地域住民や関係者が参加し、未来への貢献として植樹に取り組んだ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBLTDUtYTktb0h3bnRheUZaZTZVSm5KUnIxN2FzdzJPTDBIbngzOXN0c0RReURPV1RHTmpwUVpqOG04TmZ2M2QzVGt5cjVxQnRkaVVLeHdkTmM?oc=5",
+      "source": "Google: オホーツク"
+    },
+    {
+      "title": "道産小麦「北見95号」商品化",
+      "body": "セブン-イレブンが、北海道産の菓子用小麦「北見95号」を使用した新商品を発売した。この小麦は道産初の菓子用で、ふんわりとした特性を生かした商品展開でブランド化を目指す。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xcC1MNFNmV1JIN3h5X01fNThiVTBsb1dyeU1pbkJGMjh0OS1pQkxta3ZydExDN0RpcWtxR3ZUZVpGRlFwRmJaQzNnMXdFaTVYM25mSi01TlVuQQ?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "イラストレーター、生成AIとの共存模索",
+      "body": "イラストレーターの七瀬葵氏が、生成AIとの創作活動における自身の経験と、コミケなどでの排除論について語った。「AI堕ち」と批判されながらも、AI技術との共存の可能性を模索する姿勢を示している。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zdjBzM2NiS041WERVLXJMSlp6ckJ2bDBHbU9tSnJGdGM0VkFoR1FhbndGUTJEMDJKQU9SRDFwQXV6aGFWMmMyalMzYkU1WVNqOWw2Y3NwMzR2SExBM3c?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "中国発の動画生成AIが映像業界席巻",
+      "body": "中国製の動画生成AIが、その高い性能と手軽さから映像業界で急速に普及している。短期間で高品質な映像コンテンツを制作できることから、多くのクリエイターや企業が活用を進めている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZNmFUZ01uTjRYNFlhREpFT194ZVVMNzZ6MEI5cnh3cklBSjdOVHdsaDZBeDlDYks4NHpDMVE1QVRVWm5hQzMzcTNsLUhxaFR6WU4wV3U2aGdaRThZRXRjTXZRaFpwNmd4Tm5qRHFRclBjODJhcTkyTkcxaEdXWk0?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "旭川紋別道で事故、通行止め解除",
+      "body": "17日午後4時50分現在、旭川紋別道（紋別・上川管境区間）で発生していた事故による一部通行止めが解除された。交通への影響は限定的だった模様だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBLVmVweVpDcWRZWXhlbC1JWjQ0bHprNkdNVE9LNHNDVGRLcFE1NXMzaDg2U0FfeTZBZjFYVFlEWkdIelJ2c2ZCUDRRZEc0czR6b0g3TVlDajB3NzM0OFln0gFkQVVfeXFMUEJ1STNLb2twNE5sSlktdU9nX0ZkVXNqcW9yOHdDWTYyN3JjVHM5LUk4ZC1meklsdWZ4eDdXT1dnMm9jRms4dnhiV0V6dmlVUlhaYW5ra2Z4T2ROY3NiMmxlV2RMZw?oc=5",
+      "source": "Google: 紋別"
+    },
+    {
+      "title": "商業高生、検定試験で9冠達成",
+      "body": "新潟商業高校の2年生、仲川伶奈さんが、全国商業高等学校協会主催の検定試験で9冠を達成した。姉に続き県内2人目の快挙で、日々の努力が実を結んだ形だ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85LThZV3BrTHRHaEtZTHR3X04tOGFBVVU1M0tHSzBOaEgwazhPNEdFM0tRS3VWakRJdHdPZnA4aDFRb1BkRThCVFZsbWRYQXJWNTlGTXg1WHRub21xb0E?oc=5",
+      "source": "Google: 商業高校"
+    }
+  ]
+}
