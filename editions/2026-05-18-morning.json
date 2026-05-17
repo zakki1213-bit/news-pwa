@@ -1,0 +1,142 @@
+{
+  "type": "morning",
+  "date": "2026-05-18",
+  "generatedAt": "2026-05-18T05:34:24.051+09:00",
+  "lead": "本日は2026年5月18日朝刊です。AI技術の進化が教育現場や医療分野にまで及ぶ一方、経済界では企業のDX推進や、クラウドサービス連携の新たな動きが見られます。また、地域経済の活性化に向けた取り組みや、自然災害への警戒も引き続き重要です。本紙では、これらの多岐にわたるニュースをバランス良くお届けします。",
+  "topStory": {
+    "title": "教員の生成AI利用急増、活用法で差",
+    "body": "教員の生成AI利用が急速に増加している。その活用法は、「下請け」として作業を任せるか、「話し相手」として対話を通じてアイデアを引き出すかによって、成果に大きな差が出ていることが明らかになった。\n\n文部科学省の調査によると、多くの教員が授業準備や教材作成、生徒への個別指導の補助などに生成AIを活用し始めている。特に、AIに指示を出して文章を作成させたり、情報を要約させたりする「下請け」的な使い方が一般的だ。これにより、教員の業務負担軽減に一定の効果が見られている。\n\n一方で、生成AIを「話し相手」として捉え、対話を通じて生徒の学習課題の発見や、授業内容の深化に繋げようとする教員もいる。こうした教員は、AIとの対話を通じて、生徒一人ひとりの理解度や興味関心に合わせた指導法を模索しており、より創造的で効果的な教育実践に繋がる可能性が示唆されている。\n\n専門家は、生成AIの活用は今後さらに進むと予測しており、教員向けの研修やガイドラインの整備が急務であると指摘する。AIを単なる業務効率化のツールとしてだけでなく、教育の質を高めるためのパートナーとして捉え、その可能性を最大限に引き出すための知見共有が求められている。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "教員の生成AI利用が急激に増加､｢下請け｣か｢話し相手｣か…で差が出る活用のコツ《\"デジタルな副担任\"の育て方》 - 東洋経済オンライン",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1zN2JEQnQ4VTcyQVo3WGV1eVFaeXpXYUxSMi1NUVA5Z0J2eFZhMlZ4MDdxYzJ0UlZiemlxOHg4QkNHc1Bvb0pCeVpSaW9kRDVnZ0psMHpLR1paR1E?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "AIでDX推進、生成AIとデザイン思考の融合",
+      "body": "企業のデジタルトランスフォーメーション（DX）推進において、生成AIとデザイン思考の融合が持続可能な成長戦略の鍵となることが指摘されている。生成AIは、新たなアイデア創出や業務プロセスの効率化に貢献する一方、デザイン思考は、顧客中心の視点で課題を発見し、革新的なソリューションを生み出すためのフレームワークである。\n\nこの二つを組み合わせることで、企業は変化の激しい市場環境に対応し、顧客ニーズを的確に捉えた製品やサービスを開発することが可能になる。生成AIが膨大なデータからインサイトを抽出し、デザイン思考がそれを基に具体的な解決策をデザインする。この相乗効果により、企業の競争力強化とイノベーション創出が期待される。\n\n具体的な活用事例としては、生成AIによる市場分析レポートの自動生成と、それに基づいた新商品企画会議でのデザイン思考ワークショップなどが挙げられる。これにより、従来よりも迅速かつ効果的に、市場の潜在ニーズに応える戦略を立案できるだろう。今後は、この融合アプローチを組織全体に浸透させることが、DX成功の重要な要素となる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "AIによる企業のDX推進 ～生成AIとデザイン思考の融合による持続可能な成長戦略～｜吾郷潤 - mbp-japan.com",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvVUxGNGVNS0VsVm9BWU9HaWZHRURyTmdBRnRuRHlLMVIzMEw1aDVBM0x0aHh4WndidGMydDFLems2VWVxWWZaU2MxRGFVYXgzQ3oxQnYtZzhUamx5LWF0d0c1d0V1ZkZu?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://mbp-japan.com/elements/tokyo/profiles/agomarketing/profile/thumbnail_l_1778143251.jpg"
+    },
+    {
+      "title": "AI活用し脆弱性点検、政府が指針策定へ",
+      "body": "政府は、サイバーセキュリティ強化のため、人工知能（AI）を活用した情報システムの脆弱性点検を企業に求める新たな指針を策定する方針を固めた。新型AI「Claude Mythos（クロード・ミュトス）」などを活用し、システム提供元に対して、潜在的な脆弱性の早期発見と対策を促す。\n\nこの取り組みは、サイバー攻撃の高度化・巧妙化に対応するため、予防的な防御策を強化する狙いがある。AIによる自動点検は、従来の手法では見逃されがちな脆弱性を効率的に検出し、サイバーインシデントの発生リスクを低減することが期待される。\n\n政府は18日に、関係省庁による会議を開催し、対応案の詳細を議論する。企業への具体的な要請内容や、AIによる点検の実施方法、支援策などについて検討が進められる見通しだ。これにより、国内の情報システム全体のセキュリティレベル向上を目指す。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "AI使い脆弱性点検、システム提供元に要請 国の「ミュトス」対応案 - 日本経済新聞",
+          "url": "https://www.nikkei.com/article/DGXZQOUA170RS0X10C26A5000000/",
+          "source": "はてブIT人気",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3031907017052026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&h=630&w=1200&s=fed011e16942ef9373014178c65b9537"
+    },
+    {
+      "title": "AI時代の医療、地域で「おせっかい」の重要性説く",
+      "body": "北見市の愛し野内科クリニック院長は、AI時代における医療のあり方について、「昭和のおせっかい」とも言える地域住民との密な関わりの重要性を説いた。400人が聴講した健康セミナーで、最新医療技術の進展と、人間的な温かさの共存の必要性を訴えた。\n\n院長は、AIによる診断支援や遠隔医療の発展は目覚ましいが、それだけでは患者の心のケアや、生活習慣病の予防・改善に限界があると指摘。地域包括ケアシステムの一環として、医療従事者が地域住民の健康状態をきめ細かく把握し、時には生活習慣に踏み込んだアドバイスを行う「おせっかい」が、健康寿命の延伸に不可欠だと強調した。\n\nセミナーでは、AIを活用した健康管理アプリの紹介もあったが、院長は「テクノロジーはあくまで補助。最終的には人と人との繋がりが大切」と述べ、地域医療における人的ネットワークの価値を再確認させた。参加者からは、AIとアナログなケアのバランスについての質問が多く寄せられた。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "AI時代の医療「昭和のおせっかい必要」 北見・愛し野内科院長が健康セミナー 400人が聴講 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3QXNTTlBSbXhMOTVtOTNkR2k1RWxYVEkza2xxUjFCZGJucTZ2MmFvOHczSXNfeF9uVy1mSTJNQ3diNVVKTm9FVGVHeFdRQjNrSHNIM0FqYU9Zdw?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ],
+      "ogImage": "https://static.hokkaido-np.co.jp/image/article/size1/4/a/9/8/4a980b61b48d2d6afa8da2c1c429f27e_1.webp?20260518053436"
+    },
+    {
+      "title": "興部、雑貨店敷地に新店舗オープン",
+      "body": "北海道興部町で、地域に根差した雑貨店「〆三さるる舎」が、敷地内に新たな店舗をオープンした。この新店舗は、多彩な雑貨を取り扱うだけでなく、地域住民の交流の場としての役割も期待されている。\n\n店内には、地元の作家によるハンドメイド品や、こだわりのセレクト雑貨が並び、訪れる人々の目を楽しませる。また、店内に設けられたカフェスペースでは、くつろぎながら商品を選んだり、地域住民同士が気軽に会話を楽しんだりできる工夫が凝らされている。\n\n「〆三さるる舎」は、これまでも地域イベントへの参加などを通じて、地域コミュニティとの繋がりを大切にしてきた。今回の新店舗オープンにより、さらに多くの人々が集まる拠点となり、地域経済の活性化にも貢献することが期待される。今後は、ワークショップなどのイベント開催も計画されている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "多彩な雑貨 交流の場に 興部「〆三さるる舎」敷地内に新店舗 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNktWaElBOGtxWHhiSUNKT3Z1eG1hdmlxU2YtYTNYS2I0Zk1hQmoxc09SWHRhdzVtczNGa0JLWnZvMEtJelFjdlJkWVhLd2dMUUFiWHNjR0FZdERmT1BTLU8wWnREMU9QOHpHWGo4dTNYSmFrLVpHSEdHbGpsT2xQSmNtMmhxUGFmd2hpOQ?oc=5",
+          "source": "Google: 興部",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "ハブ・グループ、決算発表で会計問題も浮上",
+      "body": "ハブ・グループが発表した決算は、インターモーダル輸送の回復を示す一方で、会計上の問題も浮上した。同社は、今後の業績見通しについて慎重な姿勢を示している。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4wM3UwRXJtYXRsZUZ5LWF6TGdBSzdzZ1ZBSVlwb2xCQWVJWXB4OE1uRnZ0S2EzTUlGclpGZUdIY2djN3hmbHR6UzlrbHJvcGdvUE1Ba1lrOXg2WUFDQ2VheWZlN2ZlcHRBZWhF?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "AI時代の金融・会計学部生へのアドバイス",
+      "body": "AIの急速な進化に直面する金融・会計学部の学生に対し、専門知識に加え、AIを使いこなすスキルや倫理観の重要性がアドバイスされている。変化への適応が求められる。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdU9hZ2gzZVBfdTIwLUd0NG1paVJBMWVnUzU2UGhWNTdQVGRhWkV2cWE2dXloejMxYzRUb0pSS1JfdDZ2bHJQV1Nac2p0OGpXbEhnWlc4SjRhME9vVkJIb2VpcGJDMlhzZTRsVkNkUF9oQkEyOHk0M2tCX0NKOXk1S3ZDTkVMc0VYSWdxMHdmbDVLRUlZZG9IdWVSLU14aWRDT1JpZlhYTmN4UG9CMUE?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "倒産防ぐには「借りれる時に借りる」戦略",
+      "body": "税理士の菅原氏は、ナフサショックによる企業倒産を防ぐ鍵は「借りれる時に借りる」ことだと警告。企業の財務戦略の見直しと、金融機関との連携強化が不可欠だ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTbk9zUTdnRWJMN1BuTm10S3V0V2wwQ0ZHVVd3SzNnWW5BT3BwODdNakIxb2dXREJLdHdtRkNOQm9aTWlBQlNGLUV5bXIwa0d3RDI1NmZWc09IR25XVUVJ?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "DuckDBをサーバ化する「Quack」プロトコル登場",
+      "body": "高速OLAPデータベース「DuckDB」をクライアント／サーバ化する新プロトコル「Quack」が発表された。これにより、複数のDuckDBインスタンス間での接続が可能になる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://www.publickey1.jp/blog/26/duckdbquackduckdb.html",
+      "source": "Publickey"
+    },
+    {
+      "title": "網走市でクマ出没、市民に注意呼びかけ",
+      "body": "北海道網走市二見ケ岡で17日、クマが目撃された。付近の住民や関係機関は、パトロールを強化し、注意を呼びかけている。人的被害は確認されていない。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcW5Fci1EZGtENVFkZDc0aGo2ZWhPb21waXlRb01XeUZhMVU1dU8tajhOS05QZjFxaTMwYTlCQ3BOUlNucWtpdjVZWjQwYnZ2RmlVS2Rua1NPeUlhaGJiVl8telFqc082QU52d2l4eWV4TGtzazdtYnhieVRUcjduckUtTXhicXdLcERPYllDNkQ3N3ptZHZnWjlNa0fSAaIBQVVfeXFMT2hRWEdhRkU0QlZYbU9vWHJYOExqTmhyREU1a3ZRTk91dGtuLWFpTl9NVlZKZkdGaDZGMEtPN3k3Q3B6c19HUjdiZG5kRXA0MUJ6YS1Gbm5ZWFpPUEp0Y0FicGFhd3ZnU2dxTkdYTTJsQXBiN29pakRaRFBka2t2SGQzTllzUG54Z21Ua2hvMk41al9XR0ltN3ZxXzdkdmg5Vkp3?oc=5",
+      "source": "Google: 網走"
+    },
+    {
+      "title": "北海道春季大会、全道出場校が出そろう",
+      "body": "北海道春季高校野球大会の支部予選が終了し、全道大会出場校が決定した。北海高校の2年生右腕が11奪三振で完封勝利を収めるなど、熱戦が繰り広げられた。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MNHltODNTT1pxbHVGY1B2V01GcG9Lc2g1a1NIMGwzN0ZoNE5rdkNydDZYbF8zUmJtM3N1Y1ZlWFNvM3czUkNfVGVLa2ZWSUhHVWc?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
