@@ -33,7 +33,21 @@ self.addEventListener('fetch', (e) => {
     return;
   }
 
-  // cache-first for static assets
+  // network-first for app shell (HTML / navigations) so updates appear without hard reload
+  if (e.request.mode === 'navigate' || /\.html$/.test(url.pathname) || url.pathname.endsWith('/')) {
+    e.respondWith(
+      fetch(e.request)
+        .then((res) => {
+          const copy = res.clone();
+          caches.open(CACHE_NAME).then((c) => c.put(e.request, copy)).catch(() => {});
+          return res;
+        })
+        .catch(() => caches.match(e.request).then((cached) => cached || caches.match('./index.html')))
+    );
+    return;
+  }
+
+  // cache-first for other static assets
   e.respondWith(
     caches.match(e.request).then((cached) => cached || fetch(e.request))
   );

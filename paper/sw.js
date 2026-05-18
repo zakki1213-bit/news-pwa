@@ -31,6 +31,19 @@ self.addEventListener('fetch', (e) => {
     );
     return;
   }
-  // 静的アセットはキャッシュ優先
+  // アプリ本体(HTML/ナビゲーション)はネットワーク優先（オフライン時のみキャッシュ）
+  if (e.request.mode === 'navigate' || /\.html$/.test(url.pathname) || url.pathname.endsWith('/')) {
+    e.respondWith(
+      fetch(e.request)
+        .then((res) => {
+          const copy = res.clone();
+          caches.open(CACHE_NAME).then((c) => c.put(e.request, copy)).catch(() => {});
+          return res;
+        })
+        .catch(() => caches.match(e.request).then((c) => c || caches.match('./index.html')))
+    );
+    return;
+  }
+  // その他の静的アセット(アイコン等)はキャッシュ優先
   e.respondWith(caches.match(e.request).then((c) => c || fetch(e.request)));
 });
