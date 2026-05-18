@@ -644,12 +644,12 @@ function toParagraphs(text) {
 }
 
 async function loadIndex() {
-  const res = await fetch('../editions/index.json', { cache: 'no-cache' });
+  const res = await fetch('../editions/index.json?t=' + Date.now(), { cache: 'reload' });
   if (!res.ok) throw new Error('index.json取得失敗');
   STATE.index = await res.json();
 }
 async function loadEdition(date, kind) {
-  const res = await fetch(`../editions/${date}-${kind}.json`, { cache: 'no-cache' });
+  const res = await fetch(`../editions/${date}-${kind}.json?t=${Date.now()}`, { cache: 'reload' });
   if (!res.ok) throw new Error(`${date}-${kind}.json取得失敗`);
   return res.json();
 }
