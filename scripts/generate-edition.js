@@ -5,7 +5,8 @@ const WORKER_ORIGIN = 'https://zakki1213-bit.github.io';
 const HOURS_WINDOW = parseInt(process.env.EDITION_HOURS || '12', 10);
 const ARTICLES_PER_TOPIC = parseInt(process.env.ARTICLES_PER_TOPIC || '8', 10);
 const TIMEOUT_MS = 180000;        // 単一コールはGeminiが長文を吐くので余裕を持つ
-const RETRY_WAIT_MS = 60000;      // 429時のリトライ前待機
+const RETRY_WAIT_MS = 60000;      // 429（レート制限）時のリトライ前待機
+const TRANSIENT_BACKOFF_MS = [20000, 40000, 60000]; // 503等の一時障害は段階的に待機
 const KIND = process.env.EDITION_KIND === 'evening' ? 'evening' : 'morning';
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -39,16 +40,21 @@ async function callWorkerOnce(payload) {
   }
 }
 
-async function callWorkerWithRetry(payload, label, maxRetries = 2) {
+async function callWorkerWithRetry(payload, label, maxRetries = 3) {
   console.log(`→ ${label}`);
   for (let i = 0; i <= maxRetries; i++) {
     const res = await callWorkerOnce(payload);
     if (res.ok) return res;
-    const isRate = /\b429\b|RESOURCE_EXHAUSTED/i.test(res.message || '');
-    console.warn(`  ! 試行${i + 1}失敗: ${(res.message || '').slice(0, 150)}`);
-    if (i < maxRetries && isRate) {
-      console.log(`  ↻ ${RETRY_WAIT_MS / 1000}秒待ってリトライ`);
-      await sleep(RETRY_WAIT_MS);
+    const msg = res.message || '';
+    const isRate = /\b429\b|RESOURCE_EXHAUSTED/i.test(msg);
+    const isTransient = /\b50[0234]\b|UNAVAILABLE|overloaded|high demand/i.test(msg);
+    console.warn(`  ! 試行${i + 1}失敗: ${msg.slice(0, 150)}`);
+    if (i < maxRetries && (isRate || isTransient)) {
+      const waitMs = isRate
+        ? RETRY_WAIT_MS
+        : TRANSIENT_BACKOFF_MS[Math.min(i, TRANSIENT_BACKOFF_MS.length - 1)];
+      console.log(`  ↻ ${waitMs / 1000}秒待ってリトライ`);
+      await sleep(waitMs);
     } else {
       return res;
     }
