@@ -1,0 +1,141 @@
+{
+  "type": "morning",
+  "date": "2026-05-19",
+  "generatedAt": "2026-05-19T05:57:45.674+09:00",
+  "lead": "AI技術の急速な進化が社会に与える影響、教育現場での新たな取り組み、そして地域経済の活性化に向けた動きなど、多岐にわたるニュースをお届けします。特に、生成AIの利活用とそれに伴う課題、そして北海道の地域社会における教育やスポーツの話題に注目ください。",
+  "topStory": {
+    "title": "生成AI、国際協調に課題 米欧の足並み乱れ",
+    "body": "高度な性能を持つ生成AIの開発競争が激化する中、その悪用リスクに対する国際的な協調体制の構築が急務となっています。しかし、米国と欧州の間では、AI規制や倫理的課題に関する見解の相違が浮き彫りになり、協調の足並みが乱れる兆候が見られます。\n\n特に懸念されているのは、生成AIが悪意のあるサイバー攻撃や偽情報の拡散に悪用される可能性です。AIミュトスのような高性能なモデルは、その能力ゆえに、国際社会全体でリスク管理策を講じる必要があります。技術開発のスピードに、国際的なルール作りが追いついていないのが現状です。\n\n専門家は、AIの恩恵を最大化しつつ、潜在的なリスクを最小限に抑えるためには、各国政府、研究機関、企業が連携し、透明性の高い議論を通じて共通の理解と規範を形成していくことが不可欠だと指摘しています。今後の国際社会の対応が注目されます。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "生成ＡＩ：AIミュトス 世界に波紋 米欧の協調不透明 高い性能、サイバー攻撃への悪用恐れ - 毎日新聞",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xbld1Q0hrUUZWUnQ3cXc2cWVHZUtnUGNsZGJqM2hPM0NvcDhKNmJ5SENJR1dMbGVZQ0E0MUxqREs5MGNnaDBFSkdHcXFhV0hpNnNmRUk2Y3pEcDNueTd6ZnBaOUY2dVcw?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ],
+    "ogImage": "https://cdn.mainichi.jp/vol1/2026/05/19/20260519ddm001010140000p/0c10.jpg?1"
+  },
+  "midStories": [
+    {
+      "title": "生成AIの進化と人間の思考力低下の懸念",
+      "body": "生成AIの能力が向上するにつれて、人間が自ら考える機会が減少する「認知オフローディング」という現象が研究で示唆されています。AIに依存しすぎることで、問題解決能力や創造性が低下するリスクが指摘されています。\n\n企業研修においても、AIを単なる効率化ツールとして捉えるのではなく、従業員の思考力を維持・向上させるための活用方法を模索する必要があります。AIとの適切な距離感を保ち、人間の主体的な思考を促す研修プログラムの開発が求められています。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "「生成AIが賢くなるほど、人間は考えなくなる」 --認知オフローディング研究が示す企業研修の盲点 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GZFYxQU5PcG1HOEZneVV0a1VvVl9MTm9rLVROYUwzb1ZRR0VpWlZFak0yLUl3a0FEc3d5eFc0S2huOWpBdnhWSnlqT1k2bnIxR1hxV3B6N2FwdkxwWDg1LU5qV3VjN0xvM051cmhmY2FNbDRsSVlVdnh2TQ?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "キッザニア、サイバーセキュリティを学ぶ企画",
+      "body": "子供たちの職業体験施設「キッザニア」の3施設で、6月19日から25日までの期間、「サイバーセキュリティ」をテーマにした特別企画が実施されます。この企画は、子供たちが楽しみながら情報セキュリティの重要性や基本的な知識を学ぶことを目的としています。\n\n現代社会においてサイバーセキュリティはますます重要になっており、幼い頃からその意識を育むことは、将来の情報リテラシー向上に繋がります。キッザニアでの体験を通じて、子供たちが未来のデジタル社会を安全に生き抜くための基盤を築くことが期待されます。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "キッザニア3施設「サイバーセキュリティ」学ぶ企画6/19-25",
+          "url": "https://resemom.jp/article/2026/05/18/86101.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/396106.webp"
+    },
+    {
+      "title": "コンサル大手、静岡に新拠点 高卒若者を会計・税務プロに",
+      "body": "大手コンサルティングファームが、静岡県に新たな拠点を設立し、高校卒業者を対象とした会計・税務分野の専門人材育成に乗り出します。この取り組みは、地域経済の活性化と、若者のキャリア形成支援を目的としています。\n\n新拠点では、実践的な研修プログラムを通じて、即戦力となる会計・税務のプロフェッショナルを育成することを目指します。これにより、地域企業の経営基盤強化に貢献するとともに、若者が専門職として地域で活躍できる機会を創出することが期待されています。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "高卒の若者を“会計・税務のプロ”に コンサル大手が静岡に新拠点設立へ（テレビ静岡NEWS） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NOHVaRUFKa3BRQUoxZDllRG5YSkNCcVBJOUUwZVhQWDl4enNsZVM2SlAwWmJmemtFTUN5SWpVRzNDVlNHbmRuc1dYQjk2c241TkxsMXg3emlZaTVhblhaVmdfSE1NU0h1ODRjc2Q5YW1aX3U1RE1rcldaS1J4TWM?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "網走の小学校でいじめ重大事態 市教委が認定",
+      "body": "北海道網走市教育委員会は、市内の小学校で発生したいじめが学校教育法で定める「重大事態」に該当すると認定しました。現在、詳細な調査が進められています。\n\nいじめ問題は、子供たちの心身の健康に深刻な影響を与えるだけでなく、教育現場全体の信頼に関わる重大な問題です。市教委は、事実関係の解明と再発防止策の策定に全力を挙げるとしています。保護者や地域社会との連携も強化し、子供たちが安心して学べる環境づくりを目指します。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "網走の小学校でいじめ重大事態 市教委が認定 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NZWpNWllVQXpwLWJRMWpIMlluVE1yZ0JJRjBMcmFwY0JYS05URUR5Z2U4d0VxTnZvalE5cktualh5TVBNcVhER1lYcjZ5dXBadXVLamNpUDBEUQ?oc=5",
+          "source": "Google: 網走",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "東京都、麻しん接触者に無料ワクチン接種",
+      "body": "東京都は、麻しん（はしか）の感染拡大防止のため、接触者に対する無料ワクチン接種事業を緊急に開始しました。感染リスクのある方々への迅速な対応を図ります。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/18/86100.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "GHGプロトコル改定、最新動向と実務対応セミナー",
+      "body": "インボイスとパソナサステナビリティは共催で、GHG（温室効果ガス）排出量算定・報告の基準であるGHGプロトコルの改定に関する最新動向と実務対応についてのセミナーを開催します。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAza1RodWZjSWJpekY4NlRoeFFqT2w4d0xhYXViWHMzZkRPclhUUWlWUnpsWjZQazJidkZ0LU9IT2plM05ZM1ZQT2dFZkhZMFZsNWFpT0RPeDVzbzRLTkpETVNiV084QTJrd0ViSkY2N1lpVV9sQ2lyRnMtcw?oc=5",
+      "source": "Google: インボイス"
+    },
+    {
+      "title": "定型業務をAIに丸投げ、タスク特化型AI「Gem」登場",
+      "body": "GoogleのGeminiを活用した、誰でも簡単に作成できるタスク特化型AI「Gem」が登場しました。定型業務の自動化により、業務効率の大幅な向上が期待されます。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUWmpuaXFDUWNrX3Ewb0wwMXRqQUJiZ1dPb0MzRnRIamFHZWVfWjBJVFJHelp5QTdVY3g0WkZzcHduZXFYZGRRSHBlaXlEdWY5d2xIT3RYeVlfc3ZSb1pfeFhNb3dEdw?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "北見で「シン読解力」育成教室が開講",
+      "body": "北見市で、NPO法人が小中学生を対象とした「シン読解力」育成教室を開始しました。温根湯での開講を皮切りに、7月には常呂でも教室が開かれる予定です。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5BeTY1aUZlVF9qaU1TX1ZmcE0xbk0zRFFFMVpQR1ZWTWx0YUh0eFFFZ1IwSDU3Nm9nQlhwYTVRdzhOOUEtQkRzZUlTLU1YN1JPRkhGX3BtbHlzSEVUU1VZb01YRjczTGxCZXFQWmFqdHU2YUxuaU12WFhxQ03SAYIBQVVfeXFMTnJXeGc4eUxTcWl0S2lLb3BiMUxrQURwcTdDNmhKeFc4dnFnXzRwT0dHTkNfY2hLMTRfVUpFbXhyM1lLVDN6cHB2VTc0UkN6TjIwS1UxZi03dzJya1lCeU9FNXlxNVpZX21FSGNEZ24wQTBtWExQU1BSYkFfaUU0djYydw?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "興部町民、武道や楽器演奏を披露 チャリティー演芸会",
+      "body": "北海道興部町で、町民が日頃の練習の成果を発表するチャリティー演芸会が開催されました。武道や楽器演奏など、多彩な演目が披露され、地域交流を深めました。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOWlzTDU3SDYteWFwaFpLY2NiR0JnZEIzNHdPT0hablZ0Z01mLXR5NFhVa3hRTFFwOVA4MFM4emp2VVhEQW5lblh2SnZQYlRXbzBEblMyOTVzOXZBOWNaRmlRSGVXTTVJd2F4MWY0MGJHVDVYanZ2eGZEVGViYmI5VXVYXzdpZXF4eDlBUQ?oc=5",
+      "source": "Google: 興部"
+    },
+    {
+      "title": "高校野球名寄支部予選、決勝は「名士対決",
+      "body": "春の高校野球名寄支部予選の決勝戦は、士別翔雲と名寄高校による「名士対決」となりました。両チームの熱戦が期待されます。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPVEZZdjBWcnFhN0l3eC0zby1GN0t6VWZBYUxSOWg0alpndEo5UWsxeFl2T1NHVFh0X2F0d1c2enR4SE45RFg1NVJoVHRWYWZHY0ZYUDZNQi1VZw?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
