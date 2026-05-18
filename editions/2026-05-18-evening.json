@@ -1,0 +1,140 @@
+{
+  "type": "evening",
+  "date": "2026-05-18",
+  "generatedAt": "2026-05-18T22:23:28.732+09:00",
+  "lead": "AI技術の進化が止まらない。生成AIの活用が広がる一方、その影響や倫理的な課題も浮き彫りになっている。教育現場ではSTEAM教育の導入が進み、子供たちの未来を育む取り組みが各地で始まっている。商業分野では、AIを活用した業務効率化や、新たなサービス開発が進展。北海道では、人口減少や人手不足といった課題に対し、地域ならではの取り組みが進められている。今週も、社会の様々な動きを伝えていく。",
+  "topStory": {
+    "title": "三井住友FG、生成AIに3年で1000億円投資",
+    "body": "三井住友フィナンシャルグループ（FG）は、今後3年間で生成AI分野に1000億円を投資すると発表した。この大規模な投資は、AIを活用した新たな金融サービスの開発や、既存業務の効率化を加速させることを目的としている。\n\n同社は、生成AI技術が金融業界に大きな変革をもたらすと見込んでおり、顧客体験の向上や、リスク管理の高度化に繋げたい考えだ。具体的には、AIを活用したパーソナルバンキングサービスの提供や、不正検知システムの強化などが想定されている。\n\n今回の投資により、三井住友FGはAI分野における競争力を高め、デジタル化の波に乗り遅れない姿勢を鮮明にした。専門人材の育成や、外部企業との連携も強化し、AI技術の社会実装を推進していく方針だ。この取り組みは、日本の金融業界全体のAI活用を促進する契機となる可能性を秘めている。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "三井住友FG、生成AIに3年で1000億円投資 サービス開発へ - 日本経済新聞",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KZzZEMlRlemxsemxucGh4TnloSUtQcVJfdnJLYkN1LU1mdXJnVmotaG1fd2xmZVM0SXdXZW5SbFAwTkxpZjcwd191TFRHb3FFMEVvNTJHTmtSR3pRelE3SVd5SlQwQ29yZ2VmYw?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "小田原市全11中学校に「小田原版STEAM教育」が浸透",
+      "body": "神奈川県小田原市では、市内全11中学校で「小田原版STEAM教育」が浸透している。これは、探究学習を核とした教育プログラムであり、CURIO SCHOOLが3年間にわたり伴走支援を行ってきた。その全記録がnoteで公開され、教育関係者の注目を集めている。\n\nこの取り組みは、生徒たちが自ら課題を発見し、解決策を探求する力を育むことを目指している。科学、技術、工学、芸術、数学といった分野を横断的に学び、実践的なスキルを身につける機会を提供している。小田原市教育委員会とCURIO SCHOOLの連携により、地域の実情に合わせたカリキュラムが開発・実施された。\n\nnoteで公開された記録には、授業実践の様子や生徒たちの学びの成果、教員たちの試行錯誤などが詳細に綴られており、他の自治体や学校関係者にとって、STEAM教育導入の参考となる貴重な資料となっている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "小田原市全11中学校に「小田原版STEAM教育」が浸透-- CURIO SCHOOL、3か年の伴走支援の全記録をnoteで公開 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1IRzBSQU1JZWNBd0RUMmVlbDZjc1hqMmZrMW9CWVRfVmxtb29nclZiOWM3el94dkIwYTdMUXoyZHVGVFJ2bVhFLW9FaXRILW01UFN2amcyYlpEVkVmTmY0VHpwMDc5T0tXVTNYVTFwdmN3aFkzSkNwaXpQUQ?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "生成AIに自社はどう映る？イノーバ、「AI対策診断・支援」を提供",
+      "body": "イノーバは、企業が生成AIの利用状況を把握し、適切な対策を講じるための「AI対策診断・改善支援」サービスの提供を開始した。ChatGPTなどの生成AIが業務に浸透する中、企業が自社のコンテンツがどのようにAIに利用されているかを定量的に分析し、リスクを評価することが急務となっている。\n\n同サービスでは、自社ウェブサイトやコンテンツが生成AIの学習データとしてどのように参照されているかを分析し、著作権侵害のリスクやブランドイメージへの影響などを評価する。これにより、企業は生成AIとの共存に向けた具体的な戦略を立てることが可能になる。\n\nイノーバは、AI技術の進化に対応するため、企業が安心してAIを活用できる環境整備を支援していく方針だ。今回のサービスは、生成AIの普及に伴う新たな課題に対応するものであり、多くの企業にとって有益なソリューションとなることが期待される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "生成AIに自社はどう映る？イノーバ、「AI対策診断・改善支援」を提供開始。ChatGPT等の引用状況を定量分析 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9FNW9xSnlYVHBTYWdYWllsZzQ4Q3M5NjM2d2I3Q0w0Mnd5YmlGajZBUDBDMTBwaWtvcG5ibzIxNXlNemZiVEpaYU1maW0yOWx4NWNCZzBYNVlpV2U4NE5QUHNpZUZUdC1a?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "紋別市元幹部の関係会社に3.3億円超流出、贈収賄事件で指摘",
+      "body": "紋別市で発覚した贈収賄事件に関する百条委員会は、市元幹部の関係会社に3億3000万円以上の資金が流出したとする最終報告書をまとめた。報告書は、この資金流出が官製談合防止法違反を免れないと指摘し、市に対して法的対応を求める方針を示した。\n\n調査によると、紋別空港に関連する事業を巡り、元幹部が関係する会社に不透明な形で多額の資金が支出されていたことが明らかになった。4年間にわたる支出の効果はほとんどなく、市の財政に大きな影響を与えたとされている。\n\n百条委員会は、元副社長に対する刑事告訴や損害賠償請求の検討も提言しており、事件の全容解明と責任追及に向けた動きが加速している。市民の信頼回復のため、紋別市は厳正な対応が求められる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "【紋別市贈収賄事件】市元幹部の関係会社に3億3000万円以上の資金流出 百条委員会は「官製談合防止法違反を免れない」と指摘 市に法的対応求める - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPLUNEbzdaSUMzMWpZRUtRaHZKTnkteUJTenp6SHpyRmw3N3JpOFVxY2hzRndiNzFZRm5OS1hTcUFNdVpZUkFzWUUwTzlIOVIxaVJ4Mnh3b2hLUkhuVVkyck85Tm16UDh6TDJqZDkwRjZmbkF2SGtYc1A2RVZJaUNWTU5R0gF0QVVfeXFMUEE3ZGZIUVVtcFRlb3JjNm1LdmZ3WFg4MWNLbjN1aUktOXdxeUFOWjNYdzRBTl93OEdidTlad1FiNGk4NzJ5aXNOcnltTC1QbEJ4dkY4alNYQnFweTIzdUdlQ01KbGZSdUxmdzJPb1dfR3c0MUw?oc=5",
+          "source": "Google: 紋別",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "インドネシア人運転手、網走バスでデビュー",
+      "body": "北海道網走市で、人手不足が深刻化するバス業界において、インドネシア国籍の運転手が新たに採用され、デビューを果たした。これは、地域公共交通の維持に向けた重要な一歩となる。\n\n網走バスは、運転手不足による運行への影響を最小限に抑えるため、外国人材の採用に踏み切った。採用されたインドネシア人運転手は、日本の運転免許取得や、日本の交通事情に関する研修を経て、安全運行に努めている。\n\n今回の取り組みは、全国的な運転手不足に悩むバス事業者にとって、新たな人材確保のモデルケースとなる可能性がある。地域社会の活性化と、住民の生活を支える公共交通網の維持に向けて、今後も多様な人材の活躍が期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "インドネシア人運転手 網走バスでデビュー 人手不足で採用の外国人第1号 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIOFloNUFWcjFmOEV1Mm9tVnlIdXZFcVRJay04WTJZOW9GU2l5WERBTEl4OWUtVFZGVXBUbkVoQmVBSzA2cVJyOU1zNzgzX0lkU0pnbTFFTFhYZw?oc=5",
+          "source": "Google: 網走",
+          "topicId": "hokkaido"
+        }
+      ],
+      "ogImage": "https://static.hokkaido-np.co.jp/image/article/size1/f/0/2/5/f025a6b59cd399e72c632fcb779eca1b_1.webp?20260518222347"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "東京都、猛暑対策で水道基本料金4か月無償に",
+      "body": "東京都は、猛暑対策の一環として、都内全域の水道基本料金を4か月間無償とすることを決定した。これにより、最大で1世帯あたり6,424円分の料金負担が軽減される。熱中症予防のための節水を促すとともに、家計の負担軽減を図る狙いがある。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/18/86102.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "文科省、高校教育改革の先導拠点2県6校を採択",
+      "body": "文部科学省は、高校教育改革を推進する先導的な取り組みを行う拠点として、新たに2県にある6校を採択した。これらの学校は、探究学習の推進や、特色ある教育課程の開発などを通じて、今後の高校教育のあり方を示す役割を担う。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tN0RsOGdRNk9QMjhHTFhVaXdlU25fMDdvZXR5NjBFSXdMWmx4TGxfd0F0Qm9FNGVQdzgyTXp4M1JLRWRiaDFrWC00OWlSNjRuMTZpMU1BLUpDN1JYbnZQZDhsbWhfUQ?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "札幌の商業施設で窃盗容疑、66歳男を逮捕",
+      "body": "札幌市内の商業施設で、会計をせずに炊飯器を抱えて店外に出ようとした66歳の男が、警備員に制止され窃盗容疑で逮捕された。防犯ブザーが鳴り、犯行が発覚した。男は容疑を認めているという。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xV0RNS2ZEZEJXSVMxaDFDZWgyZVFFRnF5NXZZa0ZTTHZId045SF82SjBSdC1kTGpicUVZV2dBUnMxN0tGZXAxRWphZV9FcXNhNXlVMC01WVRRNFhCYmdLWA?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "AI案内ロボットでクリニックDX加速",
+      "body": "受付から会計まで全自動化するAI案内ロボット「ATOI-PLUS」が、クリニックのDX（デジタルトランスフォーメーション）を加速させている。このロボットは、患者の案内や予約管理、会計処理などを効率化し、医療現場の負担軽減に貢献する。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43RWRMOGVHVUcyUzBINFVFY2ZKOUpFRUtLNUhCdnZJaXVXb1pWbEFIWmNmUi1QdTMyOGpySXg4ekFDWm83OF9WU1VWM1AxeDliTno0elZWLXpnVlZmeGtMa2swb1VHVjRDMEF4a3J0N1FZU0NCMHJ1QnRMOFpQbUE?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "生成AIの普及が人間の思考力を低下させる可能性",
+      "body": "生成AIが高度化するにつれ、人間が自ら考える機会が減少する「認知オフローディング」が進む可能性が指摘されている。企業研修においても、AIへの過度な依存が思考力の低下を招く盲点となりうると、研究は警鐘を鳴らしている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5aU3YxSzJ5eXMzU2hfdG9EWERlUHF0eXdCLXVnNjlvcHJqTmRFVmdhWFRudDB5TDJhZm4wbmk1cjNpM1NWeXRqNzVCZ1BUSWRxZjc3Mkw1RHkwVlhfQ0dwNVoybEpZcDRWd09IaFkwRWsxM25EMUdIM0JFSQ?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "北見市教委、小中学校再編素案を公表",
+      "body": "北見市教育委員会は、小中学校の再編に関する素案を公表した。現行の36校を24校まで減らす計画で、学校統廃合により教育環境の最適化と効率化を目指す。相内地区については、小中学校ともに現状維持とする方針が示された。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9oT3BVcXBlTGtwZVRWSUJ3ODFXcmRwdDBfYkVyWHQwZzMteExsdm5KLXpZQkgtcjJPcXRDQWpsOHRGVkphYUMxYThGRQ?oc=5",
+      "source": "Google: 北見市"
+    }
+  ]
+}
