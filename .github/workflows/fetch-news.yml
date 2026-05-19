@@ -20,9 +20,9 @@ jobs:
       # 再開する場合はこの環境変数を削除または '50' に戻す
       MAX_ENRICH_PER_RUN: '0'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: '20'
 
