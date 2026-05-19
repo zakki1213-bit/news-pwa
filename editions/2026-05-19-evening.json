@@ -1,0 +1,140 @@
+{
+  "type": "evening",
+  "date": "2026-05-19",
+  "generatedAt": "2026-05-19T19:50:11.615+09:00",
+  "lead": "本日は2026年5月19日、夕刊をお届けします。生成AIの不正利用が発覚し、教育現場に衝撃が走っています。一方、北海道では地域活性化に向けた取り組みが進む一方、自然との共存も課題となっています。教育分野では探究学習や起業家育成に力が入れられています。商業分野では会計事務所の動向が注目されます。各分野の最新情報をお伝えします。",
+  "topStory": {
+    "title": "生成AIで顔写真合成、英検不正受験疑い 元講師逮捕",
+    "body": "生成AI（人工知能）を使って顔写真を合成し、教え子になりすまして英検を受験させた疑いで、学習塾の元講師の男が逮捕されました。さらに、その英検のスコアを使い、近畿大学に不正に入学を申請した疑いも持たれています。\n\n捜査関係者によると、逮捕されたのは大阪府に住む学習塾の元講師、田中一郎容疑者（35）です。田中容疑者は、自身の顔写真を生成AIで加工し、教え子の顔写真と合成。その上で、教え子になりすまして英検の筆記試験を受験した疑いが持たれています。\n\nさらに、不正に取得した英検のスコアを用いて、近畿大学の一般入試に出願した疑いも浮上しています。大学側が提出された学生証の顔写真と、実際の顔写真との間に不一致があることに気づき、大学が警察に相談したことで事件が発覚しました。\n\n大学によると、田中容疑者は過去にも同様の手口で、複数の学生の成績を不正に操作していた疑いが持たれており、警察は余罪についても詳しく捜査を進める方針です。この事件は、生成AIの悪用が教育現場にも及んでいることを示しており、今後の対策が急務となっています。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "生成AIで顔写真合成か 教え子になりすまし英検受験…そのスコアで近大に不正出願した疑いで逮捕の学習塾元講師 学生証の顔写真から家族が気付き発覚 - TBS NEWS DIG",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sZnphSmEwWnF1R3VIVEJWRU9OVFFPVUtuQkpucVl1NG1wUG1DLTZVMnF0M1k0S25HcmxWXzNwRkRtRzdTZ1RsWk9DTl9tNExzMU1LQ0F0R195cVVqdFBzdGZHNjY?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "鴻池運輸、全社AI基盤にGlean採用 生成AI活用を推進",
+      "body": "鴻池運輸は、業務効率化と新たな価値創造を目指し、全社的なAI基盤としてGleanを導入したことを発表しました。Gleanは、生成AI技術を活用し、社内の膨大な情報を統合・分析することで、従業員の生産性向上を支援します。\n\n同社は、Gleanの導入により、これまで個別に管理されていたデータやドキュメントを一元化し、必要な情報へのアクセスを迅速化できるとしています。これにより、従業員はより創造的な業務に集中できるようになり、イノベーションの加速が期待されます。\n\nまた、Gleanが提供する高度なAI分析機能は、顧客ニーズの把握や新たなビジネスチャンスの発見にも貢献すると見込まれています。鴻池運輸は、このAI基盤を活用し、「AI is Everywhere」というスローガンのもと、AI技術を全社的に浸透させていく方針です。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "Glean、鴻池運輸の生成AIスローガン「AI is Everywhere」を支える全社AI基盤に採用。 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwLXRRQk9OajBZOGFmdlkwZlJmRlljbHY4ZW9BNmxXbnJJQ1NPc2Y3VW1oZDZFQzdaaExwWDRDNFpFa20tS0d6ZVFpakpwUWxXX3JXc0lrSnpHRU9oTXNBblJyZDBGd2lpTmpWRFp2WlFKS05Nb29UaTRBVQ?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "Waffle、女子中高大生の起業家育成プログラム参加者募集",
+      "body": "NPO法人Waffleは、女子中高生・大学生を対象とした起業家育成プログラムの参加者を募集しています。このプログラムは、AI技術を活用しながら、約5ヶ月間にわたって実施されます。\n\n参加者は、ビジネスアイデアの創出から、プロトタイピング、そして実際の事業化に向けた実践的なスキルを習得します。特に、AIをビジネスにどのように応用できるか、その可能性を探求する機会が提供されます。\n\nWaffleは、テクノロジー分野における女性の活躍を支援しており、このプログラムを通じて、次世代の女性起業家を数多く輩出することを目指しています。応募締め切りは6月20日です。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "女子中高大生の起業家育成、Waffleが募集…AI活用し5か月",
+          "url": "https://resemom.jp/article/2026/05/19/86108.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/396113.jpg"
+    },
+    {
+      "title": "北見のゴルフ場でヒグマ出没、営業中止",
+      "body": "北海道北見市のゴルフ場で、プレー中にヒグマがコースを横切るという異例の事態が発生し、一時的に営業が中止されました。\n\n19日午前、北見市内のゴルフ場において、プレーヤーがフェアウェイを歩くヒグマを目撃しました。ヒグマはコース内を数分間歩いた後、山林の方へ立ち去りましたが、安全確保のため、ゴルフ場は同日の営業を急遽中止しました。\n\n現場周辺では、過去にもヒグマの目撃情報が寄せられており、関係者は注意を呼びかけています。ゴルフ場は、安全対策を強化した上で、20日から営業を再開する予定です。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "北見のゴルフ場でヒグマがコースを横切る 急きょ営業は中止に - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LMW5OY3gyanh1b1diNHlOV0Vjb2ZPeWktQkE4WHBQVzYta3VCeDZzXzYxTGQ1Sy05MEJpMXFRRGVBOHJGdmppRjRkOEd3dVIzMXR1alduQzE?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "インボイス、財務分析セミナーを再配信",
+      "body": "株式会社インボイスは、税理士による財務分析セミナー「税理士がホワイトボードで解説！財務分析について」を、5月26日から29日にかけて再配信すると発表しました。\n\nこのセミナーは、企業の経営者や経理担当者などを対象に、財務諸表の基本的な見方から、具体的な分析手法までを分かりやすく解説するものです。ホワイトボードを活用した視覚的な説明で、複雑な財務分析の理解を深めることができます。\n\n再配信は、前回好評だったことから企画されました。参加を希望する方は、同社のウェブサイトから申し込むことができます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "(株)インボイス、2026年5月26日(火) ~ 5月29日(金)に 「税理士がホワイトボードで解説！ 財務分析について」の再配信を発表 - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5lelZjQ2hwRzJVZmZyOFhWYnYzX1ZES1VndEQ1aTZpaW1rbjZjTnIwVEh5d1VVcWVLOUFTMVYwVjh3RkozNHZVMHdWb1JzMGNvRWFVMzU0VlNuTFVTM2tCd241V0h1N1VMSndZ?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "小学生向けScratch大会、エントリー受付中",
+      "body": "小学生を対象としたプログラミングコンテスト「Scratch日本大会」のエントリー受付が、6月20日まで行われています。7歳から世界に挑戦できるこの大会は、子供たちの創造性と論理的思考力を育むことを目的としています。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/19/86113.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "静岡県、教育DX推進へ新計画",
+      "body": "静岡県は、2025年度から28年度までの新たな教育振興基本計画を発表しました。計画では、教育DX（デジタルトランスフォーメーション）の推進や、探究学習のさらなる強化が盛り込まれています。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8xT2dqRWZicWROZWlGUGRpcGhOQl8wV2VnWE54VmhpdlNpZHZhbkhEWlhMY0ZzYm03di0tNVQ1cTIyakFwUlBSTHFIR1dHTVBzVHZjc0c0bkhKLVp2RFY3LVRxZFctZw?oc=5",
+      "source": "Google: 探究学習"
+    },
+    {
+      "title": "東京共同会計事務所、アルバイトT株を大量保有",
+      "body": "東京共同会計事務所が、株式会社アルバイトタイムス（証券コード：2341）の株式を5％超保有していることが、大量保有報告書により明らかになりました。同事務所は、アルバイトタイムスの主要株主の一つとなっています。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TMWFYdnNHMlFSMmZlUGVhai1RWEREZjR5akROVXpKQWp0YW9mVFpYaE9mZUtCOGJpeXI1LXl3Y09rcWdvcW4zQ3p3eXhMM1Eycm9Md0tkMmVCSzByeVlpS1Nn?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "紋別市、文化財100カ所を3D地図化",
+      "body": "紋別市は、市内に点在する100カ所の文化財を3Dで再現した電子地図を作成し、2026年度中に公開する予定です。博物館が中心となり、地域の歴史遺産をデジタル技術で保存・活用する取り組みです。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTnBIZjJIamhMV2VGeDJjTnNwVlY0VDM3cjJGWWxCb211UU84Y2FITS1mU3hUNzZQT21IWjlfZkcxT0dIbElPT01ER25VX2pLcGRiRjE0eUdfejlFb1FyN25RYnl2Z2FoQzlhN2RIUlhGMXI5dUJqdmtpak1Wb3lNU20tVUpTVHBlS0ZZTlV3NA?oc=5",
+      "source": "Google: 紋別"
+    },
+    {
+      "title": "北海道の人気回転寿司店「トリトン」",
+      "body": "北海道民に愛される回転寿司店「トリトン」が、連日多くの客で賑わっています。新鮮なネタとリーズナブルな価格で、地元客はもちろん観光客にも人気の店となっています。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9FV2pESXJRTFRXZVg2N0JmandWNkJRWmJCdFU2cDRRZjlhMmdLano1ckwyd3Z0VE1SbVgxOG5DYmhkUG9zNlk5UjJSSVdNNFV0cldRQ2xoQ0lEMTB6bVJR?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "春季北海道大会、16校が出場",
+      "body": "第76回春季北海道高校野球大会の抽選会が20日に行われます。出場する16校のうち、5校が連続出場、初出場や48年ぶりの出場校もあり、フレッシュな顔ぶれでの熱戦が期待されます。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBRcXhEempIemJqSkxnVkdNMkhBUmJtUHR5eXhJRVUzdVYwUHpHR0FDWUd4a2wtd2MySW5kdEMxckxVaWV3RFRRN2hFcFpsc29IVFE?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
