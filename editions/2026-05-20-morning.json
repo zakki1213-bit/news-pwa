@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-05-20",
+  "generatedAt": "2026-05-20T06:07:29.971+09:00",
+  "lead": "2026年5月20日、朝刊。\nAI技術の進化が教育現場やビジネスに新たな可能性をもたらす一方、北海道では教員確保に向けた取り組みが進められています。本紙では、これらの動きを多角的に報じます。",
+  "topStory": {
+    "title": "Google、動画生成AI「Gemini Omni」発表",
+    "body": "米Googleは19日、動画生成AIモデル「Gemini Omni」を発表した。第一弾となる「Gemini Omni Flash」は、本日より提供を開始する。この新モデルは、テキストや画像などの入力から、高品質でリアルな動画を生成することが可能となる。\n\nGemini Omniは、従来のAIモデルと比較して、より長尺で複雑な動画生成に対応できる点が特徴だ。これにより、映画制作、広告、教育コンテンツなど、様々な分野での活用が期待される。特に、クリエイティブ産業においては、制作プロセスの効率化や新たな表現手法の開拓に貢献するとみられる。\n\nGoogleは、AI技術の開発に注力しており、Gemini Omniの発表は、同社のAI戦略における重要な一歩となる。今後、この技術がどのように社会に浸透し、どのような影響を与えるのか、注目が集まる。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "Google、動画生成 AI モデル「Gemini Omni」を発表。第一弾の Gemini Omni Flash が本日より提供開始 - HelenTech",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFVWxkLTduSkJDazdWQUN6YnFtMGdSS3NvenV5ajM2VG5XSVBLS2lUN3pBUVA2em9jMHNrdG9XRUV2N0pXOGtqc0FTcUZoNGROT2x0QXFOTm9aTk5weWhFWjA3bTd1bVVD?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "現実世界と連動する仮想空間生成AI",
+      "body": "Googleは、現実世界を基に「動き回れる」仮想空間を生成する世界生成AI「Project Genie」に、ストリートビュー連携機能を追加した。これにより、ユーザーは現実の街並みを歩き回るような体験を、仮想空間内で再現できるようになる。\n\nこの技術は、ゲーム開発や仮想旅行、都市計画シミュレーションなど、幅広い分野での応用が期待される。例えば、都市開発の検討において、実際の景観を再現した仮想空間で様々な計画をシミュレーションすることが可能になる。\n\nストリートビューの膨大なデータとAIの生成能力を組み合わせることで、これまでにない没入感のある仮想体験が実現するだろう。今後の技術発展と応用展開が注目される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "現実世界を基に\"動き回れる\"仮想空間を生成 Googleの世界生成AI「Project Genie」にストリートビュー連携機能 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CZnJpT3ZjdUZGZHpwOEN6YkpsODF3UlZYVnVnZ2lYendHQ0t6aVNOalRrNGV3YllUSm9KcVJ3MUlyRU45dDdlOEw1bndnblVVVWZ6U2Flb003ZGxUancwZmt0aU5uV1B2SlBuRXdTbVBzR1NkX0kzSFZTN0lNTGs?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "北海道、教員確保へ高大連携プロジェクト",
+      "body": "北海道教育委員会と北海道教育大学は、未来の教員確保を目指し、高校生と大学生を対象としたプロジェクトを開始する。このプロジェクトでは、キャリア研修、推薦入試、採用後の支援などを通じて、教職への関心を高め、優秀な人材の確保を図る。\n\n道内では教員不足が深刻化しており、特に地方での採用が困難な状況が続いている。今回の取り組みは、こうした課題に対応するため、早期段階から教職の魅力を伝え、将来の教員を育成することを目的としている。\n\n高校生には教職のやりがいや魅力を伝え、大学生には実践的な研修機会を提供することで、教員を目指す若者を支援する。このプロジェクトが、北海道の教育の質を維持・向上させる一助となることが期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "未来の教員確保へ 道教委・道教大 高大生対象プロジェクト キャリア研修／推薦入試／採用後支援 ／北海道 - 毎日新聞",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5VR09BTlF3d2c1RnU1bG1MSURsOWYtd2kzT0swMXZMOEJ4aU5uTlFwcF96YlNmRGI5M01TMUhsTWM1OUpQMjNDbDdEN0tINGtwSVlZOGpFYlg0YVNJUUlGS0d2djFkYk9HdkhJcEhGdw?oc=5",
+          "source": "Google: 北海道 教育",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "AIの安全保障への影響、Anthropic幹部が警鐘",
+      "body": "AI開発企業Anthropicの幹部は、AI技術が安全保障に与える影響について警鐘を鳴らした。同氏は、AIの急速な進化が既存の安全保障体制を揺るがす可能性を指摘し、今からの備えが重要であると訴えた。\n\nAI技術は、軍事分野での応用も進んでおり、その開発競争は国際的な緊張を高める要因ともなり得る。同氏は、AIの悪用リスクや、AI兵器の開発競争がもたらす危険性について懸念を示した。\n\n安全保障の観点からAI技術をどのように管理・規制していくべきか、国際社会全体での議論と協力が不可欠である。AIの恩恵を享受しつつ、そのリスクを最小限に抑えるための戦略が求められている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "安保も揺るがすミュトス｢備えるのは今｣ Anthropic幹部 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcXFoNzVoUmlHaERUQmt2dHJkNXQxN1Q5RFJCdnFzcFBRSmdVSzlab01WcmFsdUZtbi1DZzluWlhJam5nemdaTTY2S1YxYU5LSlFrWUdXWEdYajdBSUpBcnloclJVUGVERmR2NmEzTy01N0p1aUFkVEVBamZGSnJ5aWc2ZVZOaGVQSFY5bQ?oc=5",
+          "source": "Google: Anthropic",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "タンス預金の危険性、税理士が解説",
+      "body": "58歳男性が実家の金庫から3,000万円を発見した事例を基に、税理士が「タンス預金」のリスクについて解説している。長期間、現金が自宅に保管されていた場合、相続時の税務申告や、紛失・盗難のリスクが高まるという。\n\nタンス預金は、相続税の対象となる財産から漏れやすく、発覚した場合に追徴課税や延滞税が課される可能性がある。また、災害や火災による焼失、盗難のリスクも無視できない。\n\n税理士は、資産の適切な管理と、専門家への相談の重要性を強調している。将来の相続に備え、金融機関での保管や、専門家のアドバイスを受けることが賢明だと述べている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "「母さん、嘘だろ…」58歳男性が絶句。実家の“開かずの金庫”から出てきた〈3,000万円〉に青ざめたワケ【税理士が「タンス預金」のリスクを解説】 - ゴールドオンライン",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41Vl83ckR0elRoTFpuSVUwbkNnOU1NOEw5OFNQZXIxRG15Vjd2SnUzSVBRTklVWWVwekpVSzVjaXhEYXQ5N1BEbGJLVGJONnZvVGc?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "インフォザイン、教育イベントで探究学習を提案",
+      "body": "インフォザインは6月13日に大阪で開催されるNew Education Expo 2026に登壇し、探究学習とデジタルバッジを組み合わせた学びの可視化手法を提案する。生徒の学習成果を可視化し、モチベーション向上につなげる狙いだ。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wT2Q3bDFxQUVOLUxMLS03WFBwMnlleUVJWlFyT0NVb2FadC1pVW5CNVhhRXhJTlFCVlc2SGJyV0Nrb1QtaU1CX0M4cWpMd0tGVzBqQWcxTFFTc2JSMGR5d09pQVFRQmQyMG9nNmt5b25SUmctVDBlNVVGbw?oc=5",
+      "source": "Google: 探究学習"
+    },
+    {
+      "title": "東武鉄道、ダイヤ作成体験教室を開催",
+      "body": "東武鉄道は6月20日、「ダイヤ作成体験教室」を開催する。参加者は、実際の鉄道運行を想定したダイヤ作成を体験し、鉄道運行の裏側を学ぶことができる。鉄道ファンや子供たちに人気のイベントだ。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/19/86115.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "学生向けアート×海洋サミット、参加者募集",
+      "body": "アートと海洋問題の融合をテーマにした学生向けイベント「アート×海洋サミット」の参加者募集が6月30日に締め切られる。学生3人1組で、海洋問題解決に向けたアイデアをアート作品として発表する。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/19/86114.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "CPAエクセレントパートナーズ、シンガポールに会計スクール",
+      "body": "CPAエクセレントパートナーズは、シンガポールにグローバル会計資格スクール「Board」を開校した。国際的な会計人材の育成を目指し、現地のニーズに合わせた教育プログラムを提供する。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1wM1YtUHNQenRKYWhlWGtxYktubVRCVzdyT0RTZ09KQlNUOTJEcWtRNVRoMVc2Ul9WRU9zWWlnb0pBYTg3eTNPZ0pZcXhpZEkxMmgzclU5aXQ4dmpUbWdpT2RoX3FDLU5OOHVNYTZna0VZWFd2ZHR4TE1xUQ?oc=5",
+      "source": "Google: 簿記"
+    },
+    {
+      "title": "生成AI活用、教員業務効率化へ",
+      "body": "富山県呉羽地区の高校で、生成AIを活用した教員業務の効率化に向けた実証事業が始まる。国事業の一環として、AIが授業準備や事務作業を支援することで、教員が教育活動に集中できる環境を目指す。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1EOExwMXJDOU8yeEtNSUZMRU9LMFFmSExqbWlncGxKZEdXLS1wZ1RubjJPU21kX2NNRF95ZGdwY09vX3VQNXBPdVhadw?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "北海道で土砂災害訓練実施",
+      "body": "北海道興部町で、土砂災害を想定した住民参加型の訓練が実施された。関係機関と住民が連携し、迅速かつ的確な避難誘導や救助活動の手順を確認した。地域防災力の向上を図る。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa1Z5b2o1Q0RYa3ZHaUNOTkRxdGFFS2R6NmdfYUtqUWxSZWFabVFGdkduaDBHWjNuZUU1Wng0Qi1pdW4yempsX0NxOFRLcFIyQ3M3dDZLaWN5WGEwS0NEaW9tdVQxbjJXd0hLYno5b3ZwTzlXMThIejN5YkNjS3FySGJlUDd2Mlo1OUQwag?oc=5",
+      "source": "Google: 興部"
+    }
+  ]
+}
