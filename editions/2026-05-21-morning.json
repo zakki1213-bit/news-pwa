@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-05-21",
+  "generatedAt": "2026-05-21T06:26:01.496+09:00",
+  "lead": "2026年5月21日朝刊。AI技術の進化が教育現場やビジネスシーンに浸透する一方、金融市場の不正行為に対する規制強化の動きも加速しています。北海道からは高校野球の話題をお届けします。",
+  "topStory": {
+    "title": "東京エレクトロン、150兆円市場支える特化型AIの全貌",
+    "body": "東京エレクトロンが開発を進める「特化型AI」が、150兆円規模の半導体製造装置市場を下支えする存在として注目を集めている。このAIは、従来の汎用的な生成AIとは異なり、半導体製造プロセスにおける特定の課題解決に特化して設計されている。これにより、製造効率の向上、不良率の低減、そして最終製品の品質向上に大きく貢献することが期待される。\n\n同社は、長年にわたり培ってきた半導体製造技術の知見と、最新のAI技術を融合させることで、この革新的なAIシステムを開発した。具体的には、製造ラインのリアルタイムデータ分析に基づき、最適な装置パラメータ設定を自動で行ったり、異常発生の兆候を早期に検知して予知保全に役立てたりする機能を持つ。\n\nこの特化型AIの導入により、半導体メーカーは生産性の向上とコスト削減を実現できるだけでなく、これまで以上に高品質な半導体の安定供給が可能となる。これは、AI、自動運転、IoTなど、今後ますます需要が拡大する先端技術分野の発展に不可欠な要素である。\n\n東京エレクトロンは、この特化型AIを自社製品に組み込むだけでなく、顧客である半導体メーカーへのソリューションとしても提供していく方針だ。これにより、半導体業界全体の競争力強化に貢献し、日本の技術力を世界に示すことが期待されている。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "ただの生成AIじゃない…150兆円市場を下支え、東京エレクトロン「特化型AI」の全貌 ｜Seizo Trend - ビジネス+IT",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PNTZYWmpwTnA4U2lfVThCM2picWNRTU12ZFNla3QxeFRrSXBmUWVEUmUwRHB3bXZjZWxXNzJUT3ZneDhvNVUxdVh1LUFxNXU5Z21n?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "士業向けAI「士業AI」、公的情報のみで税理士試験正答率を達成",
+      "body": "株式会社SoLaboは、公的情報のみを参照する士業向けAI「士業AI」の正式版をリリースした。このAIは、税理士試験における過去問データなどを学習し、公的情報のみを参照するにも関わらず、高い正答率を記録したことが確認されている。\n\n「士業AI」は、弁護士、税理士、司法書士などの士業従事者が、日々膨大な量の公的情報を効率的に収集・分析し、業務に活用することを支援する。特に、最新の法令や判例、行政指導などの情報を迅速かつ正確に把握する必要がある業務において、その真価を発揮する。\n\n今回の正式版リリースにより、士業の働き方改革をさらに推進し、専門性の高い業務への集中を可能にすることで、より質の高いリーガルサービスやコンサルティングサービスの提供に繋がることが期待される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "【士業の働き方を変える】公的情報のみを参照する『士業AI』正式版リリース。正答率 税理士試験 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80ZFg2dkI4Y2hFdEZnNzFFM21qd1ZsQkFhNGJzN1pfQk9salNQZUpRTFhXY1JEUTU0eE9GZEg0Vk5WazVFSXdEQXYwTGsxNUxFcEx5NDUtbTFNVldUUUx1TjZGLU5wZmJqZU9WazRwcnVlWHlveWY3Rkk4VQ?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "山口市、災害時の電話対応に生成AI活用実証へ",
+      "body": "山口市は、災害発生時の電話対応業務において、生成AIを活用する実証実験を実施する。この実験は、AIが市民からの問い合わせに自動で応答し、必要な情報を提供する能力を検証することを目的としている。\n\n近年、自然災害の頻発化・激甚化に伴い、災害時の行政窓口には多くの問い合わせが殺到する。従来の電話対応では、人員不足や対応能力の限界から、市民への迅速かつ的確な情報提供が困難になるケースが少なくない。\n\n生成AIを活用することで、24時間体制での問い合わせ対応や、多言語対応も可能になる。これにより、災害時における市民の不安軽減と、行政業務の効率化が期待される。実証実験の結果を踏まえ、本格的な導入に向けた検討が進められる予定だ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "山口市と災害時の電話対応における生成AI活用実証を実施 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fQUN1b0dhLUVkczNPdnFTNndBQzF1SlFlQlVkcGo2X3FXV2o5eEFBZk9jSlc3bmlmUmJkV0prNEFIa2NfRWdINGxGdTBpbExIMWszZ19MMnZfSHhVaVFQXzMzTDcyQXd3UGNMVy02SmlDLUVQaVVrQmFKQQ?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "金融当局、相場操縦・会計不正への制裁強化へ",
+      "body": "金融当局は、相場操縦や会計不正を行った企業に対する制裁を強化する方針を固めた。具体的には、不正行為を通報した際の報奨金の上限を撤廃し、長期間にわたる会計不正に対しては課徴金を加重賦課する。さらに、粉飾決算の実質的な責任者に対しても課徴金を賦課できるよう、制裁根拠を強化する。\n\n今回の規制強化は、近年の金融市場における不正行為の増加や巧妙化に対応するため、市場の信頼性と公正性を確保することを目的としている。特に、会計不正は企業の信頼を大きく損なう行為であり、厳正な対処が求められていた。\n\n金融委員会は、これらの強化策を盛り込んだ法改正案を近く確定させ、国会に提出する見通しだ。これにより、金融市場の健全な発展と投資家保護がさらに進むことが期待される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "金融当局が株価操作と会計不正申告褒賞金の上限を廃止する案を確定した。 長期間続いた会計不正に対しては課徴金を加重賦課し、粉飾会計の実質責任者にも課徴金を賦課できるよう制裁根拠を強化する。金融委員会は2.. - 매일경제",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MS1JZNzdiZDd4clBXSENPVV9uWGpqYUJnUjV0N1NhbWFyMHlON1hSTXktV0dqUkpLV1lNcFp5S0FiOVNtVFlWQ1pwZFA1TEE?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "春の全道高校野球、釧路湖陵が開幕戦突破誓う",
+      "body": "春季北海道高校野球大会が間もなく開幕する。開幕戦で強豪クラーク高校と対戦する釧路湖陵高校は、初戦突破に向け決意を新たにしている。選手たちは厳しい練習を重ね、大会に臨む準備を進めてきた。\n\n昨秋の大会では悔しい結果に終わったものの、今大会に向けてチームは着実に力をつけてきた。特に、打撃力と守備力の向上が見られ、接戦をものにする力も養われている。監督は「チャレンジャー精神で、持てる力を全て出し切りたい」と語った。\n\n大会には全道から有力校が集結しており、厳しい戦いが予想される。釧路湖陵高校が、強豪相手にどのような戦いを見せるのか注目が集まる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "春の全道高校野球 釧湖陵、開幕戦突破誓う クラークと対戦 - 47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1iSUF2NWhFcTA5enktenN4Sk1PYnh6cHNhdHNMVkRXemNNRi1hakpjcF92cDNzbm5GM0d4b3llaFlvUG5pNHRwYXYyQQ?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "ヴァンズ親会社、2026会計年度に増収へ",
+      "body": "ヴァンズの親会社であるVFコーポレーションは、2026会計年度に増収に転じる見通しを発表した。同社は、ブランドポートフォリオの見直しやコスト削減策を進めており、業績回復への期待が高まっている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxPN2ctdnBSMXlWY0JHVkFGWVVmT0loamhwUHJhQk1BUl9NX0RlWGFnRjBiMFVsWkNPb0x2ZHVTdTBUbktoblRxUmJNeDR1NWt6RTVIVkZkS21xVUpsNHFvbDlNdFdZYS10TGp3bDNncGd3LTFfTW1WQmx6VWVoTFluS3NLRElxM09aMlFkNlNiUEdjWXJmYjc4YUVDRzJVZ25PUE50eFpzbmpHNFRkc2NsWk8zbU5wNDNKanVKZzZ1cGFVOFVoRm9mRko3b0Rmam5JcFJURE1jSThNZkZDUS1sTWpPUzg0ci1sNXZSc1gyTG16UzJPSmZ3SS1DX2lxOHdaN3dDdzhybEsxZDVKNTNNTDdERjloTE40OHlPUmx0SVNWNDJqTEppcnRUdklqZURqdUV5bG5sUjRZUHFCSEoyQW1WczQ1N3N3QmJzM2IwRzFWb0I1OGRBNWIyM0dkZ3dlTWloZnZwakZLaVpnaXk0Q21EQ2NWX0JxYVBCWThkZjUxeFFuUThlSWFpWTJQb1dHQlJaQS0wM0VxYkxNRjdmRnNUdDJfZ1A5NXc?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "中高生向けサマーキャンプ、全コースがAIキャンプに",
+      "body": "ライフイズテックは、夏休み期間中に開催する中高生向けサマーキャンプの全コースを「AIキャンプ」としてリニューアルする。東京大学や慶應義塾大学などの協力のもと、AIに関する専門知識やプログラミングスキルを学べるプログラムを提供する。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUd3RqTDZUdGNTdjNpZV9LSEctSGJ1N3dudDRBY2pZZDFZX21maVp3am5EVC1fYUZUd053RXRMVEtMUzMtdWtaSzhaaFdVdzVZNWxSMm9YSkF5RlJIQVpIYmIyd2tiLVRy?oc=5",
+      "source": "Google: プログラミング教育"
+    },
+    {
+      "title": "生成AIで運用保守の効率化、問い合わせ回答時間を3分の1に",
+      "body": "生成AIを活用することで、問い合わせ対応時間を従来の3分の1に短縮できることが明らかになった。日経クロステック Activeの記事によると、AIが一次対応を行うことで、担当者はより複雑な問題に集中できるようになり、業務効率が大幅に向上する。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wWENFZl9ub19JWDhRSmZEdHd5bEpJOUNTT3M2dFpXNHlkR1JLaTlVSUR6bnNjN19EV3dKVFl6N19MTzhfbEFHSzVGT1pEenMzUGRqTS01U0s2SkNEdGV5TnB0bTM3QQ?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "気象庁、紋別漁協の要望受けデジタルアメダス機能拡充へ",
+      "body": "気象庁は、紋別漁業協同組合などからの要望を受け、デジタルアメダス（地域気象観測システム）の機能拡充を進める。これにより、より詳細で迅速な気象情報の提供が可能となり、漁業をはじめとする地域産業の発展に貢献することが期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9QZlhjcExtT0UwZTVlRW9lek5lOTByUVpGN1h3S21vWHhPeDV1MFVfWElHVmZ0T0VzWUR1X190M3ZxaWFTa2VjZTZTekk?oc=5",
+      "source": "Google: 紋別"
+    },
+    {
+      "title": "JR北海道、北見・札幌・旭川に新ホテル計画",
+      "body": "JR北海道は、北見、札幌、旭川の3都市に新たなホテルを建設する計画を発表した。「JRイン北見」は2027年度の開業を目指しており、地域経済の活性化に貢献することが期待されている。他の都市のホテル計画も順次進められる予定だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1SVk9oTDh4anRLT0NtOS1jb011cGxKTGVPMGR0RWxFNHVCOTM0dUpkcEdoeEpGcmluZzJocVNBV09QbmNobTRiaWdDV3pTdTZrdUlJeTZmOUhXQkgwTEFB0gFkQVVfeXFMTzFkcldLMnRNcWljQmJ4d0ZCRl9VOXp5V3VndnJtaVRnNWlldGdlSmJSaEo2WDZZWjNraUFjV00yaWxucXpFWlNBcEdIQjVaSy1FWEoxUDhPWjY1NjBXQTZTTURITw?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "高校野球春季全道、組み合わせ抽選会実施",
+      "body": "春季北海道高校野球大会の組み合わせ抽選会が実施された。各校の初戦の相手が決まり、熱戦の幕開けを待つばかりとなった。大会は、各地区を勝ち抜いた強豪校が集結し、白熱した試合展開が予想される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5JSjlWR0pkbmhLRWhNLS0wLVRpdEFZeG91LWxEQ0Z0bnN1S0p0X0xhQVNDSlRrOGJnLTk2YWoyM0VpVEEzb1ZTMlNIX2FfVEFFM0RoZmd2TnFuUy1janpYUHdDNU12anB3RVE?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
