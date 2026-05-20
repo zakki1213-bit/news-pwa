@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-05-20",
+  "generatedAt": "2026-05-20T19:37:30.933+09:00",
+  "lead": "本日は教育、商業、AI、そして北海道の地域ニュースを中心に、多岐にわたる話題をお届けします。教育分野では、探究学習の新たな試みや、国際的な学びの機会に注目。商業分野では、地域貢献に根差した取り組みが紹介されています。AI技術の進化は目覚ましく、ビジネスや生活への応用が加速しています。北海道からは、春の高校野球大会の組み合わせ決定など、地域に根差した話題を伝えます。",
+  "topStory": {
+    "title": "グーグルのAI処理、月間3200兆トークン突破",
+    "body": "グーグルは、同社が処理するAI（人工知能）のデータ量が月間3200兆トークンを突破したと発表した。これはわずか2年で約330倍に急増した計算になる。AI技術の急速な進化と普及を象徴する数字であり、同社のAI開発における圧倒的な規模とスピードを示している。\n\nこの急増は、検索エンジン、クラウドサービス、そして様々なアプリケーションにおけるAIの活用拡大によるものとみられる。特に、大規模言語モデル（LLM）の進化は目覚まとく、より高度な自然言語処理能力が求められている。グーグルは、これらの膨大なデータを処理・分析することで、AIモデルの性能向上を図っている。\n\nAI処理能力の増強は、同社のビジネス戦略においても重要な位置を占める。AIを活用した新サービスの開発や、既存サービスの機能強化に不可欠であり、競争優位性を維持するための鍵となる。今後もAI分野への投資を加速させ、技術革新をリードしていく姿勢を明確にした。\n\n一方で、これほど大量のデータを処理するには、膨大な計算資源と電力が必要となる。持続可能なAI開発のためには、エネルギー効率の改善や、より効率的なアルゴリズムの開発が今後の課題となるだろう。グーグルは、これらの課題にも積極的に取り組むとしている。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "グーグルのAI処理、月間3200兆トークンを突破…わずか2年で約330倍に急増 - ビジネス+IT",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9MUEp4d0hqVGV4TWJtTjJMV2pRaXJqdlFvenotaWluVlQ1Zlc3NHd6RWU5dHlwMVZlM0hKc0tVTk80M3BUOE02MUJDcW5oZDFkRk5j?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "「宇宙鯖缶」挑戦、高校生の探究学習が生む夢",
+      "body": "月9ドラマの主人公モデルとなった高校生が、探究学習を通じて「宇宙鯖缶」の開発に挑戦した経験を語った。この取り組みは、小浜という地域ならではの資源や特性を生かしたもので、生徒たちの主体的な学びと創造性を育む場となっている。\n\n「黒ノート」と呼ばれる活動記録が、彼らの挑戦の軌跡を綴っている。そこには、試行錯誤の末に生まれたアイデアや、地域の人々との交流、そして夢に向かって努力する姿が記されている。単なる知識の習得に留まらず、実践的な課題解決能力や協調性を養う貴重な機会となった。\n\nこの事例は、教育現場における探究学習の可能性を示唆している。生徒一人ひとりの興味関心を引き出し、地域社会と連携しながら主体的な学びを支援することの重要性が浮き彫りになった。今後、こうした先進的な教育実践が広がることで、次世代を担う人材育成に貢献することが期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "「黒ノート」がつないだ高校生の夢 月9ドラマの主人公モデルが語る「小浜だからこそできる」探究学習 「宇宙鯖缶」挑戦の記録 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9nQWtzTTV6MFo1VXh3RlZHejZYQ3NHSVpJM2ZZSmlYNWhRNE5XSVFWWUdQeUkxU1pKRE90dWNwSUZzOExBVFpQbE53UU9VX29qNFllT2dZbDM5dVI5U2RhMlpDa3JYWWpqWngtM3JMMnUxTU5QSkNSaWNiMjgxcXM?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "アニメ・イラスト特化型AI「Anima」登場",
+      "body": "アニメやイラスト制作に特化したローカル画像生成AI「Anima」が開発された。このAIは、ユーザーの指示に基づいて高品質な画像を生成する能力を持ち、生成された画像は商用利用も可能となっている。\n\n従来の画像生成AIと比較して、Animaはアニメやイラストの表現に最適化されており、より繊細で個性的な表現を実現できる点が特徴だ。ローカル環境で動作するため、インターネット接続に依存せず、プライバシーにも配慮した利用が可能となる。\n\nクリエイターにとっては、制作プロセスの効率化や新たな表現の可能性を広げるツールとして期待される。個人クリエイターから制作会社まで、幅広い層での活用が見込まれる。AI技術がクリエイティブ分野に与える影響は今後も増大していくだろう。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "アニメやイラストに特化したローカル画像生成AI「Anima」 生成した画像は商用利用も可能（生成AIクローズアップ） - テクノエッジ TechnoEdge",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKOU5vS1dEN1Ztb21VYmViSklpaWVDMnl0YzBwbmNBQnlpdUpnM2VFMnd0MmktYk9tVG9DVDZ0emNhM1Myc1duTkgzSWhrMTkxSzJNWWd0ZHJFWElIZk9BT3daczNaU3c?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "福岡女子商業高校の学食、地域企業が復活運営",
+      "body": "物価高や事業者の撤退により閉鎖していた福岡女子商業高校の学食が、地域企業「愛しとーと」の支援により復活した。同社は赤字覚悟で学食の運営を引き継ぎ、生徒たちに温かい食事と笑顔を提供している。\n\n「お腹いっぱい食べて、夢に向かって頑張ってほしい」という同社の思いが込められたこの取り組みは、地域社会における企業の社会的責任（CSR）活動としても注目される。地元の女子高生たちの活力源となるだけでなく、地域経済の活性化にも貢献することが期待される。\n\n学校と地域企業が連携し、生徒たちの成長を支えるこの取り組みは、教育現場と地域社会の良好な関係構築の好例と言えるだろう。今後もこのような地域に根差した支援活動が広がることを願う。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "【赤字覚悟の地域貢献】物価高・事業者撤退で閉鎖していた福岡女子商業高校の学食を「愛しとーと」が復活運営！「お腹いっぱい食べて、夢に向かって頑張ってほしい」地元の女子高生に笑顔をお届け。 - 写真・画像(1/1)｜【西日本新聞me】 - 西日本新聞me",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFByNGQxSjJHMGJwTzM4aEJjeEVmaWNLQkNyWU9EWlpUQllkTlk3UFcyMTZreEF6M2draUVPekF5cGNGV1VzZEJkZEtTc1RzczB0T1ZPa1ZDaw?oc=5",
+          "source": "Google: 商業高校",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "春季北海道大会組み合わせ決定、北海は初戦旭川東と",
+      "body": "2026年度春季北海道高校野球大会の組み合わせが決定した。大会は4連覇を目指す北海高校が初戦で旭川東高校と対戦する注目のカードとなった。春の北海道王者の座をかけ、各校が熱戦を繰り広げる。\n\n大会には、道内各地から選抜された強豪校が出場し、夏の甲子園出場に向けた重要な前哨戦となる。各チームとも、この大会でチームの課題を克服し、さらなるレベルアップを目指す。\n\n組み合わせ抽選の結果、北照、北海、駒大苫小牧といった有力校が同じパートに配置されるなど、初日から激しい戦いが予想される。選手たちの情熱あふれるプレーに注目が集まる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "【高校野球】春季北海道大会の組み合わせが決定 4連覇に挑む北海は1回戦で旭川東と対戦 (2026年5月20日掲載) - ライブドアニュース",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xMU5MWjJTODVJV3N4eXZjU3pCX2IzLXRaMXVrN0xtSlUtbDFYczRBYkx5N0tBWjIyYVpRUzc3S2FlZDFiMmVqeVd3VXpQMzVudXVfVmlKQU9XNUJEZFE?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "東京都「なくしもの美術館」ワークショップ開催",
+      "body": "東京都は、小中学生を対象とした「なくしもの美術館」ワークショップの参加者を募集している。このワークショップでは、失くしたものの物語を想像し、作品を制作する体験を通じて、創造性や想像力を育むことを目的としている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/20/86128.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "豪州ホームステイ、現地校通学も体験",
+      "body": "夏休み期間中、小学4年生から中学3年生を対象としたオーストラリアでのホームステイプログラムが実施される。参加者は現地の学校に通い、異文化体験や語学学習の機会を得ることができる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/20/86127.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "iPhoneに生成AI活用新機能、年後半導入",
+      "body": "Appleは、iPhoneのアクセシビリティ機能に生成AI「Apple Intelligence」を活用した新機能を今年後半から導入すると発表した。これにより、よりパーソナルで直感的なユーザー体験が提供される見込みだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TbWVRSlZMbkxXMVdxTjNiRHVmeEViSm1uX3RtWTRhQW5penpSTi11NTlqS1lJWG0yVy11akFuOWNPRy0zaWRXcFFhZVR0YloyWl9GX0QwTTZBRk5nMFNhMWN3ckVnbDA?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "紋別でオホーツク魚の市民植樹祭",
+      "body": "紋別市で、オホーツク海に生息する魚の保護を願う市民植樹祭が開催された。親子ら約300人が参加し、300本の苗木を植樹した。地域の自然環境保全への意識を高める機会となった。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5BMzZEUGRSS3BJVndWWVN3Zm95NWliTjRzekhyQ3RKQXdZUXJUc3ZFWGZWS2V6Tlp1ZHBZdElaUUVFdUNEN25qUHljYw?oc=5",
+      "source": "Google: オホーツク"
+    },
+    {
+      "title": "バス会社4社、就職相談会開催",
+      "body": "6月13日、バス会社4社合同の就職相談会が開催される。参加者は、路線バスの運転体験なども通じて、バス業界への理解を深めることができる。運転手不足が課題となる中、新たな人材確保を目指す。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12U005M1NwaFo2eUtJQTNZWm9QTmlIZDNZRXZEanZubFF2V2k1S1h1SERZZTZyck1UaHhwM3VfaE9jd2JYanhJaktOcVBGM2R3NVA1eFFvM0Z3Zw?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "侍テラコヤに生成AI活用コース新設",
+      "body": "株式会社SAMURAIが提供するオンライン学習サービス「侍テラコヤ」に、生成AI活用コースが新設された。AI技術の急速な発展に対応するため、実践的なスキルを習得できる機会を提供する。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mRjNwTHZLZzVaWndVRVNtT1FLbTNLN0FLdUhJeEVpN25lb0dSUDIzZTJpWjBJejhYa0lFbmJaZEVMMmZBbGl6YXVWR2NtcHVFdjhwbmptdi1rRzh1bTBHdTdhRktLNFA1M2xLRFhR?oc=5",
+      "source": "Google: 生成AI"
+    }
+  ]
+}
