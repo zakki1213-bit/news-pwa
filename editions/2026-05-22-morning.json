@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-05-22",
+  "generatedAt": "2026-05-22T06:18:16.887+09:00",
+  "lead": "2026年5月22日朝刊。AI技術の進化は目覚ましく、ビジネスや教育現場での活用が加速しています。本紙では、AIモデルの評価プロジェクトや、教育現場でのICT活用、そして地域経済の活性化に向けた取り組みなど、多岐にわたる最新の動向をお伝えします。また、北海道からは高校サッカーの全道大会出場校や、林業の現場を訪ねるセミナーなど、地域に根差した話題も取り上げます。",
+  "topStory": {
+    "title": "AIモデル評価プロジェクト「AI IQ」公開 GPT-5.5やClaude Opus 4.7などを「IQ」で比較",
+    "body": "AI技術の進化が加速する中、各社の開発競争が激化しています。この度、AIモデルの性能を客観的に評価するプロジェクト「AI IQ」が公開されました。このプロジェクトでは、GPT-5.5やClaude Opus 4.7といった最新のAIモデルを、「IQ」という指標を用いて比較・評価しています。\n\n「AI IQ」は、自然言語処理能力、論理的思考力、問題解決能力など、多角的な視点からAIモデルの知能を測定することを目指しています。これにより、ユーザーは各AIモデルの強みや弱みを理解し、自身の目的に合ったAIを選択することが容易になります。\n\n公開された初期の評価結果では、GPT-5.5とClaude Opus 4.7がそれぞれ高いスコアを示し、性能の高さが伺えます。しかし、評価項目によっては他のモデルが優位性を示す場合もあり、AI開発の多様性と進化の速さを改めて認識させられます。\n\n今後、「AI IQ」プロジェクトは、評価基準の拡充や評価対象モデルの追加を継続的に行い、AI技術の発展に貢献していく方針です。この評価プロジェクトは、AI開発者だけでなく、AIの導入を検討する企業や研究機関にとっても、貴重な情報源となることが期待されます。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "AIモデル評価プロジェクト「AI IQ」公開 GPT-5.5やClaude Opus 4.7などを「IQ」で比較 - Ledge.ai",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54NlB3S1FNbm1yQThyWnRxQVhHa3Y2aUVrOHVpVGVvWVQ4b0xqYktZenlCSmY0cGVEOEJab2NWRWsxTkhfWll6bjByMWlpVm82bjFvRGR3QWstbk9oVUJjaVVVd3M4X2c?oc=5",
+        "source": "Google: Claude AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "東京都「とうきょう すくわくプログラム」に対応 幼児向け探究教材を提供開始",
+      "body": "東京都が推進する「とうきょう すくわくプログラム」に対応した、幼児向けの探究教材「あそびツクール(R)」の提供が、保育園・幼稚園向けに開始されました。\n\nこの教材は、幼児期における探究心を育むことを目的としており、遊びを通して様々な事象への興味関心を深めることを促します。具体的には、子供たちが自ら問いを立て、試行錯誤しながら答えを見つけていくプロセスを重視した内容となっています。\n\n「あそびツクール(R)」は、東京都の教育方針に沿って開発されており、プログラムの目標達成に貢献することが期待されています。教材の導入により、都内の幼児教育の質向上と、未来を担う子供たちの創造性・思考力の育成が図られます。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "東京都「とうきょう すくわくプログラム」に対応。幼児向け探究教材「あそびツクール(R)」を保育園・幼稚園向けに提供開始 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82MVN5VGpRZ1JMeXFRMmZ4d3lrSHFpNXoxQ2RqcXJBTTB2bVIxMlpNTURLazltMDc2UExfcTdUbDlGT0p0WVUtWnNPWk9zb3Q0ODRfdDYweXRtWTZIelBsYjhQdXJ3dkNa?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "群馬県、高校教育改革へ県立４高校を拠点校に 国に６２億円申請",
+      "body": "国の高校教育改革の方針に合わせ、群馬県は県立高校4校を新たな教育改革の拠点校として指定し、国に約62億円の支援を申請しました。\n\nこの取り組みは、変化の激しい社会に対応できる人材育成を目指すもので、拠点校では先進的な教育プログラムの開発や実践が行われます。具体的には、探究学習の深化や、地域課題の解決に貢献できる実践的な学びなどが強化される予定です。\n\n申請された予算は、これらの教育プログラムの実施に必要な施設整備や教材開発、教員の研修などに充てられる見込みです。群馬県は、この改革を通じて、県全体の高校教育の質を高め、生徒たちの将来の可能性を広げることを目指しています。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "国の高校教育改革に合わせ 群馬県が県立４高校を拠点校に 国に６２億円申請 (2026年5月21日掲載) - ライブドアニュース",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBvbDNwZ1JGU3pZaEJwMG5FelA2cFNidzFWZW5maTVvbXRMQVJMWTRfQXpHVHVqb2ZjOXczNVpwMVU4RXphTE4yOGE5QkUzQ2hLUkRrTHN5bV9aMDFWa1E?oc=5",
+          "source": "Google: 高校教育",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "Square POSレジ導入店で免税販売が可能に API連携で無料提供",
+      "body": "Pie Systems Japanは、決済サービス「Square」とAPI連携を開始し、全てのSquare POSレジ導入店舗で、訪日外国人旅行者向けの免税販売が無料で可能になると発表しました。\n\n今回の連携により、店舗側は特別なシステム導入や追加費用なしに、煩雑な免税手続きを簡略化できます。これにより、インバウンド需要の取り込みが容易になり、地域経済の活性化にも貢献することが期待されます。\n\n訪日外国人旅行者にとっては、よりスムーズで快適なショッピング体験が可能になります。この取り組みは、日本の観光立国としての魅力向上にも寄与するものと考えられます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "Pie Systems Japan、「Square」とAPI連携。全「Square POSレジ」導入店で、無料で簡単に訪日客向け免税販売が可能に。 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9RUmFIZ2lTMTVaZmtENnBnTEhWZE9pWHhGYXFWb3BOUmN2dXFvVmxqVWZ5RnFYZVA5MHQ0aEZKajNEdFNrNURHSkdVVDctNC01MlRlWTJCNUUzNWlVc1ZiOXdJSmF2a0tY?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "OpenAIが第1四半期収益でトップ、Anthropicは成長率で急追",
+      "body": "AI開発をリードするOpenAIが、2026年第1四半期の収益においてトップに躍り出ました。一方、Anthropicも目覚ましい成長率を示し、OpenAIを猛追しています。\n\n両社は、大規模言語モデル（LLM）の開発競争を繰り広げており、その技術革新は目覚ましいものがあります。OpenAIは、既存サービスの収益化をさらに進め、安定した収益基盤を確立しました。Anthropicは、急速な事業拡大により、市場での存在感を急速に高めています。\n\nこの競争は、AI技術全体の発展を加速させる原動力となっており、今後も両社の動向から目が離せません。AI市場全体の拡大とともに、さらなる技術革新が期待されます。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "OpenAIが第1四半期の収益でトップ、Anthropicは成長率で急追 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03OHV0eXBsamJzY3NVcUlCYjFGV3ppMFlCd1o1UTlGMlM3bHFxNlpUN3RaN2xHSlNwUkp0ekRWbkZRVXFUTHFYanJERVNRVkFHMkwxT091X1VHODBMdVFTSHRnQnl5N2dscHhseUx5Yjc?oc=5",
+          "source": "Google: Anthropic",
+          "topicId": "ai_tech"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "高知県教委、高校教育改革の「先導拠点校」に４校申請",
+      "body": "高知県教育委員会は、高校教育改革を進めるため、県立高校4校を「先導拠点校」として国に申請しました。1次産業のDX推進や、まんが・アニメコースの新設などが盛り込まれています。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rSUd1NWY2Sk9RYmdEaWVqQk01el9CLWpKcXg0ZmJNeDNlVjdqNVpreU9rakt3QUtGSjhNZEFzNXozWmN6Y0JERTlqNV9uT19OZzAzMHpMa0YyX0VMWDg4?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "金融資産の減損に関する会計基準、ECL算定・業務フローを標準化",
+      "body": "金融資産の減損に関する会計基準について、期待信用損失（ECL）の算定および関連業務フローの標準化が進められています。これにより、会計処理の精度と効率向上が期待されます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpYXN2X0xJQVFMWk9mdjFxZDdpZk1ETkhaTVRzSDRNa1dVak5UN2M3ZVRMSGFMdWVtUUxVSWtFa0hiOFFQQkVEcmZIYVUtYTVLZ3ZkY0lGRXNSczNfOXVwMGdvbG5MQQ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "主要国家資格、出願者数2015年比で約2.1倍に増加",
+      "body": "主要な国家資格の出願者数が、2015年以降で最多を記録しました。2015年と比較して約2.1倍に増加しており、資格取得への関心の高まりを示しています。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93TVNuU25zTExPTjhLVFFsTHFVSlFSUWtpM2dHS1RoSVNod2FUZnduc3BnbG5VT2JOLVFJX0ZsSnVhM0VlbGppLUlscl96YXljYjIxeTZzQTFhRGlwa05hR0NFbXhXNW9T?oc=5",
+      "source": "Google: 簿記"
+    },
+    {
+      "title": "オウンドメディア、月間PV9万突破 AI活用実務記事が成長",
+      "body": "Uravationが運営するオウンドメディアは、月間ページビュー9万を突破しました。Claude Codeや生成AIなど、AI活用の実務に関する記事が読者の関心を集め、成長を続けています。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE91N2dRNGpTWnd3Nk1VRU9WNnh4T00zRW4zdFhlb2NUU2pyWW40WEhfNjRablJrdy04ZkM1LTFKQXVXYklIbHg2SDBTX0cwdDlnSmVxSU9CSGhWcGNyaWVqZEE4dVUxR1V1T3hReUhWRUduQThXMUxabQ?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "高校サッカー 旭実など全道切符",
+      "body": "高校サッカー選手権大会の地区予選が各地で行われ、旭川実業高校などが全道大会への出場権を獲得しました。熱戦が繰り広げられ、各校が全国を目指し奮闘しています。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNTWZTbk01alRPemR5elNvb3A3Wmw2b1dpSFFZb3JwT2FzajF4TXJCc0JOejRiVzB1bXpJQV9IT0lQQlZ1OW44SlR5c2EtYVRSTlNNcC1WU19nZw?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "林業最盛期の現場跡をたずねる フィールドワークセミナー開催",
+      "body": "北海道新聞社は、林業の現場を訪ねるフィールドワークセミナーを開催します。最盛期の現場跡をたどり、林業の現状と課題について理解を深める機会となります。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LRHFObFJ1T2JnQmI1MXM1RXBpdVNGNkZnM2pBZU1iNkhtaXNPbmNRNXE0WjZzLXlYWFhSUUl1ZGpoc1U0dEdkUzRwbzNRckVGandLYg?oc=5",
+      "source": "Google: 北見市"
+    }
+  ]
+}
