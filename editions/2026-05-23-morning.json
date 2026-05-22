@@ -1,0 +1,141 @@
+{
+  "type": "morning",
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T06:00:12.589+09:00",
+  "lead": "生成AIによる声の模倣が新たな訴訟に発展するなど、AI技術の急速な進化は社会に様々な課題を投げかけている。教育現場ではAI活用が模索され、商業分野ではデジタル化が進む。北海道では地域経済の活性化に向けた動きが見られる。本紙はこれらの動きを多角的に報じる。",
+  "topStory": {
+    "title": "生成AIで声模倣、声優がティックトック提訴",
+    "body": "人気声優の津田健次郎さんが、自身の声が生成AIによって無断で模倣されたとして、動画共有プラットフォーム「ティックトック」を運営する企業に対し、動画削除などを求める訴訟を東京地裁に起こしたことが22日、分かった。声優の声が生成AIで模倣され、その利用を巡って法的措置が取られるのは異例。津田さん側は、声の無断利用は人格権や著作権を侵害する可能性があると主張しているとみられる。\n\n訴状によると、津田さんの声の特徴を学習させた生成AIによって作成された音声が、ティックトック上で公開された動画に使用された。津田さん側は、この音声が本人のものと誤認される可能性があり、声優としての活動に支障をきたすと訴えている。ティックトック側は、個別の訴訟に関するコメントは控えるとしている。\n\n生成AIによる音声合成技術は近年急速に進歩しており、個人の声の特徴を高い精度で再現することが可能になっている。一方で、その利用方法によっては、肖像権や著作権、プライバシーなどの権利侵害につながる懸念も指摘されている。今回の訴訟は、こうしたAI技術の利用に関する法的ルールの整備が急務であることを改めて浮き彫りにした形だ。\n\n今回の訴訟の行方は、生成AIと個人の権利保護とのバランスをどう取るべきか、今後の議論に大きな影響を与えそうだ。特に、声優や俳優など、声が職業上の重要な要素となる分野での影響が注目される。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "津田健次郎さんの「低音ボイス」生成ＡＩで模倣、動画削除求めティックトック提訴…声無断利用で初の訴訟か - Yahoo!ニュース",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1pVHo1RmtqTHZqM1g0NVZsYlBjOGZOVGQ5NExYVUNvNG8xdkN6cnVDb1F4dEVsNVc3WjZiUWJzVk4yeTFnZDFLT1ZSbER0N0VRMk52bWNZTENSVk1vMWJtS2dIMUVyQkxJVnJwcG9HM1h6RzlZZnZLTml6eUlpeDQ?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "静岡県4校、AI養殖の実習施設設置へ",
+      "body": "国の高校教育改革の拠点校に選定された静岡県内の4校が、AI養殖の実習施設や企業が参加できるプレゼン会場を設置する事業構想を明らかにした。これにより、高校生が最新のAI技術に触れ、実践的なスキルを習得する機会が提供される。実習施設では、AIを活用した効率的な養殖技術の開発や、データ分析に基づく生産管理などが学べるようになる見込みだ。\n\n企業との連携によるプレゼン会場の設置は、生徒たちが将来のキャリアについて具体的に考えるきっかけとなる。企業側も、若い才能の発掘や、新たな技術シーズの発見につながることが期待される。この取り組みは、教育分野におけるICT活用と産業界との連携を推進するモデルケースとなる可能性がある。\n\n今回の構想は、地域経済の活性化にも貢献するとみられている。AI養殖技術の発展は、水産業界全体の生産性向上に寄与し、新たな雇用創出にもつながる可能性がある。静岡県は、この事業を通じて、持続可能な水産業の発展を目指していく方針だ。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "AI養殖の実習施設や企業が参加できるプレゼン会場設置…国の高校教育改革の拠点に選定された静岡県4校の事業構想明らかに（静岡朝日テレビ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fM0o1RnlJcU5HMG4yd2RMSmsxU1hNZUdveDVuOXhRU3JXX2VEQllsQi1JRU4xT3FTMDJNWUNObFkxU01icVN5Z0F3X083am03c3ZkMVJYZWYwVURuc0RnQVZuakV1X0JMaDdlbFJhZHB6S3dwTWhCSkhQNlNpZEU?oc=5",
+          "source": "Google: 高校教育",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260522-00087838-satvv-000-1-view.jpg?exp=10800"
+    },
+    {
+      "title": "生成AIへの市民相談1255件、横須賀市が実証実験結果を公表",
+      "body": "横須賀市は、生成AIに関する市民からの相談が実証実験期間中に1255件に上ったことを明らかにした。相談内容は、AIの利用方法に関する質問から、プライバシーや著作権に関する懸念まで多岐にわたった。市は、市民がAI技術を安全かつ効果的に利用できるよう、情報提供や相談体制の強化を進める方針だ。\n\n実証実験では、市職員が生成AIを活用して業務効率化を図る取り組みも行われた。その結果、文書作成や情報収集などの分野で一定の成果が得られた一方、AIの回答の正確性や倫理的な側面に関する課題も浮き彫りになった。市は、これらの課題を踏まえ、AI導入に関するガイドライン策定を進めるとしている。\n\n横須賀市は、今後も生成AIの活用可能性を探るとともに、市民が安心してAI技術と向き合える環境整備に努めるとしている。今回の結果は、全国の自治体におけるAI導入の参考となるものだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "生成ＡＩへの市民相談１２５５件 横須賀市、実証実験の結果まとめ - カナロコ",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9KeWZQeVp1eHVnNEt0U1BCbFAtRWlmS0p1VjZ4RE5NS2dTMUJjb0xNRHB4WVlQNVJKZWZDWHRwbXk1bV9iMi1DTkFnVzRVbkdkanJfbHBzZmRidHR5dGFIdEVEZjRiSXZJdnpEcQ?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://www.kanaloco.jp/sites/default/files/styles/rectangle_750_390/public/2026-05/hotto_ai_eye.jpg?itok=z5kE-pJI"
+    },
+    {
+      "title": "JRイン北見、2027年度開業へ ビジネス客の利用見込む",
+      "body": "JR北見駅徒歩1分の場所に、2027年度開業予定の「JRイン北見」の建設計画が明らかになった。このホテルは206室を備え、主にビジネス客の利用を見込んでいる。北見市は、近年、新たな産業誘致やイベント開催などで注目を集めており、ビジネス需要の増加に対応するための宿泊施設拡充が求められていた。\n\n同ホテルは、JR北海道グループが展開するビジネスホテルブランド「JRイン」としては道内初となる。駅からの近さや、JRグループならではの利便性を活かし、観光客だけでなく、出張などで訪れるビジネスパーソンのニーズに応えることを目指す。周辺地域への経済効果も期待されている。\n\n北見市は、このホテルの開業により、地域経済の活性化と観光客誘致のさらなる促進につながることを期待している。今後、周辺地域との連携も視野に入れ、地域全体の魅力向上に努めていく方針だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "2027年度開業の「JRイン北見」 ビジネス客見込み206室 JR北見駅から徒歩1分 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSGtmVjdfRFU5RUZEMHcyemd6VWpkV2JDRkVQOU54eGFMOUstWnlZMGtsVVZTVUlpWFdiR09rbzcyRy1UM2oyb29yQ2t0bWlWdE5ZT2NRTXNBaEd2N3c4QWtKV2lSUE5iQ1NGOG1iRjN4OWtteE9ybEZ2bVVTeGxkNlF5Zm1FUTVu?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "部活動の移動でレンタカー使用、道立学校の約3割で",
+      "body": "北海道教育委員会が実施した実態調査により、道立学校の約3割にあたる76校で、部活動の移動手段として原則禁止されているレンタカーが使用されていたことが判明した。うち14校では教員が運転していたケースもあった。同委員会は、安全確保のため、注意喚起を徹底する方針を固めた。\n\n調査は、今年2月から3月にかけて、道立の高校と特別支援学校を対象に行われた。レンタカーの使用は、生徒の安全確保や事故発生時の責任問題などを考慮し、原則として禁止されている。しかし、遠隔地への遠征や、公共交通機関の利用が困難な場合に、やむを得ず使用されるケースがあったとみられる。\n\n北海道教育委員会は、今後、各学校に対し、レンタカー使用に関する規定の周知徹底や、代替交通手段の検討を促す。また、教員による運転についても、安全管理体制の強化を求める。今回の調査結果を受け、部活動における安全管理体制の見直しが進む見込みだ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "【実態調査で判明】部活動の移動で「原則禁止」のレンタカー使用―道立学校の約3割76校で教員が運転_14校では保護者の運転も…北海道教育委員会は注意喚起徹底する方針〈北海道〉 - UHB 北海道文化放送",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zT2EtcFhyMC1LdFBnZElWdzRzOTZMUDZWN3dGeXZxMlB1cHpRbXNuRDZIaU8tZUdnSk52R1NrWEZmU1lXdHpCY2NUZ25FZVprX094VDRHWQ?oc=5",
+          "source": "Google: 北海道 教育",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "神奈川県、全公立高校展を6月13日に開催",
+      "body": "神奈川県は6月13日、横浜市で全公立高校展を開催する。県内の公立高校約100校が一堂に会し、各校の特色や教育内容を紹介する。高校受験を控えた生徒や保護者にとって、進路選択の貴重な機会となる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/22/86157.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "青森県立高5校、全国募集説明会を5～9月に実施",
+      "body": "青森県教育委員会は、県立高校5校で実施する全国募集に関する説明会を5月から9月にかけて開催する。特色ある学科や教育課程を持つ高校への進学希望者を対象に、各校の魅力を伝える。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/22/86156.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "「SuperStream-NX」、デジタルインボイス相互接続テストに参加",
+      "body": "SCSKは、同社が提供する会計システム「SuperStream-NX」が、デジタルインボイス推進協議会実施のデジタルインボイス相互接続テスト（第3回）に参加したと発表した。これにより、インボイス制度への対応力強化を目指す。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE12M1JYOEFOUHVHOFpGU3hIWHdSWTNhLTZmTUh6ZE11MllkM21KYlA3UnNRMjVsS19sT2wzNGZXWUFKTEg4M29SVDEtM1Z0U24xMXlFdmp4RmlrVUQ5RGhrMVAwbGxXTmZMRGFr?oc=5",
+      "source": "Google: インボイス"
+    },
+    {
+      "title": "エアウォーター社長に社外取締役、企業統治強化へ",
+      "body": "エアウォーターは、不適切会計問題を受け、企業統治体制を強化するため、社外取締役を選任した。新社長には、これまで監査役を務めてきた人物が就任し、経営の透明性向上と信頼回復に努める方針だ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HSGhxOEYyOGhTa09uaFJKV2V5RHJmWnpRbFlqdGgwcEVxNi1FZllOMVpGRndNZFVFdFdGN3dXeDQyUm1scHNqd3p6dHZOOTI2bEFYVVVCTDA2dHFDTFA0VmtTY3g?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "北見・オホーツク地域、おくやみ情報（5月23日付）",
+      "body": "北海道新聞デジタルは、北見・オホーツク地域におけるおくやみ情報を5月23日付で掲載した。地域住民の訃報を伝えるもので、地域社会のつながりを示す情報として提供されている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RdHFxZ3NZME1FdkRfaHdjQXJhbmVUaHFOM0Jxb3VnanA4blRsSWZNZkduaUp2LW5KVWRub0NadUxkbnVtNXZiS0h4N0otVDgybFVUdHJFcVZfQQ?oc=5",
+      "source": "Google: オホーツク"
+    },
+    {
+      "title": "紋別市議選、無投票の見通し強まる",
+      "body": "紋別市議会議員選挙の事前説明会に14陣営が参加した。現時点では立候補者が定数を超えない見通しが強まっており、初の無投票選挙となる可能性が高まっている。選挙管理委員会は、投票に向けた準備を進めている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9COV9jNlFmajVsZ0Jib0tVdjIxckVveWNPRllLbjlKTnpERVgzR2JjMXlGamhVaEFGSUplbC03WjJRTTBwbDlLWjNIQlFvcTVtMWFPV0swNEh2SW04WXBjVW1PNlpRTlBXSklPSkx1SUt0dTFxX0JPUkF0OWHSAYIBQVVfeXFMT04xTVZSNFJjYmVWQUpGWnZPQ1ctTzlIb0hUb3Zqb1VQaThyVE1PaHVtU3Y2OTJUdWlzZVlxaEthMWd5R0s3VDVib01GUkhzdGtUcEdhdWptTDJJT0lnZktzcmJTRjJYdkN4MUk5eUM5Z25hWWRLLWxlRzBzVzdLZUU4UQ?oc=5",
+      "source": "Google: 紋別"
+    }
+  ]
+}
