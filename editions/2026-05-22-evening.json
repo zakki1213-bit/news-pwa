@@ -1,0 +1,140 @@
+{
+  "type": "evening",
+  "date": "2026-05-22",
+  "generatedAt": "2026-05-22T19:36:59.211+09:00",
+  "lead": "2026年5月22日、夕刊紙面をお届けします。教育分野では高校受験や大学入試に関する最新情報、AI分野では生成AIの活用や著作権問題、商業分野では各自治体の予算や企業の取り組み、そして北海道からは地域に根差した話題をお伝えします。",
+  "topStory": {
+    "title": "フェンタニル密輸、日本が経由地 米麻薬取締局高官が初認める",
+    "body": "合成麻薬「フェンタニル」が日本を経由して米国に密輸されているとの認識を、米麻薬取締局（DEA）の高官が22日、初めて示した。DEAアジア太平洋局長のデービッド・キング氏が東京都内で日本経済新聞などの取材に応じ、明らかにした。\n\nキング氏は、日本がフェンタニル密輸の経由地となっている現状について、「日本は麻薬密売組織にとって重要なルートの一つとなっている」と指摘した。DEAはこれまでも、フェンタニルがアジアから米国へ密輸されている実態を把握していたが、日本を経由地として公式に認めるのは初めてとなる。\n\nフェンタニルは、モルヒネの約50～100倍の鎮痛作用を持つ強力な合成麻薬で、過剰摂取による死亡事故が米国で急増している。米国政府は、この問題に対処するため、国際的な連携強化を求めている。\n\n今回のDEA高官の発言は、日本国内でのフェンタニル流通の実態解明や、水際対策の強化に向けた議論を加速させる可能性がある。日本政府は、DEAとの情報共有を進め、国際的な麻薬密輸組織の摘発に協力していく方針だ。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "フェンタニル密輸「日本が経由地」 米麻薬取締局高官が認める - 日本経済新聞",
+        "url": "https://www.nikkei.com/article/DGXZQOCB227K40S6A520C2000000/",
+        "source": "はてブIT人気",
+        "topicId": "ai_tech"
+      }
+    ],
+    "ogImage": "https://article-image-ix.nikkei.com/https%3A%2F%2Fimgix-proxy.n8s.jp%2FDSXZQO3061854022052026000000-1.jpg?auto=compress&bg=FFFF&crop=focalpoint&fit=crop&fm=jpg&fp-x=0.63&fp-y=0.38&h=630&w=1200&s=aea226fd2743e4a1f4b3f5d8b4868fb6"
+  },
+  "midStories": [
+    {
+      "title": "辺野古移設めぐる学習、文科相「教育基本法に違反」",
+      "body": "文部科学省の盛山正仁大臣は22日、同志社国際高校（京都府）が実施した、米軍普天間飛行場の辺野古移設に関する学習について、「教育基本法に違反する可能性がある」との認識を示した。同校の授業では、辺野古移設に反対する立場からの情報提供が中心であったと報じられている。\n\n盛山大臣は、教育の自由は保障されるべきとしつつも、特定の政治的見解を一方的に教えることは、生徒の健全な育成や、多様な価値観を育むという教育の基本原則に反する可能性があると指摘した。文科省は、今後、同校への事実確認を進める方針だ。\n\n今回の文科大臣の発言は、学校教育における政治的中立性や、教材のあり方について、改めて議論を呼ぶ可能性がある。教育現場では、生徒が主体的に考え、多角的な視点から物事を学べるような授業実践が求められている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "同志社国際高の辺野古移設めぐる学習、文科相「教育基本法に違反」 - 朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5qNTM2Tk52TU5qa2V6b0pIamx4dkxkMmZzQVFVc0RqX2VpdzB6dzZvV2NsRTBST3lRSEtCRjBwYjV6VDJiUEdONFU3RW5RRHgzU055TFQwREZWV3F2N3dwcHB5VlB4TDA?oc=5",
+          "source": "Google: 高校教育",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "生成AI導入で一人当たり売上高向上 リブ・コンサルティング",
+      "body": "リブ・コンサルティングは22日、生成AIの導入と高付加価値業務への集中により、一人当たりの売上高が向上したと発表した。同社の第1四半期（1～3月）決算は、通期計画を上回る進捗となった。\n\n同社は、社内業務の効率化や、顧客への提案力強化のために生成AIを活用。これにより、従業員は定型業務から解放され、より専門性の高い業務に集中できるようになったという。結果として、従業員一人当たりの生産性が向上し、売上高の増加につながったと分析している。\n\n生成AIのビジネス活用は、多くの企業で進められているが、具体的な成果として一人当たり売上高の向上を公表したのは、同社にとって重要な事例となる。今後、他の企業における生成AI導入の参考となることが期待される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "リブ・コンサルティング、生成AI導入と高付加価値業務集中で一人当たり売上高が向上 1Qは通期計画を上回り進捗 - みんかぶ",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE01TjNKUUxQVUFnSXRqYzBFNVo1VDllMkszYmg4WlJmTWowa0N5dll5bjFuRVpWOFNmX2NYcUc0Ulk0TGpHR1VNUw?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "北見藤高吹奏楽部、動画配信が縁で英国音楽祭へ",
+      "body": "北見藤高校の吹奏楽部「藤ブラス」が、英国で開催される音楽祭への出演を決定した。出演のきっかけは、同部が動画配信サイトに投稿した演奏動画が、音楽祭関係者の目に留まったことだという。\n\n「藤ブラス」は、日頃から地域イベントでの演奏活動などを積極的に行っている。今回の英国音楽祭への参加は、部員たちにとって大きな目標であり、世界中の人々に自分たちの音楽を届けたいという強い思いがある。\n\n部員たちは、本番に向けて練習に励んでおり、演奏技術の向上はもちろんのこと、異文化交流への期待も大きい。この経験を通じて、さらに成長した姿を見せてくれることだろう。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "北見藤高吹奏楽局「藤ブラス」が英国の音楽祭へ 動画配信が縁で出演決定 「世界に元気や感動届けたい」 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9rclZFVUdfUGV4cnQyZ1pKT1pEbTk4S3dRM0R4VVI1aV94RGhnQmROYm5tYXBtYVVzU2VaTkpuMXdBVnVTZWlFM1Y3a19yemVmWHBZMWIyQXNrUQ?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "エア・ウォーター社長に千歳氏 不正会計で体制刷新",
+      "body": "エア・ウォーターは22日、不正会計問題を受けて、社外取締役の千歳喜弘氏が社長に就任する人事を発表した。同日付で前社長の田中大介氏は代表権のない取締役となる。今回の体制刷新は、一連の不正会計問題に対する経営責任を明確にし、信頼回復を目指すものだ。\n\n同社は、過去の決算において、売上や利益の過大計上などの不正会計が発覚し、第三者委員会による調査が進められていた。千歳新社長は、外部の視点を取り入れ、透明性の高い経営体制を構築していくことが期待されている。\n\nエア・ウォーターは、今回の経営陣刷新を機に、ガバナンス体制の強化と事業再建に注力していく方針だ。株主や顧客からの信頼回復に向け、具体的な再発防止策の実行が求められる。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "エア・ウォーター社長に社外取締役の千歳喜弘氏 不正会計で体制刷新 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90NjRWWHJ5RVc5aFVUd1hURjVaeWJEYTM4bVZfM05rMmpPM083RzQydDZ3TGJKdGx0MFVrMmxSTVFzX3pjNmNfWGlBZzh6NUYwQWNrUGk1SnJ5TXk4T1doM21jSHB4NnRGU0x2QQ?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "東京都、中3生対象の育英資金予約募集",
+      "body": "東京都は、高校生を対象とした育英資金の予約募集を、中学3年生を対象に開始した。経済的な理由で進学を諦めることのないよう、学資支援を行う。詳細は東京都のウェブサイトで確認できる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/22/86155.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "大学、半導体・情報系学部を新設",
+      "body": "2027年度に向け、多くの大学が半導体や情報関連分野の学部を新設する。一方で、薬学部は定員を減らす動きも見られる。時代のニーズに合わせた学部再編が進んでいる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/22/86152.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "生成AI時代の著作権セミナー開催",
+      "body": "生成AIの普及に伴い、著作権に関するセミナーが開催された。基礎から学ぶことで、AI時代の著作権問題を理解し、適切に対応することが目的。アーカイブ映像も無料配信されている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wNUlkcDZjX3BycThiTmVkLUJhM2hyc25tSldybndvNFNETV9EcHVnanNnS2lVWG9qcVVsZTRjR3FXcmNSV0hxM1M4NVktQlVaRVpUc2xrSk01eWZ1cFJMUE43azBBSnI2Unp5Y3pDTjdraEo3TUZSNQ?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "石川県、490億円の6月補正予算案発表",
+      "body": "石川県は、一般会計で490億円規模の6月補正予算案を発表した。山野知事が初編成した予算案は、「県の将来に最良」という基準で編成された。具体的な内容は今後公表される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQnd2TUZOMlhsY1NiS2tmQnN3NjNYUXVRMjdGcEJLbVFxQndhaEhRNDdiZ2dXUXNMRWVfQWtPeS1uaF9iY3RTMUdhOFZXZ3dPWU1veDIzNEF1WUFLbE1rUUoxQUVlT2E1MXNYS0MxdnlIOFRic0EwRElzTE0xQi1fNFQwTjQzSy1TZFZtMm1sdDlZbm5QY0E3TVQ2aU9Lb0gtVEhaU3YxdkvSAZsBQVVfeXFMTWZtdmpxUy04bElPYUM0MVdBeEZ6RFlSVUxCWko2UWRIbDhBV09NUnhCZDRmbVd5MFRDenJNR25UaExvaHR6MXFxaU9ISUVWZW1hTEZwdWhYWUJoR3lVWVhNTEphbHd1NFo3Q2hwQTdzMUhBb1BVX012TjhLazZuOGZaaGsyZUZuMXRJaEhqN3RFeVkwd3paeVRHanM?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "オホーツクでヒグマ対策グッズ人気",
+      "body": "北海道オホーツク地域で、ヒグマ対策グッズが人気を集めている。猛犬の鳴き声で遭遇を防ぐスピーカーなどが注目されており、特設コーナーも設けられている。自然との共存に向けた取り組みが進む。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FRFVGLWdHQm1tV1hXMS1SZjk4b0tPa3BqUjNYcHRSeTNpV0ljdy1zWnJhdlhkbXhKTlhkckd5Z1VLT21TMW51UHpjUFV0SHpIZ3FzbW9leTRsZw?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "配車アプリが生んだ格差",
+      "body": "配車アプリの普及が、ドライバー間に「勝ち組・負け組」の格差を生んでいるとの指摘がある。元税理士の菅原氏が、その実態と背景について解説している。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kcWc1dlpINlhkZS1TUzZrLVJPMXJjTHJabENxTnhBbGNZOXlVMUhCTTdhbnhnWUJ5dzQ0MEhPVzlXdXhWdEpHUTFCbHp3V3V0NlNGUFV2cXgwZVdxMUNZ?oc=5",
+      "source": "Google: 税理士"
+    }
+  ]
+}
