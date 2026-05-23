@@ -1,0 +1,141 @@
+{
+  "type": "evening",
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T18:26:51.861+09:00",
+  "lead": "2026年5月23日、夕刊紙面をお届けします。教育現場での探究学習の新たな試み、AI技術の進化とそれに伴う倫理的課題、そして地域経済の動向まで、多岐にわたるニュースを網羅しました。特に、生成AIによる声の模倣問題は、クリエイターの権利保護という観点から注目されます。また、北海道からは高校駅伝の継続開催という明るい話題も。日々の出来事を深く理解するための一助となれば幸いです。",
+  "topStory": {
+    "title": "生成AIで声模倣、人気声優が投稿動画削除求め提訴",
+    "body": "人気声優が、自身の声を生成AIに模倣されたとして、動画投稿者に対し投稿動画の削除などを求める訴訟を東京地方裁判所に起こしました。声優側は、自身の声が勝手に利用され、商業目的で使われたことは著作権やパブリシティ権の侵害にあたると主張しています。\n\n訴状によると、被告はインターネット上で公開されている動画から原告の声の特徴を学習させた生成AIを使用し、原告の声に酷似した音声を生成。これを自身の動画に挿入して公開したとされています。原告側は、この行為が声優としての権利を侵害し、精神的苦痛を与えたと訴えています。\n\n生成AIによる音声合成技術は近年急速に進歩しており、その応用範囲は広がっています。一方で、個人の声や肖像が本人の同意なく利用されるリスクも指摘されており、法的な整備や倫理的なガイドラインの策定が急務となっています。今回の訴訟は、AI技術の発展とクリエイターの権利保護のバランスをどう取るべきか、社会全体で考えるきっかけとなりそうです。\n\n裁判所の判断が注目されるとともに、今後、同様のケースが相次ぐ可能性も考えられます。声優業界をはじめ、タレントやクリエイターの間では、自身の声やイメージがAIによって悪用されることへの懸念が広がっています。関係者は、著作権法や関連法規の見直し、あるいは新たな権利保護の枠組み作りを求めていく動きも出てくるでしょう。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "“生成AIで声を模倣” 人気声優が投稿動画の削除を求め提訴 - NHKニュース",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XRWVLZUFnelBvVmdFNkZ0ZnFGT3dNYkJrVnRpX09ZV3RZQWxYdElaWTNUcnFyUTBjSDJTekVoMGlGTGRsWU44WDRxUE1VbW53NnA0VmJiYWFyZ05XTU5v?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ],
+    "ogImage": "https://imgu.web.nhk/news/u/news/html/20260523/K10015129741_2605231601_0523161300_01_02.jpg"
+  },
+  "midStories": [
+    {
+      "title": "リアル脱出ゲームで探究学習 四天王寺東高校が新試み",
+      "body": "四天王寺東高校（大阪市）は、探究学習の一環として「リアル脱出ゲーム」を導入しました。生徒たちは、与えられた課題に対し、根拠を持って解決策を探るプロセスを体験します。この取り組みは、生徒たちの主体性や問題解決能力を育成することを目的としています。\n\nゲーム形式で楽しみながら、生徒たちは協力して謎を解き、論理的思考力や情報収集能力を養います。教員は、生徒たちの行動を観察し、個々の進捗に合わせたフィードバックを行うことで、学習効果を高めています。従来の座学中心の授業とは異なり、実践的な学びの場を提供しています。\n\n学校側は、この新しい学習方法が生徒たちの進路選択にも良い影響を与えると期待しています。自ら課題を発見し、解決していく経験は、将来どのような分野に進むにしても不可欠な力となるでしょう。今後も、探究学習の多様な手法を取り入れ、生徒たちの成長を支援していく方針です。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "リアル脱出ゲームで探究学習 四天王寺東高校が挑む「根拠を持って進路切り拓く力の育成」 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcUI4VmVaZlF1ak5IMDl5Z1hIMzR4dlpVbkw3eGpwRklWZlYwXzJpN0o1Q1l3Mmt1ZzlrOGEzMG8yUnVSZ1BBYUVNQzZNZDA5a2p0UmhpQzhuSE9WYjV0UlRNOW90QUFjSnlJT3Y0b3NNSWM3NEZtX2gxMGJtekd2Y0dPN29tMVh1bWwxVUhOdVR3eHYycXVkZHA0RDJJelg2a29v0gGoAUFVX3lxTE5ickplclBzUnlPSEJZbEhVejAwX1d3V3JuZ1RiNk9KSkRwekJmT2JzdElQQzFOSjh1ZU1ZTGVrTFR0RTNmMjlNVC1GZnFQMTdqcmVPQ05ySnMyVWN2OC1kWWY2VXVwYVVRMG5qeGJSWmttbkQyeXZqd1JRQ1N1VWxoUDlOaVdjWngtWUQ4aktmUEdvZWxHWjhJbzZsYmhjczJzTDJ5ZmI3UA?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "高校改革基金、初採択は富山・静岡の6校",
+      "body": "文部科学省が創設した3千億円規模の「高校教育改革基金」について、初回の採択校が発表されました。富山県と静岡県から計6校が選ばれ、理数系教育の強化や特色ある教育課程の整備に活用される予定です。\n\nこの基金は、高校教育の質向上を目指し、各校が独自に計画する改革事業を支援するものです。採択された学校は、最新の設備導入や専門人材の育成、地域との連携強化などに資金を投じ、教育内容の抜本的な見直しを進めます。\n\n特に理数系分野の強化は、将来の科学技術分野を担う人材育成の観点から重要視されています。今回の採択により、これらの地域における教育水準の向上が期待されます。今後、他の都道府県からの申請も審査され、基金の活用は全国に広がっていく見込みです。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "3千億円の高校改革基金、初採択は富山と静岡の6校 理数系など強化 - 朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lNXdaYjFFV1RwTF9OcFg4Z1oyOHpJMlhEYldJYkNsWjg3bGRQcFR1OWxxN0hfT2IwdVVTWDY3QzV5Y1Q3cFY4MEJyajdWdVdGYlpsMHItNXRZMy05c21BQ2VLUHQ?oc=5",
+          "source": "Google: 高校教育",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "ソフトバンク子会社CFO、4.6億円不正送金事件の背景",
+      "body": "ソフトバンクの連結子会社で起きた、CFO（最高財務責任者）による約4億6千万円の巨額不正送金事件について、その手口と発覚の経緯が明らかになってきました。事件は、子会社の経理担当者が、巧妙な手口で会社の資金を自身の口座に不正に送金していたものです。\n\n報道によると、CFOは会社の資金管理システムにアクセスできる立場を利用し、架空の取引を装うなどの方法で資金を移動させていました。長期間にわたり不正が行われていたにもかかわらず、社内のチェック体制の不備から発覚が遅れたとされています。内部監査や定期的な会計監査が、なぜこの不正を見抜けなかったのか、その原因究明が急がれています。\n\nこの事件は、企業のガバナンス体制や内部統制の重要性を改めて浮き彫りにしました。特に、CFOという経営幹部が関与していたことから、組織全体としての信頼性にも関わる問題です。再発防止策として、より厳格な資金管理ルールの導入や、内部通報制度の強化などが求められます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "何かがおかしい…ソフトバンク子会社CFO「4億6000万円の巨額不正送金」はなぜバレなかったのか？ - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA3bS1sc0ZSWmtUUjFHSTgteHBvOU5sSWlKaWxUVlF5Qm81Z0E2NW04MV8tY3lIeG5vT0t1WkZEWWNSQzIzNXF5aWplcjTSAU9BVV95cUxOZnpjZ2lLVFc1YURvSU5VVWg5VmVlU19ScHMwTWtBZXVUb0RKMTZkYkRhMEk1c01LYzJTZ1hBMXR2bUxNM2wtU1RabUh4a2Uw?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "IBM、AI時代のセキュリティ連合「Project Glasswing」に参画",
+      "body": "IBMは、AI（人工知能）の安全性とセキュリティ向上を目指す「Project Glasswing」に参画することを発表しました。このプロジェクトは、AI技術の急速な発展に伴う新たな脅威に対抗するため、複数の企業や研究機関が協力してセキュリティ基盤を構築する取り組みです。\n\nAnthropic社が主導するこの連合には、AI開発企業やセキュリティ専門企業などが参加しています。参加企業は、AIモデルの脆弱性に関する情報共有や、サイバー攻撃への共同対策などを進めることで、AI技術の健全な発展と社会実装を支援します。\n\nAIの進化は目覚ましいものがありますが、同時に悪用されるリスクも増大しています。特に、高度なAIがサイバー攻撃に利用されるケースなどが懸念されています。Project Glasswingは、こうしたリスクに対処し、AIを安全に活用できる社会の実現を目指す重要な一歩となります。IBMの参画により、プロジェクトの推進力はさらに高まることが期待されます。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "Anthropic主導「Project Glasswing」にIBM参画｜AI時代のセキュリティ防衛連合へ - innovaTopia",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFByY2h3bTFLUjRCMGhybThVb2hpdEt1SmYyaXNLd3J1UW9HVmNkdndSQkZDUTRQZWRsMHZKZlc0MjJHRU8zMzY1R0UwN1V4VWpRaWtB?oc=5",
+          "source": "Google: Anthropic",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://innovatopia.jp/wp-content/uploads/2026/05/Anthropic主導「Project-Glasswing」にIBM参画｜AI時代のセキュリティ防衛連合へ.jpg"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "日東ホルカム、GIGAスクール端末の適正処分で入札支援",
+      "body": "日東ホルカムは、環境省が進めるGIGAスクール構想で導入された端末の適正処分に関する業務に対応するため、事業者向けの入札支援サービスを開始しました。自治体案件の入札に必要な技術提案などをサポートします。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oWWRmUzY5ZlBDYVRvZkFpdlhuV2xoZ0E5OUpmYVd6MUhScDZBMnpvOWZ1UmhyWGY1TGw1c3dtYm00M2xuLXF1bTBqQ0wtY0FKMFlv?oc=5",
+      "source": "Google: GIGAスクール"
+    },
+    {
+      "title": "企業リーダーに問われる「本音が出る状態」の作り方",
+      "body": "企業における情報漏洩や不適切会計、ハラスメント対応の遅れが目立っています。リーダーには、従業員が安心して本音を話せる組織風土を作り、問題を早期に発見・対処する能力が求められています。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBuRUFOWGp1blg2MmZSMGstMzNDclBfQ1hFc04zZnVELTJYcEZ5TGVEeFZRS19LN0ZWTmVGNWJkM0NYSE10Z0I3c3ZGbTZkSjRJeTUtTlNwT3pJcVlxNUMzOW13MzVQZDhSc3drTGx5a3VDd1FGNFpNZmpadw?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "北海道滝上町、会計年度任用職員（除雪センター）募集",
+      "body": "北海道滝上町は、会計年度任用職員（除雪センター）を募集しています。冬期間の除雪作業に従事する職員を確保し、地域住民の生活を支えるための体制を整えます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DV3pNR18wblhYRnhTX0Z5WFU2aDBkSXFVbGlpT0V4aFBKcGpMUWZ4OUJYX3pjSktGTDZNZzlzS3dNSzBTeURCN2d3eXB2VmRCaS04VUVNWllRbTVUcUxqdnBaQzFNbWdQNVpROA?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "「餃子のかっちゃん」、会計3000円割引キャンペーン",
+      "body": "「餃子のかっちゃん」では、ホットペッパーグルメの「席予約」を初めて利用した方を対象に、会計から3,000円を割引するキャンペーンを実施中です。お得に餃子を楽しめる機会となっています。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qY1YwdUtsOWRRWEo3Qm5hYTE4T0Z1Nlk4dDRvSUFTa0lvbkRKbDM1QXJ2ZmZzNV9od1hkQS1DNWZjWjNWa0hSTGlPV2luZUdORV9qLVI5Tmp4T0RiTWc?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "ハイセンス、量子ドット×生成AI搭載の4K液晶発表",
+      "body": "ハイセンスは、量子ドット技術と生成AIを搭載した新型4K液晶テレビ「U8Sシリーズ」を発表しました。高画質化技術とAIによる映像最適化で、新たな視聴体験を提供します。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xcHIyck9QblF4YzU4LUVMeUh1MTlYYnJ5dnM0VGdiM3hWVkhCSU9xYW5uUU5DQkQzd1VPcURVYjY1OW55YllLSEdvZlBBQWs2dm5pM3M5ZTZFR3pOaGc?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "全道高校駅伝、3年連続開催へ 省力化コースで実現",
+      "body": "北海道で全道高校駅伝が3年連続で開催されることになりました。周回コースの採用など、省力化を実現する工夫により、大会の継続が可能となりました。オホーツク地方での開催です。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xeWlDVktudkRHSDcxZVBaN3JYYVJVekowMzIxQTdURHN2RVp3UllGS040aDdaWXBuckxkYkpBUHVOblY5TWhOWnB5MVZjRU9HSXN6UHlGci0xdw?oc=5",
+      "source": "Google: オホーツク"
+    }
+  ]
+}
