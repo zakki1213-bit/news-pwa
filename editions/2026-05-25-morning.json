@@ -1,0 +1,141 @@
+{
+  "type": "morning",
+  "date": "2026-05-25",
+  "generatedAt": "2026-05-25T05:36:59.320+09:00",
+  "lead": "2026年5月25日朝刊。AI技術の進化は目覚ましく、ビジネスシーンでの活用が加速しています。一方で、生成AIのリスク管理も急務となっています。商業分野では、不正会計問題が依然として注目を集めており、企業のコンプライアンス体制が問われています。北海道からは、地域に根差した話題や高校スポーツの熱戦をお届けします。",
+  "topStory": {
+    "title": "生成AI特需でデータセクション株価が上場来高値更新",
+    "body": "データセクションは、生成AI（人工知能）需要の急増により、24日の取引で上場来高値を更新した。同社は、AIを活用したデータ分析やソリューション提供を手掛けており、企業のデジタルトランスフォーメーション（DX）推進を背景に、そのサービスへの期待が高まっている。\n\n生成AI市場は急速な拡大を見せており、多くの企業がAI技術の導入を進めている。データセクションは、このトレンドに乗る形で、顧客基盤の拡大と収益の増加を実現している。特に、企業が保有する大量のデータを分析し、ビジネス上の意思決定に役立つインサイトを提供する能力が評価されている。\n\nアナリストによると、データセクションの技術力と市場への適応力が、今後の株価上昇をさらに後押しする可能性があるという。同社は、AI技術の進化に合わせた継続的な研究開発投資を行い、競争優位性を維持していく方針だ。生成AI分野における同社の今後の展開に注目が集まる。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "データセクションが上場来高値更新、生成AI特需で需給相場加速 (2026年5月24日掲載) - ライブドアニュース",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81Y3NWLUIxY3B4ai1odklLMXk2eExoQ1ZNLW1IUnp0aU9YN3NHN09Manpqa2lPWXB3eTBhZGpRZHZXQTdsZkxoS2M1aWljbV81YWYtMEhCaXcxM3VCUGc?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "今さら聞けないAI「Claude」入門、仕事で重宝",
+      "body": "近年、AI（人工知能）技術の進化が著しく、ビジネスシーンでの活用が急速に進んでいます。中でも、Anthropic社が開発した対話型AI「Claude」は、その自然な対話能力と高度な文章生成能力から、多くのビジネスパーソンに重宝されています。\n\nClaudeは、GeminiやChatGPTといった他のAIと比較しても、特定のタスクにおいて優れた性能を発揮すると言われています。例えば、長文の要約、メール作成、アイデア出しなど、日々の業務効率化に大きく貢献する可能性を秘めています。専門知識がなくても直感的に操作できるため、AI初心者でもすぐに活用できる点が魅力です。\n\n本稿では、Claudeの基本的な使い方から、ビジネスシーンでの具体的な活用事例までを分かりやすく解説します。AIを使いこなし、業務の質と効率を向上させたいと考えている方は、ぜひ参考にしてください。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "GeminiやChatGPT圧倒 仕事で重宝、今さら聞けないAI「Claude」入門 - 日経クロストレンド",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JcUNuRjdxTFduVm01YmNZVm5FZjJMRTIzcGwwUHJXNjVqejlkYTlXNXg5WVF5YkZLVkNpVERQQTZCcElaeVA1UXdqZGJ6a0RGdEh3WlNXVFQ1VnJkUDl0dXk4dVU2dw?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "生成AIの安全性、リスクと対処法を体系的に解説",
+      "body": "生成AIの目覚ましい進歩は、社会や産業に大きな変革をもたらす一方で、その利用に伴うリスクも顕在化しています。生成AIが生み出す有害なコンテンツや意図しない挙動は、社会的な課題として浮上しており、安全な利用のための対策が急務となっています。\n\n本書は、エンジニアや研究者を対象に、生成AIにおけるリスクとその対処法を体系的にまとめたものです。第1章では、AI安全性の定義を明確にし、近年の動向を概説します。続く章では、具体的なリスクシナリオとその評価手法、さらには技術的・制度的な対策について詳細に解説しています。\n\n生成AIの健全な発展と普及のためには、リスクを正しく理解し、適切な対策を講じることが不可欠です。本書は、そのための実践的な知識を提供します。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "生成AIの安全性入門 | 技術評論社",
+          "url": "https://gihyo.jp/book/2026/978-4-297-15702-9",
+          "source": "はてブIT人気",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://gihyo.jp/assets/images/ogp/2026/9784297157029.jpg"
+    },
+    {
+      "title": "ニデック不正会計、赤字は悪質か 監視委が検査へ",
+      "body": "ニデックで発覚した不正会計問題で、赤字決算を偽装していた疑いが浮上し、金融庁の企業会計審議会が同社への検査に着手する方針を固めたことが24日、関係者への取材で分かった。同社では、過去にも会計処理を巡る問題が指摘されており、永守重信会長兼社長の関与の有無も含め、全容解明が急がれる。\n\n関係者によると、ニデックは2023年3月期決算で約400億円の赤字を計上したが、実際にはそれを上回る赤字だった可能性があるという。会計検査院は、同社の経理担当者への聞き取りなどを通じて、不正の具体的な手口や組織的な関与の有無を詳しく調べる方針だ。\n\n今回の不正会計問題は、企業のコンプライアンス体制のあり方や、経営トップの責任について改めて問い直す契機となりそうだ。監視委の検査結果によっては、ニデックの経営体制に大きな影響を与える可能性もある。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "ニデック不正会計 赤字は悪、順法意識緩く 永守氏関与、どこまで 監視委検査へ - 毎日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxbnU2X0h6MVhWVjRkVlJnMjhGRmJ2Tmt4c0ZCSmNEOEgxTUpBaU5oN1FqMzZRZ2k1cUd6bnpxWS0yV0F0eENWeGdPV2lMT0JCOFJ5eXB1NGxnbGNWbUFGeHpCN1BHZndx?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ],
+      "ogImage": "https://cdn.mainichi.jp/vol1/2026/05/25/20260525ddm041020184000p/0c10.jpg?2"
+    },
+    {
+      "title": "北見市常呂のバス停付近にクマ、23日と同一個体か",
+      "body": "北海道北見市常呂町のバス停付近で24日、クマが目撃された。市は、23日に同市端野町で目撃されたクマと同一の個体である可能性が高いとみて、周辺住民に注意を呼びかけている。\n\n目撃されたクマは体長約1.5メートルの中型とみられ、バス停付近をうろついているところを住民が発見し、市に通報した。市は、クマの出没情報をホームページなどで公開し、パトロールを強化している。\n\n北見市では、例年この時期からクマの出没が増加する傾向にある。市は、山菜採りなどで山に入る際は、クマ鈴を携帯するなど、十分な対策を講じるよう呼びかけている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "北見市常呂のバス停付近にクマ 23日と同一個体か - 47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB0TE9ZQk52dWxZd0dPZ3BUdnJHUzd0SXNrTm92eElVWkhVd1pOWTlMOUt0R2R1VEU0bEV1TXoxMm9ZWmNMeUNkN081MA?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "Uravation、Claude Code実践編で満足度96%",
+      "body": "Uravationが開催した「Claude Code実践編」では、133名の受講者のうち96%が満足と回答した。受講者の6割が「Claude Codeの全体像が見えた」と回答しており、実践的な内容が好評だった。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Oc1FZY212bnlpYm9SaUc0SFlkLUdUUFpvcDNCR2l6dnhTbXNlQnRwV0dLSkx3cTB6ZUxBZnNjczhxeVZsMURiM1lTUk92ckhhTjItV3ZIQ2I3dEY3Z3VjUklkdDNNVVJWY1E?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "ICON、会計調査終了後初の決算発表へ",
+      "body": "ICONは、会計調査の終了を受け、初の業績開示となる決算発表を予定している。市場はこの発表に注目しており、今後の業績見通しが注目される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43RTNMNk1nSnUxY0gzU0NDaW5qcjFlbzZuN0xKWFJMOWRSTWZBaXBHUndxa3VkSE0zQ284WjNJNXNVUGNxQ0lUY19mUzJ4SWR2YmE4b1hyWnB2ejlzdldITEt5cjg3ZVlORnVn?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "マツキヨココカラ、リラックマとキャンペーン",
+      "body": "マツキヨココカラは、「LIPS」と「リラックマ」のコラボキャンペーンを開始した。1000円以上の会計で、限定スライダーポーチがもらえる特典がある。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pUlNQWkJHcGVxWTFPMnoxbG9ZTXBXcjMwNk90Sk1vZV9YZUtsU0lRZ1NxNXdiMlNoRmhlMmRxVkhSbEJuaXVsTzFlWi1GeXE3UWJIVnJyXzU3dWZJZ2Z3?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "春の全道高校野球、クラークは25日初戦",
+      "body": "春季北海道大会（全道高校野球）は25日、開幕する。注目のクラーク記念国際高校は、初戦で札幌第一高校と対戦する。熱戦が期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90bTZXRWd1QUZEaFZaV3BvS2pMN0JlRmZhSmZXYnIyYTB1ZWo1djNfTDc5Nm9KeHp1OU1WYjNMQ29MUmRHTl9xYzN6cmNwUEpxUm02Tzh1SFlpdw?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "オホーツクで「春カニ合戦」開催",
+      "body": "北海道網走市で、流氷明けの恒例行事「春カニ合戦」が開催された。参加者はヘルメットを着用し、宙を舞うカニをキャッチ。新鮮なカニを味わうイベントとなった。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VaXV2TGRtcTJRLVU0U3pBWk5RWlgycGdaUnBCMkhpNTZTTm5iUF9LeFVfMjY1NnRkZkxDSE5wMXhFYy1CU0JjOVFtSmpaanAwemtIVGRpbmhsVl9vdTkzbzV5T01ZU1FDY2lkMVVPbFQ0Nm5pUEYzWG5MTUJERDQ?oc=5",
+      "source": "Google: 網走"
+    },
+    {
+      "title": "Uravation、岩手県で生成AI研修を提供",
+      "body": "Uravationは、岩手県内の法人向けに生成AI研修とAI顧問サービスを本格提供開始した。岩手出身の代表が地元中小企業のDX推進を支援する。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UX0NBQml4ZS1IbE1vRmhpQ0J3ZUh4ajVVc0NYRGcxelZOa2lxaGtZbE5zWHA2dmFSRHlvYWN5M0sxenFTX1VDNHRZUVJLamc5NVpSZHpuREwzT2tCVHNHajZ1Njd3UThQX1E?oc=5",
+      "source": "Google: 生成AI"
+    }
+  ]
+}
