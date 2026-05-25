@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-05-26",
+  "generatedAt": "2026-05-26T05:53:05.927+09:00",
+  "lead": "教育界では探究学習の推進が加速し、AI技術はビジネスシーンでその活用範囲を広げています。一方、北海道では高校野球が熱戦を繰り広げ、地域経済の活性化に向けた動きも見られます。本紙では、これらの動きを多角的に報じます。",
+  "topStory": {
+    "title": "教育界の第一人者、藤原氏が探究学習推進機構の参与に就任",
+    "body": "教育界の第一人者として知られる学院長の藤原照恭氏が、この度「探究推進機構」の参与に就任したことが明らかになった。同機構は、次世代を担う子供たちの探究心を育むことを目的としており、藤原氏の参画により、その活動は新たな段階を迎える。藤原氏は長年にわたり教育現場の改革に尽力し、探究学習の重要性を訴え続けてきた。その豊富な経験と知見を活かし、10万人の「探究ナビゲーター」育成という壮大な目標達成に向け、機構を牽引していくことが期待される。\n\n探究学習は、生徒が自らの興味や関心に基づいて課題を設定し、主体的に探求していく学習活動である。従来の知識詰め込み型の教育とは異なり、思考力、判断力、表現力といった非認知能力を育む上で極めて重要視されている。しかし、その実践には教員の専門性や指導力の向上が不可欠であり、多くの学校現場で課題となっているのが現状だ。\n\n藤原氏が参与に就任した「探究推進機構」は、こうした課題を克服するため、探究学習を効果的に推進するための教材開発や教員研修プログラムの提供などを計画している。特に、10万人の探究ナビゲーター育成という目標は、全国の教育現場に大きな影響を与える可能性がある。ナビゲーターは、生徒たちの探究活動を側面的に支援し、学習意欲を引き出す役割を担うことが想定されている。\n\n今回の藤原氏の就任は、教育界における探究学習推進の動きを象徴するものと言える。文部科学省も探究学習の重要性を認識しており、学習指導要領の改訂などを通じてその導入を推進している。今後、探究推進機構の活動が全国の教育現場にどのように波及していくのか、注目が集まる。",
+    "topicId": "education",
+    "topicName": "教育・ICT",
+    "color": "#2563eb",
+    "references": [
+      {
+        "title": "学院長 藤原照恭が「探究推進機構」参与に就任。教育界の第一人者と共に10万人の探究ナビゲーター育成へ - ニコニコニュース",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1HSVlUd05GdlQxd1BveXFtNTBobkl5UzNpRG0ycjNpMm4zNVFwRFZVTG1SaG5XV29YRFpfV0VVTzlwTFpTZTc3MEJiLWNfNnpCU1QxWlFmRG11aDktWHEtTDNFYVJTUHg1?oc=5",
+        "source": "Google: 探究学習",
+        "topicId": "education"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "大手テック企業のAI独占に警鐘、共同創業者らが懸念表明",
+      "body": "AIの未来が一部の大手テック企業によって独占されることへの懸念が、業界内から表明されている。Anthropicの共同創業者の一人は、AI技術の発展と普及が特定の企業に集中することに対し、警鐘を鳴らした。AIは社会のあらゆる側面に影響を与える可能性を秘めており、その開発と利用が一部の巨大企業に委ねられることは、イノベーションの停滞や格差の拡大を招くリスクがあると指摘されている。\n\nAI技術は急速な進化を遂げており、その応用範囲はビジネス、医療、教育など多岐にわたる。しかし、こうした技術開発には莫大な資金と高度な専門知識が必要とされるため、現状では一部の巨大テック企業がその開発競争をリードしている状況だ。これにより、中小企業や新興企業が技術革新の恩恵を受けにくくなるという懸念も生じている。\n\n共同創業者は、AIの発展においては多様な視点やアプローチが重要であり、特定の企業による独占は、AIが社会全体に貢献する機会を損なう可能性があると訴えた。オープンな開発環境の促進や、より広範な企業や研究機関がAI開発に参加できるような仕組み作りが求められている。\n\nAI技術の健全な発展と普及のためには、技術開発における透明性の確保や、倫理的な問題への配慮も不可欠である。一部の企業による独占を防ぎ、AIがもたらす恩恵を社会全体で享受できるような、バランスの取れた発展を目指す必要があるだろう。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "【Anthropic共同創業者】AIの未来を大手テック企業が独占することに警鐘 - finance.biggo.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83Rm41YnU4S3p2VVRDVmJFVWNORU1yQWFYaThHazZUZ3hBaDdMZGFyemk3MDFCZlFQNFFGZmRmOXZQcDc2enNsV3FETkdQZlhNNXFLQVdsNjc0ZFlBTDBJ?oc=5",
+          "source": "Google: Anthropic",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "税理士向けAI「ZeiPilot」、会議資料自動生成機能を追加",
+      "body": "税理士業務を支援するAIツール「ZeiPilot」が、会議資料を自動生成する新機能を追加し、その利便性を高めている。この新機能により、税理士は煩雑な資料作成業務から解放され、より専門的な業務に集中できるようになる。AIが最新の税法や会計基準に基づいた資料を迅速かつ正確に作成することで、業務効率の大幅な向上が期待される。\n\n「ZeiPilot」は、これまでにも会計データの分析や申告書作成支援などの機能を提供してきたが、今回の会議資料自動生成機能の追加は、特に多くの時間を費やしていた業務の効率化に貢献するものと見られる。例えば、クライアントとの打ち合わせに必要な資料や、社内会議で使用する報告資料などを、AIが短時間で作成できるようになる。\n\nこの機能は、AIが自然言語処理技術を駆使し、入力されたデータや過去の資料を基に、目的に応じた構成や内容の資料を生成する。これにより、税理士は資料作成にかかる時間を大幅に削減できるだけでなく、作成される資料の質も均一化されることが期待される。専門家によるレビューを経て、最終的な資料が完成する流れとなる。\n\nAIの活用は、税理士業界においても不可欠なものとなりつつある。今回の「ZeiPilot」の新機能は、AIが専門職の業務をどのように変革していくかを示す好例と言えるだろう。今後も、AI技術の進化とともに、税理士業務の効率化と高度化が進むことが予想される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "税理士向けAI「ZeiPilot」が会議資料を自動生成する新機能を追加した魅力 - ニュースメディアVOIX",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9BRFZKcFVadUZQSHpuZ0VOVG92N0M3ZVJsZFJKQWFyUHNwRWNSU1JGSlZpeHN4UHlPQWZBS0hveFJ4VHdUbm9MczZJNG5Iak1QOGhySks5UkczMC04bXVJd1NfTWNjNzNJblRj?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "札幌平岸高校、外部依頼でデザイン力向上に注力",
+      "body": "札幌平岸高校（北海道）のデザイン科が、地域企業や団体からの依頼を受けて作品を制作する取り組みを通じて、実践的なデザイン力を磨いている。生徒たちは、実際のクライアントの要望に応える過程で、デザインの企画から制作、納品までの一連の流れを経験し、プロの現場で求められるスキルを習得している。\n\n同校のデザイン科では、授業の一環として、地域のイベントポスターや商品のパッケージデザイン、企業のロゴマーク作成など、多岐にわたる依頼に対応している。生徒たちは、チームを組んでアイデアを出し合い、クライアントとの打ち合わせを重ねながら、デザインコンセプトを具体化していく。このプロセスを通じて、コミュニケーション能力や問題解決能力も養われる。\n\n外部からの依頼は、生徒たちにとって貴重な学びの機会となっている。現実の課題に取り組むことで、教科書だけでは得られない実践的な知識や技術を身につけることができる。また、完成した作品が実際に活用されることで、大きな達成感と自信を得ることができるという。\n\n地域社会との連携を深めることは、高校生の視野を広げ、将来の進路選択にも良い影響を与える。札幌平岸高校のデザイン科の取り組みは、地域活性化に貢献するとともに、次世代のクリエイター育成においても重要な役割を果たしていると言えるだろう。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "＜キテミテ！＞札幌平岸高校 外部依頼に応じ デザイン磨く - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5fc1RvZE04WXYySUg3YU1tbVpJd2hQZ3dTMUxLdE9ZbFFIVVMxLXFGbTJLaWpJV09SOTlucUhncjMteUU3dkdLV1BHSDZMbHM2Mm9LZFdIRS1ydHpOQldadzFuQVFhQUUxNmlqRmtiZy04Y210dmJweWo2VE_SAYIBQVVfeXFMTWp6ejVNaG15eTkxbjR5Ymx5WG1RZEh3MlJYdndTcDgyYUs4cS0zS3MtdkdrZElhU1ltNmFEZ2V3MVFWSFlVYjIyRThQbmp1cHZ2cWU1dGpMWndlaVdtZzJBQWRLS1lhaXFySENCLWxPSkJoSjIzcGpfLXRWb3RRSVlkZw?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "春の全道高校野球、北照・島田が完投勝利でチームを牽引",
+      "body": "春の全道高校野球大会で、北照高校のエース島田投手が力投を見せ、チームを勝利に導いた。島田投手はこの試合で完投し、相手打線を要所要所で抑え込む粘り強いピッチングを披露した。チームの勝利に大きく貢献した島田投手の活躍は、今後の大会でのチームの躍進を予感させるものとなった。\n\n試合は序盤から投手戦の様相を呈し、両チームともなかなか得点を奪えない緊迫した展開となった。しかし、北照高校は島田投手の落ち着いたマウンドさばきと、要所での野手陣の堅い守備に支えられ、試合の流れを渡さなかった。島田投手は、変化球と直球を効果的に使い分け、打者のタイミングを外す投球で凡打の山を築いた。\n\n中盤以降、北照高校打線も相手投手の変化球に的を絞り、着実にチャンスを作り出した。その中でも、島田投手の粘投に応えるように、チームメイトも集中力を切らさず、一丸となって勝利を目指した。最終的に、北照高校が少ないチャンスをものにして得点を重ね、島田投手の完投勝利で試合を締めくくった。\n\nこの勝利は、北照高校にとって大きな自信となるだろう。特に、エース島田投手の存在は、チームにとって大きな強みとなる。春の大会での好スタートを切った北照高校が、夏の大会に向けてどのようにチームを仕上げていくのか、今後の戦いに注目が集まる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "春の全道高校野球 北照・島田が完投勝利 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oMGZpbmF2TkRjQnpwRnR6MDI0dDVPWUwwaXhSVUVzZldpT0Z6MlpJUnVheWtkWHFFbmozTkIzNW5LUGRvdmhfMXlsdDgtSHVSc0M4SHZzYnRNdw?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "同志社国際高校、教育基本法違反の可能性について文科省が見解",
+      "body": "文部科学省は、同志社国際高校における特定の学習活動について、教育基本法に抵触する可能性があるとの見解を示した。同校で実施された辺野古に関する学習内容について、専門家からの指摘を受け、文科省が調査を進めていた。今後、同校への指導が行われる見通しだ。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHbWNaZVRBUFNlYnk3aXRZY1lDMXpyOTR3c1BJNTI2U0ppS2pQWkdUWl9IV3hWcXI2WDAxUWNaM3dOdEhlZ25HQ2NRajUzNTZXdmphQVBjYmtrMTBsUlNSUlJqd1dha0VDa1UtQVluV1V6WFRnekt0Q3FvQUQ0OVU?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "大分県立高校入試に自己推薦型を導入へ、2027年度から",
+      "body": "大分県教育委員会は、2027年度から県立高校の入試に自己推薦型選抜を導入することを決定した。これにより、学力検査だけでなく、生徒の個性や意欲を多角的に評価する選抜方法が拡充される。詳細は今後、各高校で検討される予定だ。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/25/86170.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "トランザック、新リース会計システムを大型アップデート",
+      "body": "トランザックは、新リース会計基準に対応したシステム「Transリース会計」を大幅にアップデートした。今回のアップデートにより、企業のリース取引における会計処理の効率化と正確性の向上が期待される。新基準への対応が求められる中、企業の負担軽減に貢献する。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PbUJDVGR6VGVPV2tUUm1uUWVpZV85VFJfUkpQdGR5djVNZDRDUnFnQ29kbFRWMFE4clp0QlhLZjA4VDRLdXpLMHA3ZjFQWUNrM1NFbW1YZXBnVWlVVDBHdEdPaEJnTWNrVjdCN1BsY3RGZFVnMGQ2ZTd0SQ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "xAI、コーディング特化AIエージェント「Grok Build」ベータ版公開",
+      "body": "イーロン・マスク氏が設立したAI企業xAIは、コーディングに特化したAIエージェント「Grok Build」の早期ベータ版を公開した。同エージェントは、プロフェッショナルなソフトウェアエンジニアリングや複雑なコーディングに対応する能力を持つと説明されており、開発者の生産性向上に貢献することが期待される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://www.publickey1.jp/blog/26/xaigrok_build.html",
+      "source": "Publickey"
+    },
+    {
+      "title": "Anthropic、ビジネスAI採用率でOpenAIを初上回る",
+      "body": "AI企業Anthropicが、ビジネスシーンにおけるAIツールの採用率で、OpenAIを初めて上回ったことが明らかになった。同社の「Claude Opus 4.7」などがビジネスでの利用を拡大しており、AI市場における競争が新たな局面を迎えている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYzJoRHktZVZhZUxVMWlpcmRoRHNHY0NqVzZOMkRfXzBfVGVZc09McE1rQ1NQZjBmR3F5QUlyRlFadlQ1eEpPNGt6TWE5Zk9FNnZHckhqNUZDcGs4c2FQdWxUbkxodVVYcHRJd0NVTE41MEd1Ry1tenYwNHFIbjV1UW9US3hBUQ?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "倶知安高、春の全道高校野球初戦へ「一戦必勝」",
+      "body": "春の全道高校野球大会に出場する倶知安高校が、27日の初戦に向けて「一戦必勝」を掲げ、決意を固めている。応援を力に変え、チーム一丸となって勝利を目指す。部員たちは連日、グラウンドで熱のこもった練習に励んでいる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2M3p3Nk10ak96VDhiYnNFQWxoNWZOVmI2b2xsU0pDQl9GMVVmZTZhYXltQzBlTUlkY0dYQ0N4LVV6d0hmcnd6OU1MeF80QV9KaUVqQnlrT0hCdFNzdUt1bjVHaDJmNEhKVkFCbERTdC04VnFxdER3cldSd23SAYIBQVVfeXFMTjJJS21rY1F6ZHdoT2hZSU5YeS1CN2lQUVVNY1k1M0Z1ZFpPN2xYLWNheHJhd3dtdU5YRFVTXzJUN1p6UnVFUG5YYW5qcW1xWm1wdmM1MW1EV1BmclNNdFB1OF9ESDVxb3o0WUNxWGkzSjdUcUlwbi11YTFISnM3VjRtZw?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
