@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-05-25",
+  "generatedAt": "2026-05-25T20:38:53.783+09:00",
+  "lead": "2026年5月25日夕刊。教育分野ではGIGAスクール構想の進捗やAI活用、商業分野では新会計基準への対応やAIによる効率化、そして北海道の地域ニュースまで、多岐にわたる情報をお届けします。AI技術の進化がビジネスや教育現場に与える影響に注目が集まっています。",
+  "topStory": {
+    "title": "経理業務、AIで大幅効率化へ 会計ソフト新機能",
+    "body": "AI技術を活用した会計ソフトが、中小企業や会計事務所の経理業務を大幅に効率化する可能性を示しています。この度、先行公開された会計AI「Zeimee」は、日々の仕訳入力から決算業務まで、AIが自動で処理を行うことで、担当者の負担を軽減し、より戦略的な業務へのシフトを可能にします。\n\n従来の会計ソフトでは、手作業によるデータ入力や確認に多くの時間を費やす必要がありました。しかし、AIの導入により、これらの定型業務が自動化され、ヒューマンエラーの削減にも繋がります。特に、複雑化する税制や会計基準への対応が求められる中で、AIによる正確かつ迅速な処理は、企業のコンプライアンス遵守を支援する上で重要な役割を果たします。\n\n中小企業においては、専門的な経理人材の確保が難しい場合も多く、AIによる業務支援は経営基盤の強化に貢献すると期待されます。また、会計事務所にとっても、クライアントへのサービス向上や業務効率化に繋がり、新たな付加価値の提供が可能になるでしょう。今後、AI技術のさらなる進化とともに、会計分野における活用はますます広がっていくと考えられます。",
+    "topicId": "business",
+    "topicName": "商業・簿記・会計",
+    "color": "#059669",
+    "references": [
+      {
+        "title": "経理をAIで大幅効率化。会計AI「Zeimee」、中小企業・会計事務所向けに先行公開 - ニコニコニュース",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tU3E2bXYzSmwtOWkwd3ZJOEZJMmlSeTZvYU8ySGVQWGt6SE9zSzc3M2FnRDIxSXRMRWpveEt4cHVHR19OZ19PRVVOZnZxdUwzT1RkNnE5MFlmbC15MXV4dzNUX2Y3WVg5S2RLUUN3MnA3TDdMQ3Bsdmh5UQ?oc=5",
+        "source": "Google: 会計",
+        "topicId": "business"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "小中学校タブレット、リース更新へ 倉敷市",
+      "body": "倉敷市議会は、小中学校で導入されている1人1台のタブレット端末について、全てリース方式で更新する方針を固めました。これにより、常に最新の端末を利用できる環境を維持し、教育現場でのICT活用を一層推進します。\n\nリース方式の採用は、初期導入コストの抑制に加え、故障や陳腐化に対応した端末交換が容易になるメリットがあります。GIGAスクール構想で整備された端末は、教育の質の向上に不可欠なツールとなっており、その継続的な利用を支えるための重要な決定と言えます。\n\n市は、今後も教育現場のニーズに応じたICT環境の整備を進め、児童生徒の情報活用能力の育成に努める方針です。端末の更新時期や具体的なリース契約については、今後詳細が詰められる見込みです。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "1人1台タブレット端末は全てリース方式で更新【倉敷市議会議員】2026.5.25 - 選挙ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9kZGNvZ2RWNkVIejdLYVZTaEV2REE5dndrS0F6Qm9mTUQtZE5NUjlENnJuMUczaVQzNzB2bE5JOG5TMlU3QmJJX25tMVJTNnYtbWM3bHcxdzAtM1Jibmc?oc=5",
+          "source": "Google: GIGAスクール",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "ニデック、不正会計の疑いで検査へ",
+      "body": "証券取引等監視委員会は、不正会計の疑いが持たれているニデックに対し、金融商品取引法に基づき検査を開始しました。第三者委員会の調査では、不正会計の背景に創業者の強い業績プレッシャーがあったと指摘されています。\n\n今回の検査は、企業の財務報告の信頼性を確保し、投資家保護を図る上で極めて重要です。監視委員会は、会計処理の適正性について詳細な調査を進め、必要に応じて行政処分等の措置を講じることになります。\n\nニデックは、今回の指摘を受け、社内体制の再構築やガバナンス強化を進める必要があります。公正な市場の維持のためにも、事実関係の解明と再発防止策の徹底が求められます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "不正会計のニデックに証券取引等監視委員会が金融商品取引法に基づき検査へ 第三者委は不正会計の背景について「創業者・永守重信氏の強すぎる業績プレッシャー」指摘 - au Webポータル",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JU3pQdWQ0bzc1Y3BuQnIwT2s2Z0VtWWlMSTVZbGt5dHQzSXhSY2xCaHNNWWJ0U3ZxX2sxVDNXZ1RJTWl6LUtLMzdVRzlIMm8yMDhzOVBqa21YbkVJQlZOUHUwSWxBZkRNODM2U1hENGdVbml6bmpXY1ZIZw?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "生成AI授業活用、考える力低下懸念も",
+      "body": "学校教育における生成AIの活用方法について、具体的な授業での活用事例が報告されています。しかし、その一方で、生徒の「考える力」の低下を懸念する声も根強くあります。\n\nAIに頼りすぎることで、生徒自身が深く思考し、独自の表現を生み出す機会が失われるのではないかという危惧です。専門家は、AIをあくまで補助的なツールとして位置づけ、生徒自身の主体的な学びを促す授業設計が重要だと指摘しています。\n\nAIの特性を理解し、その利点を活かしつつ、教育の本質である「思考力」や「創造性」を育むためのバランスの取れた活用法が、今後の教育現場に求められています。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "学校の授業で生成ＡＩの活用法を学ぶ…考える力の低下懸念は根強く、「考えや表現は子ども自身が担うように授業を設計することが重要」（読売新聞オンライン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0ycWd2Umc4MnVuTUFqVGI2aEt4bW15OGNMRGZPNi1hd3lhMHZBM0RrVDRHTWstcTBMZ3NMS1pNUmlsNXdHMmNVSENUTkk5YVpjd3J1V2pNVTBja3pGamZ4aGlYYnhYQ1Z6M0pyX051MDRmQUIzdHJYYVdvUlQza1U?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "春季北海道大会、北照が初戦突破",
+      "body": "第76回春季北海道高校野球大会が開幕し、昨年秋の全道大会を制した北照高校が初戦で勝利を収めました。大会には支部予選を勝ち抜いた15校に加え、今春の選抜大会に出場した北照を加えた計16校が出場しています。\n\n北照は、コールドゲームで勝利し、大会連覇に向けて好スタートを切りました。一方、同じく注目されるクラーク国際高校と北海高校は、次戦で対戦することが決まっており、熱戦が期待されます。\n\n大会は今後、決勝戦まで熱戦が繰り広げられる予定で、夏の甲子園出場に向けた各校の健闘が注目されます。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "春季北海道大会開幕！北照が秋春連覇へ初戦を突破！コールド発進のクラーク国際と北海が次戦で対戦【26年春高校野球】 - 高校野球ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5SaW5XU1VsaU95c1dGUlJEVjNXdDhJU3pKNjRVNFROazQtczNlcDZPdGJaUGZHbXpJMkdZWHNiVHljcWw5eVlYdm9kVlFkZ2hla2c?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "大卒就職率98％、女子は過去最高",
+      "body": "文部科学省と厚生労働省の調査によると、2026年春卒業予定の大卒者の就職率は98.0％に達しました。特に女子学生の就職率は過去最高を記録し、男女間の就職率の差は縮小傾向にあります。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/25/86166.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "石川県、理工系女子に奨学金",
+      "body": "石川県は、理工系分野に進む女子学生を支援するため、10万円の奨学金と企業での実務体験を提供する制度の募集を開始しました。県内産業の活性化と女性活躍推進を目指します。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/25/86164.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "新リース会計基準対応ERP提供",
+      "body": "国産ERP（統合基幹業務システム）「Plaza-i」は、新リース会計基準に対応した新機能の提供を開始しました。これにより、企業は複雑化するリース取引の会計処理を効率的に行うことができます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBCa1ZBdnI2dER4QklUckJpeHYzMEFfUGdwWkpMY0JtMEFnUDNCaExIZ0xBa1g4V0VVTXhIZEcxX293cy1pVkNiMlhqeTdZeGZ2SVRETkpIMmhWdUE1MmZFeU5WRFdIOGhodHE3SldBanF4SzFsdWR3SEQ1OA?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "AIエージェント構築支援サービス",
+      "body": "ウブンは、Amazonに特化したAIエージェント構築支援サービスを開始しました。Claude CoworkとMCPサーバーを活用し、分析業務の自動化を実現します。EC事業者の業務効率化を支援します。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xM3N6NUpNblhtekpzNDVuMDVhUXFpWjdRNWFjSVBpckh5TVhzaWtITUJ4Y0k1MTAyNHFMNDZyZmE5NGZBcndfT3lmdEFxNGlQeHpPTWp3?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "オホーツクでサクラマス漁好調",
+      "body": "オホーツクエリアでのサクラマスジギングで、50cmを頭に6尾の釣果が報告されました。各地でサクラマスの釣果が上向いており、釣り愛好家にとって嬉しいニュースとなっています。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLN1g1TDJucm1jM2c4RXNjSlRDTWptWVNBZzZnaGJGd0RtbjNoZmR4TWNSZHlfNFFYaHd1VWVTYncxX2ZhV2JkX1QxdXZ5RG5uUU1KbzRXbmhhUWYycjlabW83R2dSQlZ3RkswV0k4SVp2UQ?oc=5",
+      "source": "Google: オホーツク"
+    },
+    {
+      "title": "紋別市でクマ出没情報",
+      "body": "北海道紋別市上渚滑町中渚滑で、5月24日にクマの出没情報がありました。付近住民には注意が呼びかけられており、外出時には警戒が必要です。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaXpoQ2dVWVE3LXd0XzhhR1lKNmZzbDNDak5GMU9MWHRTUzJ2M0xaVFlqVVVXYjFSN183eUlQRVUtRTU5NEo5dS1iamxEVnM0OWt0Y1NqQzVYbUhmMDhESnp2dm1KbTZjbUEzd1kwNFprRnVkdGNVLTFGcU1HNVZuUmpQTGdZX1VIZWdzbkl1R3pNY01uR1dSTDRfSULSAaIBQVVfeXFMTy1YNUVSeXVNN090YUlVRjVZT0hVZzg2MTNTY2l0cUFXZnd6U3FLWjBXSTJFcGFWMkZnNzZvZklIN0FBOGp1blltWW1FNlc4V3ZwT2JMZko3WmN3eWVaZnpHTzZBQWVjbW1KQnk2Wk5qTWx5dW85ekktTFgyVU1Kc3B0cDhrOExqSUVsSzRXd1otd1FYVkFDaDlLRE10LWtZbktR?oc=5",
+      "source": "Google: 紋別"
+    }
+  ]
+}
