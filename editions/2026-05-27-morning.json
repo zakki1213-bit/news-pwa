@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-05-27",
+  "generatedAt": "2026-05-27T06:20:33.164+09:00",
+  "lead": "2026年5月27日朝刊。AI技術の進化がビジネスや教育現場に浸透し、新たな局面を迎えています。一方で、地域経済の活性化や自然災害への備えも、私たちの暮らしに欠かせない要素です。本紙では、これらの多岐にわたるニュースを、分かりやすくお伝えします。",
+  "topStory": {
+    "title": "生成AI導入の現場リアル語る セミナー開催",
+    "body": "サイバーコムは6月10日、生成AI導入に関する実践セミナーを都内とオンラインで開催する。各会場20名限定で、生成AIの導入現場におけるリアルな課題や成功事例を、きれいごと抜きで語り尽くす。参加者は、導入を検討している企業担当者や開発者、経営層などを想定している。\n\nセミナーでは、AI導入のメリットだけでなく、想定外のトラブルやコスト、人材育成の難しさなど、現場で直面するであろう現実的な問題に焦点を当てる。専門家による講演に加え、参加者同士の交流会も設けられ、具体的な疑問や悩みを共有し、解決策を探る機会を提供する。\n\n近年、生成AIの技術は目覚ましい発展を遂げ、ビジネスシーンでの活用が急速に進んでいる。しかし、その導入には専門知識や戦略的なアプローチが不可欠であり、多くの企業が手探りの状態にあるのが現状だ。本セミナーは、こうした企業に対し、実践的な知見と具体的な道筋を示すことを目的としている。\n\n参加申し込みは、サイバーコムのウェブサイトから受け付けている。無料ウェビナー形式での開催となるため、多くの企業にとって参加しやすい機会となるだろう。AI技術を効果的に活用し、競争優位性を確立したいと考えている企業にとって、見逃せないイベントとなることが期待される。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "【各会場20名限定】生成AI導入の「現場のリアル」をきれいごとなしで語り尽くす。サイバーコムが交流会付き実践セミナーを - ニコニコニュース",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1CUFFMRzZWMXdhWUxoV2tqd2RKYVZKSjJ2Y3RTV3ZCWEdlYlRNblJiX3p4d3AtS29nbnFoR094ZUpMdEttdjJnTDJTRGUwUWZjN1dsOENJUnR2SlBrdlNCcFRNdUtmX25EY2RRNHlNZWNCeDZYZjRBcUtkOA?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "Claude活用 プロンプトでメール・議事録作成",
+      "body": "日経クロストレンドは、AIチャットボット「Claude」を活用したメールや議事録作成の効率化に関する記事を報じた。同記事では、Claudeの能力を最大限に引き出すための「王道プロンプト」を紹介している。\n\nClaudeは、OpenAIのChatGPTに匹敵する、あるいはそれを超える品質を持つと評価されており、特に長文の読解や要約、自然な文章生成能力に優れている。メールの作成においては、相手や目的に応じた丁寧な文章を短時間で生成できる。議事録作成では、会議の録音データやメモから、要点を押さえた簡潔な記録を作成することが可能だ。\n\n記事では、具体的なプロンプト例を複数提示し、ユーザーがすぐに実践できるよう解説している。これらのプロンプトを活用することで、ビジネス文書作成にかかる時間を大幅に削減し、より創造的な業務に集中できるようになると期待されている。AIをビジネスツールとして効果的に活用するためのヒントが満載の内容となっている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "Gemini超え品質 カンタン「Claude×メール、議事録」王道プロンプト - 日経クロストレンド",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Bc1VXcW1BUzJWWUpTRDFHbmxGV3h3R19hWlhqUEpURkxQS014LUJKMXJpQ2ViTng2eUx1OENlaFRMOFN0aExURkxrRUYyQU8zUzVzRS1oM2lVMzNvQUR4Q2lJbi12QQ?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "シャープ、AI家電の顧客像を分析",
+      "body": "シャープは、AI家電の実販売データに基づき、顧客層や利用実態を分析した結果を発表した。同社は、AI家電が単なる高機能製品ではなく、生活者のニーズに寄り添う形で普及していくと見ている。\n\n分析によると、AI家電の購入者は、テクノロジーへの関心が高い層だけでなく、家事の負担軽減や快適な生活空間の実現を求める層にも広がっていることが明らかになった。特に、共働き世帯や高齢者層からの支持が高まっているという。\n\nシャープは、今後もAI技術を活用し、ユーザーの生活をより豊かにする製品開発を進める方針だ。今回の分析結果は、AI家電市場の今後の動向を探る上で重要な示唆を与えるものとなるだろう。顧客理解を深め、よりパーソナライズされたサービスを提供していくことが、AI家電普及の鍵となる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "AI家電の利用ステップを解明 シャープが実販売で見つけた顧客像 - 日経クロストレンド",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1XZ0Y2cUNkTlNCeXdKcDhpQlZVZTFjT0JGTnhLWTFObkI0ODJ5YXpyaXc4cFJoV24ta1Vrb3RSZFI1MUswOGVoczl1dWVWUmp5cFMwZHJYbVZpb3p5UmpuTUpWU2laeUdTX2c?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "オホーツク管内 毛ガニ漁獲量30％減",
+      "body": "北海道新聞デジタルによると、オホーツク管内では5月中旬までの毛ガニ漁獲量が、前年同期比で約30％減少したことが速報で明らかになった。一方で、キロ単価は6771円と高値を維持している。\n\n漁獲量の減少は、海水温の上昇や漁場の変化など、複合的な要因が影響しているとみられている。例年であれば本格的な漁期を迎える時期だが、資源量の減少は漁業関係者に大きな影響を与えている。\n\n単価の上昇は、漁獲量の減少による供給不足を反映したものと考えられる。しかし、漁獲量の低迷が続けば、地域経済への打撃は避けられない。関係者は、資源管理の強化や新たな漁法開発など、持続可能な漁業に向けた対策を模索している。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "オホーツク管内の毛ガニ漁獲量30％減 キロ単価は6771円 ５月中旬速報 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53c054Y01uRVJmSmhQNXU2eDdnY3lzZGxHRmxfWFFLdW8zR1lpRWhkSThnMHgzS1ROc3F3Ny10V21Bb1ZVd0ZHT3JUNmVnU1JCeW1od19lMzFyZw?oc=5",
+          "source": "Google: オホーツク",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "北見市にMEGAドンキ初出店",
+      "body": "北海道新聞デジタルによると、北見市に「MEGAドン・キホーテ」が6月16日にオープンすることが分かった。オホーツク地域では初出店となる。\n\nMEGAドン・キホーテは、食料品から日用品、家電製品まで幅広い品揃えが特徴で、地域住民の多様なニーズに応えることが期待されている。今回の出店により、これまで遠方の店舗まで足を運んでいた住民の利便性が大幅に向上するとみられる。\n\n店舗では、地域色を意識した商品展開も予定されており、地元特産品の販売なども検討されている。オープンを心待ちにする声も多く、地域経済の活性化にも貢献することが期待されている。北見市にとって、新たな賑わいの創出となるだろう。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "待望の「MEGAドンキ」北見に上陸!オホーツク初、6月16日オープンへ 遠出の必要なくなる…と地元住民「楽しみ」地域色を意識した店づくりへ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tbFVGMU5FM0IzTWxtY1U0YmJjSjZCR2JQeFYtaFVwSk96WFRiS3NiakJOdzNrQzU4RFZGU2pqTDRSa2VjVUpCYllrNnpVSVN5NWxoZ3BzMWF5b253VVZQV2hrZTdxMFV5c3dhZkVkT3ZmMWlHbXFxSUduN3V0MW8?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "気象庁、防災情報を見直し",
+      "body": "気象庁は5月29日から、防災気象情報の運用を一部見直す。より迅速かつ的確な情報提供を目指し、発表基準や表現方法の改善が行われる。国民の安全確保に不可欠な防災情報のさらなる強化が期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/26/86182.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "会計時の「モタモタ」客、その心理とは",
+      "body": "レジ前で会計に手間取る客の行動について、ある記事がその背景にある心理を探っている。アプリの選択や支払い方法の確認などで時間がかかり、後続の客を待たせてしまう。こうした状況は、現代のキャッシュレス化の進展と、それに伴う利用者の戸惑いを浮き彫りにしている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JdVJpVlYzb0dpeXJabEFSRjUzcHI3ZTk3WDZwblJkUUJYbmdFUHh1VnpEVTRGOUw0TW1oN1A0UDBCbk56Wjl6V01wMDVpeFBmdHp0bHJVSjl3S2phc0lF0gFkQVVfeXFMTzJIdEJhYnozVk9mWU1sblFQODlhbVdnbTRYTGJDd1R4TDVpVzdRV042Y3k0S0JjVnNVdUNQQV9hbG9LaUFYT3UybDE2Z0QyXzJSUmxSNVpQNGxrMDZ6WkhhT2o4QQ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "栃木県、一般会計を増額",
+      "body": "栃木県は、一般会計を2182万円増額する補正予算案を発表した。財政運営の効率化を図りつつ、県民生活の向上に資する事業への重点的な配分を目指す。具体的な使途については、今後議会での審議を経て決定される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5eVVNSWtrSTdqYnVENVZMejNkd2d5LWVzMk8xSWUxT2k3eno3aGVtc1YxUng3Z3ptS0hWUDFScjlHdUdkSDVQeDBQNDgtMkVHeWtwS0p1b3Q1SXZhSXl0VWNBT2NtazVGOHd5R05GLTlfc0dnSTdTR2JuakU3dTA?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "起業家向け 創業融資の解説",
+      "body": "公認会計士・税理士が、起業家向けに日本政策金融公庫からの創業融資について解説する記事が公開された。融資を受ける前に準備すべきことや、注意点などが詳述されている。創業を目指す人々にとって、実践的なガイドとなる情報が提供されている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pY0tZdVU0NGVGNmFZMTk4blFIUFlqSkUyMWVDbWFmbW1EV3VIZTh6LWR3NlNYa2JlN3NYeFo5eEI2S0VyM2Q2VWtOX1F0OWF5NXpsYzJPQ3RzbDg?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "生活保護費詐取 元職員に猶予刑",
+      "body": "生活保護費を詐取したとして起訴されていた元田野町会計年度任用職員に対し、高知地裁は猶予刑の判決を下した。公務員による不正行為は社会的な信用の失墜につながるものであり、厳正な対処が求められる。今回の判決は、その一例を示すものとなった。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBET0l5LUVTNE9sN0NJX2hpdU9LSDBra1dTekEzRURtbkpYZzc3aWRodEVtbERRTDRVQlhUdlN3WGlaanBjLXRQaUVxX0xUeTgxRW84dW1FUlhJcG4wUzVV?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "士別翔雲、春の全道高校野球で勝利",
+      "body": "春の全道高校野球大会で、士別翔雲高校が七回に猛攻を仕掛け5得点を挙げ、勝利を収めた。チームの粘り強い戦いぶりが光り、今後の活躍が期待される。地区予選を勝ち抜いた強豪校との対戦に注目が集まる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5YQUt6SmRtWl9jN1dqZHZFYnI5YWwwSHF3RGFfQUw1d1A1dngtcC10dzNrTTgwSWJiTlBjMVJlQWZvVklZNndMTG9mQQ?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
