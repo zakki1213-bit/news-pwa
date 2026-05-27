@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-05-28",
+  "generatedAt": "2026-05-28T06:29:13.180+09:00",
+  "lead": "2026年5月28日朝刊。AI技術の進化は教育現場やビジネスシーンに新たな可能性をもたらす一方、地域経済の活性化や高校生の挑戦を後押しする取り組みも各地で進んでいます。本紙では、これらの動きを多角的に報じます。",
+  "topStory": {
+    "title": "デジタル相、生成AI活用で答弁",
+    "body": "デジタル大臣は27日の参議院内閣委員会で、自身の答弁に生成AIを活用したことを明らかにしました。大臣は「答弁作成の補助として、AIに情報収集や整理をさせた」と説明。質疑応答の精度向上や、より迅速な情報提供を目的とした試みであると述べました。\n\nこの発言は、政府におけるAI技術の導入と活用に関する議論を一層深めるものとみられます。AIの公的利用については、その有効性と同時に、情報の正確性や倫理的な側面からの慎重な検討が求められています。\n\n大臣は、AIの活用はあくまで補助的なものであり、最終的な判断は人間が行うことを強調しました。今後、政府全体でAI技術をどのように活用していくか、具体的なガイドライン策定などが課題となりそうです。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "■デジタル相 生成AI活用で答弁 - 沖縄タイムス社",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE52TmtBT0t3NER4WGdhaGtYX1dmOENHYmZyVXM1TnA5SUw3Sk1IMFNEdFVJdGR2eEZVcFB6eFo0RndKTXJNeGZVVXpCeG1rbm14YXVqWXJNRWhaVHFIZWc?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "生成AIでテスト仕様書作成工数を4割削減",
+      "body": "ITmediaは、ある企業が生成AIを活用し、テスト仕様書の作成工数を4割削減した事例を報じました。これまでExcelでの設計書作成に時間を要していましたが、生成AIを導入したことで、そのプロセスが大幅に効率化されたとのことです。\n\nこの事例は、AIがソフトウェア開発の現場で具体的な成果を上げ始めていることを示しています。特に、定型的な作業や情報整理にAIを活用することで、開発者はより創造的な業務に集中できるようになると期待されています。\n\n生成AIの導入は、企業の生産性向上に大きく貢献する可能性を秘めています。今後、他の業務プロセスへの応用も進むと考えられます。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "「Excel設計書の壁」を越え、生成AIでテスト仕様書の作成工数を4割削減した事例 - ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yVkNqSXB2X1pwMW5kSUk1dy1la09jTnpZQjBSdWd1Z0c5eHZxMXFhdnRMaHRqdjdxSE1Dd2NSX3VOMnZFUDVGN0pIajRPR29XU3ltamJ1X3V5ckVqN1U0TVd4MVUxNWc2Z0xFQnRpaGJUZw?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "国税庁新システム、AI税務調査の噂も",
+      "body": "国税庁が今秋に稼働させる次世代国税総合管理システム・KSK2について、事業者からの注目が集まっています。一部では、AIを活用した税務調査が導入されるのではないかとの噂もあり、その影響が懸念されています。\n\nKSK2は、納税者情報の一元管理や効率的な税務行政の実現を目指すシステムです。AIによるデータ分析能力の向上により、より精緻な税務調査が可能になるという見方が出ています。\n\n国税庁はこの噂について公式なコメントを発表していませんが、事業者にとっては、税務コンプライアンスの重要性が一層高まることになりそうです。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "国税庁の次世代国税総合管理システム・KSK2が事業者にとって「マジでヤバい」「逃げられない」は本当か？今秋稼働、「AI税務調査」導入のうわさも - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE14ZTFNUmgxd0dqemVjQVdoLTJIeUxhNzA0dkl0c2VGdms2YTI1ZUw3U2tkdVIwaWZvSlVmR2FhZ2o2dHFEMXdpdEVuSlDSAU9BVV95cUxNQ0RhRlpQMHM4c2I0ZHh0R242LTdnUE9rT3poc2kzVXBtM25IRjhCTnFjaFdiQXB6X25Fa3dTR2xPX244TFRXbVFsZi1vS0Yw?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "新川高、資格取得で生徒に最大２万円補助",
+      "body": "北國新聞によると、新川高校では、生徒の資格取得を後押しするため、最大２万円の補助金制度を導入しました。英検、簿記、手話などが対象となり、生徒の多様な挑戦を支援する取り組みです。\n\nこの制度は、将来のキャリア形成を見据えた実践的なスキルの習得を奨励するものです。資格取得にかかる費用負担を軽減することで、より多くの生徒が自己成長の機会を得られるようになります。\n\n地域経済の活性化にもつながる人材育成として、今後の効果が期待されます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "新川高、資格取得で生徒に最大２万円 補助金で挑戦後押し 英検、簿記、手話など対象 - 北國新聞",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9EWGN0T1VMZy12U3hSZ2VXTjBCMWlmUXVyOVk1MVMzWjlXS1dJVjhDS0RwWWNhRFRVcllJQk14VEUzODdmTkV0RlNPQXVGVFdPQWpVNWZ3TQ?oc=5",
+          "source": "Google: 簿記",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "クラーク佐々木、粘りの159球完投",
+      "body": "春の全道高校野球大会で、クラーク記念国際高校の佐々木投手が粘りの投球を見せました。27日の試合で159球を投げ抜き、チームの勝利に貢献しました。\n\n佐々木投手は、要所を締め、打たせて取るピッチングで相手打線を抑え込みました。チームメイトからの信頼も厚く、エースとしての活躍が光りました。\n\nこの勝利は、チームにとって大きな弾みとなるでしょう。今後の試合でのさらなる活躍が期待されます。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "クラーク佐々木、粘りの159球完投 春の全道高校野球（27日） - 47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yd2JfdEoxaHpyemE3Z1ZVWjNYVUg0bU02cGxjbEZiVzJVVmhnZHYza1lhNzdRanJ6U2RWUjBoUFYwQ1pDZnRqUUJXQQ?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "企業教材ポータルサイト開設",
+      "body": "全国約5,500校の小中学校に企業の教育支援活動を届けるポータルサイト「企業教材ライブラリー」が開設されました。探究学習などに活用できる教材が提供されます。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10WTNPVGxzVTRmZTBZU0w1U08yMi1idUhWUnR1NW9rdXpUQTRjUkYzeXFUNXlDYU1yeFhQdUg1eWliUS1KQ1piN3VfSnIxby02YmtvYVQ2Ti1pTlU?oc=5",
+      "source": "Google: 探究学習"
+    },
+    {
+      "title": "都内花粉、前年比1.8倍の見込み",
+      "body": "2026年の都内の花粉飛散量は、前年比1.8倍と予測されています。スギ花粉のピークは過ぎましたが、今後はイネ科の花粉にも注意が必要です。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/27/86199.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "関西科学塾、受講生募集",
+      "body": "京都大学など5大学は、「女子中高生のための関西科学塾」の受講生を募集しています。科学への興味関心を高めるためのプログラムが提供されます。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/27/86198.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "MEGAドンキ北見店、6月16日オープン",
+      "body": "MEGAドンキ北見店が、ヨーカドー跡地に6月16日オープンします。地域住民の生活を支える新たな商業施設として期待されています。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ybGI4N19pVHRsZElYcEJCMERNQ21vazlFQTM5cV9fbjBKbzYyb0JXR1NXN2N0NUlwTFZKTGQ4Y0Ntd2c0RWNSSGhCRE5PZWhMWnc?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "Anthropic、セキュリティ監査プラグイン無償提供",
+      "body": "Anthropicは、「Claude Code」向けにセキュリティ監査プラグインを無償提供すると発表しました。開発者の利便性向上に貢献します。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jenZUam1SZWs2eWhqTWt3Tm9pc1RvY3dIOVp2aU5fdUt5YVpSMXJIVDVSMm5oeWY1aE4taUp1akZRY2ltOS1oNkVlVXNQWlltXzZjWGVWRTFJa2tnUkxUNEEzN1FnYUVvNV9jcUFNMzJIX0VhcVoxVkMwYTd6bTA?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "春の全道高校野球、クラーク九回勝ち越し",
+      "body": "春の全道高校野球大会で、クラーク高校が九回に勝ち越し、勝利を収めました。粘り強い戦いが続いています。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGV09zNGlfZE5sZS1Hc0xES1VyWXBOYlR2ZEJCV0x5OUE1R0FrWEVFaHlSdjZLcVVuRzk3ckR0Z1pNZ0pHVVRMaVhLU3Fsd1lfQjktTnhMRW9INzVKTlNfR2EzRk5rR1UxdXhrQ292OUtZU1ozVkQ0LVBpSDTSAYIBQVVfeXFMTV81ZmNYdUYwMk0wM2ZBenJWLUg0a0FXRTRGUDlqcDkzWndDY2JqdzB3RDdsVjNkQU1WUS1vemVrb2pMRE9DeWhLNWhpWk91RVYybDZzYnNCNzM5S3dncnkzclJJQktWV3hpTzhSUHEtbDhiYTk5LTczaFl0S1RhY09aZw?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
