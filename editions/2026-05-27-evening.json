@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-05-27",
+  "generatedAt": "2026-05-27T20:23:51.198+09:00",
+  "lead": "2026年5月27日夕刊。AI技術の進化がビジネスや教育現場に浸透し、新たな可能性を切り開く一方、その活用には著作権や倫理的な課題も浮上しています。教育分野では探究学習やプログラミング教育が注目され、次世代人材育成への期待が高まっています。北海道からは、地域資源の活用や災害への備えといった、地域に根差した動きをお伝えします。",
+  "topStory": {
+    "title": "生成AI、業務効果86.7％ 帝国データバンク調査",
+    "body": "帝国データバンクが発表した「生成AIに関する企業の動向調査」によると、生成AIを活用している企業の86.7％が業務における効果を実感していることが明らかになりました。この調査は、全国の企業を対象に、生成AIの導入状況や活用効果、今後の展望などについて実施されたものです。\n\n調査結果からは、多くの企業が生成AIを導入することで、業務効率の向上、コスト削減、新たなアイデア創出などの具体的な成果を得ていることが示唆されます。特に、文章作成、情報収集、データ分析といった分野での活用が進んでおり、企業の生産性向上に大きく貢献していると考えられます。\n\n一方で、生成AIの活用には、著作権侵害のリスクや、生成される情報の正確性、倫理的な問題など、未だ課題も残されています。調査では、これらの課題に対する企業の認識や、今後の対策についても尋ねられており、技術の進展とともに、より慎重かつ適切な利用方法の確立が求められています。\n\n今後、生成AIはさらに進化し、様々な産業分野での活用が拡大していくと予想されます。企業は、そのメリットを最大限に引き出しつつ、潜在的なリスクにも適切に対処していくことが、持続的な成長のために不可欠となるでしょう。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "帝国データバンク、「生成AIに関する企業の動向調査」結果発表。活用企業の86.7％が「業務効果あり」 - AIsmiley",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8tWXJ0Q2dmNmlRdVJDMG51cExHLXRPNWdTbi1IMGZtekV2bGlXZ1NsS1hjY1lkNnVNcGxFX3d2bmIzbzNfSnRydlh0VmVtMVhyd05NYm91Rm5xNktndGt3ZkVnelIwNG5hX3RCamdKTnJBZw?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "Spotify、生成AI活用ツール導入",
+      "body": "音楽ストリーミング大手のSpotifyとユニバーサルミュージックグループが、生成AIを活用した新たなツールの導入を進めています。この取り組みは、音楽制作プロセスにおける効率化や、新たな音楽体験の創出を目指すものです。\n\n具体的には、AIが作曲や編曲の支援を行ったり、歌詞生成の補助をしたりする機能が検討されています。これにより、クリエイターはより創造的な作業に集中できるようになり、音楽制作のハードルが下がる可能性があります。\n\nしかし、生成AIによる音楽制作は、著作権の問題や、人間のクリエイターの役割の変化といった議論も呼んでいます。両社は、これらの課題にも配慮しながら、技術の発展と音楽産業の未来を両立させる方法を模索していく方針です。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "Spotifyとユニバーサルミュージックグループ、生成AI活用のツール導入 - AIsmiley",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45dnJac2JTZE8yUmZLaW9vR0tLOG8tUEtxNHlDM0gzMWl4cjRDZ0QzNjUydjRRWi1lTkIxbTdDaURka3hsdzlhU1hiLWNFRmhoTlRfN0dvbXFRWkxkYVRmVzMtWTQxVkJT?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "静岡の教育改革に注目 中高一貫と「ラーケーション」",
+      "body": "静岡県が進める教育改革が注目を集めています。特に、中高一貫教育の推進と、体験的な学びを重視する「ラーケーション」の導入は、新たな教育の形として期待されています。\n\n中高一貫校では、6年間を見通したカリキュラムにより、生徒一人ひとりの個性や能力を伸ばす教育が展開されています。また、「ラーケーション」は、学校外での学習活動を単位として認定する制度で、探究学習や実社会との連携を深める機会を提供します。\n\nこれらの取り組みは、知識偏重型の教育から、主体性や課題解決能力を育む教育への転換を目指すものです。教育関係者からは、生徒の多様な学びを支援する先進的な試みとして、その成果が期待されています。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "【注目】静岡県に学ぶ教育改革！中高一貫校と「ラーケーション」の衝撃【神戸市北区】 大塚公彦 - 選挙ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CN08taWFkWnFqTVJDNWhoS294cHFONm91c0R0YjlfeWdtaDk5cE9DcDB3QzFPSDhQWDVDUVJYNGxmcjVUT2NfTmNuZnRGTFNNSU5Fd0dlS2ZJdFplX2I4?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "ひろぎんHD、プログラミング教材会社をグループ化",
+      "body": "ひろぎんホールディングス（HD）は、プログラミング教材を開発する企業をグループ企業として迎え入れ、教育事業の拡大を図ることを発表しました。これは、デジタル時代に不可欠なプログラミングスキルの育成を強化する動きです。\n\n同社は、この買収を通じて、質の高いプログラミング教材や教育ノウハウを獲得し、地域におけるSTEM教育（科学・技術・工学・数学）の普及に貢献することを目指しています。\n\n近年、AI技術の発展とともに、プログラミング教育の重要性はますます高まっています。ひろぎんHDのこの取り組みは、次世代を担う人材育成への積極的な投資として、今後の展開が注目されます。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "ひろぎんHD、プログラミング教材会社をグループ化 教育事業を拡大 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3WjJlekUyOE05djI3cFdSXzZMSEkyMVNCZXNTS1g5VXF2WmxJcWl6STFCdlhUVHlKbkJzUVVGdWh6WUN4MDNtc0dyQzNZdm5zR1lTaFhUck9pdE1ac3ZrXzBZcG1YeWltQmV5WA?oc=5",
+          "source": "Google: プログラミング教育",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "網走消防、建設団体と災害協定",
+      "body": "網走地区消防組合は、地域の建設団体と災害時における協力協定を締結しました。この協定により、大規模災害発生時には、建設団体が保有するミキサー車や重機などの重機材が消火活動や救助活動に活用されることになります。\n\n近年、自然災害の激甚化・頻発化が進む中、地域全体で防災・減災体制を強化することの重要性が増しています。今回の協定は、消防力だけでは対応が難しい事態に、民間企業の協力で迅速かつ効果的な対応を目指すものです。\n\n網走地区では、冬場の流氷による影響や、過去の災害経験から、地域の実情に合わせた防災対策が求められています。この連携が、地域住民の安全・安心な暮らしを守る一助となることが期待されます。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "網走地区消防組合、建設団体と災害協定 ミキサー車や重機で消火活動を支援 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tQV9Vdmw2RTJnMTJ5bjJ0NUswNlUtak13ZHlPRGlwQzFNWUFrR3BwcFJMV1FpVi16a1pXWGN1blRkNU52d1BJcVZVTVhvVS0tXzFCelhKOE4wUXNZbEljU0k5cFo?oc=5",
+          "source": "Google: 網走",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "アジア物理五輪 日本勢がメダル獲得",
+      "body": "アジア物理オリンピックに参加した日本の高校生が、銀メダル1個、銅メダル1個を獲得しました。この大会は、アジア各国の高校生が物理学の知識と応用力を競うもので、日本の生徒たちの優秀さを示す結果となりました。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/27/86188.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "スマホ・ギャンブル依存、脳に共通メカニズムか",
+      "body": "中部大学の研究により、スマートフォンの使いすぎによる依存とギャンブル依存の間には、脳のメカニズムに共通点がある可能性が示唆されました。この研究は、依存症対策における新たな知見となる可能性があります。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/27/86187.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "ユニクロセルフレジ、万引き手口に注意",
+      "body": "ユニクロのセルフレジで、購入していない商品が表示されるトラブルが発生しています。これは、万引き犯が商品のタグだけを隠して持ち去る手口に関連している可能性があり、利用者は会計時に表示内容を注意深く確認することが推奨されます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uUTRJSVM3aEdNLWFyRWlkdGQ2cnBtQjQtX3ZPSV9BRVFYNHc0ekx1cjBVMWZmV1AyQlVjTTJoS2FsY0xZdzVyTGhOZzl2YjVXS290djdzejJmb0ZyN2loUDhGVDFsdng1c1RyNWY4WTdXVlBxSXFXTXM2OXpwV1U?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "次世代AI人材育成教材リリース",
+      "body": "次世代のAI人材育成を目的とした実践型プログラミング教材「AIミネルバExpert LLM版」がリリースされました。この教材は、大規模言語モデル（LLM）を活用し、AI開発に必要な実践的なスキルを習得できる内容となっています。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UeUdQTWZoRncyUjR0b3dwQkVkeEZKR0VpLXEtak9Ya2VNSW5nNHRMZEw1bllJZlNJSlpIOXFWalZBclBLUVJjMHYyUVZsMWxJbTdGTTNB?oc=5",
+      "source": "Google: プログラミング教育"
+    },
+    {
+      "title": "紋別で園児が野菜苗植え",
+      "body": "紋別市の流氷公園で、園児たちが野菜の苗を植える「ちびっこ体験農園」が開園しました。この取り組みは、食育を目的としており、子供たちが作物の成長過程を学び、収穫の喜びを体験する機会を提供します。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0RVNKeHg5ak1lTHpVTS1XZnhZa1ZyZ1NmSEVKTHlITXJyVmh6d1FfTktCa0RfM09jR2VfcTR2dm1DWXRmQ0xSUEpESGl2aGE4Y0RKWk9KQVJTUQ?oc=5",
+      "source": "Google: 紋別"
+    },
+    {
+      "title": "北見のタコス店主、鹿革製品ブランド立ち上げ",
+      "body": "北見市のタコス店主が、廃棄される鹿革を活用した革製品の新ブランドを立ち上げました。名刺入れなどの製品は、ふるさと納税の返礼品としても提供され、地域資源の有効活用と新たなビジネス創出を目指しています。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE11b0ZRUWE2Z3VTdWdFX0JDa3ZmODRUT1RkdDdUeENuZFZMd2xYemIzWUc2Z21TQVNRc0MtTExBWmk0d2cyZG13bzJNUQ?oc=5",
+      "source": "Google: 北見市"
+    }
+  ]
+}
