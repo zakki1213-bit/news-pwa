@@ -1,0 +1,140 @@
+{
+  "type": "evening",
+  "date": "2026-05-28",
+  "generatedAt": "2026-05-28T20:24:34.543+09:00",
+  "lead": "2026年5月28日、夕刊紙面をお届けします。教育分野では高校受験や大学入試に関する最新情報、AI分野では生成AIのビジネス活用や新たなサービスが登場。商業分野では会計基準の変更やM&Aに関する動き、そして北海道からは高校野球の快挙など、多岐にわたるニュースを掲載します。",
+  "topStory": {
+    "title": "マイナビ、生成AI活用率96.1% 社員業務で浸透",
+    "body": "株式会社マイナビは、社員の業務における生成AIの活用率が96.1%に達したことを発表した。同社は組織横断でAI活用を推進しており、その結果、多くの社員が日常業務で生成AIを積極的に利用していることが明らかになった。\n\nこの高い活用率は、生成AIが単なる話題先行の技術ではなく、実際の業務効率化や生産性向上に貢献していることを示唆している。マイナビでは、社員一人ひとりが生成AIを使いこなし、新たな価値創造につなげるための取り組みを継続的に行っている。\n\n具体的な活用事例としては、情報収集、文章作成支援、アイデア創出など、多岐にわたる業務で生成AIが活用されている。これにより、従来は多くの時間を要していた作業が効率化され、社員はより創造的で付加価値の高い業務に集中できるようになった。\n\n同社は今後も、生成AIのさらなる活用推進と、それに伴う新たなビジネスモデルの構築を目指していく方針だ。技術の進化に柔軟に対応し、変化の激しい時代において競争優位性を維持していくための重要な戦略として位置づけている。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "マイナビ、社員の業務における生成AI活用率が96.1%に - 組織横断でAI活用を推進 - マイナビニュース",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ubWEzb0lnUi1qU2Z5UG1IaVhFakhnVnB1WXAxRWpMYmlzNExOMURHVThXNnJkUmlSNWVMdGtweUFHZmtpYklnWktkUDVTZVlFV0ViS0djZFZDd0pQ?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "北海道の公立高進学に月2万円給付型奨学金",
+      "body": "北海道で、地域みらい留学が提供する新たな給付型奨学金制度が注目を集めている。この制度は、北海道の公立高校に進学する生徒を対象に、月額2万円が支給されるものだ。\n\n経済的な理由で進学を諦める生徒を減らし、より多くの若者が教育の機会を得られるようにすることを目的としている。特に、地域経済の活性化に貢献できる人材育成にもつながることが期待されている。\n\n募集要項や申請方法などの詳細は、今後順次発表される予定。北海道の未来を担う若者たちにとって、大きな支援となることが予想される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "北海道の公立高進学に月2万円の「給付型奨学金」地域みらい留学",
+          "url": "https://resemom.jp/article/2026/05/28/86210.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/396453.jpg"
+    },
+    {
+      "title": "新リース会計基準セミナー開催 グループ間リースの課題に焦点",
+      "body": "プロシップは、新リース会計基準に関するセミナーの受付を開始した。本セミナーでは、グループ間リースにおける不一致が引き起こす実務上の負担をいかに軽減するか、具体的な解決策に焦点を当てる。\n\n新リース会計基準の導入により、多くの企業が会計処理の複雑化に直面している。特に、グループ企業間でのリース取引においては、統一性の確保や情報管理の煩雑さが課題となっている。\n\nセミナーでは、専門家が最新の会計基準の解説に加え、実務で役立つノウハウやツール活用法を紹介する。参加者は、自社のリース会計業務の効率化とコンプライアンス強化に向けた具体的なヒントを得られるだろう。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "【プロシップ】新リース会計基準セミナー｜グループ間リースの不一致による実務負担をどう抑える？ ― 本日より受付開始 - 愛媛新聞",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Fd0E1S3RXMHRQTzNsWHdnTHdLZWJUcEFEV0pka0JjZHNpQzFOMTRFZXNJZHIyZnVORGVPMEN2d2kweHVXRTk5WEo4YVRMTHJLNzhIa1Q0X3kyQTQ?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "OKI、生成AIでメール解析 緊急案件・タスク自動抽出",
+      "body": "沖電気工業（OKI）は、生成AIを活用した新システム「AI Task Navigator」を開発した。このシステムは、受信メールの内容を解析し、緊急性の高い案件や対応が必要なタスクを自動的に抽出する機能を持つ。\n\nビジネスシーンにおいて、日々大量に送受信されるメールの中から重要な情報を迅速に見つけ出すことは、業務効率を大きく左右する。AI Task Navigatorは、この課題を解決するために開発された。\n\nシステムは、自然言語処理技術を駆使してメールの内容を理解し、優先度や担当者を判断。これにより、見落としがちな重要案件の発見や、迅速なタスク割り当てが可能となる。OKIは、この技術を通じて企業のデジタルトランスフォーメーション（DX）推進に貢献していく考えだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "OKI、メールを生成AIで解析し緊急案件と対応タスクの自動抽出などを行う「AI Task Navigator」を開発 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41bmZBd3JlWnlQbUlOdVNYZGFpMEdQUTlCR1p6d2JKeUI3Q3dKY1gxOVpKRmNiU09qaEgyX3BWNjJyWWpuTG45TC0wZ2lRMzNJWWdrQTROMmJFVFZNckJzRVd2QlFYbEt1Qy01Nw?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "高校野球北海道大会４強そろう 北北海道勢３校４６年ぶり",
+      "body": "第108回全国高校野球選手権北海道大会は27日、北北海道支部予選の準々決勝が行われ、決勝進出をかけた準決勝に進む4校が決定した。注目すべきは、北北海道から3校が準決勝に進出したことだ。これは、46年ぶりという快挙であり、地域に大きな興奮をもたらしている。\n\n準決勝に進出したのは、昨年の覇者である旭川実業、そして初出場の帯広工業、そして伝統校の北見北斗である。各校とも接戦を制し、勢いに乗っている。決勝進出をかけて、熱戦を繰り広げることが期待される。\n\nこの結果は、北北海道における野球レベルの向上を示すものであり、今後の高校野球界における同地区の活躍に注目が集まる。決勝戦は、今週末に行われる予定だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "【高校野球】北海道大会４強でそろう 北北海道勢３校準決勝進出は４６年ぶり - au Webポータル",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9GTXVtNzFBMFg0b1pDZWJsV3lybEREeVZOZWFkeWgwSTI1emhXQWFzbDZXSmQ4eWVhT3ZsZV9VM1RwTTg4NlhxLUJWZmJZVkgyaGJEZ3gxbEUtX2ppRjlwdnRFOWRHdFluSmlQR2N6ZjZwWmlHdklIWjZQVXVQdw?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "東洋大学「現代学生百人一首」作品募集",
+      "body": "東洋大学は、第23回「現代学生百人一首」の作品募集を開始した。全国の小・中・高校生を対象に、現代社会を反映した新しい感性の短歌を募る。締め切りは10月7日。優秀作品は大学のウェブサイトなどで発表される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/28/86213.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "TAC簿記検定講座 オンラインライブ配信で合格へ",
+      "body": "TACは、簿記検定2級合格を目指すオンラインライブ通信講座の販売を開始した。毎週土曜日のライブ配信により、受講生は自宅にいながら質の高い講義を受けられる。学習効果を高めるためのサポート体制も充実している。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pbXF5Y2wtRk1wd0UzbTE3OGlWRF9XVFVIWTBoYWM1cmJjY2ZZQ19VUGhuUmNKYngtelkxTlRHT2luaE9xZm9sRk9Wc0ptWEVHajRaRHU2Z3RUb1VqWDdqRHFjZ1IyWFpI?oc=5",
+      "source": "Google: 簿記"
+    },
+    {
+      "title": "山根総合会計事務所 Ｍ＆Ａアドバイザリー会社設立",
+      "body": "山根総合会計事務所が、M&Aアドバイザリー業務を専門とする会社を新たに設立した。中小企業の事業承継や成長戦略におけるM&Aニーズの高まりに対応する。専門知識とネットワークを活かし、最適なM&A支援を提供する。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVRzJqejdadjAzWmFZUGZDcUNBelQzUDl3ZC1RUUN1anZWRnJ0eEc2dkNNdTFBeHBNTFBQTWQ3NHdMcUV3Q0tMc0lUX09oMUNnX0E?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "Google生成AI「Project Genie」にストリートビュー連携",
+      "body": "Googleの生成AI「Project Genie」に、ストリートビューとの連携機能が追加された。これにより、現実世界の地理情報を活用した、より高度なAIアプリケーションの開発が可能になる。新たなユーザー体験の創出が期待される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAyenlVMkhPRjFRN1BnODVTOFJsVUVIaEtaVFFNVWtIcGlDbjhTdWV3Nzh0UWp5VEViS3c3d2czVThhby1sNVlZNmFESzlLRWpGVHF3ZGRDVURJZlNCUkloVmd3cGptQU05dkE?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "物価高に生成AI 「パパママ川柳」大賞発表",
+      "body": "物価高騰や生成AIなどをテーマにした「パパママ川柳」の第15回大賞が発表された。過去最多となる9万作品の中から選ばれた大賞作品は、現代社会の課題をユーモラスに表現している。家族の日常や社会情勢を映し出す鏡となっている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1JLUNxdml0Nnd4UGdPbWlDd3VIcmFPZW5mMVk1eVpweTNnZ3FuLVdFcDRETC00c01udWpfcmVWVTR2TVJja01VMlZCS21GVEtUN0FfbU9aeUVHMjB5TnNBWFRFWUZxM1ptLUU4LVZRb2Nadw?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "紋別でやさしい日本語講座 外国人に伝わるコツ学ぶ",
+      "body": "北海道紋別市で、外国人に分かりやすく情報を伝えるための「やさしい日本語」講座が開かれた。地域で暮らす外国人とのコミュニケーション円滑化を目指し、言い換えのコツや表現方法などが学ばれた。多文化共生社会の実現に向けた取り組みだ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE54cUkwaFFMWGJYR01hcEZDOERYNE50aHpZdzF5bldZT0Y0TjhFUFZNNXFqYkgzMVRrYjdTSUlMVV9RU2tfM2x1ejFMQXdhU3JWNDU4RGJaLTJhaVRLQ0xieGs2NXQ?oc=5",
+      "source": "Google: 紋別"
+    }
+  ]
+}
