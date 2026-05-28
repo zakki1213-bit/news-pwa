@@ -1,0 +1,140 @@
+{
+  "type": "morning",
+  "date": "2026-05-29",
+  "generatedAt": "2026-05-29T06:45:57.841+09:00",
+  "lead": "2026年5月29日朝刊。AI技術の進化は社会のあらゆる分野に浸透し、教育やビジネスのあり方を大きく変えようとしています。本紙では、教育分野での国際交流の促進、商業会計の最新動向、そしてAI技術の最前線と社会実装について、多角的に報じます。また、北海道からは、高校野球の熱戦や教育現場の課題など、地域に根差したニュースをお届けします。",
+  "topStory": {
+    "title": "政府AI「源内」、全府省庁で実証開始 約10万人が利用可能に",
+    "body": "政府は、行政手続きの効率化や国民サービスの向上を目指し、開発を進めてきた生成AI「源内」について、全府省庁での大規模実証実験を開始したと発表した。この実証実験には、約10万人の職員が参加し、AIの活用範囲や効果を検証する。\n\n「源内」は、自然言語処理技術を基盤とし、文書作成支援、情報検索、データ分析など、多岐にわたる業務での活用が期待されている。特に、煩雑な事務作業の自動化や、迅速な情報提供による意思決定の支援に貢献するものと見られている。\n\n実証実験では、各省庁の具体的な業務課題に対し、「源内」がどのように貢献できるかが試される。例えば、法案作成における参考資料の収集・整理、国民からの問い合わせに対する一次対応、統計データの分析などが想定されている。これにより、職員はより創造的で高度な業務に集中できるようになることが期待される。\n\n政府は、この大規模実証実験の結果を踏まえ、「源内」の本格的な導入に向けたロードマップを策定する方針だ。AI技術の行政分野への応用は、今後の日本の行政サービスの質を大きく左右する可能性があり、その動向が注目される。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "ガバメントAI「源内」、全府省庁で大規模実証を開始し約10万人が利用可能に - ビジネス+IT",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aUVp1YlNna25Bd0s4Wl9oS0tSVlNpbHBIZnRmcm9rWmZ0a0pqeHp1OEt3bVJvNWN6SGh6YzdjT2FmcHJaVEFTZlJJc1pKRFNTeWZv?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "米AI新興アンソロピック、新モデル「Claude Opus 4.8」発表",
+      "body": "米AI開発企業アンソロピックは、最新の大規模言語モデル「Claude Opus 4.8」を発表した。この新モデルは、特にコーディング能力と推論能力が大幅に強化されている点が特徴だ。\n\n「Claude Opus 4.8」は、複雑なプログラミングタスクの自動生成やデバッグ支援において、従来モデルを凌駕する性能を発揮するとされる。また、高度な論理的思考を要する問題解決能力も向上しており、より専門的な分野での活用が期待されている。\n\n同社は、AIの安全性と倫理性を重視した開発を掲げており、新モデルにおいても、バイアス低減や誤情報生成の抑制に配慮した設計となっている。今後、この高性能AIが、研究開発やビジネスの現場でどのように活用されていくか注目が集まる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "アンソロピック、コーディングと推論能力を強化したClaude Opus 4.8を発表 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5hTjE5YnAwWDhCOVRJOXNMMXk2Y084RHRrM3h4YlRsREF1SXJFR3lzUEpzM05DbVU3V1g1b29yd2tmQXRrUUlUM1kzNkFLM1oyUXdISlEyd2Eycjh5WG9ZcjZiUkxVajBUbGlFMjl2NjA?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "小中学生向け「キッズセミナー」開催 ロボット手術やドクターカー体験",
+      "body": "医療法人ながやまは、夏休み期間中の8月22日に、小中学生を対象とした「ながやまキッズセミナー」を開催する。このセミナーでは、最新の医療技術に触れる貴重な機会が提供される。\n\n参加者は、ロボット手術のシミュレーション体験や、救急医療の現場で活躍するドクターカーの見学・体験ができる。これらのプログラムを通じて、子どもたちの医療への関心を高め、将来の医療従事者を育成することを目指している。\n\n近年、医療現場では高度な技術が導入されており、次世代を担う子どもたちに、こうした最先端の医療に触れる機会を提供することは、教育的観点からも重要である。参加申し込みは、同法人ウェブサイトにて受け付けている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "【夏休み2026】ロボット手術やドクターカー体験「ながやまキッズセミナー」8/22",
+          "url": "https://resemom.jp/article/2026/05/28/86217.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/396431.jpg"
+    },
+    {
+      "title": "新リース会計基準への対応セミナー開催",
+      "body": "NTTデータビジネスブレインズは、6月4日に、新リース会計基準への対応と実務の効率化をテーマとしたセミナーを開催する。このセミナーは、企業会計担当者や経理担当者を対象としている。\n\n2026年4月1日から適用される新リース会計基準は、企業の財務諸表に大きな影響を与える可能性がある。セミナーでは、基準の概要、実務上の留意点、そして効率的な導入・運用方法について、専門家が解説を行う。\n\n参加者は、最新の会計基準への理解を深めるとともに、自社の経理業務の効率化に向けた具体的なヒントを得ることができる。参加申し込みは、NTTデータビジネスブレインズのウェブサイトから可能となっている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "［6/4セミナー開催］NTTデータビジネスブレインズと考える新リース会計基準への対応と実務の効率化（PR TIMES） - 毎日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9BMHdwODU1ZWJXUENEekk1OGtweWRISW9lNVJXLVZHU0xvNV9ibExXMnRHZkE3cHRqY0VMNWMxZm5Cc3c4VkVjanFjV0kydTcwa2dBY0tVcVZRQzY1a2taNkdfVWVYdGF0?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "道教委、3件の懲戒免職処分を発表",
+      "body": "北海道教育委員会は28日、職場備品の横領や知人の裸体撮影などの懲戒処分に関する3件の処分を発表した。これには、教育局係長1名、教諭2名が含まれる。\n\n懲戒免職となったのは、教育局係長が職場備品を横領した件と、教諭が知人女性の裸体を知人男性に撮影させた件、そして別の教諭が児童生徒へのわいせつ行為で処分された件である。いずれも悪質な行為と判断された。\n\n道教委は、今回の処分を厳粛に受け止め、再発防止策を徹底するとしている。教職員の綱紀粛正を図り、道民からの信頼回復に努める方針だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "道教委が3件懲戒免職処分 職場備品横領の教育局係長、知人の裸撮影の教諭ら - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HVGJTMWtfc0pjb21YajRJZXFOT2JyTVdyb0Z3Y0JtTjZRLXFoekhxU1hBR1hRbHNOdktmN0NvRkRSUFhRYTVqWU9BRFdhcHVvMGV4dFNGRGNNdw?oc=5",
+          "source": "Google: 北海道 教育",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "JASSO海外留学フェア、7月25日に開催",
+      "body": "日本学生支援機構（JASSO）は7月25日、「JASSO海外留学フェア」を開催する。このフェアには27の国と地域から大学や教育機関が参加し、海外留学に関する最新情報を提供する。留学を検討している学生にとって貴重な機会となる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/28/86218.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "公認会計士試験 解答速報を順次公開",
+      "body": "令和8年公認会計士試験の第Ⅱ回短答式試験について、解答速報が順次公開されている。受験者は、自己採点や今後の学習計画の参考にすることができる。詳細は各試験機関のウェブサイトで確認できる。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFZFlSZXRzN2lGV0MyQTNNR3l6SGVHZlF6REN5OEVQOHB1SHlYaWt5WTBqZUE3clN5eE9RS2NaTENVbjBRc1VXQ0FwaWRidUhvc1dSbWFvN08tdVh1TEg0RzNfOTVrc3Z3Y2c?oc=5",
+      "source": "Google: 簿記"
+    },
+    {
+      "title": "米AI新興アンソロピック、評価額9650億ドルに",
+      "body": "米AI新興企業アンソロピックの企業評価額が、新たに9650億ドルに達したと報じられた。同社は、高性能AIモデルの開発で注目されており、その成長が加速していることを示唆している。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRTdnN25QUnlsand0Zm1mWXRmX1p5WkN5djRSTUlabS13bG5GWkJvbVpZcDMzQlZFd0YyeVhWQjByNjBkQXU3NmItZUg4VGQ1SXRhN0dPdDdiMHBGVFhZY09PVUpOTU9qLWVmYWFOaHNEa3dwbllWVnNGN0puNnNaTUIwWkk4ek5iQWlqQ29qTHFUZjIx?oc=5",
+      "source": "Google: Anthropic"
+    },
+    {
+      "title": "春の全道高校野球、札日大高が4強入り",
+      "body": "春の全道高校野球大会は、札幌日本大学高校が準決勝に進出し、4強入りを果たした。一方、札幌龍谷高校は惜しくも敗退した。熱戦が繰り広げられている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1CdjdLUE5fXy10NlhQNWZIMGFsd1FubjQwcWhTcjRmNDI3N2Z2Q2xoVjhid3J0TVg4XzBlS0VvX3ROX1Y3RElpRDJSRQ?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "生成AIが技術継承を支援 アズビルが活用",
+      "body": "アズビルは、生成AIを活用し、熟練技術者のノウハウを「おしゃべりベテラン」としてデジタル化する取り組みを進めている。これにより、若手社員への技術継承が効率化されると期待されている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4xM0JUYV9UZGFPTlI0Sm5pd00zUHZ5dHNHeEYwazVKVDZqRjhKdFJDVTAtS05UX3lSU3gtMndTOUNqcGp6LWktMktrY3RWeWNGNWEwYWZsNTk0T1I4UEFQUjNjRFI?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "北海道内の教員採用試験志願者、過去最少",
+      "body": "北海道内の教員採用試験の志願者数が、過去最少の3418人となった。札幌市教委の志願者は微増だったものの、全体としては減少傾向にあり、教員確保が課題となっている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90YXRLeUJDbzBVQWU4bk5ta2s3dHBYVVZnbjZNYzdXQ3dUelpYOEFZU1VQOHY3WnU4UmlfNjUtN3c2QWhYOVk5cU1oUUJoVWc3emJCQ1Y4Z2VvQQ?oc=5",
+      "source": "Google: 北海道 教育"
+    }
+  ]
+}
