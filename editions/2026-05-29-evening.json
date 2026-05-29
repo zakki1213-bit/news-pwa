@@ -1,0 +1,141 @@
+{
+  "type": "evening",
+  "date": "2026-05-29",
+  "generatedAt": "2026-05-29T19:59:38.248+09:00",
+  "lead": "2026年5月29日、本日は教育分野における奨学金制度の拡充、AI技術のサイバーセキュリティへの応用、そして北海道における高校生の進路選択の変化など、多岐にわたるニュースをお届けします。AIと人間の共存、地域経済の活性化に向けた取り組みにも注目が集まります。",
+  "topStory": {
+    "title": "政府・金融機関、OpenAI新モデルアクセス権取得 サイバー対策強化へ",
+    "body": "日本政府と主要な金融機関が、米OpenAIが開発した最新AIモデルへのアクセス権を取得したことが明らかになった。片山さつき金融担当大臣が発表したもので、高性能AIがサイバー攻撃に悪用される懸念が高まる中、AIを防御に活用した対策が急務となっている状況に対応するものだ。\n\n片山大臣は、「わが国金融機関のサイバーセキュリティー強化の観点から歓迎するべきものだ」と述べ、今回のアクセス権取得が国内の金融システムの安全性を高める上で重要な一歩になるとの見解を示した。AI技術の急速な進化は、経済活動の効率化や新たなサービス創出に貢献する一方で、悪意ある攻撃者によって悪用されるリスクも増大させている。\n\n政府は、AI技術の発展を促進すると同時に、その潜在的なリスクに対する防御策を講じることの重要性を認識しており、今回のOpenAIの新モデルへのアクセス権取得はその一環と位置づけられる。今後、取得したAIモデルを活用し、サイバー攻撃の検知・防御能力の向上を目指す方針だ。金融機関との連携を深め、具体的な対策の検討を進めることになるだろう。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "日本政府と主要金融機関、OpenAI新モデルのアクセス権を取得 サイバー対策強化へ",
+        "url": "https://www.itmedia.co.jp/news/articles/2605/29/news144.html",
+        "source": "ITmedia AI+",
+        "topicId": "ai_tech"
+      }
+    ],
+    "ogImage": "https://image.itmedia.co.jp/images/logo/1200x630_500x500_news.gif"
+  },
+  "midStories": [
+    {
+      "title": "都立高から世界のトップ校へ、東京都「給付型奨学金」創設",
+      "body": "東京都は、都立高校生が世界のトップレベルの大学に進学する際の経済的負担を軽減するため、新たな「給付型奨学金」制度を創設することを決定した。この制度は、成績優秀でありながら経済的な理由で進学を断念せざるを得ない生徒を支援することを目的としている。\n\n奨学金の支給対象や金額、申請方法などの詳細については今後、教育委員会を中心に検討が進められる。都は、この制度を通じて、より多くの都立高校生が世界に羽ばたく機会を得られるよう、支援体制を強化していく考えだ。グローバル化が進む現代において、国際的な視野を持つ人材育成は喫緊の課題であり、今回の奨学金制度創設は、その一助となることが期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "都立高から世界のトップ校へ、東京都「給付型奨学金」創設",
+          "url": "https://resemom.jp/article/2026/05/29/86237.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/396524.jpg"
+    },
+    {
+      "title": "LDHとソフトバンク、生成AI活用ダンス学習アプリ開発",
+      "body": "LDHとソフトバンクは、生成AI技術を活用したダンス学習アプリを共同開発した。このアプリは、ユーザーのダンスをAIが分析し、改善点やアドバイスを提供する機能を持つ。エンターテインメント業界におけるAI技術の応用事例として注目されている。\n\nアプリには、GENERATIONS from EXILE TRIBEの中務裕太さんも関与しており、ダンスの楽しさをより多くの人に伝えることを目指している。AIがダンスの動きを細かく分析し、個々のユーザーに合わせた指導を行うことで、効率的なスキルアップが可能になるという。今後、エンターテインメント分野だけでなく、教育やフィットネス分野への応用も期待される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "GENERATIONS 中務裕太「ついにダンスにも……」AIに対抗心？ LDHとソフトバンクが生成AIなど最新技術投入したダンス学習アプリ（TOKYO HEADLINE WEB） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YaV9jMldGVkJjb1RsVWhxdUxJVlJhSGVlRGhfSjZDV0hhZEE1cF9uYlZRTV9GYU5jMDZXcF9yelpGeUNFakF0SGFmZFc2YUpyc3NKOEtnX2ZmS2RlUkFmeFZySTRQVEMtc25RY1pPc19VN0l0WkJWalNtcmR3Tkk?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "北海道内の高校1年生、私立高が初の3割超 道教委が無償化の影響分析",
+      "body": "北海道内の高校1年生における私立高校の入学者が、初めて全体の3割を超えたことが北海道教育委員会の分析で明らかになった。この傾向は、国の高校授業料無償化制度の影響が大きいとみられている。\n\n道教委によると、無償化により私立高校の学費負担が軽減されたことが、保護者の進路選択に影響を与えた可能性が高いという。公立高校の入学者が減少する一方で、私立高校への進学者が増加しており、道内の高校教育のあり方に変化が生じている。今後、この動向を注視し、教育環境の整備を進める必要がある。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "北海道内の高校1年生、私立高が初の3割超 道教委が無償化の影響分析 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aOWpKTlhHd1QxWnBBS0NJMnVpRlN0c1EyeHJpUkVtd2xpTVVXd2RRdG40T1YwWjBvcllreTNfRXdFMUotcHByWnNnMUU5ZTBUV3pZNGtMMFdzUQ?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "今治市、会計年度任用職員129人に休日勤務手当919万円超未払い",
+      "body": "今治市は、会計年度任用職員129人に対し、休日勤務手当の一部約919万4315円が未払いとなっていたことを公表した。職員への手当の支払いに誤りがあったことが判明し、市は対象職員への謝罪とともに、速やかな支払いを進めるとしている。\n\n今回の未払いは、市の給与計算システムにおける設定ミスが原因とみられている。市は、今後このような事態の再発防止に向け、給与計算に関する事務手続きの見直しと、担当職員への指導を徹底する方針だ。公的機関における事務処理の正確性は、市民からの信頼を得る上で不可欠であり、今回の件を重く受け止めている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "今治市が休日勤務手当未払い 会計年度任用職員129人に919万4315円 - 愛媛新聞",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qZWxvQjZMcXpEUmFPcDJERUJXUHpXRDJGcjM2MWkyc1pQejlIUW5ITmk0ako0LTJVR0dQMGR4YWlWd0pFd2hNYk0xcW5FV3gtQVJlVzZwcThNQ3pUNWE4aQ?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "国家公務員総合職、東大合格者最多291人",
+      "body": "2026年度国家公務員総合職試験の合格者数が発表され、東京大学の合格者が最多の291人だった。合格者の約6割は国立大学出身者で、依然として難関大学出身者が多数を占める傾向が続いている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/29/86234.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "「使える」生成AI活用法を紹介",
+      "body": "テレビ番組「Nスタ」では、日常生活や仕事で役立つ「生成AI」の具体的な活用方法が紹介された。AIを効果的に使いこなすためのヒントが提供された。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE01Z2xnVmdHLVptVnR3d1R2VjB1UWR0YWs3SGFnck5FQlpXYmcxNDFHckxhaWs3UmFyc3JuNnNyZm01QWRSZ1RyU1hvQQ?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "JR石北線・釧網線、存続策巡り議論なし",
+      "body": "JR石北線と釧網線の存続策を話し合う会合が網走市で開かれたが、上下分離方式への対応に関する具体的な議論は行われなかった。地域住民の関心は高いものの、具体的な解決策は見出されていない。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uQTE4aGxZRGpfdU5YMkVxendvRmduQ2FXUnBPanp6S2RWU3p6WFhYY2ZzUG02WkJBd0hvRHVVdlhUZkdtZlBwbFh3TTZDSllDbEtyX1BqbTM2dw?oc=5",
+      "source": "Google: 網走"
+    },
+    {
+      "title": "栄光サイエンスラボ、小学生向け特別実験開催",
+      "body": "栄光サイエンスラボは、2026年夏休み期間中に、年中から小学6年生を対象とした「夏の特別実験」を開催する。子供たちの科学への興味関心を育むことを目的としている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/05/29/86238.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "佐賀総体柔道男子、佐賀商業が２連覇",
+      "body": "2025年佐賀インターハイ柔道男子団体戦で、佐賀商業高校が優勝し、大会２連覇を達成した。強豪としての実力を見せつけた。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE02dVpjVEhLbW0yektqZDVBSzN2MUJXOGFWWGhtQWJRUnFTVG1EY0xpbFlpWE9qOFhHNGJwQXdfVFgtTXJkaXVCT3NwbXpyRVQ4dHJCaA?oc=5",
+      "source": "Google: 商業高校"
+    },
+    {
+      "title": "マイポックス、生成AI市場拡大で成長へ",
+      "body": "マイポックスは、生成AI市場の拡大を追い風に、光ファイバー関連製品市場での成長を目指す。AI技術の進展が新たなビジネスチャンスを生み出している。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UZ2NoMm9hOVJYcmdvRTN2SkJHTUFrbkFaT2poTncwZFZHclVxdUY2NlFnb0syY015MlVtWUljUy1kcFlPRkZaMg?oc=5",
+      "source": "Google: 生成AI"
+    }
+  ]
+}
