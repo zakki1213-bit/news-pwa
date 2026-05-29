@@ -1,6 +1,12 @@
 {
   "editions": [
     {
+      "type": "morning",
+      "date": "2026-05-30",
+      "generatedAt": "2026-05-30T06:28:48.374+09:00",
+      "file": "2026-05-30-morning.json"
+    },
+    {
       "type": "evening",
       "date": "2026-05-29",
       "generatedAt": "2026-05-29T19:59:38.248+09:00",
