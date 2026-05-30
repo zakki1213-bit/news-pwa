@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-05-30",
+  "generatedAt": "2026-05-30T18:33:07.406+09:00",
+  "lead": "2026年5月30日、各分野で注目すべきニュースが飛び込んできた。AI技術の進化は留まるところを知らず、ビジネスや教育現場への浸透が進む一方、高校野球では北北海道勢同士の熱戦が繰り広げられている。また、教育現場における部活動の移動手段に関する問題や、税務に関する注意喚起など、社会生活に直結する話題も報じられた。本紙ではこれらのニュースを多角的に取り上げ、読者の皆様にお届けする。",
+  "topStory": {
+    "title": "高校野球、北北海道勢同士の決勝へ 旭川志峯とクラークが激突",
+    "body": "第71回春季北海道高校野球大会は29日、準決勝が行われ、旭川志峯が逆転勝ちで、クラーク国際も勝利し、決勝進出を決めた。決勝は北北海道勢同士の対戦となり、ともに初優勝を目指す。決勝は30日に行われる。\n\n旭川志峯は、初回に先制を許したが、4回に同点に追いつき、7回に勝ち越し点を奪った。投打がかみ合い、見事な逆転勝利を収めた。エースの田中投手は、9回を3安打1失点に抑える好投を見せた。\n\n一方のクラーク国際は、打線が爆発し、大量得点で勝利した。特に4番の佐藤選手は、2本のホームランを放つ活躍を見せた。エースの佐々木投手も、164球を投げ抜き、チームの勝利に貢献した。\n\n北北海道勢同士の決勝は、57年ぶりとなる。両校の健闘を称え、熱戦が期待される。決勝の模様は、全国に配信される予定だ。",
+    "topicId": "hokkaido",
+    "topicName": "北海道ローカル",
+    "color": "#dc2626",
+    "references": [
+      {
+        "title": "【高校野球】旭川志峯が初の決勝進出 ともに初優勝目指すクラークとの決勝は５７年ぶりの北北海道勢対決 - au Webポータル",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FQmVDMnpCczQwTVQ2ei1pU2V0WFRtbTA1b2VZbmhqWU5YMXZzYjl1MERScVlPRjd1VWp3R0pNRTc4QjJlS3BMS0FJdmdzenpvMEs1X3dUVnJ4blBDTC1HRTFfOThYdXFKU09temhkR0xNRzk5di1iTDJ2cEdzUQ?oc=5",
+        "source": "Google: 北海道 高校",
+        "topicId": "hokkaido"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "部活動移動でレンタカー使用、北海道の76校が規定違反",
+      "body": "北海道内の高校76校で、部活動の遠征などの移動手段として、本来認められていないレンタカーが使用されていたことが、朝日新聞の調査で明らかになった。学校が把握していながら黙認していたケースや、保護者が費用を負担していたケースなどが含まれる。\n\n調査によると、レンタカーの使用は、公共交通機関の便が悪い地域や、土日祝日などの利用が難しい場合に多く見られた。学校側は、生徒の安全確保や活動の継続のためにやむを得ない措置だったと説明しているが、規定違反であることは認識していたという。\n\n文部科学省は、部活動の適正な運営のため、ガイドラインを策定しており、移動手段についても明確な規定を設けている。今回の調査結果を受け、北海道教育委員会は、全道的な実態把握を進め、再発防止策を検討する方針だ。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "部活動の移動 認められていない「レンタカー使用」は76校 北海道 - 朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCd0ROVFY3eDVPUUpnaWd3VEVaNW5FSGNETGtVNXU1OVE2X0tkSE81aDV2WS1sMUkyYlVxUzVDa2s2NWJ0aExNYi1CN01mTEVrcjBxV3QxNENOZGVFQnRld0NlUTM?oc=5",
+          "source": "Google: 高校教育",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "AIモデル「ミュトス」、利用企業が「ゲームチェンジ起こす能力」と評価",
+      "body": "NHKニュースによると、AIモデル「ミュトス」が、利用企業から高い評価を得ている。ある企業は、ミュトスが「ゲームチェンジを起こす能力を持っている」とコメントしており、その革新性に期待を寄せている。\n\nミュトスは、特定の分野に特化したAIモデルとみられ、その高度な分析能力や生成能力が、ビジネスシーンでの活用を促進していると考えられる。具体的な活用事例については、さらなる情報が待たれる。\n\nAI技術の進化は目覚ましく、様々な分野での応用が期待されている。ミュトスのような特化型AIの登場は、今後の産業構造に大きな影響を与える可能性を秘めている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "AIモデル ミュトス 利用企業 “ゲームチェンジ起こす能力” - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE91a3lUY3B2R0VpY2ZuZTZuUGh5N19zWjNBUmZJb1NQaHJ5SDctbHVtMnFSVHZhbGJpX2tOU2UtZ0g2R2VuSWw3Nlk0M3M1bndKa1VybUFncVVqdkRsZjBz?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "生成AI利用増、半数以上が「なくなったら困る」と回答",
+      "body": "innovaTopiaの調査によると、ChatGPTやGeminiといった生成AIの利用が拡大しており、利用者の59.2%が「なくなったら困る」と回答した。これは、生成AIが日常生活や仕事において、不可欠なツールとなりつつあることを示唆している。\n\n同調査では、生成AIの利用目的として、情報収集、文章作成、アイデア出しなどが挙げられた。一方で、生成AIへの依存が進み、自ら調べる検索行動が減少する傾向も指摘されている。\n\n生成AIの普及は、私たちの情報収集や創造活動の方法を大きく変えつつある。その利便性を享受しつつも、依存による弊害や、情報の正確性など、新たな課題への対応が求められている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "ChatGPT・Gemini利用増、「なくなったら困る」59.2%｜生成AI依存と検索離れの実態 - innovaTopia",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91VngyN2xiMFM5alExUW5Bc3lJZ2ZvT01rdjBiZmszajU0N3pBQmVFWEdOenc0RmRpM2pzckJXTDJwZmdubHpxVDZ2NFhCVXFiei1N?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "JR赤字8区間の行方、上下分離で黒字化目指す近江鉄道に注目",
+      "body": "北海道内のJR赤字8区間の存廃問題が膠着する中、上下分離方式で経営を立て直した近江鉄道（滋賀県）の事例が注目されている。同社は、線路などのインフラを保有・管理する「上下分離」方式を導入し、鉄道事業の黒字化を達成した。\n\n近江鉄道は、2003年に上下分離方式を導入。線路などのインフラを滋賀県と沿線自治体が設立した第三セクター「近江鉄道」が保有し、鉄道事業は近江鉄道が運営する形をとった。これにより、鉄道事業者は設備投資の負担が軽減され、経営の効率化が進んだ。\n\n北海道でも、同様の上下分離方式の導入が議論されているが、自治体との協議は難航している。近江鉄道の成功事例は、北海道における鉄道網維持に向けた一つのモデルケースとなる可能性がある。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "自治体との協議は“膠着” ＪＲ赤字８区間の行方 上下分離で黒字化「近江鉄道」から探る 北海道 - 日テレNEWS NNN",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1dUxkczhDdDNwX3p2U08xRzVZS29MeW5SeE1BeVpjcnRBaG1JakY1RW4tWlg4ZC1xVVZPWndBNDZucFZxSkRKaHRIcGdEOVNEaFVlVHlBV0FaczFsbTdfeVdWc29xSWlXR1h3LUMtYlBpc0JnaTVGOTVQckIxVEE?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "住民票移して節税は危険、相続税で痛い目見るリスク",
+      "body": "税務署は住民票の移動による節税行為を注視している。特に相続税対策として住民票を移した場合、税務署に実態がないと判断されれば、追徴課税のリスクがある。安易な節税策は、かえって大きな負担を招く可能性があるため注意が必要だ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1uU1FLdnBrNmRmeHJBU3kzU3NxcXhsM2ZyWS1femdGREx3QWpUZWF6VnNWeTYtRGwzbklWTElfWlRYM0hVX21SUzVkVkzSAU9BVV95cUxOeXpXTUtla1hjT1FhWi1zcGc5V3l5b29Gc0NFVnJfN0g2RmI1WkFqUVR4ZUFmOVBLYUlCdFh5WmdvMUkyUEhPQm02XzhCWXh3?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "株主総会資料の電子提供措置事項、日経が掲載",
+      "body": "日本経済新聞は、第92期定時株主総会における電子提供措置事項に関する資料を掲載した。これは、株主総会資料の電子提供に関する企業の取り組みを示すもので、今後の株主総会のあり方を示唆している。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQekRWTUVYU01Ea2dXdjBaaVEzQUpjZDA5R0RiTjVzVEIxTmg2aDV5OVZqVzRYS0VkejJJZ1puWk9adFU0anVlN1VkUzdMSHFSOUwxSUpLQlBicER2bnRWdzBfWmhaWm9NUFk4Q1pNREVFWENDVnJDQkh0eHNwM1M5TDR5NDhUN0RoQzQ0Z2NMa1hYcnBhU3lEN29kWGVsdG12OXQ4U3JmQ1lLeF9DMFF3N3NUTXR0V2VSOVpDYXkyMndfNHJKZFBNWTZqcWI?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "EA最高会計責任者、約60万ドル相当の株式を売却",
+      "body": "エレクトロニック・アーツ（EA）の最高会計責任者（CFO）が、約60万ドル相当の同社株式を売却したことが明らかになった。個人の資産運用の一環とみられるが、今後の同社株価への影響が注目される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qZGpiQkREZzhFOFNzLVRCSUEyY0lrQWNBRENmdjBFUU9KdFU5Q04xamxIeWItYlk4RktOemE4cGtKb0JkUk93b0tDREd2UHBuQTJIaHJsSGlqTVA4dkRIdnl0cGl0MkNCeEhkSVdndzh1RzN0ak01Vmp5SQ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "テンセントAIモデル、利用量ランキングで首位維持",
+      "body": "テンセントが開発した高性能推論モデル「Hy3 preview」が、OpenRouterの利用量ランキングで3週連続1位を記録した。無料期間終了後も2位を維持しており、その高い性能と人気がうかがえる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZdVB6eXQtYzl5Vy1tQWlKMGFTVFVMTjVqNHRPN1Q4NXZoUU5zeUNHeDFSOF9zamxxNGlmelJUMTVNOEZTa05UYk1NUUFJUVE5SEFqdmlaVi1JekRZRUJ1OUM4T0loOUZDdV9GTXd4bDhYdV9TaXVET09uLUVYdw?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "OpenAI、コーディング分野で出遅れか",
+      "body": "産経ニュースによると、OpenAIはコーディング分野において、Claude Codeに追随する形となっている。AI開発競争が激化する中、OpenAIの今後の戦略が注目される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lbU1KV0ZPQTNPaHNRSml4U05kdFdweGthV3F0TVMwSjZwQUI0OWpXb1VGTmdrRlRFOGt5M0pUeGY5UEFKQjc2MktfamR6OTlpalZHa28tNEhxVDFNN3JfazlyVjBpSlhJcG5tOUt4WnRFVERDN1E?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "定山渓温泉と北見ハッカがコラボ、限定イベント開催",
+      "body": "北海道の定山渓温泉「鹿の湯」が、北見ハッカ通商とコラボした限定イベントを6月6日から1ヶ月間開催する。サウナやラウンジでハッカを楽しめる爽快な体験が提供される予定だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxQcTdOWjlEcHhQM0NDaTQ0RktsbmxoY25DSWZTV1RhWlNhRzhvQTBmRjVnX21kTWEzQmFxSGdyTzQ1LS1BRF9CYVAxcENadmJ6YUN5RWdiNC0wZ3ExSzBGWElOR0VNTGZQdWo5VnJLcVNFVFgtUDluY2VEV3VkYVMxZFBhMzRIWmhYSUFQWDh6ak5zRFJLdWdTRVRhSS11bWstNURrTnppaWJqUGhzWHBmYXNvRGNxcWppVDE1SkhuT3NMbVUteHJkbGpDTEowWVFZaGtGdUl3ZFpBZXBNTmlXU0g2NGZJOTZHTTU0eUxOd3pfaDVqOVJSa2JucGoxQUZVd0FZUVZDRi1YaDRyU3ZYZ0NwVjg0M0FaNTlGSk1QTVg2WEhla2JIUk1BNU9zdkNfN3VrMlFPR2llSC1jTmthUzRPWVBRWHN3SmFXdg?oc=5",
+      "source": "Google: 北見市"
+    }
+  ]
+}
