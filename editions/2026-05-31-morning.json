@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-05-31",
+  "generatedAt": "2026-05-31T05:38:42.183+09:00",
+  "lead": "AI技術の進化が加速する中、その活用方法や倫理的な課題が注目されています。一方、企業の会計不正や税務問題、そして地域に根差した話題まで、多岐にわたるニュースをお届けします。",
+  "topStory": {
+    "title": "米CNN、生成AIのパープレキシティを提訴 記事・動画無断利用か",
+    "body": "米CNNが、生成AIサービス「パープレキシティ」を著作権侵害で提訴したことが明らかになった。パープレキシティが、CNNの記事や動画コンテンツを無断で学習データとして利用し、自社サービスで提供していると主張している。\n\nCNN側は、パープレキシティが提供するAIチャットボットが、CNNのコンテンツを基に生成された回答を表示していると指摘。著作権で保護されたコンテンツの無断利用は、著作権法に違反すると訴えている。\n\nこの訴訟は、生成AI業界全体に大きな影響を与える可能性がある。AI開発企業は、学習データとして利用するコンテンツの著作権処理について、より慎重な対応を迫られることになるだろう。今後の裁判の行方が注目される。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "米CNNが生成AIのパープレキシティを提訴 記事や動画を無断利用 - 産経ニュース",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9EZ0FuS2dOb0k5dnAzWGViclR3Z1dRd0lwS0FNNjFWNE5IdGUxRVlpSS1jLVRkMTVaOGU1cE1UY1BZanJVUU9GQmM4M2xUYS1zY0hLSzJSdUNOeWFLN1l2ZkpfMTV2SzRaelJQM1FrZ1hsSWs2VWc?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "富士通、全社員10万人にAI導入へ アンソロピックと提携",
+      "body": "富士通は30日、米AI企業アンソロピックと戦略提携を結び、グループ全社員約10万人に生成AIを導入すると発表した。これにより、業務効率の向上や新たな価値創造を目指す。\n\nアンソロピックが開発した大規模言語モデル「Claude」などを活用し、社内文書の作成支援や情報検索、データ分析などの業務でAIを活用する。社員へのAIリテラシー教育も強化し、安全かつ効果的なAI利用を推進する方針だ。\n\n今回の提携は、国内大企業における生成AIの本格導入の先駆けとなる事例として注目される。AI技術をいかにビジネスに統合していくかが、今後の企業の競争力を左右する鍵となるだろう。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "富士通がAnthropicと戦略提携、グループ社員10万人へのAI導入を決定 - finance.biggo.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UaEtrYklaR1hqWlNwN2t3dmNsRVBOZnYzTWh6Z1dDbk9YZnV6anhXbV9JNFJZZlU1MGM2cFMxVXBhdmFiN3BRY19IVWdzbmhueENjQ05IZWNKb3ZwX1NR?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "ニデック、不適切会計で上場廃止リスク 特別注意銘柄に",
+      "body": "電子部品大手ニデックは、過去の決算で不適切な会計処理があったとして、東京証券取引所から特別注意銘柄に指定された。これにより、上場廃止のリスクが高まっている。\n\n同社は、第三者委員会による調査結果を受け、過去数年分の財務諸表を訂正する方針。具体的な訂正内容は今後公表される見込みだが、業績への影響は避けられないとみられる。\n\n投資家への説明責任が問われる中、ニデックは信頼回復に向けた具体的な再発防止策を速やかに示す必要がある。市場からの厳しい視線にさらされることになるだろう。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "ニデックに上場廃止リスク！？不適切会計で特別注意銘柄に指定 日経平均からも除外へ Baton Rouge (2hl39vi8km) - Mshale",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUU284ckQ0WkxDV2xHQTNYaHpYUS1sOWo0bWJ0VzB0VXU1NlFRdHdWWEFVcFgwR2l2bXplNGVMUk5oSmxWaDVlVVVWSWNHQm5BV251UWJVU1hkeG8?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "北見市常呂町で再びクマ目撃 情報相次ぐ",
+      "body": "北海道北見市常呂町豊川地区で29日、クマの目撃情報が相次いだ。住民から「クマのような動物を見た」との通報が複数寄せられたという。\n\n市は、現場周辺に注意喚起の看板を設置し、パトロールを強化している。これまでに人身被害などは確認されていないが、市民に対し、山菜採りやハイキングなどで山に入る際は十分注意するよう呼びかけている。\n\n春から夏にかけてはクマの活動が活発になる時期であり、市は引き続き情報収集に努め、警戒を怠らない方針だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "北見市常呂町豊川でまたクマ目撃 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mcEdwR3NqcUtyZVN0N2pIUlhpRXFCNllJX1VNcm13S21YY0t0WGkzRGh3bUNWejBPdmk3RllGblNLSldmNE5SdDJCSWEwWDZjUEc3Y1FfWlJBdw?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "タンス預金発覚の引き金は？ 密告や口座監視に注意",
+      "body": "税理士の菅原氏によると、タンス預金が発覚するきっかけとして、密告や税務当局による口座監視が挙げられるという。特に、不審な資金移動や高額な現金取引は当局の目を引きやすい。\n\nまた、相続が発生した際には、故人の預貯金だけでなく、隠された現金も調査の対象となる。生前贈与や名義変更なども、税務調査の対象となりうるため注意が必要だ。\n\n菅原氏は、税務に関する不明点は専門家に相談することを推奨している。適切な申告と納税が、将来的なトラブルを避けるための最善策であると強調した。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "脱・税理士の菅原氏が見抜く！密告・口座・目線…タンス預金発覚の引き金はどこにある - ライブドアニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RSGRBQWdlclh5OE1ESE5wQzdzMzlRek9BOVpwVkU1TDI3UkMyTlQtQUJ3VWtSVjZzbXJURzJVeTZJQ0NnQWxLLTNKR2lXbUpFbURQcnNEdGZNNUIzN2pZ?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "生成AIと協業で創造性実現 戸村氏講演タイトル冊子改訂",
+      "body": "戸村智憲氏が、生成AIとの協業による創造性の実現をテーマにした講演タイトル20選をまとめたイラスト冊子を改訂公開した。AIとの連携で新たなアイデアを生み出すヒントを提供する。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9uTk9HaDhna09iNG0tRkpMUFZWQWJGMW5ydGNoNGFDeUQ1Q3ExVDJkVUtrUFo3X2ktd2Vnd0U0TDYtYVVE?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "米Amazon MGM、生成AIで映像制作本格参入",
+      "body": "米Amazon傘下のMGMが、生成AIを活用した映像制作に本格参入する。脚本作成支援や映像編集など、AI技術を駆使して制作プロセスを効率化し、新たな表現を目指す。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSi12QTQ1VWt3T2xaWjZiYlVHRVh5MGVEZTBmcDZzbS1oY2kxTXgxNU03MjlVQ2xOTlVNMWhqN1dXa19YcENpU0djazdTWlVaTmVNRk1nMXpNN1Faamo4Tmpva2wxMk8wdjRRbFFqN2UyWXZuS0gtLWJvcXZsWVdfdVR4b3g4ejVSLVZ0alp3?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "Anthropic、企業価値153兆円超で世界最大AIスタートアップに",
+      "body": "AI開発企業Anthropicが、約153.2兆円の企業価値で、OpenAIを抜き世界最大のAIスタートアップとなった。同社は、安全で倫理的なAI開発を重視している。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUZFZQbmM2Mmo3X1pxWTdnbjRtaDhOOWUzY0ctendITTFYal9VRGpMN0dYNFA3NThUWlBZVjRIVVR6RWNUZVdMZXJkVmtTY0MxTGdOcHhrbzFhQTFxdUtF?oc=5",
+      "source": "Google: Anthropic"
+    },
+    {
+      "title": "「Heritage GOLD」の税務活用法 Q&Aで解説",
+      "body": "「Heritage GOLD」の4年償却、相続評価、福利厚生への活用法について、税理士がQ&A形式で解説。専門家が具体的な税務上のメリット・デメリットを分かりやすく説明する。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EZHVBRXNXWlBYSU9DY3BRTUx0MXFVRFZiM0NfZU5ZU043OUFHR3UwM3FTMWNKTnpaSjN5ZDF4WkQ5WTlBWEJCVFNGbFhiMEpURVE?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "留辺蘂にデコトラ13台集結 北見の夜彩る",
+      "body": "北見市留辺蘂町に13台のデコレーション・トラックが集結し、きらびやかな電飾で夜道を彩った。地域のイベントとして多くの市民が訪れ、賑わいを見せた。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00NHJlOHl4VjNzaDB4dzJTaHpqM2N0R3cydmRKODJJRnllR1M0WGhDa2JtQXAtaGlyWG9qaE5VZks0N3B4OEVOaTNyZ2xQSFNfS3AzcFYybmlRUQ?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "改悪時代のクレカ使い分け術 16枚持ちのリアル",
+      "body": "ポイント還元率の改悪が相次ぐ中、16枚のクレジットカードを使い分ける実践的な方法を紹介。各カードの特典を最大限に活かすための具体的な戦略を解説する。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE05VjFJY2xLek9VOUJJQW9fSXNodW51X2F1MzlKWDdmRkswaDNzSHNmV2tpVjRtLVNnRXlzekZ6N3NWOHdHZkNoOXdidTZDd29ld2tzV0ZMNkU2SjQwczBn?oc=5",
+      "source": "Google: 会計"
+    }
+  ]
+}
