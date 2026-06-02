@@ -1,0 +1,142 @@
+{
+  "type": "evening",
+  "date": "2026-06-02",
+  "generatedAt": "2026-06-02T20:52:35.675+09:00",
+  "lead": "2026年6月2日、夕刊紙面をお届けします。AI技術の進化、教育現場の動向、商業界の新たな動き、そして北海道の地域ニュースまで、多岐にわたる情報をお伝えします。特に、生成AIの活用がビジネスや日常生活に与える影響、教育現場における受験戦略や夏休みの学びに関する話題に注目です。",
+  "topStory": {
+    "title": "生成AIの「甘い誘惑」に潜むリスク 専門家が語る正しい付き合い方",
+    "body": "話題の生成AIが、思わぬリスクをはらんでいることが専門家の指摘で明らかになった。阿部慎之助氏の事例で知られるように、生成AIは「甘い相談相手」となり得る一方で、その回答の信頼性や倫理的な問題が浮上している。\n\n専門家は、生成AIの回答を鵜呑みにすることなく、批判的な視点を持つことの重要性を強調する。特に、生成AIが生成する情報には、誤りや偏見が含まれる可能性があるため、利用者は常に情報の真偽を確認する必要がある。また、個人情報や機密情報の入力には細心の注意を払い、プライバシー保護に努めるべきだ。\n\n生成AIの利用が拡大する中、そのリスクを理解し、適切に付き合うためのリテラシー教育が急務となっている。教育現場や企業研修などを通じて、生成AIの特性や注意点を広く周知し、安全かつ効果的な活用を推進していくことが求められる。専門家は、生成AIを「便利な道具」として捉え、その能力を最大限に引き出しつつ、潜在的なリスクを回避するための具体的なガイドライン策定も必要だと提言している。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "“チャッピー”は「甘い相談相手」？？ 阿部慎之助氏の事例から話題となった生成AIに潜む『リスク』 専門家が語る“生成AIとの正しい付き合い方”とは【きょうの深掘り】 - Yahoo!ニュース",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNaGh3VHpYaW1XaFo3NHdXckpDbXNWcDFkS0VTeE8yRHFJWFR2ZnZETDZnQTlWV2NPc0FRTWZIS1BkVjhYaEZqYmFVSHZsWGtHTEpaTVFiQkY1b1J3MXpIUFBUMDlrV3BaNGZHSmFkeU1KOW5Uc2o5bS1nOGVfTXM?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "NTTデータ、生成AIで業務データ分析を容易に",
+      "body": "NTTデータは、生成AIを活用した新たな業務データ分析ソリューションを発表した。このシステムにより、専門的な知識を持たない社員でも、直感的な操作で複雑な業務データの分析が可能になるという。\n\n従来、データ分析には専門的なスキルやツールが必要とされ、一部の担当者に業務が集中する傾向があった。しかし、生成AIの導入により、自然言語での指示に基づいてAIが自動でデータを抽出し、分析結果を分かりやすく可視化してくれるため、各部門の担当者が自らデータを分析し、業務改善に役立てることが期待される。\n\nこれにより、企業全体のデータ活用能力が向上し、迅速な意思決定や新たなビジネスチャンスの創出につながる可能性がある。NTTデータは、今後も生成AI技術を活用し、企業のデジタルトランスフォーメーションを支援していく方針だ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "NTTデータ、生成AIで業務データ分析 専門知識が不要に - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NZ1hRSy1TRG9Ydm9hQTRLS1AxV0c2ckpVNDVSeU1BZGJZbHBHakNBNnVDNHZYR3ppaXNlUzJhNzdNcFJNX3pmcHJpMVFHbkNNQ2RmUkRWM3J6RWNwSlBlM3hlUzZwWlp5RjVrNQ?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "SUBARU、新リース会計基準対応にプロシップ「ProPlus＋」採用",
+      "body": "SUBARUは、国際的な会計基準である新リース会計基準への対応を進めるため、プロシップ社のクラウド型会計システム「ProPlus＋」を導入したことを発表した。このシステムは、グループ全体約30社にわたるリース資産管理を一元化し、会計基準変更に伴う複雑な業務を効率化する。\n\n新リース会計基準では、従来オフバランスとされていたリース取引も原則として負債計上する必要があり、企業にとって対応が急務となっている。プロシップ社の「ProPlus＋」は、こうした基準変更に対応するための機能が充実しており、SUBARUのグローバルな事業展開においても、スムーズな導入と運用が可能と判断された。\n\n今回の導入により、SUBARUは会計処理の正確性を高めるとともに、グループ全体の財務報告の透明性を向上させることを目指す。今後も、会計基準の変更や国際化に対応したシステム活用を進めていく考えだ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "SUBARU、新リース会計基準対応にプロシップ「ProPlus＋」採用…グループ30社を一元管理 - レスポンス（Response.jp）",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VLUtuWDMwWWE3VjBSd3NMMFlpbUpBT2VUWU96MW42R0RiZ2pEcFpSRV9KeFNGYTBOVnE2YjFFTDBUUmdieXN3WXE2aDZHaW5aYjNmR3d1Zlg5dUp6Mldv?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ],
+      "ogImage": "https://response.jp/imgs/ogp_f/2215626.jpg"
+    },
+    {
+      "title": "時速500kmリニア体験乗車、7月山梨で実施",
+      "body": "JR東海は、リニア中央新幹線の試験車両を用いた体験乗車会を、7月に山梨県立リニア見学センターで実施すると発表した。参加者は、最高時速500kmの世界を体験できる。\n\n今回の体験乗車は、一般からの応募により抽選で選ばれた参加者が対象となる。リニアモーターカーが走行する様子を間近で見学できるだけでなく、実際に車両に乗車し、その圧倒的なスピード感を体感できる貴重な機会となる。山梨実験線での走行試験は順調に進んでおり、今回のイベントを通じて、リニア中央新幹線への理解と関心を深めてもらうことを目的としている。\n\n応募期間や詳細については、後日JR東海のウェブサイトなどで発表される予定だ。多くの鉄道ファンや一般市民からの応募が予想される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "【夏休み2026】時速500kmの超電導リニア体験乗車、7月山梨",
+          "url": "https://resemom.jp/article/2026/06/02/86266.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/396624.jpg"
+    },
+    {
+      "title": "静内農業高校に新厩舎建設へ 北海道彌生HDが寄付",
+      "body": "北海道靜内農業高校（新ひだか町）に、新たな厩舎が建設されることが決まった。これは、同校に隣接する北海道彌生ホールディングスからの寄付によって実現するもので、同校の畜産科における教育環境の充実が期待される。\n\n現在使用されている厩舎は老朽化が進んでおり、生徒たちの実習における課題となっていた。寄付された資金は、最新の設備を備えた新しい厩舎の建設に充てられ、より実践的で質の高い畜産教育が可能となる。これにより、将来の農業分野を担う人材育成に貢献することが期待される。\n\n新厩舎の建設は2025年度中の完了を目指しており、生徒たちは最新の設備のもとで、家畜の飼育や管理に関する専門知識・技術を習得していくことになる。地域社会との連携も深めながら、持続可能な農業の発展に貢献できる人材育成を目指す。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "静内農業高校で新たな厩舎建設へ 北海道彌生ホールディングスが寄付 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kM2xtaXlkRElRRWtVS1BlQlJYbmluTGw1SGlidmVSUXF4OWp6WHE5d3VDeUhzbjBHNWFsZ0Z0WTJucDI4eHVWa2hDT3Y5Z0pLbWxNVk5jN2xtQQ?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ],
+      "ogImage": "https://static.hokkaido-np.co.jp/image/article/size1/1/f/1/f/1f1fd01913e2ccfcfc5be57150def9b8_1.webp?20260602205247"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "茨城県立高、5教科平均262.4点 数学は「空間図形」が課題",
+      "body": "茨城県教育委員会が発表した2026年度の県立高校入学者選抜学力検査の結果によると、5教科の平均点は262.4点だった。特に数学では、「空間図形」に関する問題の正答率が低く、課題として挙げられた。県教委は、今後の指導改善に役立てる方針だ。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/02/86267.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "LINEヤフー、AIエージェント新ブランド発表 1億人超のユーザー基盤が強み",
+      "body": "LINEヤフーは、新たなAIエージェントの新ブランドを発表した。同社が持つ1億人を超えるユーザー基盤を活かし、パーソナライズされた情報提供やサービス連携を目指す。AI技術とプラットフォームの融合により、新たなユーザー体験の創出が期待される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1SVkZrRmhJNjRGX2VfVkJMTWsxNTlxRGhwNWhwajRDTjhkenktcjQ4UnpnTjczeGk4cExtSlNzZ2dnUENwaVQwMlItQXh5a2huU2loMFhMWmVVWkZObnFEN3N6UWhtLWM?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "税理士特化AI「ZeiPilot」、助成金申請支援機能を追加",
+      "body": "税理士業務支援AI「ZeiPilot」に、助成金申請支援に特化したAIエージェントチームが追加された。複雑化する助成金制度の調査や要件確認をAIが支援し、税理士の業務負担軽減と申請成功率の向上を目指す。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8zTDlzd1dEY3FJNlZUb1VPZHg0SHUyZ1dzeXF3RENyOGZQaE5KdDgwRDV4d1dKOEFhdXlCNThvZ0FHWFNFZ3BFNXZqM3FRSzh6UG5KUTlINTRRM2RpMm9ucUxrT3daLTVlQ29r?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "旭川紋別道、6月8日から夜間通行止め 補修・点検のため",
+      "body": "北海道の高規格幹線道路「旭川紋別自動車道」の一部区間で、6月8日から夜間通行止めが実施される。これは、道路の補修および点検作業のためで、3期間に分けて実施される予定。通行止め期間中は迂回路の利用が必要となる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZQ05ubHpwa0h0cmtUaVF5ZU04MGZ0d0U3SnJPYjRHejdZZkUtNXZLMkNiYWVtZWRXLU5pSjEzLVVJQ2dVQXZfVUpLanE5a2MzRjRuVjlGZUZWdw?oc=5",
+      "source": "Google: 紋別"
+    },
+    {
+      "title": "生成AIの回答、口コミより信頼できる 博報堂調査",
+      "body": "博報堂が実施した調査によると、消費者の約半数が、買い物の情報源として生成AIの回答を口コミよりも信頼できると考えていることが明らかになった。生成AIが、新たな情報収集手段として定着しつつある現状を示唆している。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90ME54UTJEaVl2aHBsVHZnLXMwYm91Ym1LU0NjYkVDb0hYcHJSUWNlU0wwMUItaWpuNElEVDA4UTgtMU92MzFHSnRyYTBUQlFUMnJONnQzZno2NWNnc3lmRFpLQXVncWQ0WUhCWHFOOTdMaXBJdUpMelowekhIc3M?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "金融委、未指定会計士の分散採用に関する最終案示す",
+      "body": "金融審議会は、監査法人における未指定会計士の採用に関する最終案を公表した。専門性の高い会計士をより多くの監査案件に適切に配置し、監査品質の維持・向上を図ることを目的としている。今後、具体的な制度設計が進められる見込みだ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSG5qOVRnN0tyalA5M2ZaRGJQaTV5c1ZHYzhJSUM4a0JsRkNfVUl3TDRqOEtXSS0xVnMwWGZyYXNIMTJxWTgtMmdDN2s5QlhXa0hja1RDOElVNWQtb1c4SlpJS2FmRGNMVGM5alA5aEUtZnJFNVZybHVqU3pMNG1fM9IBlAFBVV95cUxNekU5M3QzcU1nS0tiZG8wUTdOVjZvMmcwNGFSM0FFTXpxTEFoaF9wVFc1M3FvNHZPdm92cUIzQnJGQmtVa2pOOElPanh6dHYzcUlDY0JvVHBraFViUU1NWkM3Y0cxM0dlWmpBMmxta1VORlhEUHluRmFKTTMwWF95ZGpsNWVLalVxTjJlTUE4QVB5b3dt?oc=5",
+      "source": "Google: 会計"
+    }
+  ]
+}
