@@ -1,0 +1,142 @@
+{
+  "type": "morning",
+  "date": "2026-06-03",
+  "generatedAt": "2026-06-03T07:12:10.964+09:00",
+  "lead": "本日は2026年6月3日、朝刊の紙面をお届けします。AI技術の進化は止まるところを知らず、ビジネスの現場から生活のインフラまで、その影響は広がり続けています。マイクロソフトの最新AIモデル発表は、今後の技術開発の方向性を示すものとなるでしょう。一方で、AIの活用は教育分野にも及び、学習方法の変革が期待されます。北海道からは、地域に根差した話題をお届けします。",
+  "topStory": {
+    "title": "マイクロソフト、自社開発AIモデル7種を発表",
+    "body": "マイクロソフトは、日本時間6月3日未明に開幕した年次イベント「Microsoft Build 2026」で、自社開発した7つのAIモデル群「Microsoft AI Models」を発表しました。この発表は、AI分野における同社の継続的な投資と開発力を示すものです。\n\n発表されたモデル群には、推論モデルにおけるフラッグシップとなる中規模モデル「MAI-Thinking-1」が含まれており、多様なAIアプリケーションへの応用が期待されます。これらのモデルは、ビジネスプロセスの効率化や新たなサービスの創出に貢献するものと見られています。\n\n同社は、AI技術の進化を加速させるため、開発者コミュニティとの連携を強化する方針も示しました。今回の発表を通じて、マイクロソフトはAI市場におけるリーダーシップをさらに確固たるものにしようとしています。\n\n今後、これらのAIモデルがどのように活用され、社会にどのような影響を与えるのか、注目が集まります。技術革新の波は、ビジネスだけでなく、私たちの生活様式をも変えていく可能性を秘めています。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "［速報］マイクロソフト、自社開発した7つのAIモデル「Microsoft AI Models」を発表",
+        "url": "https://www.publickey1.jp/blog/26/7aimicrosoft_ai_models.html",
+        "source": "Publickey",
+        "topicId": "ai_tech"
+      }
+    ],
+    "ogImage": "https://www.publickey1.jp/2026/7mai-models-build2026.png"
+  },
+  "midStories": [
+    {
+      "title": "マイクロソフト、AI特化PC「Surface RTX Spark」披露",
+      "body": "マイクロソフトは「Build 2026」において、AIに特化したデスクトップPC「Surface RTX Spark Dev Box」を発表しました。この新型PCは、NVIDIAの「RTX Spark」を搭載し、最大1ペタフロップスの演算性能と128GBのメモリを備えています。\n\nこれにより、1200億パラメータを超える大規模なAIモデルのローカル推論や学習が可能となり、開発者はより迅速かつ効率的にAIアプリケーションを開発できるようになります。AI開発の現場における計算リソースの制約を緩和し、イノベーションを加速させることを目指しています。\n\n「Surface RTX Spark Dev Box」は、AI研究者や開発者にとって強力なツールとなることが期待されており、今後のAI技術の発展に大きく寄与するでしょう。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "Microsoft、NVIDIAのSoC搭載でAI特化のミニPC「Surface RTX Spark Dev Box」披露",
+          "url": "https://www.itmedia.co.jp/news/articles/2606/03/news063.html",
+          "source": "ITmedia AI+",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://image.itmedia.co.jp/news/articles/2606/03/cover_news063.jpg"
+    },
+    {
+      "title": "シスプラ、AI搭載会計ソフトで入力ゼロ目指す新機能",
+      "body": "シスプラは、AI「Gemini」を搭載したクラウド会計ソフト「KiCHO」の新機能を提供開始しました。この新機能は、会計ソフトにおける入力作業をゼロにすることを目指しています。\n\nAIを活用することで、請求書や領収書などの書類を自動で読み取り、仕訳までを自動で行うことが可能になります。これにより、経理担当者の負担が大幅に軽減され、より戦略的な業務に時間を割くことができるようになります。\n\n会計業界におけるデジタルトランスフォーメーションを推進するシスプラの取り組みは、多くの企業にとって注目すべき動きと言えるでしょう。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "シスプラ、AI「Gemini」搭載のクラウド会計「KiCHO」で入力作業ゼロを目指す新機能を提供開始 | チバテレ＋プラス - 千葉テレビ放送",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA4blVSZ2Rob3dGeW1mZTZwLTVKMXhCN3lCY3RwMGUyd3J3ZXREUEVPbWcyd2c3YjRnRXR5bEJkSWhZY1gzWkh3ZGlHeGV1TDFRTy1UM3dqbGZpbXlPNG5R0gFkQVVfeXFMT1Jrb2o4VVJBTEpaUXlRSERyRlFaaS1uTWloWktCdkVaOGgzSGFVVDlsNlo3dkVMQzZNVHNYQ1Y3ZXozVGU1LXZOcG94SUZ0R3N2TEV1MzlqOFhSOWhDeWk2QTNyVA?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "大学卒業までの費用と奨学金の基礎知識",
+      "body": "大学卒業までにかかる費用は、私立大学か国公立大学か、また通学方法などによって大きく異なりますが、一般的に30万円を超えるケースが多く見られます。保護者にとっては、学費だけでなく、教材費、生活費なども含めた総額を把握しておくことが重要です。\n\n奨学金制度は、経済的な負担を軽減するための有効な手段です。日本学生支援機構（JASSO）をはじめ、多くの団体が奨学金を提供しています。給付型奨学金と貸与型奨学金があり、それぞれに申請条件や返済方法が異なります。\n\n進学を控えた学生やその保護者は、早い段階から情報収集を行い、自身の状況に合った奨学金制度を理解し、計画的に準備を進めることが推奨されます。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "大学受験に30万円超…卒業までの費用や奨学金の基礎知識",
+          "url": "https://resemom.jp/article/2026/06/02/86272.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/396647.jpg"
+    },
+    {
+      "title": "北海道北見市の河川敷に砲弾らしき物体、一時避難",
+      "body": "北海道北見市の河川敷で、砲弾のようなものが発見され、一時、近くの牧場従業員が避難しました。発見されたのは、川岸に埋もれた状態の物体で、不発弾の可能性も指摘されています。\n\n通報を受けた警察は、現場周辺の安全を確保し、自衛隊に回収を要請しました。自衛隊が駆けつけ、回収作業を進めています。現時点では、照明弾である可能性が高いとされていますが、詳細な調査が行われています。\n\n地域住民の安全確保が最優先されており、警察と自衛隊が連携して対応にあたっています。このような事案は、過去にも北海道内で発生しており、注意が必要です。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "「川で不発弾のようなもの」北海道北見市の河川敷に砲弾のようなもの 一時近くの牧場従業員が避難 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdG9xNUNVVzVfWmtjaWVIcW9FN0FEamw0eENJYzhDNkszM2U4LXRhd2RVS1U5di1SY19lNl9ONEJCVURwcHNBVVhUaXEyN2hrZW54WER0dUMtc3dGM1FzbWp1THBLcEhtRWpCejhHR245aV80dHpwZWFnQ2tfQkRYc1hQcWxJZXhITVVNS1B3?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "京都府京田辺市、AI活用オンデマンド交通の実証運行へ",
+      "body": "京都府京田辺市は、AIを活用したオンデマンド型交通システム「たなモビ」の実証運行を開始します。市民の移動手段の確保と地域活性化を目指し、一般会計補正予算案として計上されました。AIが効率的な運行ルートを算出し、利用者のニーズに応えます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9XYzFQbjliTzNoM0dmUGM0dEdHcDRkVTNMSmpMVTAzQTBOMjFETVhwZEtQOEdGR1VoOG02NXJXY0tjSWlwWlZ1Um0zRm91OG9zREQtUlcxcU8?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "税理士向け業務支援アプリがリリース",
+      "body": "会計業界向けに、税理士業務を支援する新しいアプリがリリースされました。このアプリは、煩雑な業務の効率化を図り、税理士がより専門的な業務に集中できる環境を提供することを目指しています。業務の生産性向上に貢献することが期待されます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1tN2pRY1VINHFxZE9qVWRwQWhnYUpENEhZSzRZUllXY3BEVnZBUnhGS21jLTN2MkoxdF9NU1gzVWFENmN2U1NOT3FBeG1BdjlNbmpFMXFEU24yV0l6WVR2bWk0RVFNV1F3X0RGRFpIaGxIRENZbjlqUmZxZw?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "Pythonで学ぶベイズ統計入門",
+      "body": "Pythonを用いたデータ分析入門シリーズとして、ベイズ統計の考え方を解説する講座が開催されます。初学者にも分かりやすく、二項分布の確率推定や検定をベイズ的な手法で行う方法を学びます。データ分析スキルの向上に役立つ内容です。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/03/news002.html",
+      "source": "ITmedia AI+"
+    },
+    {
+      "title": "AIによるレガシーシステム刷新の動き",
+      "body": "AIを活用して、COBOLやJavaなどの古いレガシーシステムを刷新する動きが加速しています。AIがシステム刷新にかかる時間を「数年を数日まで」短縮できる可能性があり、企業のDX推進において重要な役割を果たすと期待されています。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ieXV3TUNxa25DLV9ra2tDdkVEcEdLaUI2RzdaQnliYTlhUkkwNzlVQlZaNWhsMjlCZnZQUGNJRV9DVkNfQ2pDd0xCLVpPM2ZzVlRfSkhIWWpEUy1ocDQ4V1BNemJpR1lWUGt4ZWJESFpQQQ?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "北海道網走駅前歓迎塔、老朽化で撤去へ",
+      "body": "北海道網走駅前の歓迎塔が、老朽化のため今月中に撤去されることになりました。長年、網走のシンボルとして親しまれてきた塔ですが、安全上の理由から撤去が決まりました。地域住民からは惜しむ声も上がっています。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLMDNaX1dNV2NvR0lONFBwa0JKZy1kOUtYNkZzcUhST3YtS3ljN1RZNGVWMTVWNVdZWU9sazFXNkVWT2tVVVVQc0NudVJFUV9mSUhsZkViMnFEd1VTYUwxVXVrTjB3OThwYkZJNmhyZ2xNRFRB?oc=5",
+      "source": "Google: 網走"
+    },
+    {
+      "title": "北海道北見市、盗撮示談金名目で恐喝か",
+      "body": "北海道北見市の24歳男が、盗撮の示談金名目で現金を脅し取った疑いで再逮捕されました。北海道警は、余罪についても捜査を進めています。示談金を装った悪質な手口に注意が必要です。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWUEwTHMzcldiaXFPSjRTZG91T01CUEFuR05xbzE0OUNZcGFWQkhvNzVSU0VaTFhJaDlQN2lWYWdHUHFQeVNhQ1F3cWtaUmVxdzFfYnh0akFnc1dkZ2sxV2RhSVpCSnpSeGhoVjVza09neS16SF9uU2hIaWhmT1diWG15ZjdJUnFv?oc=5",
+      "source": "Google: 北見市"
+    }
+  ]
+}
