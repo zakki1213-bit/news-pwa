@@ -1,0 +1,140 @@
+{
+  "type": "morning",
+  "date": "2026-06-04",
+  "generatedAt": "2026-06-04T07:16:45.878+09:00",
+  "lead": "本日の朝刊では、教育現場における探究学習の成果や、AI技術の進化と社会への浸透、そして北海道の気候変動に関する最新情報をお届けします。AIはビジネスや開発の現場で活用が進み、教育分野でもその導入が模索されています。一方で、記録的な猛暑が続く北海道の現状は、気候変動への対策の重要性を改めて示唆しています。",
+  "topStory": {
+    "title": "英、生成AIへのニュース利用規制導入 世界初",
+    "body": "英国は、グーグルの生成AI検索サービスがニュース記事を無断で利用することを規制する方針を発表した。これは世界で初めての試みとなる。\n\nこの規制により、報道機関は自社のニュースコンテンツがAIによってどのように利用されるかを選択できるようになる。グーグルは、生成AIにニュース記事を学習させる際に、報道機関の同意を得る必要がある。同意しない場合、AI検索結果に自社記事が表示されなくなる可能性がある。\n\nこの動きは、AI技術の急速な発展に伴い、著作権やコンテンツ利用に関する懸念が高まる中で、重要な一歩となる。報道業界は、AIによる情報収集やコンテンツ生成が進む中で、自社の権利を守り、持続可能なビジネスモデルを維持するための新たな枠組みを求めていた。\n\n英国政府は、この規制を通じて、AI開発企業とコンテンツ制作者との間で、より公正な関係を築くことを目指している。今後、他の国々も同様の規制を導入する可能性があり、AIとメディアの関係に大きな影響を与えることが予想される。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "グーグルの生成ＡＩ検索に「自社のニュース利用を拒否できる」規制、英国が「世界初」の導入発表 - 読売新聞",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9nY3BMSV9nUFQtdDFVZzlHT1hYREl2S3VncGI0cjdwMXZXWUhNUGx5SUJYTTNrYTdUcmJERkRBZk1uRWNhNHdxWXFoNXNDSjNYTWR4T3RLVUhIaTRZSE1qaGZfWm0?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "渋谷区の探究学習、都立高推薦合格率が上昇",
+      "body": "東京都渋谷区が公立小中学校で推進してきた探究学習が、都立高校の推薦合格率の上昇につながっていることが明らかになった。\n\n探究学習は、生徒が自ら課題を設定し、調査・研究を進める学習活動だ。渋谷区では、この学習を通じて、生徒の主体性や問題解決能力の育成に力を入れてきた。その結果、都立高校の推薦入試において、探究学習で培われた能力が評価され、合格率の向上が見られるようになったという。\n\nこの取り組みは、従来の画一的な教育から、生徒一人ひとりの個性や能力を伸ばす教育への転換を示すものとして注目されている。今後、他の自治体や学校でも同様の教育手法が広がる可能性がある。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "公立小中で探究学習を進める渋谷区 都立高校の推薦合格率が年々上昇 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUmk3OFhscE5Ca2c1MTdJS3pjeThLdmN1emZ6TmhnbTlSb0JNY2wwSTZ0X1EydUNLRTAyTDYtUi12TjNmd3YzUW44NUJSVnQ2OXR6X0ExN0hQUnlFbG9qZTY2NDZTNkFySjFwQllCalhLLWREWFJtdVdGaEdCUUQ0aXdIM1FCVTEzakFreA?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "徳島県教委、学校現場で生成AI活用へ研修実施",
+      "body": "徳島県教育委員会は、学校現場での生成AI活用に向けた研修を実施すると発表した。指導主事などを対象に、AIの基本的な理解や教育現場での具体的な活用方法について学ぶ機会を提供する。\n\n生成AIは、文章作成や情報収集など、様々な分野での活用が期待されている。教育現場においても、教材作成の補助や生徒の学習支援など、その可能性は大きい。しかし、その一方で、情報の正確性や倫理的な問題など、慎重な検討も必要とされている。\n\n今回の研修は、教職員が生成AIを適切に理解し、教育活動に効果的に取り入れるための知識とスキルを習得することを目的としている。県教委は、AI技術の進展に対応し、より質の高い教育を提供していく考えだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "学校現場で生成AI活用へ、指導主事ら研修 徳島県教委 - 徳島新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40ZFZRZU02OV9SWGs2SUFBU2FjZmNHRXVnRXNtNFZOWFNtZ3M4X2ZyTWdfSzJRck94SS12VG1mU0tpeHpFLVltTFRiRDBzc0dTU0FLdEJ3?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "マイクロソフト、AIにWindowsアプリ開発知識を付与",
+      "body": "マイクロソフトは、AIエージェントにWindowsアプリ開発のライフサイクル全体に関する知識を与える「Windows Development Skills」の一般提供を開始した。これは、同社の年次イベント「Microsoft Build 2026」で発表された。\n\nこの新機能により、AIはWindowsアプリの開発プロセス全体を理解し、開発者を支援できるようになる。具体的には、設計からコーディング、テスト、デバッグ、展開に至るまで、開発の各段階でAIがサポートを提供する。\n\nこれにより、開発者はより効率的に、かつ高品質なWindowsアプリを開発することが可能になる。AIによる開発支援は、ソフトウェア開発の現場に大きな変革をもたらすことが期待されている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "マイクロソフト、AIエージェントにWindowsアプリ開発の知識を与える「Windows Development Skills」を一般提供開始",
+          "url": "https://www.publickey1.jp/blog/26/aiwindowswindows_development_skills.html",
+          "source": "Publickey",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://www.publickey1.jp/2026/windevskills-build2026.png"
+    },
+    {
+      "title": "北海道、真夏日続く 北見や札幌で記録的猛暑",
+      "body": "北海道では、北見市や札幌市を中心に真夏日が3日連続で観測されるなど、記録的な猛暑となっている。3日連続で真夏日となるのは異例の暑さだ。\n\n気象庁によると、これらの地域では最高気温が30度を超える日が続いている。週末にかけては一時的に平年以下の気温に戻る見込みだが、厳しい暑さが続くことが予想される。\n\nこの暑さにより、熱中症への厳重な警戒が呼びかけられている。屋外での活動は控える、こまめな水分補給を行うなど、対策が求められる。北海道の夏としては異例の暑さが、人々の生活に影響を与えている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "「つらいです、暑すぎて」北見や札幌で３日連続真夏日 週末にかけて平年以下の気温に 北海道 - 日テレNEWS NNN",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbEo4TkIyOThZelNMZFhYOUNrUVpvU3hNLVg3Z25GVlNOWlp1S2s5VXUtaTVFajdMRE5IRENTclZYNDlyeVc1Z1NHNWxjdC1XTmtzX2RYcGEyRDdTN3dTTlU5QjAyamRqRDdzWTJGVkxiU1lKcGVSNy1wR3NpQklCaElsU2M1b0k?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "日本の教育ICT企業代表、SEAMEO専門家プログラムに登録",
+      "body": "日本の教育ICT企業代表が、東南アジア教育大臣機構（SEAMEO）の専門家派遣プログラムに登録された。同プログラムは、東南アジア各国の教育分野におけるICT活用推進を目的としている。日本の先進的な技術とノウハウが、同地域での教育の質向上に貢献することが期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1lZGdqbXk1QkxPdlUtdzBOMl94Y0JlTVM2ckh5WmJnYzdlS2pyd0hWbjVQSFZSUG1xNldwZl96X1dtaDc5VGsxTG5RZndFaVhNWFNiZV8xSXE1aEFBTUJkWTZmQ19NSUhUU240?oc=5",
+      "source": "Google: ICT教育"
+    },
+    {
+      "title": "TKC全国会、AI活用基本方針を策定",
+      "body": "TKC全国会は、AI活用の基本方針を策定した。会計事務所におけるAIの導入と活用に関する具体的な対応策を示すもので、業務効率化やサービス向上を目指す。AI技術の進展に対応し、会員事務所の競争力強化を図る狙いがある。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5XdlN1MDZtQ180STZGWnMxRzRsemdZbUlzYjktX1ZvNTEwS2pYdlFUd2RmSktCUVk0ZGZ0RjJUWUltQWExcmozV2ZqUXZtTjdPYWZVbmF6Ty1Da1ZjMnBGdWl3MHNlOFFfTmJfMWVTSlFHYVhhS2w4S2RBOA?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "税理士法人、無申告の期限後申告2,300件超",
+      "body": "税理士法人センチュリーパートナーズは、数年分の申告をしていない法人・個人の期限後申告数が2,300件を突破したと発表した。税務署からの連絡を受けて申告するケースが多く、無申告状態が長期化している実態が浮き彫りになった。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hS25FNW5JWmJFeHYzV00wVFpXNlpvb3Y2VTJQamVmOFJ3cXpqTExEUUs4LTBBVlZuZW1VZ0ZpRmZNalh5RTlyNGdmdGxKUElXbzZpOXRQQVRoR3NuYnhpVDNmbGF4d0JTY0x3?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "Anthropic、企業向け販売体制を強化",
+      "body": "AI開発企業Anthropicは、「Claude Partner Network」を本格展開し、企業向け販売体制を強化する。これにより、より多くの企業が同社のAI技術を活用できるようになる。パートナー企業との連携を通じて、ビジネスソリューションの提供を拡大していく方針だ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMVR1Qm5oajF5em5zU3RQWWhFLVlRalFiSEhMUnlmYXlPTXFTMjRGNWQtU3M4amNCUHdvNUloNTBTWmJWVC1rcThhalRobGhDMWVMbW5jSFBKQlNEQ2ZUZVFwWVhRQmRRU2VjdjlfREN3eUR5cE11UGRxcHFTQ3V5WHBRU200T2VkZFpUOThMZndTYmVfQmxaWU9wTVhseXBTYkVCeHo1dlJMUlE?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "人事部門におけるAI活用の課題と可能性",
+      "body": "人事部門におけるAI活用の課題と可能性について、生成AIと予測AIの観点から分析する記事が公開された。AIは採用、育成、労務管理などの効率化に貢献する一方、データプライバシーや倫理的な課題も指摘されている。今後の活用に向けた論点が整理されている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ocS0tTzh6NkxOQ1lSNmNYdUN5N09peVdtNFY5eTRPS3FjU01PZzZkQU1sSXc0dW5WR25Fa2Q2WWNPWEtRM2V4bm5mYkPSAU9BVV95cUxPOElNbTZkRllBcDdBb2dIdmpIUUNrUy1GSEVuZGdteXVDWE5PTE55NlVKbWtzYXBSTzY1OWU0aFFXOUEwVmtrYTJPRWl1SHp3?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "紋別で蜃気楼の研究発表会開催",
+      "body": "日本蜃気楼協議会が紋別市で研究発表会を開催し、「四角い太陽」や「幻氷」といった現象のメカニズムに迫った。これらの珍しい気象現象に関する最新の研究成果が共有され、自然現象への理解を深める機会となった。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0wY3BZUXdYYlZtLXJDSnJhTmpqemhPRXVJV1NGMnpNSzYxa2ctWFQ3MTdTSlhBV2t3dmdPRTl5RWRVRFRUWnl4WkZBREE?oc=5",
+      "source": "Google: 紋別"
+    }
+  ]
+}
