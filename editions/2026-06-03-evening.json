@@ -1,0 +1,140 @@
+{
+  "type": "evening",
+  "date": "2026-06-03",
+  "generatedAt": "2026-06-03T21:25:31.708+09:00",
+  "lead": "2026年6月3日、夕刊。AI技術の進化は目覚ましく、ビジネスの現場でもその活用が加速しています。一方で、教育現場では新たな試みや支援策が打ち出され、次世代の育成に向けた動きも活発化しています。本紙では、これらの最新動向を多角的に報じます。",
+  "topStory": {
+    "title": "AIコスト最大40%削減へ OrcaRouter月額プラン提供開始",
+    "body": "AIモデルの利用コスト削減を目指す新サービス「OrcaRouter月額プラン」が提供開始された。このプランでは、Claude Opus 4.8、GPT-5.5 Pro、Gemini 3.5など200以上のAIモデルを最大10%割引で利用可能となる。\n\n同サービスは、複数のAIモデルを効率的にルーティングし、最適なモデルを自動選択することで、ユーザーのAI利用コストを最大40%削減できるとしている。これにより、企業や研究機関は、最先端のAI技術を手軽かつ経済的に導入できるようになる。\n\nAIモデルの多様化が進む中、コスト効率の良い利用方法の確立は喫緊の課題となっている。OrcaRouterは、この課題に対する一つのソリューションとして注目される。特に、大規模言語モデル（LLM）の利用が増加する中で、その運用コストは無視できない規模になっている。\n\n今回のプラン提供により、これまでコスト面でAI導入を躊躇していた中小企業やスタートアップ企業にとっても、AI活用の門戸が開かれることが期待される。今後、AI技術の普及とビジネスへの応用がさらに加速するだろう。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "Claude Opus 4.8・GPT-5.5 Pro・Gemini 3.5など200+モデルを最大10%割引で利用可能な「OrcaRouter月額プラン」を提供開始 ― AIコストを最大40%削減 - PR TIMES",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9INTdTUUN1ZzJ2eXdtUXU1Qmpib1hLUUktMjRRYjJvZzlVeElEMG1rRy1XZXptQkdkSGpHdjgzX0JlSHdLZko2bXVvTFVaaFF1U1VSYnVzVlV4cWtjczc5c3kxUXhhQS1XaGc?oc=5",
+        "source": "Google: Claude AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "シャープ、AIでレシピ作成 オーブンレンジ新機能",
+      "body": "シャープは、同社のオーブンレンジに、AIを活用した新しいレシピ作成機能を搭載したと発表した。ユーザーが冷蔵庫にある食材を入力すると、AIが最適なレシピを提案してくれる。\n\nこの機能は、画像認識技術とデータベースを組み合わせることで実現された。食材の写真や名前を入力するだけで、栄養バランスや調理時間などを考慮したレシピが複数提示される。これにより、日々の献立作りの負担軽減や、食材の無駄削減に貢献することが期待される。\n\n同社は、AI技術を家電製品に積極的に導入することで、より便利で快適な生活空間の提供を目指している。今回の新機能は、その一環として、食生活の質の向上をサポートするものである。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "シャープ、好きな食材からAIがレシピ作成 オーブンレンジに新機能 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mVjNPbmZEVXZlY2M3LUVyVTdGRlV6eXBjVFF1VlhfSVIzeW5seG55a2pFOWJJaVNKMnE1UkRCYkJvclVqNHp6YjVCM0RZMHB4cFp0UVVJX2pObjZsdUlYM3A3U0FSM0otTFk5Sg?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "子育て・若者支援に力 埼玉県、5300億円規模の補正予算案",
+      "body": "埼玉県は、子育て支援と若者支援を柱とした一般会計補正予算案をまとめ、知事査定に入った。補正予算案は総額5300億円規模となり、これは25年ぶりの高水準となる見込みだ。\n\n今回の補正予算では、特に少子化対策や若者の就労支援に重点が置かれている。具体的には、児童手当の拡充や、子育て世帯向けの住宅支援、若者のスキルアップ支援などが盛り込まれる予定だ。\n\nこの補正予算案は、6月定例県議会に提出され、審議される。県は、これらの施策を通じて、安心して子供を産み育てられる環境整備と、若者が希望を持って活躍できる社会の実現を目指す方針だ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "子育て若者支援に「石田カラー」6月補正予算案の知事査定始まる 一般会計で総額5300億円規模に 25年ぶりの水準 6月定例県議会に上程へ - 日テレNEWS NNN",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPamNuYlF1WmdQMUJScU5PWEQwdXAzUUxkUDFiYl9lWDkxaTFJaF9jN0NkdU96NjZhTE5lRzd4N0RPY21FelZFajc5SFRHcTlrMWstNkViNTl3UWdmS2Q3UG1LVUZ3Qm9xSmpuNm1ON0ZEREYxQzJZTXJRQkI4ZVB3VHNzZlhHSjg?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "駿台、応援キャラバン第4弾は北海道で開催",
+      "body": "駿台予備学校は、受験生を応援する「応援キャラバン」の第4弾を北海道で開催すると発表した。このキャラバンは、全国各地の高校を訪問し、受験生にエールを送る企画だ。\n\n第4弾となる今回は、北海道の高校を対象に、駿台の講師陣が大学受験に関する最新情報や学習アドバイスを提供する。また、受験生が抱える不安や悩みに寄り添い、モチベーション向上を支援する。\n\n駿台は、これまでも全国各地で同様のキャラバンを実施しており、多くの受験生から好評を得ている。北海道の受験生にとっても、このキャラバンが受験勉強の大きな励みとなることが期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "受験生のエールをつなぐ、駿台の応援キャラバン…第4弾は北海道",
+          "url": "https://resemom.jp/article/2026/06/03/86288.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/396714.jpg"
+    },
+    {
+      "title": "オホーツクで3日連続の真夏日 道内最高の32度",
+      "body": "北海道オホーツク地方では、3日連続で真夏日となり、4日も厳しい暑さが続いている。3日には津別町で道内最高の32.0度を記録した。\n\n気象庁によると、高気圧の影響で道内は晴れて気温が上昇し、オホーツク海側を中心に猛烈な暑さとなった。4日も引き続き晴れて気温が上がる見込みで、熱中症への警戒が呼びかけられている。\n\nこの暑さは、平年より早い梅雨入りや、その後の晴天が続いた影響などが考えられる。急な気温の上昇に体調を崩さないよう、十分な水分補給と休息が推奨される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "オホーツクで3日連続の真夏日 津別町で道内最高の32度 6月4日は平年並みに - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SeHVWUVlveXRaZXg0Q0F6UFBlRzNidnRmTHZpOXlYbWFRcXVOX2RVSGg3VXNDd1MwS0VJUF9RY2VFdFhoMWtFOUlicno3ZVB1NlBmQmtEOEczZw?oc=5",
+          "source": "Google: オホーツク",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "埼玉県庁、大学生向けインターンシップ実施",
+      "body": "埼玉県は、大学生を対象としたインターンシッププログラムを実施する。169部署で受け入れ、学生に県政の現場を体験する機会を提供する。7月上旬から募集開始予定。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/03/86289.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "生成AI活用と業務変革セミナー開催",
+      "body": "デジタルトランスフォーメーション研究所は、生成AIの活用と業務変革に関するセミナーを開催する。明日から使える実践的なノウハウや、人とAIの橋渡しについて解説する。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5OSFhpZkVsWlZQdURVOVdZa0VkdWphTGtYdjFlMk1jR2xuR1pjdmdWb2Z1bk1ibjB5bWV3dlYyOV9LbFp6aFhlN1NLN0I?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "AIアシスタント「Penny」刷新 プライスライン",
+      "body": "プライスラインは、AnthropicのClaudeを搭載したAIアシスタント「Penny」を刷新した。より高度な対話能力と情報提供能力を備え、ユーザー体験の向上を目指す。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxUWVQaUR0b0tCQTh3TnltbUVhSmpjeTJmbE9uS3dfLTVhMTBpQVhnM2lHY2VUVlVUT1pZRXVTT1ZBNmQ3VklSTlI0bFRNbGNNblZScGtBTkM1UkloT3pPUE5wb3psWjJPU3lHS3VhWmk?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "オホーツク文化を土器づくりで体験",
+      "body": "ミュージアムえさしで、オホーツク文化を体験できる土器づくり講習会が開催される。古代の技術に触れ、地域の歴史と文化への理解を深める機会となる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yOHhObDA3NnZ5RWV5Vm4tUm44ZHlITW9Qb256elVXVF9iSmlGUnhCNmYtY1h1a2hrQ2xhdUxmQm5RSFU4anJrc05xOWhPX2MyX3paOGlfSzlQUQ?oc=5",
+      "source": "Google: オホーツク"
+    },
+    {
+      "title": "広尾町でクマ出没情報",
+      "body": "北海道広尾町紋別地区で、クマの出没情報があった。3日夕方に目撃情報が寄せられており、注意が呼びかけられている。付近の住民は戸締まりを徹底するよう求められている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONGxKMWlPbTFoMUNDeUpybkVCbXE5QllpNi1YY1JTYk9GTDBXUnJfZWI4NjNROGl1cEQ2SmZkbm93X1pwdFdqWlRMRGI1dmd5c2RHZ2JTcVNwbkxZUUphREgxQXJ4eDJSam9WdnFWZzFFbnEzODZkQzlZQlJsOW9URXRoQkRCVjB1QWE3aFlWSDRuTnRlNFA2REQxaWttWk95MlHSAaIBQVVfeXFMTjRsSjFpT20xaDFDQ3lKcm5FQm1xOUJZaTYtWGNSU2JPRkwwV1JyX2ViODYzUThpdXBENkpmZG5vd19acHRXalpUTERiNXZneXNkR2diU3FTcG5MWVFKYURIMUFyeHgyUmpvVnZxVmcxRW5xMzg2ZEM5WUJSbDlvVEV0aEJEQlYwdUFhN2hZVkg0bk50ZTRQNkREMWlrbVpPeTJR?oc=5",
+      "source": "Google: 紋別"
+    },
+    {
+      "title": "H2Oリテイリング、会計業務を「HUE」で一元化",
+      "body": "H2Oリテイリングは、会計業務の一元化と標準化を推進するため、クラウドERP「HUE」を採用した。これにより、業務効率の向上とデータ活用の促進を目指す。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBXZjgxakdzYzVCRkVzVE5XRG5sRVFZZ19odEdsWmxBbldySmE2TzVOUUxReUNZVVZheEdxTmtOcFZLaDM5Umt2QjdfOHg5ZEp0QWdycS1R?oc=5",
+      "source": "Google: 会計"
+    }
+  ]
+}
