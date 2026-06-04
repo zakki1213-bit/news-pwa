@@ -1,0 +1,141 @@
+{
+  "type": "evening",
+  "date": "2026-06-04",
+  "generatedAt": "2026-06-04T19:51:09.005+09:00",
+  "lead": "6月4日の夕刊は、教育分野における経済的負担軽減の動きや、AI技術の進化がもたらす変化、そして北海道の地域ニュースなど、多岐にわたる話題をお届けします。特に、教育費の負担軽減策や、生成AIの普及が学生のキャリア観に与える影響は、今後の社会を考える上で重要な視点となるでしょう。また、地域社会の安全や消費生活に関する情報も網羅し、読者の皆様の生活に役立つ情報を提供します。",
+  "topStory": {
+    "title": "出生数過去最少67万人、合計特殊出生率1.14に",
+    "body": "2026年の人口動態統計によると、出生数は過去最少の67万人となり、合計特殊出生率も1.14と過去最低を更新したことが明らかになった。\n\nこの結果は、少子化がさらに進行している現状を示しており、社会保障制度や経済活動への長期的な影響が懸念される。政府はこれまでも少子化対策に力を入れてきたが、効果は限定的であったと言える。\n\n出生率の低下は、労働力人口の減少や高齢化の加速を招き、社会全体の活力を削ぐ要因となりかねない。子育て支援策の拡充や、働き方改革の推進など、より実効性のある対策が求められている。\n\n専門家は、経済的な不安やキャリア形成との両立の難しさが、結婚や出産をためらわせる要因となっていると指摘する。社会全体で子育てを支える環境整備が急務である。",
+    "topicId": "education",
+    "topicName": "教育・ICT",
+    "color": "#2563eb",
+    "references": [
+      {
+        "title": "合計特殊出生率1.14、出生数も過去最少67万人…人口動態統計",
+        "url": "https://resemom.jp/article/2026/06/04/86297.html",
+        "source": "リセマム",
+        "topicId": "education"
+      }
+    ],
+    "ogImage": "https://resemom.jp/imgs/ogp_f/396747.jpg"
+  },
+  "midStories": [
+    {
+      "title": "生成AI普及で学生の8割が書類選考の「没個性化」を懸念",
+      "body": "生成AIの普及により、学生の約8割が書類選考における「没個性化」を不安視していることが、AI活用層ほど「AI面接」に対してポジティブな意識を持つという調査結果で明らかになった。\n\nこの調査は、学生の「AI面接」に関する意識を探るもので、生成AIが応募書類の均質化を招き、個性を埋没させる可能性を示唆している。一方で、AI面接に対しては、公平性や客観性を期待する声も上がっている。\n\nAI活用層は、AI面接が自身の能力や適性をより正確に評価してくれると期待する傾向にある。しかし、AIによる評価の限界や、人間的なコミュニケーションの重要性も考慮する必要があるだろう。\n\n今後の採用活動においては、生成AIの利便性を活かしつつ、学生一人ひとりの個性や能力を多角的に評価する仕組みづくりが求められる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "生成AI普及により学生の約8割が書類選考の「没個性化」を不安視、AI活用層ほど「AI面接」に対してポジティブ 学生の「AI面接」に関する意識調査 - HRog",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE4wS3VhLTdRdi04X0RGcC12SFdCTWNza3poQmdRVHdHMGNGLXk0cC02OVJ2anJGOS1pdDlKOXFIU2FpdG8?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "有名中高一貫校、学校説明会・見学会の申込受付開始",
+      "body": "2027年度入試に向け、有名中高一貫校13校が合同で学校説明会・見学会の申込受付を開始した。多くの学校が、独自の教育方針や特色あるプログラムを紹介する機会を設けている。\n\n近年、中高一貫教育への関心は高まっており、各校は多様な入試制度やカリキュラムで生徒を募集している。説明会では、施設見学や在校生との交流などを通じて、学校の雰囲気を直接体験できる。\n\n保護者や受験生にとっては、学校選びの重要な判断材料となる。各校のウェブサイトや説明会情報を比較検討し、自身の学習目標や興味に合った学校を見つけることが肝要だ。\n\n申込期間や詳細は各校のウェブサイトで確認できる。早期の準備が合格への鍵となるだろう。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "【中学受験2027】有名中高一貫校「学校見学説明会」人気13校の申込受付",
+          "url": "https://resemom.jp/article/2026/06/04/86299.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/396763.jpg"
+    },
+    {
+      "title": "WordPress 7.0公開、生成AI接続・管理機能を標準搭載",
+      "body": "ウェブサイト構築プラットフォームのWordPressが、最新バージョン7.0「Armstrong」を公開した。今回のアップデートでは、生成AIとの接続および管理機能が標準搭載されたことが大きな特徴だ。\n\nこれにより、ユーザーは特別なプラグインを導入することなく、WordPress上で生成AIを活用したコンテンツ作成やサイト運営が可能になる。例えば、記事の自動生成やキャッチコピーの提案などが容易になることが期待される。\n\nこの機能は、コンテンツマーケティングやSEO対策において、新たな可能性を切り開くものとなるだろう。AIとの連携により、より効率的で質の高いウェブサイト運営が実現する。\n\nWordPressの普及率の高さを考えると、この新機能はウェブ制作の現場に大きな影響を与える可能性がある。今後の活用事例の広がりが注目される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "WordPress 7.0「Armstrong」公開、生成AIの接続・管理機能を標準搭載 - 株式会社マイナビ",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBlQWtjeGcwR0taazJDbS1uU0JfQXl1dzNKVFRUWGJpSFp2OG5UeS1BLTJlbzZNU3V2OURLNHdzWkpYa0I4c2M4TVhrQUJRSVVLMG1BY1VKZ2NGR3RTNGdj?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "オホーツク管内でヒグマ目撃相次ぐ、通報97件",
+      "body": "オホーツク管内で今年1月から5月にかけて、ヒグマの目撃情報が相次ぎ、関連する通報件数は97件に上ることが北海道新聞デジタルの報道でわかった。これは2023年の同時期に次ぐ高水準だ。\n\n目撃情報は、管内各地で寄せられており、特に山間部や河川敷などで確認されている。地元自治体や警察は、住民に対し、山菜採りやハイキングなどでの注意を呼びかけている。\n\nヒグマの出没が増加する背景には、餌となる植物の不作や、生息域の変化などが考えられる。自治体は、パトロールの強化や注意喚起の看板設置など、対策を進めている。\n\n住民は、クマ鈴の携帯や、食べ物の管理を徹底するなど、自己防衛策を講じることが重要だ。万が一、クマに遭遇した場合は、刺激しないように静かにその場を離れることが推奨される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "オホーツク管内でヒグマ目撃多発 関連通報は1～5月で97件 2023年に次ぐ高水準 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Ma281S2k0eHRjTkhucjNkRV9pUGJ4eS1xQ1Q3MGJCNFlYSm5yelctMFVMUUtQU2hoNUNJTjhMcnBPM1pXQ0VWdEp4SWxPY1N4YXBkUjcwbXBiQQ?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "東洋英和女学院、入学申込金納付方法を変更",
+      "body": "東洋英和女学院は、経済的負担軽減のため、2027年度入学者選抜より入学申込金の納付方法を変更すると発表した。これにより、受験生の負担が軽減されることが期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/04/86300.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "明星高校で探究学習支援プログラム実施",
+      "body": "ATOMicaと大阪ガスは、学校法人大阪明星学園 明星高等学校において、探究学習支援プログラム「Socialium」を実施した。生徒たちの主体的な学びを促進する取り組みだ。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4OWFJdWVmNkFKUXlJLXFYSXBFZVZBcWlNMl80S0h1bUxrVUtBeU9tSXJtLWlyemM5Q21yYVNFQ0dobFdaMmNyMWdrRVNMQ29Pb1pyWHotOA?oc=5",
+      "source": "Google: 探究学習"
+    },
+    {
+      "title": "小中学生向け動画コンテスト、最優秀賞に賞金10万円",
+      "body": "小中学生を対象とした動画コンテスト「FULMA Creator Awards」が開催される。最優秀賞には賞金10万円が贈られる。創造性豊かな作品の応募が期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/04/86298.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "無資格で税理士業務、男を逮捕",
+      "body": "無資格で税理士業務を行ったとして、男が玉島警察署に逮捕された。税理士法違反の疑いが持たれている。無資格者による不正行為への警戒が強まる。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9pdHB1SDFPSkRGSmFqRDFWajR0YkhzTWNmSXU5SXlvcVVud3gtbFpTZ3R5MUxETk9zTjhicEJ3TEdMZ1ZaTnljQXl4UVdjN1BOeEE?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "Sansan、国家プロジェクト「GENIAC」に2年連続採択",
+      "body": "Sansanは、生成AIの開発力強化を目的とした国家プロジェクト「GENIAC」に、2年連続で採択された。同社のAI技術開発への貢献が評価された形だ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zRDlUNmFxM05JZUNHVWJWNlYtOS1oRXJqeGFlTjR2WnN1RXJyRlpPMkhTQldxb0paZ2hfb2xzekVtTkdKYVZsQmw1VmlhOWd5a3RteUM3SUlGMTc1M0gzM0J6b2FIbVdkUHc?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "SNS広告経由の定期購入トラブル増加、注意喚起",
+      "body": "北見市消費生活センターは、SNS広告をきっかけとした通販の定期購入トラブルが増加していると発表し、注意を呼びかけている。安易な申し込みには注意が必要だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSc2ttd1VySkhyb3NfTFIzdXZ2NTBUekljZ1ZwOXdQcm9aX25UQzVUejNFdkswd3l3NHp2REg1SkpnNU9mQnVCTEVVREMxTzRNR0NFX09jdTVFUQ?oc=5",
+      "source": "Google: 北見市"
+    }
+  ]
+}
