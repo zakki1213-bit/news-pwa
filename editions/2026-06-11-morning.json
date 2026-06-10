@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-06-11",
+  "generatedAt": "2026-06-11T06:46:28.250+09:00",
+  "lead": "本日は、AI技術の進化、教育現場での新たな取り組み、そして地域経済の動向など、多岐にわたるニュースをお届けします。特にAI分野では、ビジネスへの応用や開発競争が激化しており、その動向から目が離せません。教育現場では、探究学習を通じた地域貢献や、高校教育改革に向けた動きが見られます。また、北海道からはスポーツイベントの組み合わせ決定など、地域に根差した話題もございます。これらのニュースを通して、現代社会の活気と課題を浮き彫りにします。",
+  "topStory": {
+    "title": "AI「クロード」日本に照準 アンソロピックが企業に売り込み",
+    "body": "米AI開発大手アンソロピックが、同社が開発した対話型AI「クロード」の日本市場での展開を本格化させている。企業向けに、生産性向上や業務効率化を支援するソリューションとして売り込みを強化する方針だ。\n\nクロードは、自然な対話能力や長文の要約、文章作成などに強みを持つ。アンソロピックは、日本企業が抱える課題に対し、クロードがどのように貢献できるかを具体的に提示し、導入を促進したい考えだ。特に、カスタマーサポートの自動化や、社内文書の作成・管理業務の効率化などが期待されている。\n\nしかし、AI導入にはコストが課題となる場合が多い。アンソロピックは、企業の規模やニーズに応じた柔軟な価格設定や、導入後のサポート体制を整備することで、この壁を乗り越えようとしている。日本市場の特性を理解し、ローカライズされたサービスを提供することも、成功の鍵となるだろう。\n\nAI技術の進化は日進月歩であり、企業間の競争も激化している。アンソロピックが日本市場でどのような存在感を示すのか、今後の動向が注目される。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "〈ビジネスTODAY〉AI「クロード」日本に照準 アンソロピックが企業に売り込み 生産性向上、コストが壁 - 日本経済新聞",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBULUtNNW1lcm5EZ1VUQjBoUE1wcDdiR19OM05VNFphMURSNXhZZEhNTGJWLWlIRWhfV013VXpuMm1vNU93WVJtbDhSMExTcVBLc3NmSlc2d3ZMV2J6cXFvVTgzVktNWDM4YktObg?oc=5",
+        "source": "Google: Claude AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "AIに「最強の論客」を 企画鍛える批判型プロンプト公開",
+      "body": "AIを活用して企画力を鍛える新たな手法が注目を集めている。ある企業では、AIに「批判型プロンプト」を与えることで、企画の弱点や改善点を浮き彫りにする試みを行っている。\n\nこの手法では、AIに対して具体的な企画内容を提示し、その企画の論理的な矛盾点、実現可能性の低さ、ターゲット層への訴求力不足などを徹底的に指摘させる。AIは、学習データに基づき、多角的な視点から企画を分析し、改善のための具体的な提案を行う。\n\nこれにより、人間だけでは見落としがちな盲点を発見し、企画の質を飛躍的に向上させることが期待できる。企画担当者は、AIからのフィードバックを元に、より洗練された企画へとブラッシュアップしていく。このプロセスは、AIを単なる情報収集ツールとしてではなく、思考のパートナーとして活用する新しい形と言える。\n\n企画立案におけるAIの活用は、今後ますます広がりを見せると予想される。この批判型プロンプトは、その一例として、多くの企業にとって有益な示唆を与えるだろう。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "「AIを最強の論客に」バイセル流・企画を鍛え上げる批判型プロンプト全公開 - 日経クロストレンド",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45djZZRXVrcU11cUNPbE1kSlBNWjYtT2l3ZXo5dkt4djRma1owY2pXdkpOam1GaXhsaTZ3LUxYbzdLcWdDUmNadC1kUFhFbWZXamNtQnJzeF9rLVhUR3Y5OUlJOXhNdi1XcUYyNDBMb2ZHTjBBWUtQaGRyQmpEbm8?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "青森県、高校改革と物価高対策に113億円の補正予算案",
+      "body": "青森県は12日開会の定例県議会に、総額113億円余りの補正予算案を提出する。主な内容は、県立高校の教育改革に係る経費と、中東情勢を受けた物価高対策である。\n\n教育改革では、新たな学習指導要領への対応や、ICT教育環境の整備などが盛り込まれる見込みだ。生徒一人ひとりの能力を最大限に引き出すための教育プログラムの拡充や、教員のスキルアップ支援なども含まれるとみられる。\n\n一方、物価高対策としては、生活困窮者への支援や、地域経済の活性化策などが中心となる。特に、食料品やエネルギー価格の高騰の影響を受けている事業者や家庭への支援が急がれる状況だ。\n\n宮下宗一郎知事は、これらの施策を通じて、県民生活の安定と地域経済の持続的な発展を目指す考えを示している。補正予算案の審議は、県議会で活発に行われることが予想される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "12日開会の定例県議会に提出する「補正予算案」などを青森県 宮下宗一郎 知事が説明 中東情勢を受けた物価高や県立高校の教育改革に係る経費として113億円余 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkZFJNdWxfMWZtcG5uZGt0dXlYWExDcVBpMUdPMDRIWGo2YmNMRTcxa282ZHZqeHV4R1Z1ODFQdHJmNzh2ZWpwRFJMYnR1MDRfVXJPZUM2Z3VPYm1heU5RSkZ1bFNRc0E?oc=5",
+          "source": "Google: 高校教育",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "静浦小中一貫校生、地域貢献テーマに探究学習",
+      "body": "静岡県沼津市の静浦小中一貫校の生徒たちが、地域の水族館「あわしまマリンパーク」で探究学習に取り組んでいる。今回の学習テーマは「地域貢献」。生徒たちは、施設の現状や課題を調査し、地域活性化につながるアイデアを練っている。\n\n生徒たちは、パークのスタッフへの聞き取り調査や、来園者へのアンケートなどを実施。その結果を元に、新たなイベント企画や、地域資源を活用した商品開発などを提案する予定だ。この探究学習は、生徒たちが主体的に地域課題に向き合い、解決策を見出す力を養うことを目的としている。\n\nパーク側も、生徒たちの斬新なアイデアに期待を寄せている。今回の取り組みが、地域と学校が連携した教育モデルとして、今後の地域活性化に貢献することが期待される。\n\n探究学習を通じて、生徒たちは地域への理解を深めるとともに、社会で役立つ実践的なスキルを身につけている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "探究学習の様子 ＝ 静浦小中一貫校生が「あわしまマリンパーク」で探究学習 地域貢献テーマに - 沼津経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZTUxRcG53SjcxMXlGRW8wOTZuUjJSbk1ELUdQMVRac080ZHBKQU9vRWFHalhfT21IQ0haZkI2WVZ0cVEwU2l0eTAtSzFWVUlP?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "米コンビニ大手ケーシーズ、既存店販売好調で利益66％増",
+      "body": "米国のコンビニエンスストア大手ケーシーズが、堅調な業績を発表した。既存店販売が好調に推移したことを受け、第1四半期（会計年度）の純利益は前年同期比で66％増加した。これを受けて、同社株は急伸している。\n\nケーシーズは、店舗の改装や品揃えの見直し、デジタルサービスの強化などを積極的に進めてきた。特に、地域住民のニーズに合わせた商品開発や、利便性の高い決済システムの導入が、顧客満足度の向上につながったと分析されている。\n\nまた、同社はフランチャイズ展開にも力を入れており、新規出店も順調に進んでいる。これにより、ブランド力の向上と収益基盤の拡大が図られている。今後も、競争が激化するコンビニ業界において、ケーシーズがどのような戦略を展開していくのか注目が集まる。\n\n今回の好決算は、同社の経営戦略の的確さを示すものとして、市場関係者から高く評価されている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "米コンビニ3位のケーシーズ、既存店販売好調で四半期利益66％増、株価急伸 - finance.biggo.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yZmYwWElBbjdXWVpraXV2Z1JVUm1laGpuV0tOYk1SSk5Wd01lRlNEWDI5VWVBcERvV04xd2hXWkJlZ1N3bzZfWXBibXZRNU4yMmZsYXNPRkhBV1ZSNlkw?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "探究学習型プログラム「交通安全マップ」提供開始",
+      "body": "ニコニコニュースは、探究学習型プログラム「みんなでつくる！次世代型交通安全マッププロジェクト」の提供を開始した。子どもたちが地域の交通安全について学び、マップを作成することで、安全意識の向上と地域貢献を目指す。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBQbS1mSXg2OEpQLTVadzFvRjNuT0l0RWhtanpXU2tRelJCN1JZMENuSEd2ZmxNZWhqeENpeEFQX3BYbmRPTWpPT1QyVVN5MHBiZ0xMQVVEdjFsaHFEOE9wNVc4NjBvVjlyUDJvb0FOZUhuN1pEVDlDWjVNUQ?oc=5",
+      "source": "Google: 探究学習"
+    },
+    {
+      "title": "相続税の無料相談会開催、アトム法律税務グループ",
+      "body": "アトム法律税務グループは、6月19日まで相続税に関する無料相談会を開催している。専門家が個々の状況に応じたアドバイスを提供し、相続に関する悩みを解決へと導く。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNdlBGeV85WDFZcGNVUENsb0NtbHJDTGFfMEFHU2ppMUhSd0hRNVZ5ZXhQSXJJNGRoLWM3SzdoSm1kaXRxblZ0bUZGU2kzcnBfMmxpMHBXcXRSWEZWOXVrd00tbVMyLVNUVG9HTEIzS093eXVjb2htM0I0VQ?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "直木賞作家、税理士に止められた書店を引き継ぐ",
+      "body": "直木賞作家が、ビジネスとして成立しないと税理士に指摘された書店を引き継いだ。作家は、書店が持つ文化的な価値に着目し、経営再建に乗り出す決意を固めた。その理由が注目されている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeFA5cUhCRGE1ME9FdzRJNFFxbjQ2UlNiOXNCWW5xd1VyQ25zWlA3U1hjN0syYUQ2UU1ybE5QOWpKV1lnNUJYRWx2ZlZQM2NRRHNHZGNsQ0JYT0ZJUk03alllaHRLZ2xBRWtIcTRoMjdhaHFHd1Q3UE1GbzVZaURWVVB4SkVHeDhD?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "網走市で10代女性への盗撮容疑、38歳男逮捕",
+      "body": "北海道網走市で、10代女性のスカート内にスマートフォンを差し入れ、盗撮した疑いで38歳の男が逮捕された。男は容疑を認めている。警察は、押収したスマートフォンに保存されていた動画などから、余罪についても追及する方針だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82RS0tS3RDRE1DZV9oMHczR2ZqZWRHVC10MFZ2Unl6RzVpUUMySW5teDZvNkR3WGRlRk5sQ21qTjJiM0lIZTFsekkxa3lIeGVPYmZiTUhjaUpSLTZuWVlQUWJHVTBrU0U3M2NDM0tmeXlfaUJDOUNkd214SdIBgAFBVV95cUxOeXE4dW9Nd0JSVFFmUVY5NE5XUDFNT2dYTTRiN3EtZExhYlBGVTBqUTJhNlZEUkJMOWc4cnlwV0ZTSGJHZFFueTlkcC05dkZlb3BaYmQ2R3VpSm41OFNodHo0a3NBMC0yUzFCVnlMT3FDeG5adENENjhMWF9zRGdxMw?oc=5",
+      "source": "Google: 網走"
+    },
+    {
+      "title": "高校バレー北海道予選開幕、札幌大谷・札幌山の手など決勝T進出",
+      "body": "インターハイ北海道予選の高校バレーが開幕した。女子では、札幌大谷高校や札幌山の手高校などが決勝トーナメントへの進出を決めた。各校は全国大会出場を目指し、熱戦を繰り広げている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zVkdYanhBb0dFWTU2Y2NzQzZ5YU41c3FaaDd2SWJVWjBuVzNyaGU0WFVnR25aZy1JY2EwbHZGaVloZ3Rjc2pmMDNNclpOY1dUckJWZU9oekxhUjVDQU9XWEZjY29HQkoyd2xxMWV3?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "生成AI動画「Seedance 2.0」でTikTok広告量産ウェビナー",
+      "body": "BytePlusは6月18日、生成AI動画「Seedance 2.0」を活用し、TikTokショート広告を量産・改善する共催ウェビナーを無料で開催する。広告制作の効率化と効果最大化を目指す。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BbWJDNnRxUHRiR1IzNGlZRmFvc0otMk8zMFFNd0M2VmNfaXc3ejJCUjQ3NzNNc05yczJUVjNBREx5cDlUYWY2N0syMEdfamM0dUNmTm5BZzk3YVgwU3FNbk92X29VcmtVbTZMU1Y4aTNHamxBSVVwVUZkSQ?oc=5",
+      "source": "Google: 生成AI"
+    }
+  ]
+}
