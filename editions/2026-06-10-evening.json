@@ -1,0 +1,140 @@
+{
+  "type": "evening",
+  "date": "2026-06-10",
+  "generatedAt": "2026-06-10T20:26:02.318+09:00",
+  "lead": "AI技術の進化が加速し、教育現場やビジネスシーンに大きな変化をもたらしています。一方、地域社会では少子化や人口減少といった課題に直面し、新たな取り組みが模索されています。本紙では、これらの動きを捉え、未来への希望を探ります。",
+  "topStory": {
+    "title": "生成AIで長編映画制作、NY映画祭で上映へ",
+    "body": "史上初めて、生成AIによって制作された長編映画が、ニューヨークで開催される映画祭で上映されることが明らかになった。この快挙は、映画業界に大きな波紋を広げている。\n\nこれまで生成AIは、短編映像やイラスト、音楽などの制作に活用されてきたが、長編映画という複雑な物語構造を持つ作品をゼロから生み出すことは、技術的なハードルが高いとされてきた。しかし、最新のAI技術は、脚本の生成、キャラクターデザイン、映像のレンダリングといった一連のプロセスを自動化し、人間が介入する時間を大幅に短縮することを可能にした。\n\n今回の映画祭に出品される作品は、AIがストーリーライン、キャラクター設定、セリフなどを生成し、それに基づいて映像が制作されたという。制作チームは、AIの生成物を基に、最終的な編集や調整を行ったとしている。この手法により、従来の映画制作に比べて、はるかに短期間かつ低コストで長編映画を完成させることができた。\n\nこのニュースは、映画制作者や配給会社だけでなく、AI開発者やテクノロジー業界全体に衝撃を与えている。AIが創造的な分野においても人間の能力を代替、あるいは凌駕する可能性を示唆しており、今後のコンテンツ制作のあり方を大きく変える可能性がある。一方で、著作権やオリジナリティの問題、人間のクリエイターの役割など、新たな倫理的・社会的な課題も浮上しており、活発な議論が求められている。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "史上初、生成AIの長編映画がNYの映画祭で上映へ 映画業界に広がる波紋 - Yahoo!ニュース",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBVC02YkZ5Zk03X1QzaFB1WW01bnI2QUpycWk2Y01lQnloMEl3c1gxOXRYZ1lWSXB6R2VfbVM0b0NQdllkSkc0bGJ2ZkloSGsyZi1KcnlIaExKSldqWWNtQXdCNl9XS29lQm53aHAyZGhtdVhDZ19SR3pUaUxIVEk?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "SBI、AnthropicとAIトランスフォーメーションで提携",
+      "body": "SBIホールディングスは、米国のAI企業Anthropicと、AIトランスフォーメーション推進に向けた共同取り組みに合意した。これは日本の金融グループとして初めての事例となる。\n\n今回の提携により、SBIグループはAnthropicが開発する大規模言語モデル「Claude」などを活用し、グループ全体の業務効率化や新たな金融サービスの開発を目指す。具体的には、顧客対応の自動化、リスク管理の高度化、不正検知システムの強化などが想定されている。\n\nAnthropicは、安全性と倫理性を重視したAI開発で知られており、SBIグループはこうした理念に共感し、長期的なパートナーシップを築くことで、AI技術の健全な普及と活用を図る方針だ。両社は今後、具体的なプロジェクトを立ち上げ、協業を進めていく予定である。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "SBI、日本の金融グループ初となるAnthropicとの共同AIトランスフォーメーション推進に合意 - AIsmiley",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE14eFIwUzRoQXJ1YjVsU2MtSjhQdVJIMlFDcHhvOU1UNWJTM2VkejhNd2FRaVNBTEJLYUVWcjFGbVp0anRMdFpaelNlNU1uSnd5UWMtOGZvNXBtYlAzM1pOdW5VNU95UQ?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "大塚商会、建設業向け生成AIテンプレート無償提供",
+      "body": "大塚商会は、建設業向けに特化した生成AIテンプレートの無償提供を開始した。これにより、入札書類の作成や原価管理といった業務の自動化を支援する。\n\n同社が提供するテンプレートは、建設業特有の専門用語やフォーマットに対応しており、ユーザーは簡単な指示を与えるだけで、精度の高い書類を作成できる。これにより、これまで多くの時間と労力を要していた事務作業の負担が大幅に軽減されることが期待される。\n\n生成AIの活用は、人手不足が深刻化する建設業界において、生産性向上と業務効率化の切り札として注目されている。大塚商会は、この取り組みを通じて、建設業界全体のDX（デジタルトランスフォーメーション）推進に貢献していく考えだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "大塚商会、建設業向け生成AIテンプレートを無償提供、入札書類作成や原価管理を自動化 - IT Leaders",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YUDhacGxSY3pzYk9VTkMyUjBKVXNFRmVmOU4wZDROUnlQYzA3Q2szSV9kLXFzdGdkV0YxZS1Zbi05bUFIbnphNFlvaFFLZWJPQkNN?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "高校生対象「越境部活」体験募集",
+      "body": "学校の枠を超えて活動する「越境部活」の体験参加者を募集している。これは、生徒が自身の興味や関心に合わせて、学校外の団体や専門家と連携して活動できる新しい教育の形だ。\n\n近年、多様化する生徒のニーズに応えるため、従来の部活動の枠にとらわれない柔軟な活動が求められている。越境部活は、専門的な指導を受けたい、あるいは学校にない分野の活動をしたいという生徒にとって、貴重な機会となる。\n\n参加者は、スポーツ、文化、科学技術など、様々な分野の活動の中から自分の希望するものを選び、実際に体験することができる。この取り組みは、生徒の主体性や探求心を育むとともに、将来の進路選択にも繋がる可能性を秘めている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "学校の枠を超えた「越境部活」新しい選択肢を体験…高校生募集",
+          "url": "https://resemom.jp/article/2026/06/10/86366.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/396944.jpg"
+    },
+    {
+      "title": "夏の高校野球南北海道大会、組み合わせ決まる",
+      "body": "夏の全国高校野球選手権大会の南北海道大会の組み合わせが決定し、6月20日に開幕することが発表された。熱戦の幕開けを前に、各校の準備も最終段階に入っている。\n\n今大会には、南北海道地区から多くの高校球児たちが参加し、甲子園出場を目指して熱い戦いを繰り広げる。昨年の覇者をはじめ、実力校が順当に勝ち進むのか、それとも新たなスターが現れるのか、注目が集まる。\n\n大会期間中は、連日熱戦が期待される。球児たちのひたむきなプレーは、多くの観客に感動を与えるだろう。球場での応援はもちろん、テレビやインターネットでの観戦も可能となる見込みだ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "夏の全国高校野球 南北海道大会組み合わせ決まる ２０日開幕 - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBbUtvOHlyc0ZWR0VmOWNHVUY4QlFMM0s4dGRzTERLVjN4NFM0RmxvSEJUeXRwQlQ3TFZteXdaTUlvZktvSTdwSzI0NGV1V1hqWUV4N2g5THc?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "JAXA、H3ロケット6号機打ち上げ中継",
+      "body": "宇宙航空研究開発機構（JAXA）は、6月12日に予定されているH3ロケット6号機の打ち上げについて、ライブ中継を実施すると発表した。日本の宇宙開発の新たな一歩となる打ち上げの様子を、多くの人々に届けたい考えだ。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/10/86364.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "Huawei ICTコンペ、過去最多22万人が参加",
+      "body": "ファーウェイ・ジャパンは、第10回となるICTコンペティションを閉幕した。49カ国・地域の学生が参加し、受賞者も多数輩出。参加者数は過去最多の22万人に達し、国際的なICT人材育成の場として拡大している。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50UzdUUWVoTVZZaWNPcXY0OFZMcm1zeWFZMzN1aTdxOVdBVktZNmZleGZJMUVLV3E2RE9jbTJaRnE4SHptU1c2T1hzeGltNmxtM3RjbUh4ZFdjbnM?oc=5",
+      "source": "Google: ICT教育"
+    },
+    {
+      "title": "万引・ミス防止の新型セルフレジ、札幌で展示",
+      "body": "札幌市内で、万引や会計ミスを防止する機能を持つ新型セルフレジの展示会が開催された。小売店での不正防止やレジ業務の効率化に貢献する技術として注目を集めている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQY0tiNVVjbEMzYm5aNE1ENUVPUWUybXllbHYwYUdBTG1LLTZqZFU3SC1RZUhHRWlMdTdpMW40Ni1xV2tlLWg2VnRmSTVOeEhjQVhwSjJ2VHpUUQ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "企業価値向上へ成長投資、新CGコードが指針",
+      "body": "企業価値向上のためには、成長への投資が不可欠であるとの見解が示された。新しいコーポレート・ガバナンス（CG）コードは、攻めのガバナンスを推進し、持続的な企業成長を支援する指針となるだろう。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE03SzE0QU94THkwYTNvdXRsaWZKM2JmS2N0MmpGSXF6UFV0dFFhY1FESFByUmlucjNXR3U1ZWNTcDFTcDMxRFRxNlA0TGRXSkpFTWNGUXk2dnFmMW96Wmpfa1dtTlg4Z1k?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "音楽生成AI巡り、米音楽家連盟が訴訟",
+      "body": "米国音楽家連盟は、ユニバーサル・ミュージックとワーナー・ミュージックを提訴した。音楽生成AIとの契約において、アーティストへの適切な補償が行われていないことが理由としている。AIと著作権を巡る問題が新たな局面を迎えている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wckFvSF9pTzRURDR1b0FCSzlUbDN0c3lIX3ZuWkV2UGNDOEROa0hXR1NsY3BDSk9NRXVIeG55LUxid0t1cjJFV2VDcE41UjJYeUJzdA?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "高校教員、女子生徒のスカート内盗撮容疑で逮捕",
+      "body": "札幌市内で、勤務する高校の教員が女子生徒のスカート内を盗撮した疑いで逮捕された。性的姿態等撮影未遂容疑での逮捕に、学校関係者や地域住民に衝撃が広がっている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9faU1WeHpWcUZqbGtvV0hUb0ZlaUZiOWY0LUMxRGcxLWozWFhLUGlvVVIyN2FJWlh5T3NOOGFpWWwwcGl5UENJdFBFcDZzZHNsdE01Y3JTSlJHclFhcDhGY2dqR1kxdHZaMlBjR2plUGF5OUJWOGdPa2l6NNIBgAFBVV95cUxOZHc3V3FaUXExbFl1aGhXbGlTXzZZVDVJM3VWcURsN0hwNHBVbWFndWJSLVpocGhiMnFDNHRkeUFvYm1WWDVvalQ4eEdULVdpV05RcGF6LWRPT0NMWXo0T0xYcHp2QU5vTmF3UXppUGFqM1l3VENkd20xZ0UzZHpuUg?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
