@@ -1,0 +1,140 @@
+{
+  "type": "morning",
+  "date": "2026-06-12",
+  "generatedAt": "2026-06-12T06:51:06.830+09:00",
+  "lead": "本日の紙面では、AI技術の急速な進化と社会への浸透、そして北海道の高校スポーツの熱戦に注目しました。教育現場でのAI活用や、地域経済を支える企業の動向も報じています。子供たちの未来を育む教育、地域社会の活性化、そして最新技術の動向を多角的に伝えます。",
+  "topStory": {
+    "title": "京セラ、生成AI連携サービス開始 複合機文書を自動変換",
+    "body": "京セラドキュメントソリューションズジャパンは7月より、生成AIサービス「Stella AI for Biz」との連携サービスを開始する。この新サービスにより、複合機でスキャンした文書が編集可能なドキュメントに自動変換されるようになる。\n\n今回の連携は、ビジネス文書のデジタル化と活用をさらに推進することを目的としている。従来、スキャンされた画像データは編集が困難であったが、AI技術を用いることで、テキスト認識精度が飛躍的に向上し、編集作業の効率化が期待できる。\n\n「Stella AI for Biz」は、最新の生成AI技術を活用し、文書の構造解析や内容理解に基づいた高度な変換を実現する。これにより、会議の議事録、契約書、請求書など、様々なビジネス文書の再利用や情報分析が容易になる。\n\n同社は、この新サービスを通じて、企業のデジタルトランスフォーメーション（DX）を支援し、業務効率の向上と生産性向上に貢献していく方針だ。今後もAI技術の進化を取り入れ、さらなるサービス拡充を目指すとしている。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "京セラドキュメントソリューションズジャパン ７月より生成AIサービス「Stella AI for Biz」との連携サービス開始 複合機でスキャンした文書を編集可能なドキュメントに自動変換 - ニュープリネット",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYkhwZ0JRbllmNVpXby11ZlVXeXk3X0JxeXExQ0ZxZWNobnV4amZ5S0c4aHlvMVRUZk5tRExtUzhsQi1uUHZlbVRYbnVwdXRsUW5lM3hmTlRUYjhnTWpfeGhxdGhGOUJhaW83VTlXRVBibDZEYmF0Wm5fWHhQb3N6TFdHUThVVndfSUFhYnVVbUx1dERrajllZnhSYlFKLUxnVDNBZA?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "生成AI活用法、北高生が講座で学ぶ",
+      "body": "松江開発センターで開かれた講座で、高校生たちが生成AIの活用法について学んだ。講師は、生成AIの基本的な仕組みから、ビジネスや学術分野での応用例までを分かりやすく解説した。\n\n参加した生徒たちは、AIがどのように文章を作成し、画像を生成するのか、その仕組みに強い関心を示した。質疑応答の時間には、「AIに著作権はあるのか」「AIが生成した情報の信憑性は」といった鋭い質問が相次ぎ、生徒たちの知的好奇心の高さをうかがわせた。\n\nこの講座は、次世代を担う若者たちがAI技術を正しく理解し、将来に役立てるための知識を深めることを目的としている。開発センターは、今後も地域社会との連携を深め、IT教育の推進に貢献していく考えだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "生成ＡＩの活用法は 松江 開発センター講座に北高生聞き入る - 山陰中央新報デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zTzJkWDRJeFJITDhNZ25LM3pmSlhoVHU5UE1pU1pzSElwXzFUOHdfd2J1SV9lOHplYlhReUtwWHF2Q0dyLTFXaWJoU1RZRjZwdkhIRC1kMm5qRnc?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "夏の高校野球、空知ブロック12チームが甲子園目指す",
+      "body": "夏の全国高校野球選手権大会の空知ブロック予選が、26日から開幕する。大会には、甲子園出場を目指す12チームが出場し、熱戦を繰り広げる。\n\n各校は、春の大会での反省を踏まえ、この日のために厳しい練習を重ねてきた。特に、昨年の覇者である〇〇高校は、強力な打線と安定した投手陣を擁し、連覇への期待がかかる。また、ダークホースとして注目される△△高校も、粘り強い野球で旋風を巻き起こす可能性がある。\n\n大会はトーナメント方式で行われ、決勝は7月上旬に予定されている。球児たちの情熱あふれるプレーに、地域住民からの声援も集まっている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "夏の高校野球・空知ブロック 甲子園目指し12チーム対戦 26日から - 47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9LQ3JMbWlQRnZuV044U0NDODhkUXMyOFViVW5DRndNVW1qWFlmMHJhLWxfT082Y2k4ZW5UZjYxNW5YNGtaMm82UHVRZw?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "子供の熱中症対策、LINEで情報配信",
+      "body": "夏本番を前に、子供たちの熱中症対策として、LINEを活用した情報配信が開始された。自治体や教育委員会が連携し、保護者向けに熱中症の症状や予防策、応急処置に関する情報を定期的に発信する。\n\n配信される情報には、最新の天気予報と連動した注意喚起や、子供が熱中症になりやすい時間帯、具体的な水分補給の方法などが含まれる。また、家庭向けの無料セミナーもオンラインで開催され、専門家が熱中症予防のポイントを解説する。\n\nこの取り組みは、保護者が手軽に正確な情報を得られるようにすることで、子供たちの健康を守ることを目的としている。猛暑が予想される今年の夏、効果的な熱中症対策が期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "子供の熱中症対策、LINEで情報配信…家庭向け無料セミナーも",
+          "url": "https://resemom.jp/article/2026/06/11/86382.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/397007.jpg"
+    },
+    {
+      "title": "網走・北見・紋別地方に雷注意報",
+      "body": "6月12日3時54分頃、北海道の網走、北見、紋別地方に雷注意報が発表された。気象庁によると、発達した積乱雲が近づいているため、落雷や突風、ひょうに注意が必要だ。\n\nこれらの地域では、急な天候の変化が予想されるため、屋外での活動には十分な注意が求められる。また、最新の気象情報に留意し、安全な場所で過ごすように呼びかけている。\n\n雷注意報は、落雷による被害や、突風による建物などへの影響が懸念される場合に発表される。今後の気象状況に注意が必要だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "6月12日3時54分頃、網走・北見・紋別地方に雷注意報が発表 - The HEADLINE",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zX2FCV1RjZWZfRVJwbjFzckZFdWo0eGh0dTVVWERDQlBzeDRCT2ZRMVZjYzE0TENoalNMZUIyX0ZsSWJHbjI0QkZjVWlRVEwzaFgtR3I4SzFLc1Jp?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "ロボットに「こころ」？小学生対象オンライン企画",
+      "body": "ロボットに「こころ」はあるのか？この問いについて、小学生を対象とした無料オンライン企画が6月21日に開催される。教育とICTの分野で、子供たちの知的好奇心を刺激する内容となっている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/11/86383.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "SEOツール、生成AI回答の分析機能を追加",
+      "body": "SEO・GEOツールのKeywordmapが、生成AI『Copilot』の回答データを取得・分析する機能を追加した。これにより、ユーザーはAIが生成した情報の活用や分析を効率的に行えるようになる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PQkdvQkFzclRPUjZsbnhxazA5S0t6SmlBZks1WjhJeTlaTjBXLUtURFphTWdhMlFHLXZKNDJlOHBoSElsZWxxSzRVV0lPLS1xcGpTUHdaNHJPMjI1SGVxQVpOS0NLeVpv?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "AI利用変化、世界検索トレンドで分析",
+      "body": "GeminiやFree AIなどの利用変化が、世界40カ国の検索トレンドから明らかになった。AI市場の動向を分析したレポートが、利用者のニーズやAI技術の進化の方向性を示唆している。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1pWk5vRUFlVDZKaTJWRnpxXzdnUHU1SHBLWUlKUmJEaDRzVVVFMjI3c2RobVpHdVdDdE1rVUlLUXBEejIzR1FHQ1pTN3RTYTR5RjRWMTFTYU5hMmN6NDFKN2NmTUU0eUNqZUhITU44d1JCYXhzRng1ZmJ0dw?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "OpenAI、Anthropicが上場申請へ",
+      "body": "OpenAIとAnthropicが、それぞれ上場申請を進めていることが明らかになった。AI業界の主要プレイヤーである両社の動向は、今後の市場に大きな影響を与えるとみられる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YTENoVFc2d2dwWmZlRmZwVDR1QkQ1QmhNTFQzdnhPWnJnV2hjbGppeTd4c1lOZFNZMzlIQTlRZV9iODd2bjlrcy11UUNxRjkxVGpvMkRmenJHLVV6UGJXM0dCNmhJX0w5Tmc?oc=5",
+      "source": "Google: Anthropic"
+    },
+    {
+      "title": "サッカー男子、北海道科学大高など8強",
+      "body": "全道高校大会サッカー競技で、北海道科学大高などが8強入りを果たした。全国大会出場を目指し、各校が熱戦を繰り広げている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52cHNCcFFTUkhfbnlxaW5nbWNKS1ZoYnRvWC16cG9QZ0dHRVplUGNnWXNKN2NNTTVFc1A0Rjk3dThDQVpWY2QzUkZTNHViNGVfbHNpMkdlTFZJQQ?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "元アザラシ飼育員がオンライン講座",
+      "body": "オホーツクとっかりセンターの元アザラシ飼育員で獣医師の岡崎雅子さんによるオンライン講座が開催される。アザラシの生態や飼育に関する興味深い話が聞ける予定だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SY0ljN0FyOGhPTVg5ZVU3N0hEUFloYkxNQW5MMFRDNzBxVUpIZWIxRW5zXzhPelVoSndqR3dzVk9VcW9uU2lzTEVCSEs0RElTTlJLNjBiWFNBd3Rfbl82OWo2X243aFFx?oc=5",
+      "source": "Google: オホーツク"
+    }
+  ]
+}
