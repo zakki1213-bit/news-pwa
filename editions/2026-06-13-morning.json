@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-06-13",
+  "generatedAt": "2026-06-13T06:20:29.459+09:00",
+  "lead": "本日の紙面では、AI技術の進化とそれに伴う課題、地域経済の活性化に向けた動き、そして教育現場での新しい取り組みなど、多岐にわたるニュースをお届けします。特に、AIの発展がもたらす雇用への影響や、データ管理におけるセキュリティ問題は、社会全体で議論を深めるべきテーマです。また、北海道の高校スポーツの活躍や、地域に根差した取り組みは、地方創生のヒントとなるでしょう。",
+  "topStory": {
+    "title": "Anthropic、AI雇用喪失リスクに言及",
+    "body": "米AI開発大手Anthropicは、年8.5万ドルのフェロー制度を創設したことを発表した。同社のダリオ・アモデイ最高経営責任者（CEO）は、AI技術の急速な発展が雇用に与える影響について言及した。\n\nアモデイCEOは、AIが人間の仕事を代替する可能性を認めつつも、新たな雇用機会の創出や、AIとの協働による生産性向上にも期待を寄せている。フェロー制度は、AI分野の研究者や開発者を支援し、倫理的かつ社会的に有益なAIの開発を促進することを目的としている。\n\n同社は、AIの進化が社会にもたらす変化に対応するため、教育や再訓練プログラムへの投資も重要であると指摘。AI技術の恩恵を広く享受できる社会の実現に向け、産官学連携での取り組みが求められるとしている。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "Anthropic、年8.5万ドルのフェロー制度創設 アモデイCEOがAIによる雇用喪失リスクに言及 - 財経新聞",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5MaUl2dElNMm1zb1JIN3Y0cGFJeThsOXU5N19RSGhDRWx3a0lWNlNGRmprdldPNzB3bE5RQ0VIWVNJYjlfZzZOWVdmM2E5Z0IwNVhBVjBLeFpVMGJ2WFdacDhCSdIBaEFVX3lxTE9ITURrckp4Tk1kNGY3NXB1TC1pSVFWajNaQVo0VFdxNF9za1RzUEpGcE5EVkdvajdZeGcyRzRfOEI2Yk1ldUlFSDg2eHlBUnhyaFJGcDZoSnEyNFhPMU14MV9oMEFCY2Nj?oc=5",
+        "source": "Google: Anthropic",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "Microsoft、独自AIモデル7種を発表",
+      "body": "Microsoft AIは、独自開発した7種類のAIモデル「MAI」を発表した。これらは推論から画像生成、音声処理まで、幅広いタスクに対応する。\n\n今回の発表は、AI分野におけるMicrosoftの技術力を示すものであり、同社がAI開発に注力している姿勢を改めて示した。これらのモデルは、様々な産業分野での応用が期待されており、ビジネスの効率化や新たなサービスの創出に貢献する可能性がある。\n\nMicrosoftは、今後もAI技術の研究開発を進め、社会の発展に貢献していく方針を示している。AIの倫理的な利用や、社会への影響についても配慮しながら、技術革新を進めるとしている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "Microsoft AI、独自開発のAIモデル「MAI」7種を一挙発表 ～推論から画像、音声まで（窓の杜） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ic3JPYWx1WDk3Sy1HY3d5akJScmJXUkh5NFVDb1dPckRjeEpCSndkbFFMT2VKU3pCU0hyWExxTUVoaFpYNnRJN05JaUJ2cmdFdkF0ZXZsNkZQclQydFpVekhXZURHcngxMi1GOXBJVWJiRnllclBHYVl6cDBNbWs?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "生成AI開発ツール「Dify」新ライセンス提供開始",
+      "body": "TDSEは、生成AIアプリケーションやAIエージェント開発ツール「Dify」において、新たなライセンス体系「Essential」と「Standard」の提供を開始した。これにより、開発者はより柔軟な選択肢の中から、自社のニーズに合ったプランを選べるようになる。\n\n「Dify」は、AI開発のプロセスを効率化し、高度なAIアプリケーションの構築を支援するツールとして注目されている。今回の新ライセンス導入により、中小企業から大企業まで、幅広いユーザー層の利用が促進されると期待される。\n\nTDSEは、今後も「Dify」の機能拡充やサポート体制の強化に努め、AI開発市場の発展に貢献していくとしている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "TDSE、生成AIアプリ・AIエージェント開発ツール「Dify」において 新ライセンス「Essential」「Standard」の提供を開始 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mS05MelZuTU9ib0ZEdU5GeXVsd1lieS01ejlhbDNEMktxMjJMRFhQazdRck1JRlJIeXFCcHNLVTZrSERYVmVTUUZaNGMwWEgyRnV4SjEtZFJfWHNqTkp0eEdhUllMSFl4S1F0VDhYdHEwOFpWQXhNR1pnTQ?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "北海道高校大会、記録更新相次ぐ",
+      "body": "北海道高校総合体育大会では、重量挙げ競技で北海道記録が次々と更新された。男子バレーボールは札幌大谷高校が、女子バレーボールは旭川実業高校が優勝を飾った。\n\n各競技で選手の熱戦が繰り広げられ、高校生の力強いプレーが観客を魅了した。特に重量挙げでは、若きアスリートたちが自己ベストを更新し、北海道のスポーツ界に新たな歴史を刻んだ。\n\n大会は、選手の健闘を称えるとともに、地域にスポーツへの関心を高める機会となった。今後も北海道から多くのスター選手が生まれることが期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "重量挙げは北海道高校記録の更新続々 バレーボールは男子札大谷、女子は旭実が優勝 全道高校大会 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBYMFUyUU5KNmNSN05hNGJSLWVoaUR6cUtKVi12WVVzUWJGSVJtUDcwbDNmNUNFZWR3dGNMSmhxTEhUNVdpd0l3LTNnVXl1ZHpDbWJWWVFSbUU5QQ?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "税理士「6月の通知書、捨てないで」",
+      "body": "税理士は、6月に届く特定の通知書について、絶対に捨てずに確認するよう警告を発している。通知書には、納税者が見落としがちな重要な項目が含まれている可能性があるという。\n\n具体的には、税金の計算や申告に関する情報、あるいは新たな税制改正に関するお知らせなどが含まれている場合がある。これらの通知書を無視することで、思わぬ税負担が発生したり、制度上の不利益を被ったりするリスクがある。\n\n税理士は、通知書の内容が不明な場合は、専門家である税理士に相談することを強く推奨している。早期の確認と適切な対応が、将来的なトラブルを防ぐ鍵となる。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "税理士が「絶対捨てないで」と警告 6月に届く通知書と確認すべき項目 (2026年6月12日掲載) - ライブドアニュース",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1EY1JyM2lZOGRKYjN5SkRndllfQlJHekxLRW0tOS1lRExXMWMtS2NtR0Y3anRsSXZ6R2pkdWh2WUlQUmVuWTVrNkpaQmNLWkVMX0NZTktkMG9RNm12ZGc?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "栃木県民の日、記念イベント開催",
+      "body": "6月13日の栃木県民の日を記念し、県内各地でイベントが開催される。動物とのふれあい体験やゲーム、県内外の施設で優待が受けられる企画も用意されている。家族連れなどで楽しめる内容となっている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/12/86397.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "生成AIと粗悪論文、学習データ枯渇問題",
+      "body": "生成AIの普及に伴い、質の低い論文の増加や、AIの学習データ枯渇が問題視されている。研究の信頼性維持とAI技術の健全な発展のため、対策が急務となっている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDUnNabGRqNGFLTXpWaEp0TXdOM2NLRzluRUNXR1lNNTFWZGozZkhGdjFOajBEby1JYk9IelB1R0RsNThlV2dyQWlQMG5zcU1IQkd4TWpLWVZMYlFkY2tNeVMzbnZ5OFdTRmpwX1NwQlVnc3NvcDB5LUlQYw?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "道立高、道外生枠で遠軽・紋別が特例校に",
+      "body": "北海道の道立高校における道外からの生徒受け入れ枠について、オホーツク管内の遠軽高校と紋別高校が「特例校」に指定された。これにより、地域への生徒確保の弾みとなることが期待されている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1aRHdNa1p3NHpxMjgxOWZIWnk3VGRiQmt5d21kRDhQMjVsMk95eHlzRHRFZDMzVTIxRGN6OHR4VndMTzU5WU1lWHFLYndwZ0YtWFh2QXRoZEVJZw?oc=5",
+      "source": "Google: オホーツク"
+    },
+    {
+      "title": "厚労省、Teamsチャット消失、東芝が作業ミス",
+      "body": "厚生労働省で、Microsoft Teamsのチャットデータ約2年10カ月分が消失した。原因は、グループウェア運用を委託していた東芝による作業ミス。行政文書を含む一部は復元困難という。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://www.itmedia.co.jp/news/articles/2606/12/news129.html",
+      "source": "はてブIT人気"
+    },
+    {
+      "title": "生坂中「Ikusaka学」に参加",
+      "body": "松本山雅FCが、生坂中学校で実施されている探究学習プログラム「Ikusaka学」に参加した。地域と連携した教育活動への取り組みが報告されている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nemdsN21vcXVOcmotMk5pQkVlMHRpanhQbV9ueGMtOXoxU2FyRzVwNkdRX1lKVG50MlpURzcwRkJDOEJTdnFsRlVnbldhcVRMMDVv?oc=5",
+      "source": "Google: 探究学習"
+    },
+    {
+      "title": "北見駅前にガバナ新設、国道の開削工事完了",
+      "body": "北海道ガスは、北見駅前にガバナ（都市ガス供給設備）を新設し、国道開削工事を完了した。地域インフラ整備への貢献が報告されている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBnNWpxUEJVU2hXcV9sVDBqdUhRdzU4c2hCZ1Jta3ItbmNsUVJPbkxQRWZtWlNjS0k5QUtrd09BV3p1N1VOYWVlUVFadG9vZ1lZQWhRdkxYQ24xLVo2UWZndjQ5MFpubFUwd2xSTw?oc=5",
+      "source": "Google: 北見市"
+    }
+  ]
+}
