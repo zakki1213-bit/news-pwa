@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-06-12",
+  "generatedAt": "2026-06-12T20:29:11.587+09:00",
+  "lead": "2026年6月12日、夕刊紙面をお届けします。教育現場での探究学習支援の広がり、AI技術の進化とそれに伴う新たなサービス、そして北海道の地域経済や教育に関するニュースなど、多岐にわたる情報をお伝えします。特に、ふるさと納税を巡る会計検査院の指摘は、地方財政のあり方に一石を投じるものです。AIの倫理的な問題や、生成AIの悪用事例にも触れ、技術の進歩がもたらす光と影を検証します。",
+  "topStory": {
+    "title": "ふるさと納税、自治体歳入にマイナス 会計検査院「地方財政計画への影響検証を」",
+    "body": "会計検査院は、ふるさと納税制度が地方自治体の歳入に与える影響について、地方財政計画との関連性を検証する必要があると指摘した。同院の試算によると、ふるさと納税による自治体への実質的な税収減は、過去8年間で総額3200億円に上るという。この制度は、寄付額に応じて自治体から返礼品が受け取れることから、都市部から地方への寄付が増加する一方で、寄付を受け取る自治体にとっては、返礼品の費用や事務経費がかさむため、実質的な歳入減となるケースが多い。\n\n検査院は、こうした実態を踏まえ、地方財政計画における税収見込み額と実際の決算額との間に最大で38兆円もの開きが生じている原因の一つに、ふるさと納税制度の影響がある可能性を指摘。地方財政計画の策定にあたり、より実態に即した精緻な検証と、制度の持続可能性についての検討が求められるとしている。今後の財政運営において、この指摘がどのように反映されるかが注目される。",
+    "topicId": "business",
+    "topicName": "商業・簿記・会計",
+    "color": "#059669",
+    "references": [
+      {
+        "title": "ふるさと納税、自治体歳入にマイナス 会計検査院「地方財政計画への影響検証を」 - 日本経済新聞",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9LRk9mSlBua1ZBR1RFc0o1NzB3RldsSXZCUHB0R2RrWi1UY1J6aHFEMnllZ1hES3FRSjV4aWdNa09VeFVJTl9ub21aQjFLRlJ5dnlodzdHb0xDUEx4VEN0cmFWdlhoU1dhRzRacA?oc=5",
+        "source": "Google: 会計",
+        "topicId": "business"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "生成AI人材と企業つなぐ副業マッチング「オシジョブ」",
+      "body": "株式会社は、生成AI分野の人材と企業をマッチングする副業プラットフォーム「オシジョブ」のアルファ版提供を開始した。同サービスは、生成AIを活用したサービス開発や運用に関わる専門人材と、プロジェクトを推進したい企業を結びつけることを目的としている。近年、生成AI技術の急速な発展に伴い、この分野の人材需要は高まっているが、専門性の高い人材の確保は多くの企業にとって課題となっている。\n\n「オシジョブ」では、AIエンジニア、データサイエンティスト、プロンプトエンジニアなどの専門職が登録可能で、企業はプロジェクト単位で最適な人材を募集できる。これにより、企業は必要な時に必要なスキルを持つ人材を柔軟に活用でき、個人は自身のスキルを活かした副業機会を得られる。今後は、AI人材の育成支援や、企業向けのAI導入コンサルティングなども視野に入れているという。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "プレスリリース：生成AI人材と企業をつなぐ副業マッチング「オシジョブ」アルファ版を提供開始（PR TIMES） - 毎日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZcE43UmUxR0pEa1VaS1d6SHQ5SW9SRG5DbmV6VVI4bjJKajRIbU9zYU1TVEFCVUJReWRNLVgzcUZfX0U5cDB4V3lWUUVBdHh0TXFWeG1lMHNBQnl0cU11LU0xUUNxZWdp?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "丸紅の社内生成AI基盤「まるちゃ」、SaaSとして外部提供開始",
+      "body": "丸紅は、社内で開発・運用してきた生成AI基盤「まるちゃ」を、SaaS（Software as a Service）として外部企業向けに提供を開始した。この基盤は、複数の大規模言語モデル（LLM）に対応し、高精度なRAG（Retrieval-Augmented Generation）技術を備えているのが特徴だ。月額3万円から利用可能で、企業のAI活用を支援する。\n\n「まるちゃ」は、丸紅が長年培ってきたDX推進のノウハウが詰まっており、セキュアな環境で多様なAIモデルを柔軟に組み合わせ、業務効率化や新たな価値創造に貢献する。特に、企業が保有する独自のデータを活用し、より精度の高い回答を生成するRAG技術に強みを持つ。これにより、専門的な知識がなくても、自社のデータに基づいたAIアプリケーションを容易に構築できるようになる。外部提供を通じて、さらなるAI技術の普及と発展を目指す。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "丸紅の社内生成AI基盤「まるちゃ」がSaaSとして外部解禁 マルチLLMや高精度RAG対応で月額3万円から（クラウド Watch） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41UHgzZ0lNSWpDQ1drcWV0ckhHZ1dLUHRaWWhjQWhXOGxoczZQc0lybXNsXzhfbHFMbGhSYW1laG5vSElyZ3JVU0gxdTZEN1pNYWFId0RCTWc4N0dnM29CYVRldmR6bUFUbE9qVjZqeXZHakZWNk9zNE5jRGlmOFE?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "ガチャで日本文化を探究、小中学校向け「SPARKE」受付開始",
+      "body": "教育コンテンツ開発を手掛けるリセマムは、小中学校向けの新しい探究学習教材「SPARKE」の提供を開始した。この教材は、日本の伝統文化や歴史をテーマにした「ガチャ」を体験することで、児童生徒が楽しみながら主体的に学習を進められるように設計されている。ガチャを回すことで得られる情報やアイテムを手掛かりに、関連する知識を深めたり、グループで協力して課題解決に取り組んだりする。\n\n「SPARKE」は、単なる知識の習得にとどまらず、思考力、判断力、表現力といった非認知能力の育成も目指している。教材には、教員向けの指導案やワークシートも含まれており、授業での活用を容易にする。探究学習の新たなアプローチとして、教育現場からの注目が集まっている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "ガチャで日本文化を探究、小中学校向け「SPARKE」受付開始 - リセマム",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5tUmJfaWVZcnZYVTljTFRZNUZveVo2eVVLOXI0Q0hOTnN6eWtrZzg5aGROU3UtY3BOM3hzeS12dHVMbUpURGlSSzZaQ2lHd3B0TFNZelhmdFlvN2VuMmdJeVE5MlhzQQ?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "高校バレー全国大会へ、男子ベスト4が出そろう",
+      "body": "インターハイ北海道予選は11日、男女の準々決勝が行われ、男子は北海道科学大高が前年優勝の東海大札幌を破るなど、ベスト4が出そろった。女子も強豪校が勝ち進み、全国大会への切符をかけた熱戦が繰り広げられている。\n\n男子準々決勝では、北海道科学大高が粘り強いプレーで東海大札幌を接戦の末に退けた。辻監督は「選手たちが『やるべきこと』をコートの中で表現してくれた結果だ」と選手たちを称賛した。他の試合でも、各校が持ち味を発揮し、会場を沸かせた。決勝進出をかけた準決勝は12日に行われる。全国大会での活躍が期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "【高校バレー】インターハイ北海道予選 男女ベスト4が出そろう 北海道科学大高が前年優勝の東海大札幌を準々決勝で破る 辻監督「『やるべきこと』をコートの中で表現してくれた」（FNNプライムオンライン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90WmstWW5EbkYxY205WWpRWWdETXhRZVhYeWZLSGswWTZBSnBHT2dPbGdpcnFwOWgtMzI4TGZWd0drd1VEckszMm8wQnN0Z3pnc0RSOE5IRmRhSmxnX1JJbFRzcHBpaUZVQzQ1UlhtY2xyV1pWUW5Bc1lWNzhIY28?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "ATOMica、宮崎日大高で3年目の探究学習支援",
+      "body": "ATOMicaは、宮崎日本大学高等学校における探究学習支援を3年目に入り、継続して実施している。同社は、生徒が主体的に課題を発見し、解決策を探るプロセスを支援するプログラムを提供しており、生徒たちの学びの深化に貢献している。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9lRjVzUVRBQ0F2MHlaYUhDV1hnWmItTHhmWFY5eV83VzI0OWVFNkR5T3FDdzVxYTA5LW9uVzZuNWR2MmstYmpTTG5ac2JRTlJGLWRyN2xQS2JQa0h4bHZKWnZqREFMNl94Ul9BZkZORlZyU1JpeHhDV0tQZw?oc=5",
+      "source": "Google: 探究学習"
+    },
+    {
+      "title": "6月30日「ストロベリームーン」見ごろ",
+      "body": "今年の6月の満月「ストロベリームーン」が、今月30日に見ごろを迎える。夏至後最初となる満月で、空気が澄んでいる時期のため、比較的観測しやすいと予想される。夜空の美しい光景が期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/12/86394.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "千葉県民の日、施設無料開放",
+      "body": "6月15日の千葉県民の日を記念し、県内の多くの宿泊施設や博物館などで、子供を対象とした利用料無料や割引などの特典が実施される。家族で楽しめるイベントが多数企画されており、地域の活性化にもつながる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/12/86393.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "ふるさと納税、自治体収支マイナス拡大の可能性",
+      "body": "会計検査院は、ふるさと納税制度において、多くの地方自治体が実質的な収支マイナスに陥っていると指摘した。返礼品の費用や事務経費がかさむためで、今後、この傾向がさらに拡大する可能性も示唆されている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Zb0F2REFZVEw0T3hLZnlGUkw3a201OVVoVGdXVnpiTlBhUFVtZmlmR3p1b0hfZU4xT2tPQVk5UmI1X0NQQ0RmenNoU2NkclVLZEwxNnBUaXJXdHpEYkNJ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "AI企業アンソロピック、大型IPO準備か",
+      "body": "AI開発企業アンソロピック（Anthropic）が、大型IPO（新規株式公開）の準備を進めていると報じられている。同社は、対話型AI「Claude」の開発元として知られ、近年急速にトラフィックを伸ばしている。IPOが実現すれば、AI業界における新たな大型プレーヤーの誕生となる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WTU50WjEyMVdnOV9ZeHF4dk5ET3pRSVdKU1l4WEthMG0wNUFyd0RuNVVBRUM1WmhMbG5VVVU5OFRSYXRzMXNnc0M3TUZhbHZSS2U3TTFQbmQ4aG9lNzVxdFZranBFeDZKOWxBeU9CQXY4VnY2Q3VfcW1ZbzlpUm8?oc=5",
+      "source": "Google: Anthropic"
+    },
+    {
+      "title": "生成AI使い請求書偽造、県職員を懲戒処分",
+      "body": "長崎県は、生成AIを利用して病院の請求書を偽造し、元交際相手から21万円をだまし取ったとして、20代の県職員を懲戒処分とした。悪質な犯罪行為であり、AI技術の倫理的な利用が改めて問われている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOenlackNTcUdsOGdid0IwTkNaQU5sU25KSEpyc3pwZk1QcndDNVZBX3loclpMdG9EQVlyMGE5aDVsQm4yOXhpUkVMTFFob2kweWZuTk9Mc0dFSHc4ZFpSWWlFX1RRbW90WjVYTVpKQ2Yya1dwTTJ4MlFUQjFkckVYSnkzRzRzRU0?oc=5",
+      "source": "Google: 生成AI"
+    }
+  ]
+}
