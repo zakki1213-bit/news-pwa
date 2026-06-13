@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-06-13",
+  "generatedAt": "2026-06-13T19:16:58.023+09:00",
+  "lead": "2026年6月13日、夕刊紙面をお届けします。教育現場では探究学習の重要性が増す一方、ICT活用には地域差も。商業分野では不正会計問題が注目を集め、AI技術は急速な進化を遂げています。北海道からは、スポーツや地域イベントの話題をお伝えします。",
+  "topStory": {
+    "title": "「赤い羽根募金」で１億円使途不明 金、事務局長着服か",
+    "body": "共同募金会北海道共同募金会で、約1億円の使途不明金が発生していたことが判明した。会計責任者である男性事務局長が着服した疑いが浮上しており、国税局の強制捜査を受けている。\n\nこの問題は、会が実施している「赤い羽根募金」に関連するもので、使途不明金の総額は約1億円に上るとみられている。関係者によると、男性事務局長が個人的な用途に資金を流用した疑いが持たれており、国税局は既に強制捜査に乗り出している。\n\n北海道共同募金会は、この事態を重く受け止めており、15日には記者会見を開いて詳細を説明する方針だ。また、刑事告訴も視野に入れており、全容解明と再発防止に向けた対応を進めるとしている。今回の問題は、寄付金の適正な管理と透明性に対する信頼を揺るがすものであり、社会的な関心を集めている。",
+    "topicId": "business",
+    "topicName": "商業・簿記・会計",
+    "color": "#059669",
+    "references": [
+      {
+        "title": "「赤い羽根募金」で1億円の使途不明金 会計責任者の男性事務局長が着服か…国税局の強制捜査で発覚【北海道共同募金会】刑事告訴も検討 15日に記者会見 - TBS NEWS DIG",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MbXF6OGpQNUNtVGNWUnd2M01ITXphY1RHSFhxa21mckd0VVB3TkFVU08tYTlITTVQUTlNbjB3VVJkTU9Fbzg1UkJZSmlQM3ZvamJmRnV5bw?oc=5",
+        "source": "Google: 会計",
+        "topicId": "business"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "探究学習で「学ぶ楽しさ」と「成長実感」を",
+      "body": "子どもたちが自らの興味関心やコンピテンシー（能力・特性）を起点に、主体的に学ぶ探究学習の重要性が増している。この学習法は、知識の習得だけでなく、問題解決能力や思考力といった非認知能力の育成にもつながる。探究学習では、子ども自身が問いを立て、情報収集、分析、考察、発表というプロセスを経験する。\n\nこの過程を通じて、子どもたちは「学ぶことの楽しさ」や「自分の成長を実感できる」というポジティブな体験を得ることができる。教育現場では、こうした探究学習を効果的に導入・推進するための具体的な手法や、その真の狙いについての理解が求められている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "子どもが｢学ぶ楽しさ､自分の成長を実感できる探究学習｣のやり方と真の狙い 興味関心､コンピテンシーから始まる探究学習 - 東洋経済オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tYnd4Wlkwa1pONWZYRUVUd0tyTFNSNG1XaDRfNTZyWnFiVlJqbTRlUWpmU2t6Q19wa1YyMjdtQkx5TEpSTDUxRFJhcmxQRkJ6bVAzbmZNczFRNk0?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "米政府の輸出管理指令でAnthropicがAIモデル提供停止",
+      "body": "米国のAI企業Anthropicは、米政府の輸出管理指令を受け、大規模言語モデル（LLM）である「Fable 5」および「Mythos 5」の提供を緊急停止した。この措置は、AI技術の安全保障上の懸念に対応するためとみられる。\n\n今回の提供停止は、AI技術の国際的な流通と利用に影響を与える可能性がある。特に、先端的なAIモデルへのアクセスが制限されることで、研究開発やビジネスにおけるAI活用に遅延が生じることも懸念される。Anthropicは、今後の対応について政府当局と協議を進めるとしている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "AnthropicがLLM「Fable 5/Mythos 5」の提供を停止、米政府の輸出管理指令を受けて緊急措置 - IT Leaders",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1MU3l6QXQ5dUFOR1F1cVY3dEQ0WmJEQ1ZvWVBGWWZrbWlPMlhzZDl1ZVlnM2J1blh2NVlVWVljSzV0cEdmUmQ3S1YtWGtGaDVkNVpn?oc=5",
+          "source": "Google: Anthropic",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "定員割れでも不合格者 全国4番目に多い広島県",
+      "body": "広島県内の公立高校で、定員に満たないにもかかわらず不合格となるケースが全国で4番目に多いことが明らかになった。この状況に対し、県教育長は「合格者の決定は各学校で適切に行われている」との見解を示している。\n\n定員割れは、本来であれば入学が容易になるはずの状況であるため、不合格者の存在は多くの保護者や受験生にとって疑問視されている。教育委員会は、各高校の選抜基準や評価方法について、改めて検証する必要に迫られている可能性がある。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "定員割れなのに不合格、全国4番目に多い広島県内公立高校 教育長「合格者の決定は各学校で適切」 - 中国新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZWE1ieUcxdWZPWENKRl90NkxIOUZGUHB3cWFKWmJFTzNuQVVRU2xDS2o0MVA4R3FPR2lWNWhsY2w3QU15MXpQb3VVX1ZiWkdnVTU0aHdDTk1vZw?oc=5",
+          "source": "Google: 高校教育",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "オホーツクSEA TO SUMMIT 176人が網走川から藻琴山へ",
+      "body": "北海道網走市で、自然体験イベント「オホーツクSEA TO SUMMIT2026」が開幕した。大会には176人の参加者が、網走川から藻琴山山頂を目指す過酷なコースに挑戦する。\n\nこのイベントは、オホーツク海の雄大な自然を満喫するとともに、参加者自身の挑戦意欲を高めることを目的としている。参加者たちは、カヌーやトレッキングなどを通じて、地域の自然の魅力を体感する。大会は、地域活性化にも貢献することが期待されている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "オホーツクSEA TO SUMMIT2026が開幕 網走川から藻琴山山頂へ 176人が挑む - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pZDZsa0p2UzNtSmI5Y1F0SktxMDNwSTB5R2hSVEQtM1FsdVJFaWpfMlRHYkJXUE1yWmpReVlhdWt3ZDhoOC1pZElZLVplZ3ZuX3dBRHVOU1JpQQ?oc=5",
+          "source": "Google: オホーツク",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "GIGAスクール端末活用、地域・学校で差",
+      "body": "GIGAスクール構想から3年が経過し、1人1台端末の活用状況に地域や学校間で顕著な差が見られる。文部科学省は、端末を使い倒すことの重要性を強調するが、基本操作に困難を抱える児童生徒もいるのが現状だ。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5mUC04UzJVN2Q5djE4Q1N2Nnc0ME1MeTU1LVREYXRGb2NqNjJWQmo3YVZUVWdMd3JJTndnVlhtRXo5OGZLYlJpVE42cXkyR2dNS0VqaHBsYTlWY3M?oc=5",
+      "source": "Google: GIGAスクール"
+    },
+    {
+      "title": "ニデックに資料提出命令、不正会計で1607億円影響",
+      "body": "証券取引等監視委員会は、ニデックに対し資料提出命令を出した。不正会計問題に関連し、累計1607億円の影響が出ているとされ、今後の処分に注目が集まっている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UWk13X1hlSXAydkRtSXZvQjMxSTk3cWt1VnlRVDZ0SG1IanJIdW02Rk55dHNSdzM1VnZ0SC12MTRnRWRLS0NkZjVoYzhYMTltekM4?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "音楽生成AI、ElevenLabsの新モデルが進化",
+      "body": "音楽生成AIの分野で、ElevenLabsが発表した新モデルが注目を集めている。このモデルは、より高品質で多様な音楽生成を可能にし、AIによる音楽制作の新たな可能性を示唆している。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1jd2pLVlZnUkI2Zi1jZFNjVkZMYURSVi12Vml5TlhxN0FfX1V1VldKd2NvMlh2MklQQjRfWG5CYUtkNTh2MkJsTUszMi1obkZsbk1pX05uVzR1VDBWTi1NT181ZV9KdHdScjFuUTFUeDhUSnNxdndJWUtEcmtrV1E?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "実写映画『ゴールデンカムイ』続編、来年3月公開",
+      "body": "実写映画『ゴールデンカムイ』の続編が、『網走監獄襲撃篇』として2026年3月13日に公開されることが決定した。物語はクライマックスへと向かう。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1nWTVSLWxfb3A3ZnFTYTd2eWFHVFoxek5hM2I2THB5MDdhbXJVQWNOdnVpcngyRGw3RDN5YWs3WGpiWmhqS2ozZHFTQkRqMHFC?oc=5",
+      "source": "Google: 網走"
+    },
+    {
+      "title": "サッカーW杯優勝予測、生成AIが担い手に",
+      "body": "サッカーワールドカップの優勝予測において、かつての「予言タコ」に代わり、生成AIが新たな予測ツールとして注目されている。AIの分析能力が精度を高めている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NXhGYzdFS2ZCaHg4dXJ4aThhdEdSVW9EaGtMUXdScjRNTEJKeGM0Q3RGd2VzOHNTeFhuTUNHd1dYdUFkeUpzM0E1QXMyRTFuXzAwUjRUZmxRWE1JYU4yZjRVdTg5VXlJcGtESlFkU0lGSEt0bWRkUU14NEJ0eEE?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "高校バレー北海道予選、札幌大谷がV",
+      "body": "インターハイ北海道予選（男子バレーボール）で、札幌大谷高校がとわの森三愛高校を破り、2年ぶり2度目の優勝を果たした。セッターの復帰がチームを勢いづけた。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5KTmdNYW4xQS1TSU5fajM4dGVGcGFWZThfZmhCNnNTLUVIZ1E5NDBiZjRLb0dHVGJRa3hCOEF0VE9fcjNBVllkcnlvMzJoZEVrVWdCNF9jM1NyUGhwdm1WdnVJRkdkTVdya09WZUZlb2N1VEQ5Rk9NbHZYWnlwdw?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
