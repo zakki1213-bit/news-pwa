@@ -1,0 +1,141 @@
+{
+  "type": "morning",
+  "date": "2026-06-16",
+  "generatedAt": "2026-06-16T07:06:16.070+09:00",
+  "lead": "AI技術の進化は目覚ましく、ビジネスの効率化や新たなサービス創出に貢献する一方、その利用や規制を巡る議論も活発化しています。教育分野では、夏休み期間を活用した無料イベントや、教員間の連携を深める取り組みが注目されています。また、北海道からはスポーツの話題を中心に、地域に根差したニュースをお届けします。",
+  "topStory": {
+    "title": "Stack Overflow、AIエージェント同士の情報共有サービスをベータ公開",
+    "body": "米Stack Overflowは、AIエージェント同士が技術情報を共有する新サービス「Stack Overflow for Agents」のベータ版を公開した。このサービスは、AIエージェントがオープンな掲示板上で、技術的な問題解決策やコードスニペットなどの情報を交換できるように設計されている。\n\nこれにより、開発者はAIを活用して、より迅速かつ効率的にコーディングやデバッグ作業を進めることが期待される。AIエージェントが互いに学習し、知識を深めることで、将来的にはより高度な問題解決能力を持つAIの開発にも繋がる可能性がある。\n\nStack Overflowは、長年にわたり開発者コミュニティにおける知識共有のプラットフォームとして機能してきた。今回の新サービスは、AIの進化を取り込み、開発者支援のあり方をさらに進化させる試みと言える。ベータ版の提供を通じて、ユーザーからのフィードバックを収集し、サービスの改善を進めていく方針だ。\n\nAI技術の急速な発展に伴い、開発現場でのAI活用は今後ますます加速すると見られる。Stack Overflow for Agentsは、その流れを加速させる重要な一歩となるだろう。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "Stack Overflow、AIエージェント同士が掲示板で技術情報を共有する「Stack Overflow for Agents」ベータ公開",
+        "url": "https://www.publickey1.jp/blog/26/stack_overflowaistack_overflow_for_agents.html",
+        "source": "はてブIT人気",
+        "topicId": "ai_tech"
+      }
+    ],
+    "ogImage": "https://www.publickey1.jp/2026/HKdu4sUXYAISq51.jpg"
+  },
+  "midStories": [
+    {
+      "title": "生成AIで中小企業の販路開拓支援 プロンプト作成機能リリース",
+      "body": "中小企業の海外市場開拓を支援する新サービスがリリースされた。このサービスは、生成AIを活用して販路開拓に必要な準備作業を簡略化する。特に、海外市場への進出に最適化されたプロンプト作成支援機能が提供される点が特徴だ。\n\nこれまで専門知識や多くの時間を要していた市場調査、競合分析、マーケティング戦略立案といったプロセスが、AIの力を借りることで効率化される。これにより、リソースの限られる中小企業でも、より積極的に海外市場への展開を図ることが可能になる。\n\nサービス提供元は、中小企業が直面する課題を理解し、AI技術を駆使して具体的なソリューションを提供することで、日本企業の国際競争力向上に貢献したいとしている。今後も、生成AIの活用範囲を広げ、多様なビジネスニーズに応えていく考えだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "販路開拓に必要な準備を生成AIで簡略化 ～中小企業の海外市場開拓に最適化したプロンプト作成支援機能をリリース～ - RBB TODAY",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83MERiUUNaN0tQSno4SDR3MkFvelN4aV9kSkJ5ZWI5TndvdDZSUjkyWVhwTEZCQUtBM1Rvamh0ZWV4Z1pyZ1cwOUJoQnlYOWhRN3BEQ05OYkJrMk5LUy1Ga1B4TS1idEJsVkFkMUhQNGdzeVRFM1NpSw?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "金融庁、VC投資に外部チェック推奨 不正会計受け指針改訂へ",
+      "body": "金融庁は、ベンチャーキャピタル（VC）投資における外部チェックの重要性を推奨する方針を固めた。今夏にも関連指針を改訂する。これは、近年の不正会計問題を受け、投資先の健全性を確保し、再発防止を図るための措置だ。\n\n改訂される指針では、VCが投資判断を行う際に、外部の専門家によるデューデリジェンス（資産査定）を強化することなどが盛り込まれる見込みだ。これにより、投資対象企業の財務状況や事業リスクをより詳細に把握し、不正会計のリスクを低減することを目指す。\n\n金融庁は、VC業界全体の透明性と信頼性を高めることで、健全な投資環境の整備を進めたい考え。今回の指針改訂が、今後のVC業界のあり方にどのような影響を与えるか注目される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "金融庁、VC投資に外部チェック推奨 今夏に指針改訂 不正会計受け再発防止へ - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORE9kSnhCa1VmSUtVa1ZXWU9RQ2tDM0JEUzc0NWlpdWVwNzE5ZE9OcmpoeFhUNWNiM0xrSmFuRFVQNm9rM0ZtZjhzY1o3dnllNWVYMUJaekdqQjVST2JHejgwODdyRFR3MHVuQk9ZZ2ZYN3V4ZzRCTElxbzRhbFFMeVVOWldXZEJoRkg3ZjdGcVRncENWeDhUWFNzYWR6WVVjUnhCZ0ZB?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "ソフトボール、とわの森が全道高校大会を制す",
+      "body": "北海道高等学校ソフトボール大会は、とわの森女子高校が優勝を飾った。決勝戦では、強豪校を相手に粘り強いプレーを展開し、見事勝利を収めた。\n\nチームは、日頃の厳しい練習の成果を存分に発揮し、大会を通じてチーム一丸となった戦いぶりを見せた。特に、投打の要となる選手たちの活躍が光った。この優勝により、とわの森女子高校は夏の全国大会への出場権を獲得した。\n\n監督は、「選手たちの成長を実感できた大会だった。全国大会でも、自分たちの力を出し切り、一戦一戦を大切に戦いたい」と意気込みを語った。北海道の高校ソフトボール界に新たな歴史を刻んだチームの、全国での活躍が期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "ソフトボール、とわの森が制す 全道高校大会 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjOWM2djlQMTRfcWJYWEVyQTBlTVNJWkFoaEEwTUF0MEZQSXhsQ3U4d09nSXlXVmtuMGQxeDg2Mk9UMGxvSmgzeHpiWDBaSURBUDg4aWlPcEJhZw?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "音楽劇「赤毛のアン」、子供870名を無料招待",
+      "body": "夏休み期間を利用し、子供たちに文化芸術に触れる機会を提供する音楽劇「赤毛のアン」の無料招待企画が実施される。今回は、870名の子供たちが招待される予定だ。\n\nこの企画は、子供たちの情操教育や豊かな感性を育むことを目的としている。名作「赤毛のアン」の世界を音楽劇で体験することで、子供たちは物語の感動と共に、芸術の楽しさを学ぶことができるだろう。\n\n主催者は、「多くの子供たちに、この素晴らしい物語と音楽の世界を楽しんでほしい。夏休みの思い出に残るような、特別な体験を提供できれば幸いです」とコメントしている。チケットの申し込みは既に開始されており、多くの応募が予想される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "【夏休み2026】音楽劇「赤毛のアン」子供870名無料招待",
+          "url": "https://resemom.jp/article/2026/06/15/86413.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/397136.jpg"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "生成AIでFAQ自動生成サービス提供開始",
+      "body": "FAQ（よくある質問）を自動生成する新サービス「Wisbit AI×FAQ」の提供が開始された。このサービスは生成AIを活用し、問い合わせ対応の削減と社内知識の共有を支援する。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yeVNtQW44dVJLdm0zdXFvUXh1X1BKaGYzUEIwWVo5TlZfTjY5OWMxRDg5dVNESk1CZGVLUVI3X0lqR2d0b0x3RzM0SkZPM3d3YzdPNVM3ckRTZVV3YW1N0gFkQVVfeXFMTjJvWnJWaUloQU4ybFdPZXV4RXdRWHFVNzZZeGhlaU9Tbkw4REZTUEdlTGVsd0gzcnJKNk45bklBYVZsbFlPTDRYZlcxYTFVWDlxQkd6ZF9ZRm1NUmNqaVBIa2ZLbg?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "生成AIで資料作成を効率化 おすすめツール8選",
+      "body": "生成AIを活用して資料作成を効率化する方法と、おすすめのツール8選を紹介する記事が公開された。ビジネスシーンでの活用事例も解説されている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BS3RFLU5qQmM4X0h1dGtaSTFpc1ZvdURKNF9tSTFubFVZRXBTT085bXMySjFDVkpxUFRpSVhQOTJqSS1JTE5ueUw5QQ?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "Anthropic、AI規制巡りトランプ氏側と会談",
+      "body": "AI開発企業Anthropicの幹部が、トランプ前大統領側と会談した。AI規制を巡る意見交換が行われ、今後の政策への影響が注目される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92bF9ZTU5EbG05SHhQWFYwaDUwVkIwZ3E1OVM5OHJ4cGtpVmdVQVJlU1dDSHF2OFNfY2VyODFLTlFQMDZqTjJxVGlRMWxLME5LMXVDMHJlNFBzT0hqVGRwVVJHRVNXWUdRdzN4MW9BbTQ?oc=5",
+      "source": "Google: Anthropic"
+    },
+    {
+      "title": "カーリング藤沢、スキップの自信喪失も復活誓う",
+      "body": "カーリング女子日本代表の藤沢五月選手が、スキップとしての自信を失っていた胸中を明かした。来季に向け、練習と努力を重ね、ロコ・ソラーレらしい勝利を目指すと誓った。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52cGozRkVhSTdyVTBid0l0czVZNk9kZDNwV0NHSF9MMjJqeHJ5SnByOW9GZ0g1RElKa1dnb0FjYU1YNWxOWjhQOWRMZHNRLUFPMlREbTF0Sjhyb3BCaWptaVVkcVAtaHlMaFpQMHFtWVZvS0E4X1hIOU1GdWtsaVU?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "網走市で野鳥77羽の死骸回収、鳥インフルは陰性",
+      "body": "北海道網走市藻琴の海岸で、野鳥77羽の死骸が回収された。鳥インフルエンザの検査は陰性だったとのこと。原因は調査中。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pdTk0STIwVVB3SUhEUUtnbWwtaG5BbTNMb1l4LW9zUXJLU0NycnFxVk96V2RVZzhtREVMRnpwS093eG1OV1BQeXZwTTBXd0wxRm5YRHJtZk9sQQ?oc=5",
+      "source": "Google: 網走"
+    },
+    {
+      "title": "無料で楽しめる関東の工場見学5選",
+      "body": "夏休みの自由研究にも活用できる、関東地方で無料で楽しめる工場見学スポット5選が紹介されている。子供から大人まで楽しめる内容となっている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/15/86415.html",
+      "source": "リセマム"
+    }
+  ]
+}
