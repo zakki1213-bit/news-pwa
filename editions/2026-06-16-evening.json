@@ -1,0 +1,141 @@
+{
+  "type": "evening",
+  "date": "2026-06-16",
+  "generatedAt": "2026-06-16T21:32:18.182+09:00",
+  "lead": "2026年6月16日夕刊。AI技術の進化と教育現場での活用、商業分野の不正問題、そして北海道の地域ニュースなど、多岐にわたる話題を紙面で展開します。特にAIのシェア変動や、高校教育における新たな取り組みに注目が集まります。",
+  "topStory": {
+    "title": "ChatGPTシェア初の50％割れ Gemini・Claudeが拡大",
+    "body": "AIチャットボット市場で、ChatGPTの世界シェアが初めて50％を下回ったことが明らかになった。調査会社のデジタル투데이が報じたところによると、GoogleのGeminiやAnthropicのClaudeといった競合サービスがシェアを拡大しているという。\n\nChatGPTは、OpenAIが開発した大規模言語モデルで、その自然な対話能力から急速に普及した。しかし、近年は競合他社も高性能なAIモデルを次々と発表しており、市場の競争は激化している。GeminiはGoogleが開発を進めるマルチモーダルAIで、テキストだけでなく画像や音声なども理解できる能力を持つ。Claudeは、安全性と倫理性を重視して開発されており、企業ユースでの採用が進んでいるとみられる。\n\n今回のシェア変動は、AI市場のダイナミズムを示すものと言える。ユーザーは、より目的に合った、あるいはより使いやすいAIサービスを求めて選択肢を広げている。今後も、各社の技術革新とサービス競争が市場の動向を左右する重要な要素となるだろう。AI技術の進化は止まらず、私たちの生活や仕事にますます深く関わっていくことが予想される。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "ChatGPTの世界シェア、初の50％割れ GeminiとClaudeが拡大 - 디지털투데이",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOXAwWnl4azJaTEM1YTVGLWk2Y2ZVM0hYTm9NOWxsejlhV3dUdGtPS1dGSnhTXy1BOHFYVUIxenU0cWJGZFZfblMzS0NLOUFuUXhtZkJUd0xYbnVzRmJZbHJkRDgtX1hONmx3UnlJdzVudENVcVI3Z3d4S1FWcU4wMGdWUkIzVWxBQmkxZ0drM3l0UGlBUkhKOWMtWmxGUV9hd3JJOG5TN3dRYnBfODcwd1VXbWU?oc=5",
+        "source": "Google: Claude AI",
+        "topicId": "ai_tech"
+      }
+    ],
+    "ogImage": "https://cdn.digitaltoday.co.kr/news/photo/202606/675665_624348_3313.png"
+  },
+  "midStories": [
+    {
+      "title": "部活動でレンタカー利用容認へ 北海道教委、運転手不足に対応",
+      "body": "北海道教育委員会は、部活動でのレンタカー利用を容認する方針を固めた。背景には、部活動指導者の運転手不足や、貸し切りバス代の高騰がある。福島県で発生した死傷事故を受け、全国的に部活動の移動手段に関する実態調査が行われた結果、約3割の学校でレンタカーが利用されている実態が明らかになった。\n\n新たな基準では、運転手は免許取得後2年以上経過し、走行距離は約250キロメートルまでといった条件が設けられる見込みだ。これにより、生徒の安全を確保しつつ、学校側の負担軽減を図る狙いがある。これまで部活動の移動手段確保は大きな課題となっており、今回の決定は多くの学校にとって朗報となるだろう。\n\nこの方針は、運転手不足やバス代高騰といった、全国的な課題への対応策としても注目される。今後、北海道内の各学校で具体的な運用が開始される見通しだ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "部活動でレンタカー利用を容認へ【北海道教育委員会】背景に運転手不足やバス代高騰…福島での死傷事故受けた実態調査で約3割の利用実態 免許取得後2年以上や走行距離約250キロまでなどの独自基準 - Excite エキサイト",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZVTJjNWw4WENKY3c5aXZNYWEyOTAzVXQybjFpcHRObllLWmt0NW1tRDJKOU02LXZPSnNVVUVkWjJVdHR3a1JaRWx1VjNWVVBOUmJPQzFRUm83ZVNJSW5DckoxWE1RenhCcVdJUEJR?oc=5",
+          "source": "Google: 北海道 教育",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "生成AIは賢いが間違いも 小4児童、算数授業で発見",
+      "body": "富山県の小学校で、小学4年生の児童が算数の授業中に生成AIの特性について独自の発見をしたことが話題になっている。「AIというのは賢いけれど間違いが多い」と児童は指摘し、生成AIとの付き合い方について授業で発表した。\n\nこの児童は、AIに算数の問題を解かせた際に、時折誤った回答が出てくることに気づいたという。その上で、AIの回答を鵜呑みにせず、自分で考えることの重要性を学んだと語った。AIが教育現場で活用される機会が増える中、児童がAIの限界を理解し、主体的に学習を進める姿勢を示したことは、教育関係者の間でも注目されている。\n\nAIは便利なツールである一方、その情報には偏りや誤りが含まれる可能性がある。この児童の発見は、AIを効果的に活用するために、常に批判的な視点を持つことの重要性を改めて示唆している。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "「AIというのは賢いけれど間違いが多い」小4児童が算数の授業で気づいた生成AIとの付き合い方 富山 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JWFluZVZReG91d1BFbW45YlVQcFlFdWZlUnZTVW1fbEJ3WUszdUxCZWxpQW1VSWtBTENBY0YydXptSTR4ejFfMnVqM2xmbFhXeE1mQmplNEhSVWxMbTI0NHJUa3I?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "北海道公立高、学校裁量一覧を公表 傾斜配点は12校",
+      "body": "北海道教育委員会は、2027年度の公立高等学校入学者選抜における学校裁量一覧を公表した。これによると、学力検査の点数に傾斜配点を導入する高校は12校であることがわかった。傾斜配点とは、特定の教科の配点を高く設定することで、その教科の学力や適性を重視する選抜方法だ。\n\n今回の公表により、受験生は各高校がどのような基準で生徒を選抜するのかをより詳細に把握できるようになる。傾斜配点を導入する高校は、例えば数学や英語といった特定の科目に力を入れたい生徒にとって、有利になる可能性がある。一方で、全教科のバランスを重視する高校も多く存在する。\n\nこの情報は、来年度の高校受験を控える生徒や保護者にとって、志望校選びの重要な参考資料となる。各高校の教育方針や求める生徒像を理解し、自身の学力や適性に合った学校を選択することが求められる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "【高校受験2027】北海道公立高、学校裁量一覧を公表…傾斜配点は12校",
+          "url": "https://resemom.jp/article/2026/06/16/86431.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/397192.jpg"
+    },
+    {
+      "title": "AI博覧会、名古屋で17日まで開催 生成AIでデジタル社員も",
+      "body": "名古屋コンベンションホールで、60社以上の企業が出展する「AI博覧会 Nagoya 2026」が開催されている。会期は6月17日まで。会場では、生成AIを活用した様々な製品やサービスが紹介されており、特に注目を集めているのが「デジタル社員」のデモンストレーションだ。\n\nこのデジタル社員は、AIが自然な対話を行い、顧客対応や社内業務のサポートを行うもの。企業の業務効率化や生産性向上に貢献することが期待されている。他にも、AIによる画像生成、文章作成、データ分析など、多岐にわたる技術が展示されている。\n\nAI技術は急速に進化しており、ビジネスシーンでの活用も拡大している。今回の博覧会は、最新のAI技術に触れ、その可能性を探る絶好の機会となっている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "60社のAI製品大集合 ｢AI博覧会 Nagoya 2026｣ 生成AIでデジタル社員まで…名古屋コンベンションホールで6月17日まで - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9KWnp0SW5GcGdvZ0M3ZUw4bjFiTUFheFhaaF9KVUF3bTFNRld5cEVCRmZuNVpFOUx2XzI2a3BYdkhIMmgzcnNkWnU2SjVaUTNFT2UybjJEZ3BUOFFGSk40?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "福井県、職業系高校を「プロ人材高校」に",
+      "body": "福井県は、地域を担う若い人材育成のため、県内の職業系高校を「プロ人材高校」と位置づけ、教育環境の充実を図る。専門的な知識や技術の習得を支援し、卒業後の就職や地域産業への貢献を目指す。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14TlpnOVk4bzhzR2NkLUtZS3dTRE16elpuTG1rYTUyZ3hOX2xBN1R2cmVnN1BJRlJZeHM0ekpGUHNtWi05NkoxWjJLVkMwR1lONW5MSjFtMjZoTnRNdFUyT0NhY1RZMHZZTUJ5SGpxYUlJem0zbTczdFdtdUIydEU?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "小中学生向けPC組み立て教室開催",
+      "body": "夏休み期間中の8月22日、小学生と中学生を対象とした「FMVパソコン組み立て教室」が開催される。参加者は、実際にパソコンを組み立てる体験を通じて、ITへの関心を深めることが期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/16/86430.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "札幌で「のだめカンタービレ」公演",
+      "body": "札幌市で8月、18歳以下の子供たちを無料招待する「のだめカンタービレ」の朗読×オーケストラ公演が開催される。音楽と物語の世界を体験できる貴重な機会となる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/16/86428.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "ニデック、会計不正で提出延期か",
+      "body": "ニデックは、会計不正の問題により、有価証券報告書の提出期限に間に合わない可能性があり、提出延期を検討していると報じられた。詳細については調査が進められている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CTFZZajZ6STZUNUVMNjBYUXRpY3Rlb2dCY2ZfcDF4T0hWR1NsZUgwa3owUjVtaUtUdWgxdmtjaFJEZVRJMUU0Wmx5Z3EyWDFMUTVTUEMtSnlEWmtDN1g2T1Fjd01ibzk5M3FVQk1tREhydThCYTh0dUNKR2NkU2s?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "福岡市職員、盗撮容疑で逮捕",
+      "body": "福岡市に勤務する会計年度任用職員が、スリルを味わう目的で盗撮を行った疑いで逮捕された。公務員による不祥事として、市民に衝撃を与えている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Ba1h6cTMxNWZhY2xNajBOdzBVX3FmVF9CX0JLckF1aWFUdmM3VHZlcWZwNUtsdHdOUklRN1FvZnQ5WjlPVGo5R2RsaUxUM3lIRkRUNUM5Y3JaMFU0VXdZaVlQeUFhVnJSODFRUXFwU09neVFhQVF2SUM5OA?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "北見でひょう、タマネギ被害",
+      "body": "北見市で発生したひょうにより、タマネギの葉が折れる被害が出た。被害は局地的で、収量への影響は限定的とみられているが、農家にとっては不安な状況だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBEaW1od1N5RWszNmtWZlZDSVlPUFlMYkx3TnJTUU9hS3M3UVMyeVlJcTFmZVF0blBWMkdtOHVjdnhUTUdqVWw2T0lZNWVTSldncFdVVURuSmJ4Nk9rNkQxY0xpQ2w?oc=5",
+      "source": "Google: 北見市"
+    }
+  ]
+}
