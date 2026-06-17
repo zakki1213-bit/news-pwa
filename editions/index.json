@@ -1,6 +1,12 @@
 {
   "editions": [
     {
+      "type": "evening",
+      "date": "2026-06-17",
+      "generatedAt": "2026-06-17T21:07:24.576+09:00",
+      "file": "2026-06-17-evening.json"
+    },
+    {
       "type": "morning",
       "date": "2026-06-17",
       "generatedAt": "2026-06-17T07:02:53.650+09:00",
@@ -353,12 +359,6 @@
       "date": "2026-05-18",
       "generatedAt": "2026-05-18T22:23:28.732+09:00",
       "file": "2026-05-18-evening.json"
-    },
-    {
-      "type": "morning",
-      "date": "2026-05-18",
-      "generatedAt": "2026-05-18T05:34:24.051+09:00",
-      "file": "2026-05-18-morning.json"
     }
   ]
 }
