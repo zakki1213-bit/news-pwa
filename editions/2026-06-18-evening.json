@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-06-18",
+  "generatedAt": "2026-06-18T20:39:25.551+09:00",
+  "lead": "2026年6月18日、夕刊紙面をお届けします。教育分野では中学・高校受験に向けたイベント情報、商業分野では企業の会計不正に関する報道が注目を集めています。AI技術の進化は、サイバー攻撃の自動化や自治体での活用といった形で社会に影響を与え始めており、その動向が注目されます。北海道からは、地域活性化に向けた移住や交流の取り組みが報じられています。",
+  "topStory": {
+    "title": "ニデック、不正会計で社長陳謝 創業者永守氏の責任問う声も",
+    "body": "大手電機部品メーカー、ニデックの株主総会で、同社で発覚した巨額の不正会計問題が厳しく追及された。総会では、社長が不正の事実を認め、関係者への謝罪の言葉を述べたが、出席した株主からは、経理担当者の責任を問う声や、創業者の永守重信氏の説明責任を求める意見が相次いだ。\n\n不正会計は、数年にわたり組織的に行われていた疑いが持たれており、その手口や背景について、株主は詳細な説明を求めた。特に、経営トップの関与の有無や、内部統制システムの機能不全について、厳しい質問が投げかけられた。\n\nニデック側は、再発防止策を徹底する姿勢を示したが、株主の不信感は根強く、今後の企業統治のあり方が問われる事態となっている。同社は、外部の専門家による調査を進め、不正の全容解明と責任の所在を明らかにするとしている。",
+    "topicId": "business",
+    "topicName": "商業・簿記・会計",
+    "color": "#059669",
+    "references": [
+      {
+        "title": "不正会計のニデックが株主総会、社長陳謝も「経理担当にプライドはないのか」「永守氏が説明を」の声（読売新聞オンライン） - Yahoo!ニュース",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aWTdOVjVNYml6MXNOYkt1dnJXemM0LUU1UE9EZllzNkF6dzVYWGV5RENQa0Nvc3AwWkZQUGhfV2lGMHN3V0laMjVLU1A0TDNHN0xhYlFOTWd1RF9fZmthT1pra0F6SlROVkxNZlBZN2RnWjVNUW1JQVFuRXNXdGM?oc=5",
+        "source": "Google: 会計",
+        "topicId": "business"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "トレンドマイクロ、標的型攻撃の自動化解説",
+      "body": "トレンドマイクロは、標的型サイバー攻撃の最新動向について解説した。特に、AI技術を活用した攻撃の自動化が進んでいる現状を指摘。攻撃者は「Claude Code」のような生成AIツールを使い、マルウェアの作成や攻撃シナリオの生成を効率化しているという。\n\n同社は、このような高度化するサイバー攻撃に対抗するため、AIを活用した防御システムの開発や、組織的なセキュリティ対策の強化が急務であると警鐘を鳴らしている。企業や個人は、最新の脅威情報を常に把握し、対策を講じる必要がある。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "標的型サイバー攻撃の最新動向をトレンドマイクロが解説 「Claude Code」で攻撃を自動化 - ビジネスネットワーク",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15UUdkaTl0eTZlREExSGxTY3hyUlRlQ0lFMjRUOWxwVTZaUE05dlRCSzJWY2ZRR2MxMWI4RFk2M1JIX0VaT3dKVC1hZlNwVHF6QWhN?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "山形県、生成AI活用に挑戦 1職員から始まった取り組み",
+      "body": "山形県では、一人の職員の挑戦から始まった生成AIの活用が、自治体全体に広がりを見せている。この職員は、業務効率化や新たなサービス創出の可能性に着目し、生成AIツールの導入と活用方法を模索してきた。\n\nその結果、文書作成の補助や情報収集の効率化など、具体的な成果が上がり始め、他の部署にもその効果が波及している。県は、今後も職員のアイデアを奨励し、生成AIのさらなる活用を進める方針だ。これにより、行政サービスの質の向上と効率化を目指す。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "生成AIを活用する自治体 1人の職員から始まった挑戦 そのわけは [山形県] - 朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaT2JwVS13RS1ncWt3NUhGQjl1VXhvN21mTUQ5VnJpVXVfUnVMZmtGTmNmcVZibWFxeklkWERlbDNOYUtpc0pwWnc0a0xrd1ltckJHZklxdGNFSDRmcFZwYzcwZGFFckU?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "中高生の科学コンテストで不正発覚 研究倫理教育の必要性浮き彫りに",
+      "body": "中学生や高校生を対象とした科学コンテストにおいて、データの捏造や改ざんといった不正行為が発覚し、教育現場に衝撃が走っている。これらの不正は、生徒が「自分の研究は問題ない」と思い込むことによって引き起こされるケースも少なくないという。\n\n専門家は、探究活動が活発化する中で、早期からの「研究倫理教育」の重要性を訴えている。生徒たちが科学的な探究活動を行う上で、公正さと誠実さを重んじる姿勢を身につけることが不可欠であると指摘している。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "中高生の科学コンテストでも捏造や改ざん､探究活動に急務の｢研究倫理教育｣ ｢自分の研究は問題ない｣勘違いで起こる不正も - 東洋経済オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuS0lCOVhTNVpCMUJvczk3WWVhYkoyNFhPM3g4ekZscmZPZ0JiY0RCblNVT0RTdjRrV2o0ZHdaUjY5N0h0Z244Sm1tcmtTVmtNRERwOTl6bHFldEU?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "名古屋から北見へ移住、バス運転手に",
+      "body": "愛知県名古屋市から北海道北見市へ移住した石原さんが、バス運転手としての新たな生活を始めた。石原さんは元々タクシー運転手だったが、移住体験ツアーに参加したことをきっかけに北見市への移住を決意したという。\n\n北見市は、豊かな自然と地域コミュニティの温かさに魅力を感じたと石原さんは語る。移住後は、地域の公共交通を支えるバス運転手として、地域住民の生活に貢献している。石原さんのような移住者が、地域の活性化に繋がることが期待されている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "名古屋から北見へ移住、バス運転手に 元タクシー運転手の石原さん 移住体験ツアーきっかけで - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxLWdpeVlfeGx0Z0FDaHNkU2pHRUQ5MWQ2QVJzV0VuZzRJN09nZVdhNGRmTnJlNmkzbS1menE1bWNZdTRydkQxY1JjWHhVOHdLbnhtN3hncVJNZw?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "エプソン販売、探究学習ライブラリー「SPARKE」と連携",
+      "body": "エプソン販売株式会社は、小中学校向けの探究学習ライブラリー「SPARKE（スパーク）」と連携し、新たなプログラムを提供する。この連携により、プリンターやプロジェクターといったエプソン製品を活用した、より実践的な探究学習が可能になる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zby1DdWpTU0dhcjRFeE8wWkdoVlYzblVrMHVfX1JURVFmVFRfSC1uU1dsVmpLdlAzdmxCQzFuWmJmSDM1REFFalJMb2Z0TDF6Y2xDX0dUZlNlcHdFRVZCN3ByM3VWMmk5clJSZm90UlljZ05hM2c?oc=5",
+      "source": "Google: 探究学習"
+    },
+    {
+      "title": "東京都、小中学生向け起業家体験イベント開催",
+      "body": "東京都は、夏休み期間中に小中学生を対象とした起業家体験イベントを開催する。このイベントでは、子どもたちがビジネスの基本を学び、実際に企画を立てる体験を通じて、実践的なスキルと創造性を育むことを目指す。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/18/86460.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "AIチャットボット「Claude」で障害発生",
+      "body": "AIチャットボット「Claude」で、一時的にアクセス障害が発生し、利用できない状態となった。「動かない」「落ちた」といった声がSNSなどで相次ぎ、多くのユーザーに影響が出た。原因については調査が進められている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2606/18/2000000104/",
+      "source": "ITmedia AI+"
+    },
+    {
+      "title": "多摩大学、MJSの会計ソフトをゼミ演習に活用",
+      "body": "多摩大学は、3年生のゼミ演習において、MJS（ミロク情報サービス）のクラウド会計ソフト「かんたんクラウド会計」を活用している。学生たちは、実際の会計業務に近い環境でソフトを操作し、実践的な知識とスキルを習得している。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9QMWRMV1lEYjM3Z1dENGxMRTkxdmdhemE4N0dyVGJMTEwtRDNTUnhyLXVRa28xZ3hMemFFR2ZseEtfbEVIZjhFMGNGdHBkT1g5Si1TYTR5cEotMnZIeDFn0gFkQVVfeXFMTnZiYUlNYUcxSGFzZ2JkUEpLRklfbG94TmZLekk5ZktfTFdfWmxGWEcyRkxCM0tRc2VoV1JXcVJsSldObERTclBPOGJqVXBwcm96TDJPblVTNmxHU2N4WXkyOFFIVw?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "北見水墨画協会、作品展開催",
+      "body": "北見水墨画協会は、6月22日まで作品展を開催している。会場には、30代から90代までの幅広い年齢層の会員29人が制作した力作が展示されており、来場者は墨の濃淡で表現された世界を楽しんでいる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Fald4dVVRckQyb2dCLUtPbXg5M01tWkJkQ3d1LXA4NVd1VFRrOTB6d1pLeHh1eDBqb25sSDJKbnJkUkJCTlB6Y1RzZDctSnlKSGhhNDcxenR1QQ?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "幼児期の異文化体験、英語力以外のメリットも",
+      "body": "幼児期における異文化体験は、単に英語力を向上させるだけでなく、多様な価値観を理解する力や、柔軟な思考力を育むなど、5つのメリットがあることが指摘されている。国際化が進む現代において、その重要性が増している。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/18/86459.html",
+      "source": "リセマム"
+    }
+  ]
+}
