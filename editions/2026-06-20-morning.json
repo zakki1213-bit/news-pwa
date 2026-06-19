@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-06-20",
+  "generatedAt": "2026-06-20T05:56:51.115+09:00",
+  "lead": "生成AIの急速な普及が社会に変化をもたらす一方、教育現場での利用規制や、声優の仕事への影響も懸念されています。また、地域経済の活性化に向けた動きや、北海道ではスポーツや自然災害に関するニュースが報じられています。",
+  "topStory": {
+    "title": "生成AI、声模倣で仕事奪う？ 声優以外の職業にも影響",
+    "body": "生成AI技術の進化が、人間の「声」を驚くほど精密に模倣することを可能にしています。この技術は、音声合成やナレーション制作の分野で大きな可能性を秘める一方で、声優やナレーターといった職業のあり方に大きな影響を与える可能性があります。\n\nこれまで、声優の仕事は、その独特の声質や表現力によって成り立ってきました。しかし、生成AIを使えば、特定の人物の声質や話し方を学習し、あたかもその人物が話しているかのような音声を生成できます。これにより、これまで専門職とされてきた声優の仕事がAIに代替されるのではないかという懸念が生じています。\n\nさらに、影響は声優業界にとどまりません。オーディオブックの朗読、企業のコールセンターでの音声案内、ゲームのキャラクターボイスなど、声が活用される様々な分野でAIによる代替が進む可能性があります。これにより、多くの職業でスキルの陳腐化や雇用の減少が起こりうると指摘されています。\n\n一方で、生成AIは新たなビジネスチャンスを生み出す可能性も秘めています。AIを活用した新しいコンテンツ制作や、パーソナライズされた音声サービスの提供などが考えられます。技術の進展と倫理的な課題、そして雇用への影響について、社会全体での議論が求められています。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "生成AIが“声”模倣 仕事を奪われるのは「人気声優」だけではない - デイリー新潮",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE10bzhQWU9hTEFMY25xZUVHNS1UWTEtbEtjaTNaaGM2aENxakUxQkpXR2ZrS1RmdDRrWVViSUlDN2pPcWZKVjc0V05NVWd1QWVNcmZxekVKU1h6RGZnWUpr?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "ノルウェー、小学校で生成AI利用を規制 学力低下を懸念",
+      "body": "ノルウェー政府は、小学校における生成AIの利用を規制する方針を固めました。学力低下への懸念がその主な理由です。\n\n政府は、児童生徒が生成AIに過度に依存することで、自ら思考し、文章を作成する能力が低下することを危惧しています。特に、宿題やレポート作成においてAIが安易に利用されることで、学習プロセスが阻害されることを懸念しています。\n\n今回の規制は、AI技術の教育現場への導入にあたり、慎重な姿勢を示すものです。AIの利便性を認めつつも、教育の本質である思考力や創造性の育成を最優先するという考え方が背景にあります。今後、他の国々でも同様の議論が広がる可能性があります。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "ノルウェー政府、小学校での生成AI利用を規制へ 学力低下懸念で（FNNプライムオンライン） - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1kRkYyQjZsRlZoS0s3aVJ5TWRBTDJ0Ymp5YVM5U1BJVGpUU2hqazgwOGFLYzRTaFJkanIwOGZFMHk5WlVMaXQwVGNZaFFwTDFEWVRiQk9ZRTMtZGxhSzB0ZFJrdVk4UXNiNk15TllB?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "しずおかFG系、M&A支援に生成AI導入 実証実験を開始",
+      "body": "しずおかフィナンシャルグループ（FG）傘下の企業が、M&A（企業の合併・買収）支援業務において生成AIの導入に向けた実証実験を開始しました。これにより、業務効率の向上とサービスの質的向上が期待されています。\n\n今回の実証実験では、生成AIを活用して、M&Aに関連する膨大な情報の収集・分析、契約書作成支援などを自動化することを目指しています。これにより、従来は多くの時間と労力を要していた作業を大幅に効率化できる見込みです。\n\nM&A支援は、専門知識と経験が不可欠な分野ですが、生成AIの導入によって、より迅速かつ的確なサービス提供が可能になることが期待されます。しずおかFGは、この技術革新を通じて、地域経済の活性化にも貢献していく考えです。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "M&A支援に生成AI導入 しずおかFG系が実証 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQandpTF9YLWZYWC1mR3E1bnlKWGlaUFFCVmpjVUUycmZiUUJmRHB3REo0OUQyR3RmVWJQQTdqNE9qUFk0eXhlWFpzOHA1M2RWWC1DRDNPN3lVTGthZi1GWE5NOFZhcVNkZGtPT2IyNzR5NkFPbWhmR1hvbEhXd19KMVd1ME9ybHlqQnVVV1ZIcXI1bnRQVXdzNHhCdGhuYmo0Y3VaMmVn?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "夏の高校野球・室蘭ブロック開幕 西胆振勢は20日から",
+      "body": "夏の全国高校野球選手権大会の室蘭ブロック予選が20日に開幕します。西胆振地区の高校は、21日から大会に臨みます。\n\n各校は、夏の大会に向けて厳しい練習を重ねてきました。厳しい暑さの中、選手たちは甲子園出場を目指し、熱戦を繰り広げることが期待されます。\n\n開会式は20日午前10時から、室蘭シャークススタジアムで行われます。初日は2試合が予定されており、熱戦の幕開けとなります。各校の健闘が注目されます。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "夏の高校野球・室蘭ブロック 20日開幕 西胆振勢は21日登場 - 47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9sZUVSZzVYWEQzSnNtdlM0N0pSaVA2Umx6c0R0dnVCSTJwLTNrWWNPUmd5SlRLOFBkTWF5S2k3dmhXeF90eVZhenZMRQ?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "北海道・網走市でクマ出没 情報相次ぐ",
+      "body": "北海道網走市実豊付近で18日、クマの目撃情報がありました。住民に対し、注意が呼びかけられています。\n\n同市では、近年クマの出没が増加傾向にあり、市はパトロールを強化するなど対策を進めています。今回の出没を受け、さらなる警戒態勢の強化が図られています。\n\n市民には、クマを目撃した場合は、刺激しないように距離を保ち、速やかに警察や市役所に連絡するよう呼びかけています。山菜採りやハイキングなどで山に入る際は、十分な注意が必要です。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "（北海道）網走市実豊付近でクマ出没 ６月１８日 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQcDdLRTRBcUJKb243M0JsM2xuNlJ5aWNJN0duU0lQZXRJSjRUWW9vSl84SEpuamY2MkJGODZVRmlYZVhxQzAxOU0wNnA3V0RmUzZ3N3JFRHQwUUF1WWZCWk9nTEs1c3lhR2k2cE1ENjM0cWd1Sm9iZ0FFOFRfU1h2WjM2RlJQaWo0MHdXNERrSjFqZzh3UU9pMW1TTlPSAaIBQVVfeXFMT0FYTEJXc21CVm5QbjkyRXYxRXIxb1M1aWp0TVNZZ0s1aVZxaEw0aU1sSk9KWlhqRVdSTGdJRUVFMFlKMGdDY0hkWUlIRkRwbklGN09hNERwdW1oTFdSb2NuUlljcDVNQmk1c3VPRDF3TnZRSmlMVWtBNDRmNXAwWnlSYXZCRHVBQXZZQXdqSUZzTXRuSTU3T3lNQzJZY0ZSUWFB?oc=5",
+          "source": "Google: 網走",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "学校事務員、会計処理を不適切 豊岡市で約24万円",
+      "body": "兵庫県豊岡市の市立学校で、学校事務員が給食費や教材費など約24万円の会計処理を不適切に行っていたことが判明しました。市は事実関係を確認し、再発防止に努めるとしています。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OVl9PclJYSVZBT2c2WTUtS2x1WXBuNnFsR2ktQmxSOC1jdE1uZzdpTnU0OGExVHE1QmV1YTJoYnpNVkZtbk5iS1A4X1YyQjkzWm9HOXVkTnBzNG1ITVAxbENlR2FBN3VMaUw0MzFMY3dZdHBPR3c?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "福井県、一般会計282億円の補正予算案提出",
+      "body": "福井県は、一般会計で282億円規模の6月補正予算案を県議会に提出しました。予算案には、新たな創業支援策や中東地域との経済交流促進策などが盛り込まれています。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42Q29fY0w4ZVc1QWl1SWZGWE1CdDN1YVlrdnlGQk9zX2lYUDZHX1lHR0JUTF9tVlpGRnRlb0htbmduLXBlTk5GeHlMMTNCaXItNWVucVBidE1BbHphVzg1M3UzSDdDZFgydVBYOQ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "農協職員向けに税務会計研修",
+      "body": "農業協同組合の職員を対象とした、税務会計に関する研修および専門能力開発プログラムが実施されます。専門知識の向上と業務遂行能力の強化を図ることを目的としています。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkpnSHkwWTdNUHhZOTcwT1dlTEZaTWpkV3NxUkNIUEtOdkMyOXJWbXgxSXR2Z2lsSS1lZ0xBMTctYVpaS2xiZ0FwcmdjdUU0LW15WGhSVnhwckhUTVRjYlRsZmpVLXAxWGRzUzhaMnZoaEtWR3FSQWdmbVJSRHg4aEhJdTRFRGVoa1YyR28xN2VwbkV4bENHNlgwNUtqN3VJTEVR?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "生成AIで7割が効率化実感 削減時間は1日75分",
+      "body": "生成AIの活用により、業務効率が向上したと感じる人が7割に上ることが調査で分かりました。削減される時間は1日あたり平均75分と回答されています。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4teFhjQjVESFhNVUZESVBtTTYzbVJNT1dzSmFSc1F0ZHg0Rk1yUndtenN6WlhyX1M5YU5sRUpVQksybXlhMXB0RG1NUl9pNHVSMGFiT2IxOWJ4aV9WYVRXeDZnVHFRaFZlYmxvMnRINzc2NHVzZlU3emF0bw?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "旭川紋別道、遠軽町内で事故 一部通行止め解除",
+      "body": "19日夜に発生した旭川紋別自動車道遠軽町内での事故により、一時的に通行止めとなっていましたが、21時20分現在、解除されています。交通への影響は解消されました。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FTV9razZ6cVJ4SlE1QVlWT3JndS1SWW9WeVdjSUdta0d0c2pwTUFYcTJJX1BLNFYyMVRmSlRvczNieVhiT0k3ckxMZ3FwNF9wVlJacFJUcndVZG9ULVpz0gFkQVVfeXFMTUljenBPR1VUWm9qT3c2M09qYU5yc0hnbGFqTUdUUWROQzhaeEVkSVJhSkZ0MFJGUnFXZWhUdmFnVXdlX01UZnYxNldaM2pab2ZyVUNWQzl0VGJGQ0ZsZzJOaldlVg?oc=5",
+      "source": "Google: 紋別"
+    },
+    {
+      "title": "国際的ピアニスト、釧教大生にレッスン",
+      "body": "国際的に活躍するピアニストのジア氏が、北海道教育大学釧路校の学生に対し、特別レッスンを行いました。学生たちは、一流の指導から多くの刺激を受けていました。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBzWk1WcDBkTVFNZXZid05ETDhFVjQxa0wza2E5bkthazRfQ0lzNEtuaDE3RDNhU3l1aTdvcjVRbGlwdHNCa244QTdpY1V4bS0taVpYRDVDRDJXZw?oc=5",
+      "source": "Google: 北海道 教育"
+    }
+  ]
+}
