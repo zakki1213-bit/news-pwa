@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-06-20",
+  "generatedAt": "2026-06-20T19:21:49.794+09:00",
+  "lead": "2026年6月20日、夕刊紙面をお届けします。教育現場でのAI活用や、商業分野での税理士の活躍、そして北海道の地域ニュースまで、多岐にわたる話題を網羅しました。特に、AIの教育利用に関する国際的な動向や、商業施設でのAI導入事例は注目です。また、北海道からは高校野球の熱戦や地域イベントの様子を伝えます。",
+  "topStory": {
+    "title": "ノルウェー、小学校での生成AI利用を原則禁止へ",
+    "body": "ノルウェーで、小学校における生成AI（人工知能）の使用を原則禁止する方針が固まった。同国の教育当局は、子供たちの学習への影響や、情報の正確性、プライバシーの問題などを懸念している。\n\nこの決定は、急速に普及するAI技術に対し、教育現場がどのように向き合うべきかという世界的な議論に一石を投じるものとなる。特に、低年齢層へのAIの影響については、まだ未知数な部分も多く、慎重な姿勢を示す国が出てきた形だ。\n\n具体的には、授業でのAIツールの利用や、宿題でのAI生成コンテンツの提出などが制限される見込み。当局は、AIの利用が子供たちの批判的思考力や創造性を阻害する可能性を指摘しており、まずは基本的な学習スキルの定着を優先する考えだ。\n\n今後、ノルウェー国内の教育関係者や保護者からは、この方針に対する様々な意見が出ると予想される。AI技術の進歩と教育のあり方とのバランスをどう取るか、各国が注視する動きとなりそうだ。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "ノルウェー 小学校での生成AI使用 原則禁止（ABEMA TIMES） - Yahoo!ニュース",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zVEI1bWktczVmMV85bUdTa2NMT1l0TTZTS2lBUmRMTVJWall5Ykw3Wk13bEtfQm9GSDYxblBDS2tpdjNqZkYxYnpMYVJpY0dwWEdrakh3LUFCYS1HWndOVFFMVjNra24tc01uWHF0bWRxczhXaUZoblIzM3dWVUE?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "介護離職防止へ生成AI活用、アンケート分析し支援",
+      "body": "介護離職の防止を目指し、生成AIを活用した新たな支援策が検討されている。このシステムは、従業員が抱える介護に関する悩みや状況をアンケート形式で収集し、その内容をAIが分析することで、個々の状況に応じた具体的な助言や支援策を提供する。\n\nAIによる分析は、従来の相談窓口では拾いきれなかった潜在的なニーズを掘り起こし、よりパーソナルなサポートを可能にする。これにより、従業員は「気兼ねなく」悩みを打ち明けやすくなり、職場復帰や働き続けやすい環境の整備が期待される。\n\n企業にとっては、従業員の離職を防ぎ、多様な働き方を支援することは、人材確保と定着の観点から重要性を増している。生成AIの導入は、こうした課題解決に向けた有効な手段として注目されている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "介護離職防止へ生成ＡＩ活用、アンケート分析し「助言」「支援」適切に…「気兼ねなく働けるように」（読売新聞オンライン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15ei1YSno4ZjcxVEw1aUtCSF9kanN2bDgtUUJ4eG9WUG5reGZlc29RRWpjNDFBcWd2M0xXODRoVm02UXhLSDdCZU9zZ2tMaEgzYy1FY0lEY2todnBaWjczOVlSQzczMHJjRDRMak5xUzNPMHBZSWt1NHVHZnRwOWc?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "アオキスーパー、生成AI「Claude Pro」を本格導入",
+      "body": "スーパーマーケットチェーンのアオキスーパーは、Anthropic社が開発した生成AI「Claude Pro」を本格的に導入することを発表した。これにより、店舗運営の効率化や顧客サービスの向上を目指す。\n\n導入されるAIは、需要予測の精度向上、在庫管理の最適化、従業員向けの研修コンテンツ作成など、多岐にわたる業務での活用が想定されている。特に、顧客からの問い合わせ対応の自動化や、パーソナライズされた商品レコメンデーション機能の強化が期待される。\n\n同社は、AI技術を積極的に活用することで、変化の激しい小売業界において競争力を維持・強化していく方針だ。今回の導入は、食品スーパー業界におけるAI活用の先進事例として注目されるだろう。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "アオキスーパー、Anthropic社の生成AI「Claude Pro」を本格導入 - ダイヤモンド・チェーンストアオンライン",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0UHd4RG1rY0NNT3c1QUhCUm5ELW4wSnJJb2ZjNnBpMGw3MTE5aFpfQkJabWhvV1hjZHFSdjRMTklaUVBuakU0R21IbV9sb19XVlc4?oc=5",
+          "source": "Google: Anthropic",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "税理士を襲った病の正体、余命1日宣告から生還",
+      "body": "都内で税理士として活躍する33歳の男性が、突然の激しい体調不良に見舞われ、「明日死んでもおかしくない」と医師から宣告された体験を語った。謎の高熱と吐血が続き、当初は新型コロナウイルス感染症を疑っていたという。\n\nしかし、精密検査の結果、診断されたのは予期せぬ病名だった。一時は生死の境をさまよったが、懸命な治療により一命を取り留めた。男性は、自身の体験を通じて、健康管理の重要性を痛感したと述べている。\n\nこの経験は、多忙な職業に従事する人々に、自身の健康と向き合うことの重要性を改めて問いかけるものとなった。現在は回復し、税理士としての活動を再開している。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "「てっきりコロナかと」謎の高熱と吐血が続き、病院で「明日死んでもおかしくない」と“余命1日”宣告…イケメンすぎる税理士（33）を襲った病の正体（文春オンライン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtUnItdG1jNHdYZGU1RUtvMlM0MWowWFN3MERvODBxZmIwRC1pSnBWNXJiOFZDLVRFRnhrNjNNZ1dBaXdETXlCWWlaWlpFMzBydzhfR2Y2empmZVFaT0F3aS1MbnJ6dkdXSFFYV2xmTnBrcFJ2cjU2NUFPcHJKcE0?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "南北海道大会が開幕、北海道栄がコールド発進",
+      "body": "夏の高校野球、南北海道大会が20日、開幕した。初戦に臨んだ北海道栄高校は、打線が爆発し19得点を挙げる猛攻で、相手チームを圧倒。9回コールドで勝利を収め、大会初戦を白星で飾った。\n\n北海道栄は、エース右腕の日野伸一郎投手が先発し、3回を投げて9人の打者から三振を奪う力投を見せた。打線も初回から得点を重ね、試合の主導権を握り続けた。チームは、51年ぶりの夏の甲子園出場を目指し、力強いスタートを切った。\n\n大会には南北海道の各校が集結し、甲子園出場をかけた熱戦を繰り広げる。北海道栄の今後の戦いぶりにも注目が集まる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "南北海道大会が開幕！北海道栄が19得点のコールド発進【26年夏高校野球】｜記事一覧 - 高校野球ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KYjk5cjJJRUQ4S24yV25vSXNGdEFYSTJjNXBoZjhzM2loeW1YdkZ5bjN0aFdkdGkxeXRfOHBma2xxUnpnWmhTRU9iYXN0OW5tT1E?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "小4対象マインクラフトコンテスト開催",
+      "body": "小学4年生を対象とした『オンライン・マインクラフトコンテスト』が7月4日に開催される。子どもたちの「好き」を形にし、ゲームを通じて主体性を育むことを目的とした新しい探究学習の形として注目されている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vR2JzN1JDcWtGbU85dG4ycGNNeURBYzREXzVVbXRsVUJiQUJrOC0tQUNYTVFUaFByUnB0ZTQwOVZKem4wTENNbWlXVUNnSjJxeFFTNURWbU5CMzNLcHpZd0tuVVBMRUFU?oc=5",
+      "source": "Google: 探究学習"
+    },
+    {
+      "title": "定時制・通信制高校、教育の質確保へ改正案",
+      "body": "定時制・通信制高校の教育の質を確保するための改正案が、委員長提案として提出される見通しだ。教育格差の是正と、多様な学びの場の質の向上が図られることが期待される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JS0lrbnJVTG1XODdxQ2xfVW9faUE1X0szTlBWMmoxSXhpc0o0aWZ4TURfZ05FZDJlLTZPVkF3Tmp5Z0d5LURNQTE2VmtaWWdrNS1kU00zU291RWJ1bjdv?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "東京23区、GIGAスクール構想の進捗",
+      "body": "東京23区におけるGIGAスクール構想の進捗状況が明らかになった。「1人1台端末」の整備は、すでに4つの区で完了している。各区で整備状況に差が見られるものの、着実に前進していることがうかがえる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBya3NNbXRxVlkzZEVfaEpVVy1zYnZFWGZTSEVkRDhXS1lTRFp1RmtGNTV6SGRzWVF3bnBEV19pc05tZy1rRmhBQzhOVVFJdFp6UDlkMy1hTmtmdEU?oc=5",
+      "source": "Google: GIGAスクール"
+    },
+    {
+      "title": "会計学で優秀な成績を収めた女子学生",
+      "body": "会計学の分野でトップクラスの成績を収めた女子学生の努力の物語が紹介されている。彼女の日々の地道な学習と、それを支えた情熱が、学業での成功へと繋がった様子が描かれている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRVo3UU5yVjc3eVhDbm9wdnptZ2paLW1PWXFiak9tckVaSDBSaXBlZ0oxbzRhUUJ0QzJ1TGw3NUJzV3Z5bHJFazdLN0RfYUptOWlXeUppbWM2MWh2T3dzNFpnSEhFenhBV3pLbWI0UmpXc0RNX2ZrSTJPNjNrWldXY3AxbUZsRlM0X044?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "北見ツーデーマーチ開幕、全国から500人参加",
+      "body": "北海道北見市で「北見ツーデーマーチ」が開幕した。全国から約500人の参加者が集まり、地域の自然を満喫しながらウォーキングを楽しんでいる。大会運営はボランティアの協力によって支えられている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OcHpJUC1KUDctRjZGLVByVmd5YUN4a2FmdmJmdW1tVlh1bGF3WDJ0WGZrZFBjRGoxV2NSQThPMEVMaUdjUVZ5T2piUlZ2S2czNWJmZjNUazZpNUxfRTZITGlaOVI?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "「ハッカのまち」北見、バーでミントジュレップ提供",
+      "body": "「ハッカのまち」として知られる北海道北見市のバー17店舗が、地域特産のハッカを使ったカクテル「ミントジュレップ」の提供を開始した。夏の風物詩として、観光客や地元住民に親しまれている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9nWWhlb2dQbWl5ZW9FUUFmMGNDM3lZQVdYLWdUUTB6dlBGV0F3dEd2enVoQ0ZIcFplY1k1NnY3YUI1cXhaRlh1djZZQQ?oc=5",
+      "source": "Google: 北見市"
+    }
+  ]
+}
