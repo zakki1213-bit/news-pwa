@@ -1,0 +1,141 @@
+{
+  "type": "morning",
+  "date": "2026-06-22",
+  "generatedAt": "2026-06-22T05:59:02.007+09:00",
+  "lead": "生成AIの進化が止まらない。ビジネスでの活用が広がる一方、その能力を巡る議論も活発化している。本紙では、AIの最新動向と社会への影響を多角的に報じる。",
+  "topStory": {
+    "title": "生成AI、市場シェアに変化の兆し Gemini・Claude台頭で「三国時代」へ",
+    "body": "近年急速に普及が進む生成AIの市場において、ChatGPTのシェアが初めて50％を割り込むなど、変化の兆しが見え始めている。GoogleのGeminiやAnthropicのClaudeといった競合サービスが台頭し、生成AI市場は「三国時代」とも呼べる新たな局面を迎えている。\n\nChatGPTは、その自然な文章生成能力で一世を風靡し、多くのユーザーを獲得してきた。しかし、急速な技術進化の中で、競合サービスも目覚ましい発展を遂げている。GeminiはGoogleの持つ膨大なデータと検索技術を背景に、Claudeは安全性と倫理性を重視した設計で、それぞれ独自の強みを発揮している。\n\nこれらの新しいAIモデルは、特定のタスクに特化した機能や、より高度な対話能力、多様なデータ形式への対応などを強みとしており、ユーザーのニーズも多様化する中で、選択肢が増えていることがシェア変動の一因とみられる。\n\n今後、各社はさらなる技術革新とともに、ビジネス利用における具体的なソリューション提供や、倫理的な課題への対応などを通じて、市場での優位性を確立しようと競い合うことになるだろう。生成AIの進化は、私たちの働き方や生活に、今後も大きな影響を与え続けると予想される。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "ChatGPTの市場シェアが初の50％割れ、Gemini・Claudeと「生成AI三国時代」に突入 - ビジネス+IT",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yZzBnTE1kREZfUzJEbVo0eTRpMHFVdU5ObG9Md0g5TklxV3Q3a2xveWQtTC1ZTlZaQm1FRkJZN3QxRExSN0ozZ2FldVBzaFhfMi13?oc=5",
+        "source": "Google: Claude AI",
+        "topicId": "ai_tech"
+      }
+    ],
+    "ogImage": "https://img.sbbit.jp/article/image/185843/OGP_bit202606220435366123.jpg"
+  },
+  "midStories": [
+    {
+      "title": "JR東日本、生成AIで駅業務を刷新 新幹線発券も大幅短縮",
+      "body": "JR東日本は、駅業務の効率化とサービス向上を目指し、生成AIの活用を本格化させている。「みどりの窓口」での案内業務や、新幹線チケットの発券プロセスにAIを導入することで、大幅な時間短縮と顧客満足度の向上を図る。\n\n具体的には、生成AIを活用した対話型サービスにより、駅員への問い合わせ対応を自動化・効率化する。これにより、駅員はより複雑な対応や、個別のニーズに合わせたサービス提供に注力できるようになる。また、新幹線チケットの発券においては、AIが最適なルートや料金を瞬時に検索・提案し、発券までの時間を従来の数分から1分程度に短縮することを目指している。\n\nしかし、これらの改革を進める上での最大の難関は、既存システムの刷新と、AI導入に伴うセキュリティ対策、そして従業員のスキルアップであると指摘されている。JR東日本は、これらの課題を克服し、新たな鉄道利用体験の提供を目指していく方針だ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "「みどりの窓口」に生成AI、新幹線は1分で発券…JR東日本「3つの乗車券改革」の最大の難関とは | News&Analysis - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1lSFM5YVdfQUkzZUpvNjVpbFF1enlwalc1VU05aTZZenFMbVo1ZkQ4VlY3T3RSVVJ6akt4UW1IaXE0ck11T3pXMi1ZR3k?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "AWS、インフラまで理解する脆弱性推論AIを発表",
+      "body": "Amazon Web Services（AWS）は、コードスキャンにとどまらず、インフラ構成やビジネスコンテキストまで理解し、システムの脆弱性を推論する新サービス「AWS Continuum」を発表した。このサービスは、特定のAIモデルに依存せず、より包括的なセキュリティ分析を可能にする。\n\n従来の脆弱性診断ツールは、主にコードレベルでの分析に限定されていた。しかし、AWS Continuumは、インフラ構成、アクセス許可、ネットワークトポロジーといったシステム全体の構造に加え、ビジネス上の優先事項や関連ドキュメントなどの非構造化データもコンテキストとして活用する。これにより、潜在的なセキュリティリスクをより深く、正確に推論することが可能となる。\n\nこの革新的なアプローチにより、企業はこれまで見過ごされがちだった複雑な脆弱性や、ビジネスロジックに起因するリスクを発見し、事前に対策を講じることができるようになる。AWSは、この新サービスを通じて、顧客のクラウド環境におけるセキュリティレベルの向上に貢献していくとしている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "AWS、コードだけでなくインフラ構成とビジネスコンテキストも理解した上で脆弱性を推論する「AWS Contiuum」発表。特定のAIモデルに依存せず",
+          "url": "https://www.publickey1.jp/blog/26/awsaws_contiuumai.html",
+          "source": "Publickey",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://www.publickey1.jp/2026/awscontinuum-code-pv01.png"
+    },
+    {
+      "title": "全道高校バスケ、女子は日本航空北海道が３年連続優勝",
+      "body": "北海道で開催された全道高校バスケットボール選手権大会で、女子は日本航空北海道が３年連続で優勝を果たした。チームは、攻守にわたる粘り強いプレーで、大会を通じて圧倒的な強さを見せつけた。\n\n特に、ポイントガードからコンバートされた藤田選手の活躍が目立った。彼女は、正確なパスと巧みなドリブルでチームのオフェンスを牽引するとともに、相手のエースを封じるディフェンスでも貢献。攻守両面での貢献が、チームの勝利に不可欠な要素となった。\n\n日本航空北海道は、この優勝により、夏の全国大会への出場権を獲得した。３連覇という実績を引っ提げ、全国の舞台での活躍が期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "全道高校バスケ 女子は日本航空北海道３年連続Ｖ - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ydzFKMC1tNVljZnNYTFdFRXVtT0pJeHBqTExGV3IyaFlPWnBxN1NzRUozVlhpeTFjNVJKaU5aVlY1LWxZbzc3ZWRiVHBna1ZaYXBISUc5UElEdw?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "金融監督院、投資不動産の会計処理を重点点検",
+      "body": "金融監督院は、投資不動産の会計処理について、2026年財務諸表を対象とした重点的な点検を実施すると発表した。賃貸用不動産を有形資産として誤って分類したり、公正価値関連の注釈公示を漏洩したりする事例などが指摘されており、再発防止に向けた取り組みを強化する。\n\n今回の点検は、2027年中に行われる予定で、不動産投資における会計基準の遵守状況を確認する。特に、不動産の評価方法や、それに伴う注記情報の開示が適切に行われているかに焦点が当てられる。\n\n金融監督院は、投資家保護の観点から、正確かつ透明性の高い財務報告の重要性を強調しており、今回の点検を通じて、会計処理の適正化を図る方針だ。基準に違反する行為が確認された場合には、厳格な措置が講じられる見込みである。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "金融監督院が賃貸用不動産を有形資産に誤って分類したり、公正価値関連の注釈公示を漏らす事例などを狙って、投資不動産の会計処理を重点的に点検する。金融監督院は21日、2026年財務諸表に対して2027年中.. - 매일경제",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pLU84ZVZPQVB1end6eHhvUmFIVU0zWUlzS3FfcEJhSXlERGI4WkVoNVVockVGOC12dVg5UXFKeFJacmFfYjA4cndZTmhIeG8?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "レジカゴまるごと保冷バッグで買い物効率アップ",
+      "body": "スーパーでの買い物において、会計後に商品を袋詰めする手間を省ける「レジカゴまるごと保冷バッグ」が注目を集めている。このバッグは、レジかごにセットしたまま会計ができ、そのまま持ち帰れるため、袋詰め作業が不要になる。保冷機能も備わっており、生鮮食品の持ち運びにも便利だ。買い物の効率化と快適性を向上させるアイテムとして、利用者が増えている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9hNEUtdi1KQnZSbUJpaFNtZkk0VmYySGJGRXlsYTN3Qk5CVDhqcmlrLUt6MTQyRFd4NWl6QXBBTklLM0JDQmNZRl8xSDRBWHN6ZDExX1FrajkweUd3UGdvNG5STkJNMlltUVhtRDc5THFoRVgtWE5V?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "「ChatGPT以下のコンサル」を見破る質問",
+      "body": "コンサルティング業界において、AI、特にChatGPTの能力を模倣するだけのコンサルタントと、真に価値を提供するコンサルタントを見分けることが重要になっている。ある専門家は、「ChatGPT以下のコンサル」を一発で見破るための、たった一つの質問を提唱している。それは、具体的な事例や、クライアント固有の状況に基づいた深い洞察を求める質問だという。表面的な回答しかできないコンサルタントは、この質問に窮するとされる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5UQVpsMlZtVzdSX1lESjMybkxPenZMWnhiNUFadnpoM3RhZ2tPSWE4ZXFrdV94QXA1dGRNNGoybXpoR3Z5ZkFzVmhZZ2I?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "生成AIで橋梁点検調書案を作成",
+      "body": "日経クロステックによると、橋梁の点検調書案作成に生成AIが活用され始めている。これにより、点検作業の効率化と、調書作成にかかる時間の大幅な短縮が期待されている。AIは、点検結果のデータに基づき、専門的な知見を盛り込んだ調書案を自動生成する。これにより、インフラ維持管理の迅速化に貢献する可能性がある。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5qdkJVMkdwS0sxd0RBaGZGVU9FaFBqNHM2czIxLTdNUU9TZmFGTGVaWnhHX0VYY3BSNTdfQUFVNzBaeXhXZWtaWjJON2EybmF6TS1oc2ZDNzlVLXNPbzc0NWh5a2RCSmZPY2hfSWpB?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "東農大北海道オホーツク・渡辺、代表入りへ猛アピール",
+      "body": "東農大北海道オホーツクの渡辺晃希選手が、代表入りへ向けて猛アピールを続けている。先日行われた試合では、２ランホームランを放ち、チームの勝利に貢献した。「ウェートトレーニングの成果が出ました」と語る渡辺選手は、その力強い打撃で関係者の評価を高めている。今後の活躍が期待される若手選手の一人だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZGMtQzF6NE1jbnlNeWc2RDhxdlZnV3FXbm9tZC1remRTZmxneGR6dGpYaTVvaExLSk1LbDNHYUNhaDJ4Rmh4R1JYQ3o3blI1VGU3ckt2THh2TnR5RzJsY3B6VC02R0owQkVfTk9uclJBdkRMdVNMWmxoa2RhTmQxZ1EtOWxIenRHUC1JdTVaQQ?oc=5",
+      "source": "Google: オホーツク"
+    },
+    {
+      "title": "女子バスケ、日本航空北海道が夏３連覇 藤田選手が攻守をけん引",
+      "body": "全道高校バスケットボール大会女子で、日本航空北海道が３年連続となる夏の優勝を飾った。チームの躍進を支えたのは、ポイントガードからコンバートされた藤田選手だ。彼女は、卓越したゲームメイク能力と、相手チームのエースを封じる粘り強いディフェンスで、攻守両面からチームをけん引した。全国大会での活躍が注目される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14QS12RGVnVTZpam4xNDdMUXdTMm1QRjQ2dzg1MUdxdHBRcDVaanFjUThxVDg3aHV2VDk3djRBbV85Sl9aZnhEVGFpN0J2VDdiMUhsM2hpYVhBUEQxd19VMndn?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "暗号資産幹部、AnthropicへのNSA侵入説を否定",
+      "body": "暗号資産（仮想通貨）業界の関係者が、AI企業Anthropicへの米国家安全保障局（NSA）による侵入説について否定的な見解を示した。この説は、Anthropicが開発したAIモデルの安全性や、その利用に関する憶測を生んでいた。しかし、関係者は、現時点でそのような事実を示す証拠はないと述べており、憶測の域を出ないとの立場を取っている。AIのセキュリティに関する懸念は依然として高い。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE90S080WnpqTFJDdGt4V0tMTVFnT0dfRlVsMzlxMHY3a0tad2ZmdDJJUFlUa3hzSGdhc00xbUZVa1FYcjhZQTNUQzkzVWd1cWM5MU0xMnZic1dKVG15a056d1lrSmZhWlprZEZPNGQxNVUxSWEz?oc=5",
+      "source": "Google: Anthropic"
+    }
+  ]
+}
