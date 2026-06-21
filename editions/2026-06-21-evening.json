@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-06-21",
+  "generatedAt": "2026-06-21T19:55:28.291+09:00",
+  "lead": "2026年6月21日、夕刊各紙はAI人材の流出、生成AIの活用拡大、そして夏の高校野球開幕など、多岐にわたるニュースを伝えている。AI分野では、グーグルから著名な研究者が流出し、業界再編の動きが加速。一方、北陸地方では新入社員の生成AI利用が大幅に増加し、ビジネス現場でのAI浸透を印象づけた。また、北海道からは夏の高校野球開幕を伝える記事が届き、スポーツの熱気も伝わってくる。商業分野では、高校生によるフェアトレード推進の取り組みや、税理士のユニークな経歴が注目を集めた。これらのニュースは、現代社会の技術革新、教育、地域社会の動きを映し出している。",
+  "topStory": {
+    "title": "グーグルAI人材、3日で2人流出 - ノーベル賞受賞者ら競合へ",
+    "body": "米グーグルでAI開発を主導してきた中核人材が、わずか3日の間に2人、競合他社に移籍していたことが明らかになった。ノーベル化学賞受賞者のジョン・ジャンパー氏が、AI研究開発企業Anthropicに移籍した。ジャンパー氏は、タンパク質の構造予測AI「AlphaFold」の開発を主導したことで知られる。また、グーグルが開発した大規模言語モデル「Gemini」の生みの親とされる人物も、OpenAIに移籍した。これらの人材流出は、AI分野におけるグーグルの競争力に影響を与える可能性がある。AnthropicとOpenAIは、いずれもAI分野で急速に存在感を高めている企業であり、今回の移籍は両社のさらなる成長を後押しするとみられる。AI開発競争が激化する中、優秀な人材の獲得競争は今後も続くと予想される。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "グーグル、AI中核人材を3日で2人失う：ノーベル賞受賞者がAnthropicへ、Gemini生みの親はOpenAIに移籍 - finance.biggo.jp",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSLUFwSFk1SDVYdDlBSFRfSUUzbjhWTkNKZkxWWHY5ZjZWTlFrcVVKaTdCZlFkNXRZQTlXZnUyUVc1UWNRZU0wN3Fodm11UlpyaFBJZFRQSEpVNERZZXdEV202Q3FIQnZVTlluRjd3SFF5RlM2?oc=5",
+        "source": "Google: Anthropic",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "北陸新入社員の6割超、就活で生成AI利用 - 利用者大幅増",
+      "body": "北陸3県では、新入社員の6割以上が就職活動中に生成AIを利用していたことが、NHKの調査で明らかになった。これは前年と比較して大幅な増加であり、就職活動における生成AIの浸透度合いを示している。生成AIは、履歴書やエントリーシートの作成、面接対策など、多岐にわたる用途で活用されているとみられる。企業側も、応募書類の作成支援や情報収集の効率化といった側面で、生成AIの利用を容認、あるいは推奨する動きも出ている。一方で、生成AIの利用に伴う倫理的な問題や、情報の正確性に関する懸念も指摘されており、今後は適切な利用方法のガイドライン策定などが求められるだろう。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "北陸３県 新入社員の６割超が就職活動で生成ＡＩ利用 大幅増 - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4wN0o2bFhla2daaDAwOXU0WDhmVFF3eC1yREhkdUxKMDJ6M0xleng4TnFMczlQS1lqZEJ3UHV2Z2hEZlJQZG5aQVZ2RVA5Wl9yUkN1Z0Riamk?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "商業高生、フェアトレードの輪広げ - スイーツ販売で啓発",
+      "body": "新潟県三条商業高校の生徒たちが、フェアトレードの大切さを伝えるため、スイーツの販売活動を行っている。「道の駅漢学の里」を拠点に、フェアトレード認証を受けたコーヒー豆やチョコレートを使用したスイーツを開発・販売し、消費者への啓発に努めている。生徒たちは、フェアトレードが発展途上国の生産者の労働環境改善や経済的自立に貢献する仕組みであることを学び、その意義を多くの人に知ってもらいたいと考えている。今回の取り組みは、商業高校生が実践的な学びを通じて社会課題に関心を持ち、主体的に行動する貴重な機会となっている。今後も、生徒たちの活動がフェアトレードへの理解を深める一助となることが期待される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "フェアトレードの大切さ、スイーツ通じ広めたい！三条商業高生が「道の駅漢学の里」で販売 - 新潟日報",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0eXJoWVZEV2ZKdWo1SGdtaFR5MGxfaklhNVkxX1J5ZVlhMTlya3ppempiQmRVbUdMNmkyeHdNLWk0X2JEeS1zOW5UTUwyRmRLYmZnOV9tM3cwQ3dpcEE?oc=5",
+          "source": "Google: 商業高校",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "キャバクラは経費、風俗店は？ - 税理士が解説する税務の不思議",
+      "body": "元ナンバーワンホストで税理士の資格を持つ男性が、夜の店と税務の複雑な関係について解説している。キャバクラの接待交際費が経費として認められる一方で、風俗店の費用が認められないケースがあるなど、税務上の扱いの違いには様々なカラクリがあるという。同氏は、自身の経験に基づき、ホストクラブや風俗店といった特殊な業種における経費計上の実態や、税務署との折衝の難しさなどを明かす。年間3億円を売り上げた経験を持つ同氏の解説は、一般には知られにくい業界の「暗部」にも触れており、多くの読者の関心を集めている。税務の専門知識と、夜の業界での実体験を融合させたユニークな視点が特徴だ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "なぜキャバクラは「経費」になるのに、風俗店はNGなのか…“元No.1ホストの税理士”が解説する、夜の店と税務の不思議なカラクリ（文春オンライン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12bE4tV2NJNXRMa1B0RnhlQURuREJTT2FRRnZreFNwaV9fbzFnSVRpcjJ1Qk5jdXZhMHE3aEdZSlpKOWU5V3lfNFJmbG1hMEtuQ293VmxNdFFkNkpaeklwV0hlUmJlck15VUxQVkQ4ZWM5aUxBMjJPT0NuRmppVFE?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "夏の高校野球開幕、甲子園目指し熱戦 - 北海道・函館",
+      "body": "夏の全国高校野球選手権大会の地方大会が、北海道函館市で開幕した。各地の球場では、球児たちが甲子園出場を夢見て熱戦を繰り広げている。開会式では、選手宣誓で大会への意気込みが語られ、高校球児たちの熱気と決意が感じられた。初戦から白熱した試合展開となり、観客からは大きな声援が送られている。この大会は、多くの高校球児にとって、高校生活最後の夏の大会となる。厳しい暑さの中、選手たちは仲間と共に汗を流し、勝利を目指してプレーする。そのひたむきな姿は、多くの人々に感動と勇気を与えている。大会は今後、勝ち進んだチームが全国大会へと駒を進めるため、熱戦は続く見込みだ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "甲子園目指し熱戦火ぶた 夏の高校野球開幕【函館】 - 北海道ニュースリンク",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB4THRGSnF2UmJNREdlOHVCNExiUThIWUJNanh0VlNfeXVzTzNDMUI0ZEtKLV9JSk9CTXVVMDFhODBBc2I3V3pzNW9WeEY?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "AI大手Anthropic、ソウルにオフィス開設 - 米規制が影",
+      "body": "AI開発企業Anthropicが、韓国ソウルにオフィスを開設した。同社は、大規模言語モデル「Claude」などを開発している。しかし、米国のAI輸出規制が、同社の事業展開に大きな影響を与える可能性が指摘されている。今回のソウルオフィス開設は、アジア市場でのプレゼンス拡大を目指す動きとみられるが、規制動向が今後の事業戦略の鍵となりそうだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE0tcEM3bHBzMEdvUkVZMlRfY0MwQWFaMDB1SjJQcWtTWm5nbE42MnBWX3lKczV2b2FvbVRVUHphenlsVnh3Zy0tTVhR0gFCQVVfeXFMTjVOYjczeFVtaXlfWWYzNDltQUdfVUw3U2hvMXRQRmFoY3FlTG9Od0dBZ19lT1Q4ZUJQQ2lNNEwwWF9n?oc=5",
+      "source": "Google: Anthropic"
+    },
+    {
+      "title": "ノーベル賞受賞者ジャンパー氏、Google DeepMindからAnthropicへ",
+      "body": "タンパク質構造予測AI「AlphaFold」の開発を主導したノーベル化学賞受賞者のジョン・ジャンパー氏が、Google DeepMindを離れ、AI企業Anthropicに移籍した。ジャンパー氏は、AI分野における著名な研究者の一人であり、今回の移籍はAI業界における人材獲得競争の激化を示すものとして注目されている。Anthropicは、同氏の専門知識を活用し、さらなるAI技術の開発を進める方針だ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yR1RiVUZMaXlPT01kRGVkYWJ6a3Q3RktvLU55RUdnQXNZZWJkWUk3Y2NFVzBDTlpWdVpLOGJ5cFhYZFNCckVqWF9kbTdZdURQSHNPbkszNHBEMmhSTEVhMl9MUTNXVFNuRmplZ0RiS1ZNZnNrUVhhWDd6WWM2MXM?oc=5",
+      "source": "Google: Anthropic"
+    },
+    {
+      "title": "北見市で女性にわいせつ行為か - 71歳男を逮捕",
+      "body": "北海道北見市の繁華街で、20代の女性が知らない男に体を触られたとして、71歳の男がわいせつ行為の疑いで現行犯逮捕された。女性にけがはなかった。警察は、男が女性の体を触った経緯などを詳しく調べている。現場は人通りの多い地域であり、今回の事件は地域住民に不安を与えている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1STTA4UnM1dEZJZE1JN2RkQXNfcVR3T0t5a21PZHNReG1ZNU83S3NZMWs2TUtuWEM4RGdjZDZVV2FSdlVMRXNEWERmVTZsdURfM3drd2dRZ1lZcGZQSlpJcEl6VTloRnN2ajNXblNR?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "北海道の涼しさ一時的か - 今後5日間は全国的に高温傾向",
+      "body": "オホーツク海高気圧の影響で一時的に涼しかった北海道だが、この涼しさは長続きしない見込みだ。今後5日間は、全国的に気温が平年より高い傾向が続くと予想されている。特に日中の気温上昇に注意が必要で、熱中症予防などの対策が呼びかけられている。季節の変わり目であり、気温の変化に注意が必要だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IM1pOUFZSbkh4NGJpc0Y1cmhNR2ZENE1leTJwTGFNLWxUVnRSdmhXUFRUZUFpaU9vdE4xWTBBM0JoMFpWalZ4c1ppTVpsTllOblprMEVfNjg1anQ2bURaR0JsTmE3TUVjT25mYUtR?oc=5",
+      "source": "Google: オホーツク"
+    },
+    {
+      "title": "金融監督院、26年に審査強化 - 投資不動産も対象に",
+      "body": "金融監督院は、2026年から審査を強化する方針を固めた。特に、投資用不動産に対する審査が厳格化される見通しだ。これは、不動産市場の過熱や金融リスクの増大を防ぐための措置と考えられる。金融機関に対しては、より慎重な融資判断とリスク管理体制の構築が求められることになるだろう。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaHE5UFBRaVQtMUp5ZW9sa1lyTTlxMkdBNDd3QWtmLVpxMUR0UENfRmZfb1FyemNzNGJjMHFqbi1vM012VVkyeGtUaF9tXzRuYVdjZU1hVGFZcXlPVWFkd2VUbm80YlByTmF5RDc3dDBKWkVrQnN2ZWlTM1ctbUMtRtIBlAFBVV95cUxQZDF5M1Q0d2xhMHZQMWJTRjdWUHZsQXZJVFpOeE5VaGJXbVRsTjB2SW14M3RMcW5zekRNRWRqMnNOVWJSTTRzNmM0YXJ2R0h5M0tiSVU1SUxIVmp2QkpaQ2tjck5KSHoyLW9nLUE5UW9zcTVLQlN4MHluQjFiWmt1OWFJbENlVE42S0pob09Yd3dwUllY?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "商業高校英語スピーチコンテスト、長野県大会開催",
+      "body": "長野県塩尻市で、全国商業高校英語スピーチコンテストの県大会が開催された。県内各地から集まった商業高校生が、日頃の学習成果を発表した。その中でも特に優れたスピーチを行った2名の生徒が、全国大会への出場権を獲得した。このコンテストは、生徒たちの英語力向上だけでなく、国際的な視野を養う機会としても重要視されている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvT0ctQWF2cWF6UVY2Wm5sSFA0YmtTNWZPT0tva0poMnlWMndwVk1ybkZwTzc5TlVHQzVVU05WdVR2cTZ6eS1UVVZPV0VhN2FLNHFrMW0zUzNGcTNKanQwcHRwYTliZnFtQWlIcFRLblc?oc=5",
+      "source": "Google: 商業高校"
+    }
+  ]
+}
