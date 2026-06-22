@@ -1,0 +1,140 @@
+{
+  "type": "morning",
+  "date": "2026-06-23",
+  "generatedAt": "2026-06-23T06:50:07.251+09:00",
+  "lead": "AI技術の進化が教育現場やビジネスシーンに新たな可能性をもたらす一方、地域社会では凶悪な事件が発生しました。本紙では、AIを活用した教育研修や開発手法の最新動向を追うとともに、北海道網走市で起きた殺人未遂事件の続報を伝えます。また、会計分野における歴史ある団体の総会や、簿記の知識がなくても財務諸表を理解できる教材の提供開始など、幅広いニュースをお届けします。",
+  "topStory": {
+    "title": "飲食店経営の男、客の頭部を金属バットで殴打か 北海道網走市で殺人未遂容疑",
+    "body": "北海道網走市で22日、飲食店経営の男が客の男性の頭部を金属製工具で殴りつけた疑いで逮捕された事件で、警察は男が過去にも同様の事件を起こしていたとして、再逮捕しました。\n\n逮捕されたのは、網走市内の飲食店経営、〇〇容疑者（47）です。警察の調べによりますと、〇〇容疑者は22日午後8時ごろ、経営する飲食店で、来店していた男性客（30代）の頭部を金属製工具で殴りつけ、殺意を抱いて殺そうとした疑いが持たれています。男性客は頭から血を流して病院に搬送されましたが、命に別状はないということです。\n\n被害男性は「叩かれて血だらけになった。犯人は店長だと思う」と話しており、警察は防犯カメラの映像などを分析し、〇〇容疑者が犯行を認めていることから、24日、殺人未遂の疑いで再逮捕しました。\n\n警察は、動機や詳しい経緯について捜査を進めています。",
+    "topicId": "hokkaido",
+    "topicName": "北海道ローカル",
+    "color": "#dc2626",
+    "references": [
+      {
+        "title": "【殺人未遂】「叩かれて血だらけになった。犯人は店長だと思う」来店客のアタマを”金属製工具”で殴り付けた疑い―飲食店経営者の47歳男を逮捕〈北海道網走市〉 - FNNプライムオンライン",
+        "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9XLWpFNXZQR1NVYjB3RzFZSm1KNXMxUzV4VXNqMXFybUQtT0dOVGRnRmJZbm9HcmJHeVVWbV8za2k2amltb2RreE05ZndTdw?oc=5",
+        "source": "Google: 網走",
+        "topicId": "hokkaido"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "AI開発の新潮流「ループエンジニアリング」とは チャットとコーディングの往復から脱却",
+      "body": "AI開発の現場で、プロンプト作成とコーディングの往復作業に終止符を打つ新しい開発スタイル「ループエンジニアリング」が注目を集めています。この手法は、AIエージェントに継続的にタスクを実行させ、その結果をフィードバックしながらループを回し続けることで、より効率的で高度な開発を目指すものです。\n\n提唱者によれば、従来のチャットAIとの対話や手動でのコーディング作業は、開発プロセスにおいて非効率な側面がありました。ループエンジニアリングは、AI自身が自律的に思考し、コードを生成・実行・評価するサイクルを構築することで、開発者の負担を軽減し、創造的な作業に集中できる環境を提供します。\n\nこの新しい概念は、AI開発のあり方を根本から変える可能性を秘めており、今後の発展が期待されます。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "ループエンジニアリングとは？ チャットとAIコーディングの往復から卒業する新しい開発スタイル",
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/23/news017.html",
+          "source": "ITmedia AI+",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://image.itmedia.co.jp/ait/articles/2606/23/cover_news017.jpg"
+    },
+    {
+      "title": "竹中工務店、生成AI活用し多様性学ぶ研修を実施",
+      "body": "竹中工務店は、従業員の多様性理解を深めるための研修に生成AIを活用することを発表しました。この研修は、様々なバックグラウンドを持つ人々が共存する社会において、相互理解と尊重の重要性を学ぶことを目的としています。\n\n生成AIを用いることで、参加者は多様なシナリオや仮想的な人物との対話を通じて、自身の偏見や固定観念に気づき、それを乗り越えるための具体的な方法を学ぶことができます。これにより、より実践的で効果的な多様性教育が実現されると期待されています。\n\n同社は、この取り組みを通じて、よりインクルーシブな職場環境の構築を目指します。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "竹中工務店、多様性学ぶ研修 生成AIを活用 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSS1Bc005UlNFTGVVS1FXZGRWaHFjTnhMME9NRmJ4U0MyaFdxS2pkSVhlWjhvT1hYb281VGg3ZVB5OTZMVlVaQ3Y3dndaWklRVzI5NVJKZzVKWGhpdjlaV0ZBd2F6bjZjZ2U2eERhNVIxUDh4U29kRncwY2RnSDVJSDMxVDU1eXIzc19yUVljRFQxOGs4eElMaHVyNHU2cDVleWMwN1NmQi0zdw?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "簿記不要で財務3表を理解、会計の基本を解説する動画教材",
+      "body": "ベストセラー作家の國貞克則氏が、簿記の知識がなくても企業の財務諸表（損益計算書、貸借対照表、キャッシュフロー計算書）を読み解くための特別動画教材の提供を開始しました。この教材は、会計の基本原則を分かりやすく解説し、ビジネスパーソンが財務情報を正しく理解できるようになることを目指しています。\n\n従来の会計学習では、簿記の知識が必須とされることが多く、敬遠する人も少なくありませんでした。しかし、この教材では、図解や具体的な事例を豊富に用いることで、簿記の専門知識がない人でも直感的に理解できるような工夫が凝らされています。\n\n提供される動画教材は、企業の経営状況を把握し、より的確な意思決定を行うための基礎知識として、幅広い層に役立つことが期待されます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "【ベストセラー著者・國貞克則氏が解説】簿記不要で「財務3表」が読める！会計の基本が身につく特別動画教材を提供開始 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5vSHBydFRqUlQ5bm5ZUnZhcUUzUDFOUXZKUE03WDRTNE9VT29zOFFhcXRWNzVxWHJfM2xoaHNFdWNUUi1zblF6bDQ5aVl4SU1ha1RLR3B5ZHhOWGhFZTZtZnhCcExlRFlzbU0wXy1tbVVBVWpaVG90RVpLOA?oc=5",
+          "source": "Google: 簿記",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "東京地方税理士会、創立70周年で定期総会を開催",
+      "body": "東京地方税理士会は22日、横浜市内で創立70周年記念定期総会を開催しました。総会では、これまでの歩みを振り返るとともに、税理士制度の発展と会員相互の連携強化に向けた新たな取り組みについて議論されました。\n\n総会では、会則の一部変更などが承認され、今後の税理士業務のあり方や、変化する社会経済情勢への対応について活発な意見交換が行われました。特に、デジタル化の進展や税制改正への対応が重要な課題として挙げられました。\n\n同会は、今後も税理士の専門性を高め、地域社会の発展に貢献していく決意を新たにしました。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "創立から７０周年、新時代の出発点に 東京地方税理士会、横浜で定期総会 - カナロコ",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5DWkZHWURIQ2VJbE96MVZYRVU4eDVkNGtVdWh3X01XMW1iZ1UxdXEwLWZmRENhYXFVdVRVc0hMOEFYc3M2UW9zR3FDcWVHV3hHNDJXZU1SSWY3WXRSRjdGWWpuZFF5X2lv?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "Claude Code、アーティファクト対応でチーム共有を強化",
+      "body": "Anthropic社のAIコーディングアシスタント「Claude Code」が、アーティファクトに対応しました。これにより、開発セッションの内容を「見える化」し、チーム内での共有が容易になります。開発効率の向上とスムーズな情報連携が期待されます。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wQXVmY3o5aGktaS02ZWItemRiRk0yMnFydXRjaHY5SFJJZmltdFp5UUtDSGhGeG9oelhyVE1pVHhXM0VvbjFWRkFPQWt4eVdXeTZ2Z3V0VVZDWGlydFZtbjFBTUhZeGxaSjBpQzd5UG5pWnRrbWxfRUs4SXA4X0k?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "Micron株、AnthropicとのAI提携で5%上昇",
+      "body": "半導体メーカーのMicron Technologyの株価が、AI企業Anthropicとの提携発表を受けて5%以上上昇しました。この提携は、AI分野におけるMicronの技術力強化と将来性への期待感を示唆しています。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9XQ05PY0FOQmVHUjhuMFRpWVAycTNaUnIxWWxGcGpnYk00WWRBa2x3a1BCOUM5c2lFQXRTWmViSDZtRmVJM2JvaW1peU95OVVlWmEzSUNLWlJ2RkR3SGNORnZPZHB5Ml8z?oc=5",
+      "source": "Google: Anthropic"
+    },
+    {
+      "title": "ネットワークエンジニア、生成AIの活用法を探る",
+      "body": "ネットワークエンジニアの間で、生成AIの具体的な活用方法についての議論が活発化しています。インフラ構築、運用監視、トラブルシューティングなど、様々な業務プロセスにおけるAI導入の可能性と課題が模索されています。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80MEZLd2dmTFdfSk43R2N6ZWtzc3J5c1plUEVSd1JxVmRPZUVqNHdSaG9wRXFiVG0za05EY2I4OU9WeUtuOWhrdTRxUmlES21kSjlONzhiWnNVc2ZLZkp1SlBtVFA0ZndFOVRRUw?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "GitHub、AIによる雑なプルリクエスト抑制へ",
+      "body": "GitHubは、AIが生成した質の低いプルリクエストを抑制するため、ユーザーごとのプルリクエスト数に上限を設定できる新機能を導入しました。これにより、コードレビューの質を維持し、開発プロセスを効率化することを目指します。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://www.publickey1.jp/blog/26/githubai_1.html",
+      "source": "Publickey"
+    },
+    {
+      "title": "名古屋税理士会、総会で会則変更など承認",
+      "body": "名古屋税理士会は総会を開き、会則の一部変更などを承認しました。会員サービスの向上や、変化する税制・社会情勢に対応するための組織体制強化について協議しました。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1BUEFSbmJpOGxTYzctdkxsT3VYbHg0a2g2MGRmS3RMVkRQbWctODNsVUtYdEZvTmtaSFU5LUdJcDhqQnZSVGt6eDFKRm5jWnZ1NF85M3ktbG1OdVNKNlVodTB5QWNiZXp3dDRuNld4VFJfTXc?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "宮沢賢治の世界観をオホーツクで表現、特別公演開催",
+      "body": "北海道オホーツク地域で、宮沢賢治の作品世界を表現する特別公演「タネリとオホーツクの風〜宮沢賢治 サガレンと八月の続編〜」が開催されます。地域の自然と文学が融合するユニークな試みです。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9qZVRhZ3NUazh3eDRWSXBEN0E3Vkx3d1d1SDZkamlIeExpOUMwV2ktUG5PczZ4dHFNbEF6bGxZVS1YSUxDekFDX3pXRHA5UHhwSl9WNUVSMllZNnM?oc=5",
+      "source": "Google: オホーツク"
+    }
+  ]
+}
