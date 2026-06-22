@@ -1,0 +1,140 @@
+{
+  "type": "evening",
+  "date": "2026-06-22",
+  "generatedAt": "2026-06-22T22:18:07.407+09:00",
+  "lead": "2026年6月22日、全国的に梅雨入りが進む中、教育、商業、AI、そして北海道の各分野で注目すべき動きがありました。教育現場では理数系人材育成強化に向けた改革や、AIを活用した新たな学習体験の提供が計画されています。商業分野では、企業の不正会計問題が相次ぎ、経営者の意識改革の必要性が浮き彫りになりました。AI技術は、ビジネスシーンでの活用が広がる一方、規制や倫理的な課題も指摘されています。北海道では、地域経済の動向や、子供たちの食を支える給食無償化の動きなどが報じられました。本紙では、これらの多様なニュースをバランス良く紙面に盛り込みました。",
+  "topStory": {
+    "title": "梅雨のない北海道以外、全国で梅雨入り進む　各地で気象庁が発表",
+    "body": "北海道を除く全国で梅雨入りが発表され、各地で雨の日が続いている。気象庁によると、例年より早い地域もあり、今後の梅雨明け時期が注目される。\n\n各地の気象台は、太平洋側を中心に梅雨入りを発表した。東京地方では6月10日頃、近畿地方では同12日頃にそれぞれ梅雨入りが発表され、平年より数日早い進行となっている。一方、北海道は例年通り梅雨がなく、爽やかな気候が続いている。\n\n梅雨前線の活動は活発で、週末にかけても広い範囲で大雨となる恐れがある。気象庁は、土砂災害や河川の増水、低地の浸水などに厳重な警戒を呼びかけている。特に、線状降水帯が発生する可能性も指摘されており、最新の気象情報に注意が必要だ。\n\n梅雨明けの時期については、現時点では不透明な状況だ。例年、東北地方は7月下旬、関東甲信地方は7月下旬から8月上旬、東海地方は7月中旬から下旬にかけて梅雨明けを迎えることが多い。しかし、今年の梅雨入りが早まったことで、梅雨明けも早まる可能性もあれば、逆に長引く可能性も否定できない。気象庁は、今後の気象データの分析を進め、梅雨明け時期の予測精度向上に努めるとしている。",
+    "topicId": "education",
+    "topicName": "教育・ICT",
+    "color": "#2563eb",
+    "references": [
+      {
+        "title": "梅雨のない北海道以外、すべてが梅雨入り…梅雨明けいつ？",
+        "url": "https://resemom.jp/article/2026/06/22/86501.html",
+        "source": "リセマム",
+        "topicId": "education"
+      }
+    ],
+    "ogImage": "https://resemom.jp/imgs/ogp_f/397478.jpg"
+  },
+  "midStories": [
+    {
+      "title": "山口県、高校教育改革で理数系人材育成を強化へ",
+      "body": "山口県教育委員会は、高校教育改革の実行計画を策定する方針を固めた。特に、将来の産業界を支える理数系人材の育成強化に重点を置く。\n\n計画では、数学や理科の授業内容の充実、探求学習の推進、ICT（情報通信技術）の活用などを通じて、生徒たちの科学的思考力や問題解決能力の向上を目指す。また、大学や企業との連携を強化し、実践的な学びの機会を提供する。県は、この改革を通じて、グローバル社会で活躍できる人材の輩出を目指すとしている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "理数系人材の育成強化へ…山口県教育委員会が高校教育改革の実行計画を策定へ - 日テレNEWS NNN",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbXY0WVQ1QUEtQk5LSXRpdDJDQTIxb0o0bVdGeDA2eEI3ZmJJZHZQVE5lREtVUWVoQUw2bFNkWHlMcy12TE5Cc21JaUYzeHF1UjNOQmRFcXRKUlg2WDJLcTlwZjR1UzdkMjRIWTRoTFpyWGFLM2VsbGZtYWVMZGRBRzlaR01VR2c?oc=5",
+          "source": "Google: 高校教育",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "AIサービス比較セミナー、アーカイブ配信開始",
+      "body": "7月9日に開催されたセミナー「デモを見ながら学ぶ AIサービスが提供するエージェント機能」のアーカイブ配信が開始された。本セミナーでは、ChatGPT、Claude、Gemini、Copilotといった主要なAIサービスの違いや、導入時の考え方について解説が行われた。\n\n参加者は、各AIの特徴や得意分野を理解し、自社の業務に最適なAIサービスを選択するための知識を得ることができた。特に、エージェント機能に焦点を当て、具体的な活用事例が紹介された点が好評だった。AI導入を検討している企業にとって、有益な情報源となるだろう。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "ChatGPT／Claude／Gemini／Copilotの違いと導入時の考え方を解説！7/9（木）セミナー「デモを見ながら学ぶ AIサービスが提供するエージェント機能」のアーカイブを配信 - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8zZFlkdHZnbENKXzMxUzY4M2lpWm1kVE1Ha3B2a19OYjZUWGRlejRkRE52d3p1ZzdhRVlZejN5UlFjOVJvM1JiZHJqcHoxRTg0ekh2WDV6VVpYWjY3cEtmXzFuNVZVY3JqbUE?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "アイサンテクノロジー子会社で不正会計、取締役解任",
+      "body": "アイサンテクノロジーの子会社で、会社の機材をインターネットで転売し、全業務を1人で担当していた社員が架空売上を計上する不正会計を行っていたことが発覚した。この問題を受け、同社は取締役の解任を決めた。\n\n不正は、特定の社員が業務を独占し、外部から見えにくい状況下で行われていたとみられる。同社は、再発防止策として、内部統制の強化とコンプライアンス教育の徹底を進める方針だ。今回の事態は、企業のガバナンス体制の重要性を改めて浮き彫りにした。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "会社の機材をネット転売、全業務を1人で握り架空売上 アイサンテクノロジー子会社で不正会計 取締役解任 - ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5HTktpRVhWd3dnUDhVVlpBdy0wRGZNeHBCVE1fc05hc2syMDNQR1ZpeFRHWUdRUTVxRWxubEh5d3pjSnU1cUlwQlhVbnVsWlEyWDJqSEZ1Wklfb1VGc3ljd0RLRHowOWQybFJ2SQ?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "道教大旭川小、給食無償化をPTAが市に要望",
+      "body": "北海道教育大学附属旭川小学校のPTAは、学校給食の無償化を求める要望書を旭川市に提出した。保護者からは、子育て世帯の経済的負担軽減を求める声が高まっている。\n\n要望書では、給食費の負担が家計を圧迫している現状を説明し、無償化によって子育てしやすい環境整備に繋がることを訴えている。市は、提出された要望書を基に、関係部署と協議を進め、今後の対応を検討するとしている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "道教大旭川小の給食無償化を PTAが市に要望書 - 47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBoWVdscFEzb2xiUHFmekR4MlprRjc2Tm9MaUVuUFE1VGF3X3RIbmE1bHU2VWtuOGhEVzdyNnNHSno2eFdiYk1LQjQ5NA?oc=5",
+          "source": "Google: 北海道 教育",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "東大メタバース工学部、夏休みに小中高生向け講座開講",
+      "body": "東京大学は、夏休みに小・中・高校生を対象としたメタバース工学部講座を開講する。最新のテクノロジーに触れ、未来の工学分野への興味関心を高めることを目的としている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/22/86500.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "Claude Code、指示の7つの方法を公式解説",
+      "body": "米Anthropicは、AIコーディング支援ツール「Claude Code」に指示を出す7つの方法を解説する公式ブログを公開した。各方法の概要や使い分け方を紹介し、ツールの活用促進を図る。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2606/22/2000000117/",
+      "source": "ITmedia AI+"
+    },
+    {
+      "title": "製造業界特化AI「工/Takumi」、国家試験13種で合格水準達成",
+      "body": "製造業界に特化した生成AIエージェント「工/Takumi」が、最新年度の主要国家試験13種で合格水準を達成した。専門用語の理解力に強みを持つ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1X0IzYVQ1aTF4aEtGWW1VOXZjMEQ4NnRJLTktSS1QalpVbEd3dDFNWmpaWjlQSWt3czJiRlpEaWozUU9VRG5tMmZLSDZqdmpuYlJRdWNyYWlTOG5zQXdJZmFhWWhWUlNpbjRDbDMyZ0hDLXVWblE?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "エア・ウォーター、不適切会計で調査委設置",
+      "body": "エア・ウォーターは、不適切会計問題を受け、取締役と監査役の法的責任を調査する特別調査委員会を設置した。経営責任の追及を進める方針だ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MQTZXY05vWG1yTEdxdDdDLV9KZG03NzY5SXZVWk1WVFgwd2lLVVdaMmVnUjcxSTQwTWs0eXVCYkpMNWQ4Y2xKQW1VeTQzMXlwN3R5RGtCejluVmExV3dKbEJoVWpDNnR5YzNkYXVvY3Fsc2V1Z3c?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "網走の男、殺人未遂容疑で再逮捕",
+      "body": "北海道網走市で、2人目の殺人未遂事件に関与した疑いで、男が再逮捕された。警察が詳しい経緯を捜査している。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DZlNTZXZWM0UyOXp2RTBBU2k3bWpoZ1lfZzZTYjBGcnpfUjFwYWF4U3BYMDBsaVBUSHE5X29ZOWRLUm1JUTdLemFKRmQzZmRDZGs4S21samdYQTBkSEVlZjFoYks?oc=5",
+      "source": "Google: 網走"
+    },
+    {
+      "title": "北見信金、純利益22％増　札幌の不動産需要堅調",
+      "body": "北見信用金庫は、2026年3月期の純利益が前期比22％増となったことを発表した。札幌圏の堅調な不動産需要が業績を押し上げた。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RWFQwRElNbFNMTmowYWFFQm1RTlU3dVZ1MHRkZWhrZFpIRXdtcWhMTkV5Y0QyeDI1VEdaa3pnU3EzRmtod01GOF83YVNhMzBhbDBQRVYtREFXQQ?oc=5",
+      "source": "Google: 北見市"
+    }
+  ]
+}
