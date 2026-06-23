@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-06-24",
+  "generatedAt": "2026-06-24T06:19:47.098+09:00",
+  "lead": "AI技術の進化がビジネスや教育現場にもたらす変化、そして地域社会の活性化に向けた取り組みなど、多岐にわたるニュースをお届けします。経済の動向や教育の新たな試み、北海道の地域課題へのアプローチなど、今朝の紙面を彩る記事にご注目ください。",
+  "topStory": {
+    "title": "GMO、声でAI使う環境提供開始",
+    "body": "GMOインターネットグループは、パートナー8,300社に対し、「声でAIを使う」環境を提供する「プロジェクト・ウィスパー for AI byGMO」を開始した。このプロジェクトは、生成AI技術を活用し、音声認識と自然言語処理を組み合わせることで、ユーザーが声だけでAIと対話し、様々なタスクを実行できるようにすることを目指している。\n\n具体的には、同社が開発した音声認識エンジンと、外部のAIモデルを連携させることで、複雑な指示や質問も声で行えるようになる。これにより、PC操作に不慣れな層や、両手がふさがっている状況でもAIを活用することが可能になる。例えば、会議の議事録作成、メールの作成・送信、情報検索などが、声だけで完結できるようになるという。\n\n今回の取り組みは、AIの利用におけるハードルを大幅に下げるものであり、ビジネスの生産性向上に大きく貢献すると期待される。特に、コールセンター業務やカスタマーサポートなど、音声によるコミュニケーションが中心となる分野での活用が見込まれる。GMOは今後も、AI技術の社会実装を推進し、より多くの人々がAIの恩恵を受けられるよう、サービス開発を進めていく方針だ。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "「プロジェクト・ウィスパー for AI byGMO」始動、パートナー8,300人に「声でAIを使う」環境を提供開始 - ニコニコニュース",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1HQkFoeS04VHBUZHBwdjhqcGV4d2NvVHhzT0ExZk8wajBfNm55YU1GcTZDdEF6UU9HbXRDT2dEWnZUWUJ4bFFjRlhKejg2Z2k0MGdRQ1NfeDFXVm9QcS1saDFMay1OSmR5dVpqM3U3dkZQUDRxMG1Qcldvcw?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "両備システムズと札幌市、生成AIで旅費事務効率化",
+      "body": "両備システムズと札幌市は、生成AIを活用した旅費精算事務の効率化に向けた実証実験を開始した。この実験は、AIが申請内容のチェックや不備の指摘、さらには過去の事例に基づいた精算処理の支援を行うことで、担当者の負担軽減と処理時間の短縮を目指すものだ。\n\n具体的には、AIが旅費申請書の内容を自動で読み取り、規定との照合や必要書類の確認を行う。これにより、人的ミスによる精算漏れや誤りを防ぎ、より正確で迅速な処理が可能になる。また、申請者にとっても、入力補助機能などにより、申請手続きが容易になることが期待される。\n\n札幌市は、今回の実証実験を通じて、行政事務のデジタル化と効率化をさらに推進する考えだ。両備システムズは、この取り組みで得られた知見を基に、今後、他の自治体や企業向けにも同様のソリューションを提供していくことを目指している。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "両備システムズと札幌市、生成AI活用で旅費事務を効率化する実証実験を実施 | チバテレ＋プラス - 千葉テレビ放送",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yMFNfcjZ1dFZwQXFNbkMxd1doV25STTFXNUllOHhzSXZ4SXpaT0hlVVJnb1hkQnFkWlJ3VXBudGpqVXdaMHdOTjZ0UV85NHVSSHVIYjlrRGQ0TlNWWTBZ0gFkQVVfeXFMUENPTGVCdjFaQXktd084RU1DVU9SS05Gd2N5X3hlQTU5ckRHd2JrWkQ2dWdBc2EzdVY4M3dMT1RHd01TSExwS2RtVkVVczY4QkVBc1FLSGtZcTViOEJRUi1VVGlUeg?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic、SlackでAI競争加速",
+      "body": "AI開発企業Anthropicは、ビジネスチャットツールSlack上で利用できるAIエージェント「Claude Tag」の導入を開始した。これにより、企業は日常的なコミュニケーションツール内で、より高度なAI機能を活用できるようになる。\n\nClaude Tagは、Slackのチャット上で常時稼働し、ユーザーからの指示に応じて文章作成、情報収集、要約、翻訳など、多岐にわたるタスクを支援する。これにより、チーム内の情報共有や意思決定のスピードが向上し、業務効率の改善が期待される。\n\n今回の発表は、AI企業間の競争が激化する中で、Anthropicがエンタープライズ市場における存在感を高めるための重要な一歩となる。Slackとの連携により、多くの企業がAIをより身近に、そして効果的に活用できる環境が整いつつある。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "AnthropicがSlackでエージェントClaude Tagの導入を開始、企業向けAI競争を加速 - mezha.net",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WYmZpbGVtZlZPazNDYWNSZ1dqeDYzM0gtc0ZmQzBmbHBnRU1sZXJVZ1NKTGFmZ0dBbEVJeTBsdTNKa0h3eF9DNjJJbzJGZ18wNENTSTBKOFVscG50OHV5SzJOWFFOcFlmMFBJOTlhWQ?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "北海道の神社、会計書類の開示を巡り訴訟",
+      "body": "北海道の姥神大神宮と檜山護国神社において、会計書類の開示を巡る問題で、責任役員らが会計書類の制限ない開示を求める訴訟を起こした。神社本庁の規則では、会計書類の開示範囲が限定されているが、関係者からは、より透明性の高い情報公開を求める声が上がっている。\n\n訴状によると、原告らは神社の運営状況を正確に把握するため、会計書類の全面的な開示を求めている。しかし、現行の規則では、一部の書類しか閲覧できず、神社の財政状況について十分な情報を得ることができないという。この問題は、神社の運営における透明性と説明責任の重要性を示唆している。\n\n今回の訴訟は、全国の神社組織における会計管理と情報公開のあり方について、改めて議論を促す可能性がある。裁判所の判断が注目される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "姥神大神宮と檜山護国神社 会計書類、制限なく開示を 責任役員が提訴 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9FcXB0ZW1NOHFDMFhLYTVIczFoUlBRRmJTdEpIV0dmWXZwMS1HZnJhU3ljRllJZEhkM3VTek4xYlZNMGM3U3QtR2J5VmVtbVF3aExDVUgwNzFkQQ?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "高校生が老舗菓子メーカーに新商品提案",
+      "body": "高知東高校の生徒たちが、探究学習の一環として、老舗菓子メーカー「浜幸」に対し、新商品のアイデアを提案した。生徒たちは、市場調査や消費者ニーズの分析を行い、ターゲット層に合わせた魅力的な商品コンセプトを練り上げた。\n\n提案された新商品は、地元の特産品を活用したものや、健康志向の消費者に向けたヘルシースイーツなど、多岐にわたる。生徒たちは、商品のデザインやパッケージ、販売戦略についても具体的に提言し、浜幸の担当者から高い評価を得た。\n\nこの取り組みは、高校生が実社会の課題に触れ、企業活動への理解を深める貴重な機会となった。浜幸側も、若い世代の斬新な発想から刺激を受け、今後の商品開発に活かしていく意向を示している。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "高知東高校の生徒が老舗菓子メーカー「浜幸」に新商品を提案 企業の課題考える探究学習で - Excite エキサイト",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zSnVBNXpUblNQZXVZOG82SkUyblZFWHVFRzFoMGItWHRLMHlvRElDZjFfN21UOWFsTWxkNkk0YmNoVjVNNkNyc1JjTDA1bGtRMlkybUFpUldoR3lfaDdQSS1PaVktQS13SFJSLThwM2t4cUVt?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "生成AI活用、音声応対サービス開始",
+      "body": "生成AIを活用した音声応対サービス「よりそうAIボイスボット」が、各種手続きの受付を開始した。このサービスは、利用者の問い合わせにAIが自動で応答し、手続きを案内することで、業務効率化と顧客満足度向上を目指す。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBmT3NBZVR6bC1ETFYyVlItdGp0bThibEN5TWRwYUJ1Q3BaaUVITzJnaE9vZlZxSXBmR00zRjNrakhGU1hJTFU3VTRNZm5McHRaRzk5OU9IT3R3bVI1cjBPSDJydWR1X1Ut?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "教室向け「Claude実践セミナー」拡大",
+      "body": "AI開発企業Anthropicは、教室向けの「Claude実践セミナー」をステップ5まで拡大した。これにより、教育現場でのAI活用スキル向上を支援し、より多くの教員や生徒がAIを効果的に学べる機会を提供する。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBXazRmYVZFa1pvUmRQY3JfU1pJOUF1RUpnSzgySlBtTHRnS1psZENYWHJ0dVE0YlQ5UExPeXF6UDh1RmFWZ3ZIbFRMWmlVOXpuQk9OdU5Eb0hyZ0M4SXBHR1F2Ul84WDJkVlJ4cVltbFM1WG1FSEYtLUJiYw?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "実質GDP、0.5%減少",
+      "body": "会計検査院の報告によると、2026年1月から3月期の実質国内総生産（GDP）は前期比0.5%減少した。個人消費の低迷などが響いたとみられ、景気の先行きには依然として不透明感が漂う。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VRFJZbnBrSzBSSmFWekZ4SHEtTVVDR2xIOXJsZWNselRTcTdkUjhhRjMxejN0TFZVUDd4MkYtXzNDYTlJY1dVYV9HUV9BckJIM0xKeHA5eUxQOGwzODRVNXhEaTh2N0hqUEJadDdnaGF3UQ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "KDDI社長、賛成率低下",
+      "body": "KDDIの株主総会で、松田浩路社長の取締役選任案に対する賛成率が77%台に低下した。傘下企業の巨額不正会計問題が影響したとみられ、経営陣への信頼低下が示唆された。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1aby1RaWdFZEZubVFpQkpSSUxmb0g2MVYzYTNyLW1Yemd4NUxXQVV4bXcwcjE3TVM4NVVvVjZrOHJVYmNHWUc5aUxtaGNZQ1BCdENTVGhKWWhyUEZfNlpYQzd3M21hNkRlWHJSNmdPZDZrX0I2WmU1Nm1wUFR0VkU?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "北見市、市民会議新設",
+      "body": "北見市は、まちづくりに関する若者の意見を市政に反映させるため、市民会議を新設した。若者世代が抱える課題やアイデアを共有し、具体的な提言につなげていくことを目指す。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBORld5dmQ1bUUzb1U1TjFubE10N1JzdTVGU0lrbzVyNi0yMVdYdjVMZVVaWFhPR1RkLTRqVk5FTm4xeGZvNmw2S084VHB1Y1p3LTh0M1BUMW5CUQ?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "札幌第一、初戦敗退",
+      "body": "夏の甲子園出場経験のある札幌第一高校が、南北海道大会の初戦で札幌光星高校に敗れ、姿を消した。8回に喫した大量失点が響き、甲子園出場はならなかった。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR1FNNkl1TmM5aUQyU2pOZ0ZhUExaRFk0T3Q1SjZkZ1ozSFlLelIybGd0aktuYkVOejNQQXRuMmM0VGllUEVJRm82M0ZkNHB1RUJQQmVUNVcwUm1wR3l6SlVTOVpJM3I4UkhzVDRQRDYtaS1NRTl6YnRob2N0RllrZUtEZXlxNHBsb2tlcDFYcFZCa1UwQzBWSW1pZGpQdw?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
