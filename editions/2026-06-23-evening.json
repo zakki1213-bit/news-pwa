@@ -1,0 +1,141 @@
+{
+  "type": "evening",
+  "date": "2026-06-23",
+  "generatedAt": "2026-06-23T19:49:18.899+09:00",
+  "lead": "本日は教育、商業、AI、そして北海道の各分野から、社会の動きを捉えるニュースをお届けします。夏休みの学習イベントから、AIの業務利用に関する調査、そして地域経済の活性化策まで、多岐にわたる話題を網羅しました。特に、AIの普及とそれに伴う課題、そして地方創生の取り組みにご注目ください。",
+  "topStory": {
+    "title": "業務でAI利用、禁止でも継続は約38％ セキュリティ企業が調査",
+    "body": "勤務先でAIの利用が禁止されていても、継続する意向を示した従業員が約38％に上ることが、サイバーセキュリティクラウドの調査で明らかになった。同社はWebセキュリティサービスなどを手掛けており、業務におけるAI利用の実態とそれに伴うリスクについて調査を実施した。\n\n調査は、業務でAIを利用している全国の男女500人を対象に行われた。その結果、「勤務先でAI利用が禁止されているか」という質問に対し、「禁止されている」と回答した人は全体の28.2％だった。一方で、「禁止されていても利用を継続する」と回答した人は37.8％に達し、禁止措置の実効性に疑問符が付く結果となった。\n\nAI利用を継続する理由としては、「業務効率が向上するから」が最も多く、次いで「業務に不可欠だから」「他の従業員も利用しているから」などが挙げられた。これらの回答からは、AIが業務に深く浸透し、その利便性を手放したくないという従業員の意識がうかがえる。\n\nしかし、AIの無許可利用は、情報漏洩や著作権侵害などのセキュリティリスクを高める可能性がある。調査結果は、企業がAI利用に関する明確なガイドラインを策定し、従業員への周知徹底を図ることの重要性を示唆している。また、AIリテラシー教育の推進も、リスク管理の観点から不可欠と言えるだろう。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "業務でAIを使う人の約38％「禁止されても利用継続」 セキュリティ企業が調査",
+        "url": "https://www.itmedia.co.jp/aiplus/article/2606/23/2000000119/",
+        "source": "ITmedia AI+",
+        "topicId": "ai_tech"
+      }
+    ],
+    "ogImage": "https://www.itmedia.co.jp/aiplus/article/ogp/2606/23/2000000119/10000591/2048"
+  },
+  "midStories": [
+    {
+      "title": "共通テスト2027、受験案内公開 Web出願9月15日開始",
+      "body": "大学入試センターは23日、2027年度（2027年1月実施）の大学入学共通テストの受験案内を公開した。インターネットによる出願は9月15日から開始される。\n\n共通テストは、高校教育の成果と大学教育の需要との関係を密接にして、大学入学者選抜における適切な評価を確立することを目的としている。2027年度試験は、現行の学習指導要領に基づき実施される予定だ。\n\n出願期間は9月15日から10月7日まで。受験料は、地理歴史、公民、国語、数学（①数学I、数学I・数学A）、および理科（①物理、化学、生物）のいずれか1教科または2教科を2科目受験する場合は5,000円、それ以外は3教科以上または2科目受験の場合は8,000円となる。詳細については、大学入試センターのウェブサイトで確認できる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "【共通テスト2027】受験案内公開…Web出願9/15より開始",
+          "url": "https://resemom.jp/article/2026/06/23/86513.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/397516.jpg"
+    },
+    {
+      "title": "自治体向け「生成AI活用実践研修プログラム」提供開始",
+      "body": "株式会社XXXは、自治体職員を対象とした「生成AI活用実践研修プログラム」の提供を開始した。本プログラムは、生成AIの基本的な知識から、実際の業務での活用事例、倫理的な課題までを網羅的に学ぶことができる。\n\n近年、生成AIの技術は急速に進歩しており、行政サービスの効率化や住民サービスの向上への応用が期待されている。しかし、その導入には専門知識や適切な運用体制の整備が不可欠である。本研修では、参加者が自らの自治体の業務に即した形で生成AIを活用できるよう、実践的な演習を多く取り入れている。\n\n研修はオンライン形式でも受講可能で、全国の自治体職員が参加しやすいように配慮されている。同社は、本プログラムを通じて、地方自治体における生成AIの健全な普及と活用を支援していく方針だ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "自治体向け「生成AI活用実践研修プログラム」の提供を開始 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kT1VRQlNIdXdZSWU0Y05XQXEwX1Z0eExkZ0dlbE56dG9JNDZjd2NkbFhxRWpOdFhMWEVpM2RXaHNLbDZrS2FUckpiYVRkTXhidDd0TmU1TDBqSlBjM2FjQUlQLUpTakdpcU4zR1dJdUNTOHotcHc?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "インフォマート、苫小牧市と連携し会計業務のデジタル化推進",
+      "body": "株式会社インフォマートは、北海道苫小牧市と、同市の会計業務のデジタル化推進を目的とした連携協定を締結した。これにより、インフォマートが提供するクラウド型受発注システム「BtoBプラットフォーム受発注」を活用し、市が発注する物品やサービスの調達プロセスにおける効率化を目指す。\n\n本協定に基づき、インフォマートは苫小牧市の会計担当者向けに、システム導入支援や運用サポートを提供する。また、デジタル化の推進を通じて、業務の透明性向上やコスト削減にも貢献することが期待される。\n\n苫小牧市は、本連携により、ペーパーレス化の推進や業務プロセスの標準化を進め、より迅速かつ効率的な行政サービスの提供を目指す。今後、全国の自治体への展開も視野に入れたモデルケースとして注目される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "インフォマート、苫小牧市との連携協定締結による会計業務のデジタル化推進 - ニュースメディアVOIX",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zSFJTMUdEcy1xd05zT09pSmxQT3h5LXpBcVZKWEFNV0sxbVc1S0RRZ1hIX3F1dXoxS1F5ZUd1UUVlS2I3T2FlcWgzOWkycDhiTFk4X19Rb1NOdThJSEJ5N29Uc1hxQ1BBSU0yYVFxZw?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "網走で子どもたちが特産のホタテ学ぶ 殻むき体験も",
+      "body": "北海道網走市で23日、地元の小学校に通う子どもたちが、特産品のホタテについて学ぶ授業が行われた。児童たちは、網走漁業協同組合の職員からホタテの生態や漁業について説明を受けた後、実際にホタテの殻をむく体験に挑戦した。\n\n授業では、網走湖で養殖されているホタテの現状や、地域経済におけるホタテ漁の重要性などが解説された。子どもたちは、普段食べているホタテがどのように獲られ、食卓に届くのかを理解する貴重な機会となった。\n\n体験学習では、児童たちが軍手とナイフを使い、職員の指導のもとで慎重にホタテの殻をむいた。自分でむいたホタテの味は格別だったようで、多くの児童が笑顔を見せていた。この取り組みは、地元の食文化への理解を深め、食育を推進することを目的としている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "網走 子どもたちが特産のホタテ学ぶ授業 殻をむく体験も - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1xb1dKTG9Dbkpya1BSVmNPYzNCMVlENks1VWNxOWRrS3dxRkM2cWZGRXpvZHRwWGo1M0xrbXJLdFNyTXNoM2FYYjBCMEE5QW9pMWt4UWNrdTQ?oc=5",
+          "source": "Google: 網走",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "筑波大物理学類、高校生向け体験学習8月2日開催",
+      "body": "筑波大学物理学類は8月2日、高校生を対象とした体験学習を開催する。講義や実験を通して、物理学の面白さを体験できるプログラムとなっている。参加無料だが事前申し込みが必要。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/23/86512.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "AI会計ソフト「KOZOTAI」正式リリース",
+      "body": "株式会社Kozotaiは6月19日、AI会計ソフト「KOZOTAI」を正式リリースした。同社は、AI技術を活用することで、経理業務の効率化と精度向上を実現できると説明している。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sQWFXSk1JckNhUmwxbmZ4b3RiVmJyRnY1a1pYeGNuRWtCblJhRHRsOHU1SVJQSnFyYkw3OTl6bjVIei1OS1phLWFGcGdYa1VPdkttMG9MWWpDd1BDZzZONXRpMUZsXy1SaWc?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "ニッコー、財務会計基準機構に加入",
+      "body": "ニッコーは23日、公益財団法人 財務会計基準機構への加入状況について適時開示を行った。同機構は、財務会計基準の設定等に関する調査研究を行い、その成果を公表することを目的としている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zLUNXSEY5cF9Yd1BEc2hicHRDZkRacHJqbWFVckRQOENveTVDT0E4VzZZWmdtTDZmRU1xMnRNVnp4Z0Q3RkR3ZURHMzVucTFOclVvSXpLSk54Ujh3Mmkxb0tCby12VTA3QkE?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "Anthropic、Claude Community Ambassadors募集開始",
+      "body": "AI開発企業Anthropicは、同社のAIモデル「Claude」のコミュニティアンバサダープログラムの募集を開始した。AI技術の普及と発展に貢献する人材を募る。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OcVFyYnpTQ2Vkd1h0LVpBREkzbGoxc1NnVXVRTy1IQVJPRmJfVnhUeXAzNVUzYXY3MjVlNWFWWWxtbHcwZXhYV2I1d0J2Vy1wTVUwYXVhalNtWkpjWDZ3OVRaTG1XZW5hLVlN?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "北見市営野球場、命名権で年118万円収入",
+      "body": "北海道北見市は、市営野球場「セクト市民球場」のネーミングライツ（命名権）契約を締結した。これにより、年間118万円の収入が見込まれ、市の財政健全化に貢献する。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XLW51dXZtTEY2ZlNLbjQwVkc2SFczejVvaFRiNzBOa1Q5cWdoSXpnNzk5akxNdFFWQzd5RzR4MGZaek1GWUlJa0tUYlVpWTdYdFREZHR2QVMtQQ?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "北海道科学大高エース、公式戦初先発初完封",
+      "body": "南北海道大会で、北海道科学大学高校のエース小山悠稀投手が公式戦初先発で初完封を記録した。救急搬送された仲間の思いに応え、チームを勝利に導いた。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1YZGt5b2ZoLUlxUmR2YjRtaDUycF9kVDdUdlQzQTlFeTd3UFFMdmFKQnAwZmJWcno1dDBpbmd0REhxcGh6UktIUUJXb0hKMWNDRjJGSkF0ak83SkhLallfcHJR?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
