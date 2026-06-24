@@ -1,0 +1,141 @@
+{
+  "type": "morning",
+  "date": "2026-06-25",
+  "generatedAt": "2026-06-25T06:13:01.789+09:00",
+  "lead": "2026年6月25日朝刊。AIの進化とリスク、教育現場の対応、そして北海道の高校野球など、多岐にわたるニュースをお届けします。特に生成AIの業務利用に関する意識調査は、今後の企業活動における重要な示唆を含んでいます。",
+  "topStory": {
+    "title": "生成AI、利用禁止でも「業務で使い続ける」2割",
+    "body": "業務で生成AIの利用が禁止されているにもかかわらず、約2割の人が「使い続ける」と回答したことが、ITmedia ビジネスオンラインの調査で明らかになりました。さらに、利用しているAIを会社に申請していない人もいることが判明しました。\n\nこの調査は、生成AIが業務現場に急速に浸透し、「使って当たり前」の時代が到来している現状を示しています。活用範囲の広がりとともに、情報漏洩や誤情報のリスクが企業の大きな課題となっています。\n\n企業側は、生成AIの利用に関する明確なガイドライン策定や、従業員へのリスク教育の徹底が急務となっています。安全かつ賢く生成AIを使いこなすためのリテラシー向上が、今、求められています。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "利用禁止でも「業務で生成AIを使い続ける」約2割 使っているAIを会社に申請していない人も（ITmedia ビジネスオンライン） - Yahoo!ニュース",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15dEd6dlZlVFJtZWJOSkxUNkI2U0tEYTZvWTdTbV9KNGVsNWxnZXY4MDMxZGZHUjNXV2Zacm1VWU8zWmhVT3c0RlJmU05MVWo2bHJHRGlIdlpqY0JIVy1SNlRRbHlsRTFSdlZkR3FxRDFfV3I0X1lXbXJ1Y2xPUUU?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "AI教育、全社導入のカギは「生成AIリテラシー向上研修」",
+      "body": "生成AIの業務利用が広がる中、企業は「AI教育」にどう取り組むべきか。ITmedia AI+は、全社導入の鍵として「生成AIリテラシー向上研修」の重要性を指摘しています。情報漏洩や誤情報のリスクを低減し、誰もが安全かつ自信を持って生成AIを活用できる環境整備が求められています。\n\n研修では、AIの基本的な仕組みから、具体的な活用事例、そして潜在的なリスクとその対策までを網羅的に学ぶことが推奨されています。従業員一人ひとりのリテラシーを高めることが、企業全体のAI活用能力向上につながります。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "「AI教育、どこから手を付ける？」 全社導入のカギは“生成AIリテラシー向上研修”（前編）",
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/25/news008.html",
+          "source": "ITmedia AI+",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://image.itmedia.co.jp/ait/articles/2606/25/cover_news008.jpg"
+    },
+    {
+      "title": "「最強モデル」は無意味、企業の生き残り新戦略「学習ループ」",
+      "body": "AIの急速な進化により、自社システムの模倣やコモディティ化への不安が広がっています。MicrosoftのナデラCEOは、企業の生き残りの新戦略として「学習ループ」を提唱しています。これは、AIが継続的に学習し、進化し続ける仕組みを構築することで、競争優位性を維持しようとするものです。\n\nこの戦略は、日本のソフトウェア企業にとっても重要な示唆を与えます。単に強力なAIモデルを開発するだけでなく、それを活用し、改善し続けるプロセスを重視することが、持続的な成長の鍵となります。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "「最強モデル」はもう無意味 ナデラCEOが語る、企業の生き残り新戦略「学習ループ」",
+          "url": "https://atmarkit.itmedia.co.jp/ait/articles/2606/25/news016.html",
+          "source": "ITmedia AI+",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://image.itmedia.co.jp/ait/articles/2606/25/cover_news016.jpg"
+    },
+    {
+      "title": "夏の高校野球・旭川ブロック、25日開幕 17校が熱戦",
+      "body": "夏の全国高校野球選手権の旭川ブロック大会が、6月25日に開幕します。今年は17校が出場し、甲子園出場をかけた熱戦を繰り広げます。各校は夏の大会に向けて、春の大会や日々の練習で培ってきた力をぶつけ合います。\n\n大会初日は、各校の主戦投手がマウンドに上がり、チームの勝利を目指します。球児たちの情熱あふれるプレーに注目が集まります。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "夏の高校野球・旭川ブロック、25日開幕 17校が熱戦 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1fQ25aMEY3Z1VsalphZnE5eU4zNmJrSzVKeE42UG45RGJqcGluS2toQ2pfeXZpZnNZbWNhdzY5Z3l1YWV3R1lHbnJsM3A2SzN2Nlc2cXJFUVRjc0NOX2tOTjZWbTdpSnA5SzRZaV9mNjhTVmVhSUdXOE1iQ2zSAYIBQVVfeXFMTjRjWDJiU3BXZk9ZazI4akw1NktCemIySGp2VERKNWNGY1lMWTI5dXgzeEJmZGw3bXFtTGQ0R0hVRDMzbGU5NEpINmxIQUoxOUpoVW4zR0xiemphZVZjWngyZF90akR0SHRLMF9Rc0N2X045WUxyUGVhS3A0OHIxNEtaQQ?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "昨夏4強の札幌大谷、夏初戦！25日の南北海道大会",
+      "body": "昨夏の大会でベスト4に進出した札幌大谷高校が、6月25日に行われる南北海道大会で夏の初戦を迎えます。4年ぶりの夏の甲子園出場を目指し、チームは万全の準備で大会に臨みます。\n\n初戦の相手や試合展開に注目が集まる中、札幌大谷ナインの躍動に期待がかかります。高校球児たちの熱い夏が始まります。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "昨夏4強の札幌大谷が夏初戦！4年ぶり夏甲子園へ好発進できるか！25日の南北海道大会【26年夏高校野球】 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xazhPcmZiQjFEWHdpZVpDb3ZySlNBME1pQlg5cXR1bjI5a1pnYkZMcGxoazAyOFBCTVFSTk9MejFSdmxWcmdadXVrQWJwem5nWlhPMWYzUDdjQ2lSc3NKNjFMQjBZNlAwNnVNcFVLWFFpSENXLVhlYmkzUmNRZDQ?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "私大医学部進学相談会、7-8月に全国5会場で開催",
+      "body": "2027年度の大学受験を目指す高校生や保護者を対象とした、私立大学医学部の進学相談会が、7月から8月にかけて全国5会場で開催されます。各大学の入試担当者が、最新の入試情報や学部・学科の特徴について説明します。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/24/86532.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "那覇商業、県高校商業実務競技大会で３競技優勝",
+      "body": "那覇商業高校が、県高校商業実務競技大会において、3つの競技で見事優勝を果たしました。簿記や会計などの分野で、生徒たちの高い専門性と実力を示しました。日頃の努力が実を結んだ形です。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nUkZJd1hjNDJVOUVQNm0xclUzNG5hQzFuOXk5Y2lFbzk4cUhaRmo4cDE1cHBYZXVXdkFJMFZNMTZUOTRCQVAxQ09CcWxGM3NsMmNMQ3dMVk96VmktWXJGTTNR?oc=5",
+      "source": "Google: 商業高校"
+    },
+    {
+      "title": "「日本AI税理士連盟」が始動、AI時代の税務を支援",
+      "body": "AI技術の発展に伴い、税理士業務へのAI活用を見据えた「日本AI税理士連盟（JATA）」が新たに発足しました。AI時代の税務に関する課題解決や、専門家の育成を目指します。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iV2xxUk1pSVZGeEQ3WTlzSXBDWUxHZ1h1cjBNWm9pUkdPRTJYZU5XMzRITDRVMGY5OWhLZ3IyNlo3eXJGTGJ5Q0ZhNkJKcEV4RXFadnNab2loTC0zSUxmWjJMTGJwaC0ybjZQREVuazZVYlNUWmt5QVBzTQ?oc=5",
+      "source": "Google: 税理士"
+    },
+    {
+      "title": "美咲町、６月補正予算で一般会計に５３６万円を追加計上",
+      "body": "美咲町は、6月の補正予算において、一般会計に536万円を追加計上しました。これにより、地域住民の生活向上や行政サービスの充実に向けた取り組みを推進します。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPb3JkNGhWM3g2RTE1VnMxZnhNUEJ3bUQ0SEJOV3g5U1RTdUR6cUVfUldjN3phY2xpRm1tWjEydjB2VG1yenA5dW9kQ3hYNlozazNTSjB2dVFHeVBEX0REWkVBRVMxTGdiSVdtU051LXU1QkhPVTVPZk1GcDYyeXloMA?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "ElevenLabs、文書から自然な音声生成で解説動画に活用",
+      "body": "AI音声合成技術「ElevenLabs」は、文書から極めて自然な発話による音声を生成します。この技術は、解説動画制作など、様々な分野での活用が期待されています。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSVVQRTk1V3lRZ1BKTVVzVjBFb1h5ZS1tYmZKdnVPTlRJYXZya0JmS29uWVJOakc1TjRoTmloRlhZTFVGQlYtQVBYQlM0TTFTd3JfSk4tZHF3MVVReEF4ZkpZZy1PRS0tdkdvcVRPVGFhZHVXUGVrOXQtdVFVcWp2R2dFY1p0RFpDd2VTNTQ5MF9CeGs?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "北海道教委、教職員の狩猟免許保有者を今夏調査",
+      "body": "北海道教育委員会は、野生鳥獣対策の一環として、今夏、教職員の狩猟免許保有状況について調査を実施します。地域の実情に合わせた教育活動の展開を目指します。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMWJHcU5nSU1wR1lZZ0hIdDRaNjl3TXFsNkQ4bm0tWW91bTBLZXNSM05QU19qR1lQcDdadnJtSHVSVmpoLTFBRVBjZ2ZGSUNKTjRhSzYxMEZGNnF0Q2ozU2R2WGFpM3VlQVhiUENQNUxUU0VkYzBFSUNNYzFzd0REVnVaWEJHUzhN?oc=5",
+      "source": "Google: 北海道 教育"
+    }
+  ]
+}
