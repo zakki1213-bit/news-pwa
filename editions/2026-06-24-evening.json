@@ -1,0 +1,141 @@
+{
+  "type": "evening",
+  "date": "2026-06-24",
+  "generatedAt": "2026-06-24T19:35:51.647+09:00",
+  "lead": "2026年6月24日夕刊。AI技術の進化が教育現場やビジネスに浸透し、新たな時代を切り開く動きが加速しています。教育分野では、STEAM教育や探究学習へのAI活用が進み、子供たちの未来を育む取り組みが活発化。ビジネス界では、AIによる業務効率化や新たなサービス創出が期待される一方、AI生成コンテンツの表示義務化など、倫理的な課題への対応も急がれています。北海道では、高校野球が開幕し、地域に熱気をもたらしています。本紙では、これらの最新動向を多角的に報道します。",
+  "topStory": {
+    "title": "陸自駐屯地でAI警備ロボットが巡回、省人化と24時間体制目指す",
+    "body": "GMOインターネットグループは、未来ロボットと共同開発した国産の四足歩行型警備用ロボットの導入検証を陸上自衛隊の駐屯地で開始した。このロボットは、AI技術を活用して周囲の状況を認識し、巡回ルートに沿って自律的に移動する。これにより、従来は人員が必要だった警備業務の省人化を図り、24時間体制での常時警備の実現を目指す。\n\n開発されたロボットは、悪路や段差にも対応できる高い走破性を持ち、暗視カメラや各種センサーを搭載している。これにより、夜間や悪天候下でも安定した警備が可能となる。また、収集したデータはリアルタイムで監視センターに送信され、異常発生時には迅速な対応を可能にする。\n\n今回の導入検証は、防衛分野におけるAI技術の活用可能性を示すものとして注目されている。将来的には、災害時の情報収集や、危険区域での活動など、幅広い用途への展開も期待される。GMOインターネットグループは、今後もAIとロボティクス技術を駆使し、社会の安全・安心に貢献していく方針だ。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "陸自駐屯地で四足歩行型の警備用ロボットが見回り GMOインターネットグループが開発",
+        "url": "https://www.itmedia.co.jp/news/articles/2606/24/news130.html",
+        "source": "ITmedia AI+",
+        "topicId": "ai_tech"
+      }
+    ],
+    "ogImage": "https://image.itmedia.co.jp/news/articles/2606/24/cover_news130.jpg"
+  },
+  "midStories": [
+    {
+      "title": "実践女子学園、DXハイスクールに採択 生成AIで探究学習を推進",
+      "body": "文部科学省は、実践女子学園を「DXハイスクール」に3年連続で採択した。同校では、生成AIを活用した探究学習を推進しており、生徒たちはAIとの対話を通じて、自ら課題を設定し、情報収集・分析を行う能力を養っている。\n\n具体的には、AIに質問を投げかけたり、文章の要約やアイデア出しに活用したりすることで、学習の効率化と深化を図る。これにより、生徒一人ひとりの興味関心に応じた多様な学習が可能となり、主体的な学びの姿勢を育むことを目指している。\n\n同校は、今後も最新のICT技術を取り入れ、変化の激しい社会に対応できる人材育成に力を入れていく方針だ。今回の採択は、教育現場におけるAI活用の先進事例として、全国の学校からの注目を集めている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "文科省「ＤＸハイスクール」に３年連続採択、生成ＡＩで探究学習へ…実践女子 - 読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONEZ4ODhKeVMyaHU3MjlUbFlRZ2c2VXJ1NDd2WHJ5d0ZjdElaZEUxTlhVUl9NSmplVEJRQTdhdVN6VGswWjZXM2tNLXJ6QmVrVUhlTEE4UWc2THhXQ0RlYzB4WWViWi1hTW91YXRJUTVqemVpbGttb1d2VnN1bkFIMjVVaWhSa0IwY2c?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "専門学校生がAI創作に挑戦 数週間かかる制作が数日に短縮",
+      "body": "専門学校生が、AIを活用した創作活動に挑戦し、その手軽さと創造性に驚きの声を上げている。従来、数週間を要していた制作プロセスが、AIツールの導入によりわずか数日から数日で完了できるようになったという。\n\n参加した学生からは、「すごく新鮮で楽しかった」との感想が寄せられており、AIが持つ可能性を実感している様子がうかがえる。AIは、画像生成や文章作成など、多岐にわたる分野で活用されており、クリエイティブな作業の効率化に大きく貢献している。\n\nこの取り組みは、教育現場におけるAI活用の新たな可能性を示すものであり、今後のクリエイター育成におけるAIの役割に注目が集まる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "「すごく新鮮で楽しかった」専門学校生が“AI創作”に挑戦 数週間かかる制作が3〜5日に（テレビ高知） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xbFJCalVnRTRvWE5NNXg0Mzdfc1JnRHhaZTVKSkRCOUJjN0QtV25SZEx0dGV4ZXJkZkdDZTRnbWlvMGxhLWMzeE43dnFjVTRKOTB4aGhMeXBRVG04bEpOYXZiSzBXSWg2RzdjM0VoREtiZ3cyV2YtdXBkOTZwTms?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20260624-22754824-kutvv-000-1-thumb.jpg?exp=10800"
+    },
+    {
+      "title": "ホテル・旅館の35％が生成AI活用 文章作成・要約で業務効率化",
+      "body": "日本公庫の調査によると、ホテル・旅館の35％が生成AIを活用していることが明らかになった。特に、文章作成や要約といった業務での利用が進んでおり、業務効率化に貢献しているという。\n\n生成AIは、予約確認メールの作成、館内案内文の作成、顧客からの問い合わせへの回答文案作成などに活用されている。これにより、従業員はより付加価値の高い業務に集中できるようになり、サービス品質の向上にもつながっているとみられる。\n\n一方で、AIの導入には、個人情報保護や著作権の問題など、慎重な検討も必要とされる。今後、観光業界全体でAIの活用がさらに進むと予想される中、これらの課題への対応も重要となるだろう。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "生成ＡＩ、ホテル・旅館の35％が「活用」 「文章作成・要約」で－日本公庫生衛業調査 - 観光経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1CYkNYeGh4ZGQ5dV8yM1cyQ0M5SmVVN290SjJ0NU9vaEtibWVjdERqWmd5SWF1Y21BVDRxcDRZeG5CV1dlNi1VeEtDcWtCTG5acTN5SA?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "ジャニス工業、財務会計基準機構への加入を決定",
+      "body": "ジャニス工業は、公益財団法人財務会計基準機構への加入を決定した。同機構は、企業会計の基準設定や普及を目的としており、ジャニス工業はこれに参加することで、より透明性の高い財務報告を目指す。\n\n今回の加入は、同社のコンプライアンス体制強化の一環として位置づけられる。財務会計基準機構の活動を通じて、最新の会計基準に関する知見を深め、経営の健全性向上に努めるとしている。\n\n同社は、今後もステークホルダーからの信頼を得られるよう、適切な情報開示と財務報告に努めていく方針だ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "ジャニス工業[5342]：公益財団法人財務会計基準機構への加入状況及び加入に関する考え方等に関するお知らせ 2026年6月24日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Bai15Um9zekVFeGNEUzl3N3g2ZUZ2cndqTUlLTWt2dndWQzNkWjF0d1lIRzJ2VnJTYV9DQkFwdC16Q295aExPZEw1XzdiaVlLT1RlbkY1MlNqYVdtZ2gtS3c4WFBBN3ZpN2c?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "都民半額観劇会、全31公演6,420席受付開始",
+      "body": "東京都は、夏の「都民半額観劇会」の参加者募集を開始した。全31公演、計6,420席が半額で提供される。7月14日まで受付。文化芸術の振興と都民の鑑賞機会の拡大を目的としている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/24/86531.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "ローラス、小学生向けSTEAMサマースクール開催",
+      "body": "ローラスは、小学生を対象としたSTEAMサマースクールを7月6日から開催する。科学、技術、工学、芸術、数学を統合的に学ぶプログラムで、子供たちの探求心と創造性を育む。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/24/86530.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "イオン、中学生対象の作文コンクール開催 サステナブルな未来がテーマ",
+      "body": "イオンは、「サステナブルな未来」をテーマにした中学生作文コンクールを実施する。9月5日が締め切り。次世代を担う中学生に、持続可能な社会について考える機会を提供する。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/24/86527.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "AI生成コンテンツの表示義務化へ 公選法・情プラ法改正案が成立",
+      "body": "公職選挙法および情報プラットフォーム関連法が改正され、AIによって生成されたコンテンツの表示が義務化されることになった。これにより、偽情報や偏った情報の拡散防止が期待される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8yN2VaMi1ZQURPX19kb3RsSDFBalRNX1hkTzAyNV9vbG5CUEl2Vm5CMDFRdHNVZU9iOTdPcld1eGhtdTNBTUpEQTg4TlMwV0twc3BNbEhxRXZnMkZTVXc?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "北北海道大会、25日開幕 昨夏4強の帯広大谷が登場",
+      "body": "夏の高校野球、北北海道大会が25日に開幕する。開幕戦には昨夏4強の帯広大谷が登場。熱戦が繰り広げられる各校の健闘が期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PeF93TGU3Vnp1YTNHanJUQU54SXpyRTcxNnRRaXJobkg2ak5kT2NKa1NFSEtLUzVUZy1teUZvVDkwTF9uSlpjS3dGVTV5RXNodEE?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "紋別で実践型防犯教室 侵入窃盗・特殊詐欺対策学ぶ",
+      "body": "紋別市で、市民を対象とした実践型防犯教室が開催された。侵入窃盗や特殊詐欺の手口を学び、無施錠ドア・窓からの被害を防ぐための対策を習得した。市民の防犯意識向上に貢献した。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wS1psNkJMOHVCYS1yVmJlQUFnalRuWUFZU1BlZ1VidVRJeWJVb29RMS02T1l2U25JTkQwczNhNTFieWJRWTRzekxyR3RzaHljdzRGLXN5Y2FEUQ?oc=5",
+      "source": "Google: 紋別"
+    }
+  ]
+}
