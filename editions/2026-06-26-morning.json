@@ -1,0 +1,140 @@
+{
+  "type": "morning",
+  "date": "2026-06-26",
+  "generatedAt": "2026-06-26T06:18:13.875+09:00",
+  "lead": "2026年6月26日朝刊。夏の甲子園北北海道大会が開幕し、高校球児たちの熱戦が幕を開けました。一方、AI技術の進化は止まらず、ビジネスや生活の様々な場面で活用が進んでいます。本紙では、これらの話題を中心に、教育、商業、AI、北海道の各分野から注目のニュースをお届けします。",
+  "topStory": {
+    "title": "夏の甲子園北北海道大会が開幕 支部予選廃止で熱戦期待",
+    "body": "夏の全国高校野球選手権大会の北北海道大会が25日、開幕した。今年度から支部予選が廃止され、各校が直接、全道大会を目指す形式となった。北見市営野球場などで熱戦が繰り広げられ、球児たちの白熱したプレーに観客から大きな声援が送られた。\n\n大会には、昨年の覇者である旭川実業をはじめ、有力校が多数出場している。支部予選の廃止により、これまで以上に多くのチームが全道大会への切符を掴むチャンスを得た。これにより、大会全体のレベルアップと、これまで以上に多様なチームの活躍が期待される。\n\n開会式では、選手宣誓で「スポーツマンシップにのっとり、最後まで諦めずに戦い抜くことを誓います」と力強く述べられた。各校の監督や選手たちは、この日のために積み重ねてきた練習の成果を発揮しようと、決意を新たにしていた。\n\n大会は今後、トーナメント方式で進められ、優勝校が夏の甲子園への切符を手にする。球児たちの情熱あふれるプレーと、夏の高校野球ならではのドラマに注目が集まる。",
+    "topicId": "hokkaido",
+    "topicName": "北海道ローカル",
+    "color": "#dc2626",
+    "references": [
+      {
+        "title": "夏の甲子園北北海道大会が開幕 今年度から支部予選廃止 高校野球 - 十勝毎日新聞",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wMDRTWTN6dXBmc0FUUkJvUVg0bWttYU5MMWN6d21BLVZubWp1YVdiWFhrcks3QXg0QTBoaFNfUWxwS3Vza2Z4cHQteGZ6MGZHNTVleUo3elA2ZjQ2N2lOZnlXdXc?oc=5",
+        "source": "Google: 北海道 高校",
+        "topicId": "hokkaido"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "AI「Claude Mythos」がFirefox脆弱性271件検出",
+      "body": "AIモデル「Claude Mythos」が、ウェブブラウザFirefoxの脆弱性271件を検出したと報じられた。このAIは、セキュリティ分野での活用が期待されており、今回の発見はサイバーセキュリティの向上に貢献する可能性がある。\n\n一方で、同AIが「NSA（アメリカ国家安全保障局）に侵入した」との噂については、開発元が否定している。AIの能力に対する過度な憶測や誤解が生じないよう、正確な情報発信が求められている。\n\n今回の脆弱性検出は、AIが複雑なシステムを分析し、潜在的なリスクを発見する能力を示している。今後、同様のAI技術が様々な分野で活用されることで、セキュリティ対策の強化が進むと予想される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "AIモデル「Claude Mythos」がFirefoxの脆弱性271件を検出、一方で「NSA侵入」の噂は否定 - 財経新聞",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9id1ZGMmtQel9TeF81cmRuRkpGaEhlZGZLZmNqWW5WSXFnTWJ0d2dKYjVoaVJpVi1jLUlBY3FCU0V0b2JlQ1FSbFVzaW1OZkE1b2FXMGFlMzVfZmg2OUZlRzFKTdIBaEFVX3lxTE9UOE80d3U1VXRiOE9LZ2JvR0tRS1drRVptNGlmR3Fmb1JGQUlDcUVZZW1VdzZnaWs3NjdJMlduT1pQMGpXeXRVeDZ5T3Z0emhYdUlrUE8wZmRxaTlnNW90dmxyRVR0Q3VB?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "在庫管理「ロジクラ」、freee会計とAPI連携開始",
+      "body": "クラウド在庫管理サービス「ロジクラ」が、会計ソフト「freee会計」とのAPI連携を開始した。これにより、月末の在庫データをfreee会計へ自動で取り込めるようになり、経理担当者の業務効率化が期待される。\n\nこれまで月末在庫の会計処理には、手作業でのデータ入力や転記が必要な場合が多く、時間と手間がかかっていた。今回の連携により、これらの作業が自動化され、ヒューマンエラーの削減にもつながる。\n\nロジクラは、中小企業の在庫管理を支援するサービスとして、多くの企業に利用されている。freee会計との連携強化により、さらに多くの事業者のバックオフィス業務の効率化に貢献していく方針だ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "クラウド在庫管理「ロジクラ」、「freee会計」とのAPI連携を開始 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JaG9UdF81VS1VS01RZEJKcGZuN21scnVLTTA5U19pUHVyZWVFamlaSlhDSEhTcU1JLXNDQ3JoVnlkbjdVUlRlYUFMTzBNZVJKYXpkTGpMSFJmUV80UFJPakVTM3NDTk9BdjlvRkdVT2RzYlVodm1yUGdxZw?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "MacとiPad、国内で一斉値上げ",
+      "body": "米Appleは6月25日、国内のApple StoreでMacやiPadなどの販売価格を引き上げた。MacBook Airのベースモデルは、18万4800円から22万4800円に値上げされた。\n\n今回の価格改定は、円安や原材料費の高騰などが要因とみられる。Apple製品は、学生やクリエイターを中心に幅広い層に支持されており、今回の値上げは多くのユーザーに影響を与える可能性がある。\n\nMacBook Air以外にも、MacBook ProやiMac、iPad Pro、iPad Airなども値上げの対象となっている。HomePodやApple TVといった関連製品も価格が引き上げられた。購入を検討していたユーザーにとっては、今回の価格改定は大きな判断材料となりそうだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "「Mac」「iPad」突然の一斉値上げ MacBook Airは18万4800円→22万4800円からに",
+          "url": "https://www.itmedia.co.jp/news/articles/2606/25/news138.html",
+          "source": "はてブIT人気",
+          "topicId": "ai_tech"
+        }
+      ],
+      "ogImage": "https://image.itmedia.co.jp/news/articles/2606/25/cover_news138.jpg"
+    },
+    {
+      "title": "紋別観光振興公社、社長ら解任案否決 検証委設置へ",
+      "body": "北海道紋別市の紋別観光振興公社で、社長らの解任を求める案が株主総会で否決された。しかし、公社の運営体制に対する疑問の声は根強く、今後、第三者による検証委員会を設置して、組織のあり方を改めて検証していくことになった。\n\n同公社を巡っては、過去の不適切な会計処理や、一部役員の不祥事などが指摘されており、地域住民や関係者から厳しい意見が出ていた。今回の株主総会では、これらの問題点を踏まえ、経営陣の刷新を求める声が上がっていた。\n\n解任案は否決されたものの、検証委員会の設置が決まったことで、公社の透明性向上と信頼回復に向けた動きが進むことが期待される。紋別市の観光振興における同公社の役割は大きく、今後の検証結果が注目される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "紋別観光振興公社 社長らの解任案否決 検証委立ち上げへ - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDMzF2dTNWVWFIVGZNd2NkbjBJRFJEbG5xcF8zb3NmRmVnSXJoQ2owclNQMklYYTdUOTJ0c3JTN2R1MjVBWXN5TXBfcFlrYWx0U0Jxd0RDNW5Sdw?oc=5",
+          "source": "Google: 紋別",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "職業高校教育、人的資源の可能性を解き放つ",
+      "body": "ベトナムの職業高校教育が、人的資源の可能性を最大限に引き出す鍵となっている。実践的なスキル習得に重点を置いたカリキュラムは、卒業後の就職に直結し、産業界のニーズに応える人材育成に貢献している。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSmR3SVZaNnBveXRzVk9kR1RLQjliUjZod1JUcHNJZzh0R2VXQmZIQmNLVy1IWUFBQTZwZFY5TURVLTRWUUtFYkNpVjhiYlZ0dkRfdmg1TFhoeXlJZW9ENkRTNFVBYWhxcDVUYnZMOHFibDBBOHl2MzZobkRLcmVHNGtDZW8?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "TOMAS、夏祭りを科学するサイエンス教室開催",
+      "body": "TOMASは、7月1日から8月31日まで、夏祭りをテーマにしたサイエンス教室を開催する。子供たちが夏祭りの文化や科学的原理を楽しく学べるプログラムを提供する。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/25/86544.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "ロジクラ、月末在庫の会計処理を自動化",
+      "body": "在庫管理システム「ロジクラ」が、月末在庫の会計処理を自動化する機能を追加した。これにより、経理業務の効率化と精度向上が期待される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBJZHNhaEV0c1N4Q0FaQmZOVDBVNi04LVZwa1B4VXNERHdzZ3c3Z01jdmJGWmdVNjg0TE9SQkF1enNhVjlrRWo4OQ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "札幌市で万引き、現金持ちながら540円相当の商品",
+      "body": "北海道札幌市で、現金2万円を持っていた22歳のアルバイト従業員の女が、540円相当の商品を万引きしたとして現行犯逮捕された。警備員の目の前で会計をせずに店を出ようとしたという。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56Wkx0Sk1ES2diV0Q2a0x3bGVhX1dsVmxhSDI3MkxkY0hJbFE0MVdRSlY5c1FVVnhWNmRuZTRDYTE1RWxxQTRZTXc0ZGs3X0dSakRsY1cwejVQYmlsTHdsbS1wV2tPcXRXbVZkeERXOEI2QXdrbzZUeG5kM2dTd3c?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "AIスライド生成ツール「イルシル」機能アップデート",
+      "body": "AIスライド生成ツール「イルシル」が、「タイトルデザイン選択画面」のアップデートを実施した。これにより、より多様で洗練されたデザインのスライド作成が可能になった。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBiNDFmZkwtWTQzQWR5TC1abVhhbzM3R29JVFNnOG04NmRqRDdWV1RnX2F4b1hjaFlJMndBdG9MUm1FZXEyNGNnYzNqWWtlTnV2NzM1dW5Hc0ZaMmVKX3NCSEdVdW9EcG1sNmpkTjhSa01HQm52THlRbXUxUQ?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "紋別で障害者支援NPOが「夏まつり」開催",
+      "body": "北海道紋別市で27日、障害者支援を行うNPOが「夏まつり」を開催する。野菜や小物などが販売され、地域住民との交流の場となることが期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1BNzhxbDQ1MnVrSkZndHliQjRkdFhfaExNWGd4WE45akpuaWs0ZlBqdE5CQ3JnMUJCTVN3cmtiX2x6XzNnN2t6Z3RBbw?oc=5",
+      "source": "Google: 紋別"
+    }
+  ]
+}
