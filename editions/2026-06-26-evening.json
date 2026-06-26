@@ -1,0 +1,141 @@
+{
+  "type": "evening",
+  "date": "2026-06-26",
+  "generatedAt": "2026-06-26T19:38:30.400+09:00",
+  "lead": "夏休みが近づき、子供たちの学びや体験の機会が各地で企画されています。AI技術の進化は教育現場にも新たな可能性をもたらし、ビジネス分野でもその活用が模索されています。一方で、AIが生み出すコンテンツの著作権や倫理的な問題、会計不正など、社会の信頼に関わる課題も浮上しています。本紙では、これらの最新動向を多角的に報じます。",
+  "topStory": {
+    "title": "生成AIでわいせつ画像作成、男に執行猶予判決",
+    "body": "生成AI（人工知能）を利用して幼児のような女性のわいせつ画像を制作し、有料で公開したとして、著作権法違反などの罪に問われた男に対し、東京地方裁判所は26日、懲役1年6月、執行猶予3年の有罪判決を言い渡した。\n\n検察側は、男が2023年1月から約1年間にわたり、自身のウェブサイトでこれらの画像を販売し、合計約600万円を売り上げていたと指摘。画像はAIによって生成されたものであり、実在しない人物を模倣したものであったが、その表現は極めて悪質であると主張していた。\n\n弁護側は、男がAI技術の可能性に魅了され、倫理的な問題への認識が甘かったと主張。しかし、裁判長は「AI技術の発展は目覚ましいが、その利用には社会的な責任が伴う」と述べ、今回の行為は著作権侵害にとどまらず、公序良俗に反するものであると厳しく批判した。\n\n判決を受け、AIが生成したコンテンツの著作権や倫理的な利用に関する議論が、改めて社会的に重要視されている。特に、未成年者を模倣したコンテンツや、悪意を持って生成された画像に対する規制のあり方について、法整備の必要性が指摘されている。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "生成AIで作成、幼児のような女性のわいせつ画像を有料公開 合計600万円稼いだ男に拘禁刑1年6か月・執行猶予3年の判決 - Yahoo!ニュース",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QTkFXOG1iUUN5TWdVWjduUy1lQVBDOHM2d1d5V1ZkdWRGcWhEbC1ya2ZLcWhCalRHU3dXYUtDTF9QYm9FUGhPekQwTm5vTzlnRkJ1YTJ5RUpCVnVsTXMtdHNUdEtVRDljSEtGRUc5WDBWOExKQ0ZoYVVEcmdHZ2c?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "AI家庭教師、ノートで弱点診断・ミニ授業",
+      "body": "GoogleのAI「Gemini」に、ノートをアップロードするだけで学習内容の弱点を診断し、個別のミニ授業まで生成してくれる「AI家庭教師」機能が搭載されたことが明らかになった。この新機能は、生徒一人ひとりの理解度や学習スタイルに合わせた、パーソナライズされた学習体験を提供する。\n\n利用者は、授業で配布されたプリントや自作のノートをスマートフォンのカメラで撮影し、Geminiに送信するだけで、AIが内容を解析。苦手としている箇所や理解が不十分な単元を特定し、それらを克服するための解説や練習問題を作成してくれるという。\n\nこの技術は、従来の画一的な学習方法から脱却し、個別最適化された教育の実現を目指すものだ。AIが学習の進捗を管理し、必要なサポートを提供することで、生徒は自身のペースで効率的に学習を進めることができると期待されている。\n\n教育現場からは、AI家庭教師が教師の負担軽減や、学習格差の是正に貢献する可能性に期待が寄せられている。一方で、AIによる学習支援の適切な活用方法や、情報リテラシー教育の重要性についても、改めて議論が必要となっている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "Geminiに“AI家庭教師”が爆誕…ノートをアップするだけで弱点診断・ミニ授業まで生成 - ビジネス+IT",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBabi1IMjZ5M2NfTzJrcGE5X3JlRFBtWDhVdER1SjBJaXlBNFRlcEpEZlUzSnZXZ2hlbGQzcUtKd19aMk8wSENTSWRrdXRkdUFPNXpJ?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "京阪HD、新リース会計基準に「ProPlus＋」採用",
+      "body": "京阪ホールディングス（HD）は、国際的な会計基準である新リース会計基準への対応のため、会計システム「ProPlus＋」を導入したことを発表した。これにより、同社グループ全体のリース資産・負債の管理と財務報告の精度向上を目指す。\n\n新リース会計基準（IFRS16号）では、従来オフバランスとなっていたオペレーティング・リース取引についても、原則として資産と負債を財務諸表に計上することが求められている。これに対応するため、京阪HDは、複雑な計算やデータ管理を効率化できるProPlus＋を選択した。\n\nProPlus＋は、リース契約の管理から、会計基準に準拠した仕訳の自動生成、財務諸表への反映までを一貫してサポートする機能を持つ。同社は、このシステムの導入により、会計処理の迅速化と正確性の確保、さらには経営判断に資する財務情報の迅速な提供が可能になると見込んでいる。\n\n今回のシステム導入は、グローバル化が進む企業会計において、国際基準への的確な対応が不可欠であることを示している。京阪HDは、ProPlus＋を活用し、透明性の高い財務報告体制を構築していく方針だ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "京阪ホールディングスが新リース会計基準対応に「ProPlus＋」を採用 - Biz/Zine",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5GcDgwd1Q5dFI4Z29leFJIcDBibXpSSklETk1lY3J1OGVhSjdQejhaQU1vS1V6NDVGVzBYVTdfYk55c0pXVmNhQWRtWVA3OEZF?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "札幌日大、逆転コールドで初戦突破 南北海道大会",
+      "body": "第78回全国高校野球選手権南北海道大会は26日、札幌円山球場で開幕し、昨夏の甲子園準優勝校である札幌日大が、札幌創成との初戦に臨んだ。試合は序盤から投手戦となったが、札幌日大が終盤に打線爆発。8回裏に一挙7点を奪い、10-3のコールドゲームで勝利を収め、2回戦進出を決めた。\n\n札幌日大は初回に先制を許すも、3回に同点に追いつき、その後も互いに得点を重ねる展開となった。しかし、8回裏、札幌日大は相手投手を攻略し、連打で一気に試合を決めた。投打がかみ合った勝利で、チームに勢いをもたらした。\n\n一方、札幌創成は善戦したが、終盤の守備の乱れと相手打線の勢いを止められず、惜しくも敗退となった。それでも、強豪相手に最後まで食らいつく姿勢を見せたことは、今後のチームの糧となるだろう。\n\n南北海道大会は今後、各校が甲子園出場をかけて熱戦を繰り広げる。札幌日大は、この勢いを維持し、2年連続の甲子園出場を目指す。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "昨夏準優勝の札幌日大が逆転のコールド発進！南北海道大会【26年夏高校野球】｜記事一覧 - 高校野球ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VTS1ybXgzcFZ0VjV0ZGVzQmJnc05fRFBUckFnaHp5Qi1tZzc5MzB4cjN2dnBrOGRub2dMVGFvR0djdWVRbkwtdWVCeFdENDNGUUE?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ],
+      "ogImage": "https://cdn.hb-nippon.com/article-img/01KVZ8HRZF6WN3JS3KR41669GF.jpg"
+    },
+    {
+      "title": "明治大、小中高生向け科学教室を開催",
+      "body": "明治大学は、夏休み期間中の小学生、中学生、高校生を対象とした「科学教室」を8月5日に開催する。この教室では、ラジオ作りや電気回路の実験など、11種類のプログラムが用意されており、参加者は楽しみながら科学の原理に触れることができる。\n\n同大学は、次世代を担う子供たちの科学への関心を高めることを目的に、毎年この科学教室を実施している。今年は、より実践的で体験型のプログラムを充実させ、参加者が自ら手を動かし、試行錯誤する中で、探求心や創造性を育むことを目指している。\n\nプログラムの一つであるラジオ作りでは、基本的な電子部品の仕組みを学びながら、実際に音声を送受信できるラジオを組み立てる。また、電気回路の実験では、身近な家電製品に使われている原理を学び、安全な電気の使い方についても理解を深める。\n\n参加申し込みは、大学のウェブサイトを通じて受け付けている。定員に達し次第、締め切りとなるため、興味のある学生は早めの申し込みが推奨される。この教室が、子供たちの知的好奇心を刺激し、将来の科学技術分野への興味につながることが期待されている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "【夏休み2026】明治大、小中高生向け「科学教室」8/5…ラジオ作りなど11種",
+          "url": "https://resemom.jp/article/2026/06/26/86556.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/397651.jpg"
+    }
+  ],
+  "briefs": [
+    {
+      "title": "東京電機大、小中学生向け体験教室",
+      "body": "東京電機大学は8月4日、足立区の小学5、6年生を対象とした「科学・ものづくり体験教室」を開催する。参加者は、大学の研究室でロボット製作やプログラミングなどを体験できる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/26/86559.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "バイトダンス、動画生成AIモデル発表",
+      "body": "バイトダンスは、シングルパスで最長30秒の動画クリップを生成できる新たな動画生成AIモデル「Seedance 2.5」を発表した。これにより、より短時間で高品質な動画コンテンツの制作が可能になる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5lRVJsU0RiU3d5OUQtT20tdmQ1ekx4Ti1zNS1HRjRjeGh3eWJKOU5oVlYtUF9YajZJVF9PclpqVGxEUERseEppdzVsRDZGajJOR2ZGQg?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "北見市、学校施設の緊急点検",
+      "body": "東京の小学校で発生した火災を受け、北見市消防本部は市内の学校施設を対象とした緊急点検を実施した。避難経路の確保や消火設備の機能確認など、安全対策の徹底を図る。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zUUhIZmVzTmFxd243TWRXcjQ0c2ctaFdjeDNnbHB2MHkxbkdUc2JyTnA5T0lpcFhXazZiNTNxVWNUWmdIcFhkTGU2QnA1bkdibWVnV3Y5VlY?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "ブイキューブ、一時会計監査人選任",
+      "body": "ブイキューブは、一時的な会計監査人の選任に関するお知らせを発表した。監査法人の変更に伴う手続きの一環として、監査体制の継続性を確保する。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOOUo2dUtGMjkyUU1LLUVaQk5aZFBNaDkxXzBMRDkxSVZSbjlZNG9pVkZvQU9zWVhXc2s5LTNKcmFwaXJRWTNyV1Q0TVFLRVdzYzBrdDNYT0xzcDB6QkpOQTdQTjZ1V2Rlb1E?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "北見市、体験型観光を強化",
+      "body": "北見市は、地域資源を活用した新たなコンテンツ開発プロジェクトを始動し、体験型観光の強化を進める。市内の魅力を発信し、観光客誘致を目指す。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjVEhzdDA2bUt6eU1ZSWlZT3JRLWg0TTdjY295djRiOUViZ1FTY1g3Q1VkYjBVeTlEa000T09ON3hheVZ2TzRaeEs5R0tXWHpDUlRGZVM5dVFPTlhWVnlVc2JfbmVLMll2Y3J2Nzd0cFcxTVo3X1J0N3M4MmLSAYIBQVVfeXFMUGFfMzdGTzZ0OUNTcHZiQUdxbTJoVkxuYURFOUMzU2h6d2xyX0doMjNCUktSWkxSazhvMG5Rd1dOcVJWVElsc21ab3FHTHNrLWpPMVV5TFlvMUFubjJfZTFUYi1zNmZCUjhzN1d6OEFTTnJDdFowU1VEN05EQ1hPSktSdw?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "発達障害児支援フォーラム開催",
+      "body": "NHKオンラインフォーラムが7月25日に開催される。発達障害のある子供たちへの支援策について、専門家や関係者が意見交換を行う予定だ。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/26/86555.html",
+      "source": "リセマム"
+    }
+  ]
+}
