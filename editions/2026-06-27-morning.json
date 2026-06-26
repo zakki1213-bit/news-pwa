@@ -1,0 +1,141 @@
+{
+  "type": "morning",
+  "date": "2026-06-27",
+  "generatedAt": "2026-06-27T06:09:35.631+09:00",
+  "lead": "2026年6月27日朝刊。AI技術の進化は目覚ましく、ビジネスや教育現場での活用が急速に進んでいます。一方で、芸能人の肖像無断使用といった新たな課題も浮上しています。教育分野では、夏休みを利用した子供向けの体験イベントが各地で開催され、未来を担う世代の知的好奇心を刺激します。北海道からは、高校野球の熱戦の様子をお伝えします。今朝も、これらの多様なニュースにご注目ください。",
+  "topStory": {
+    "title": "OpenAI、次世代AI「GPT-5.6」シリーズ発表",
+    "body": "米OpenAIは現地時間6月26日、次世代AIモデル「GPT-5.6」シリーズの限定プレビューを開始したと発表した。同シリーズは、フラッグシップモデルの「Sol」、日常業務向けでバランス型の「Terra」、高速・低価格が特徴の「Luna」の3モデルで構成される。\n\nGPT-5.6シリーズは、コーディング、科学、サイバーセキュリティといった分野での能力を大幅に向上させている。特に「Sol」は、従来モデルと比較して高度な推論能力と創造性を発揮し、複雑な問題解決に貢献することが期待される。「Terra」は、ビジネス文書の作成やデータ分析など、日々の業務効率化を支援する汎用性の高いモデルとして位置づけられている。「Luna」は、応答速度とコストパフォーマンスを重視し、幅広いアプリケーションでの利用を見込む。\n\nOpenAIは、これらの新モデルについて、米政府とも調整を進めていることを明らかにした。AI技術の社会実装が進む中で、その安全性や倫理的な側面についても、今後さらに議論が深まることが予想される。同社は、AIの責任ある開発と普及を目指す姿勢を強調している。\n\n今回の発表は、AI分野における技術革新のスピードを改めて示すものであり、今後の産業界や研究開発に大きな影響を与える可能性がある。限定プレビューへの参加方法や、一般公開の時期については、今後詳細が発表される見込みだ。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "OpenAI、次世代「GPT-5.6」シリーズを限定プレビュー 米政府と調整、命名は「Sol／Terra／Luna」に刷新",
+        "url": "https://www.itmedia.co.jp/aiplus/article/2606/27/2000000134/",
+        "source": "ITmedia AI+",
+        "topicId": "ai_tech"
+      }
+    ],
+    "ogImage": "https://www.itmedia.co.jp/aiplus/article/ogp/2606/27/2000000134/10000668/2048"
+  },
+  "midStories": [
+    {
+      "title": "芸能人肖像、AIで無断使用4万件超",
+      "body": "AI技術の急速な発展に伴い、芸能人の肖像が無断で使用されるケースが後を絶たないことが、このほど明らかになった。AIが生成した画像や動画に、本人の許可なく著名人の顔や姿が合成され、広告やSNSなどで利用されている事例が4万件を超えているという。\n\nこうした無断使用は、肖像権やパブリシティ権の侵害にあたる可能性が高く、関係者への深刻な影響が懸念される。特に、AIによる画像生成技術の進化は目覚まとく、精巧な偽画像が容易に作成できるようになったことが、問題の根深さを示唆している。\n\n著作権や肖像権の保護を強化するための法整備や、AI生成物の識別技術の開発が急務となっている。業界団体やプラットフォーム事業者も、自主的なガイドライン策定や監視体制の強化に乗り出しており、対策が急がれる状況だ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "芸能人肖像 AIで無断使用4万件超 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1zX2FpZGNycFM2ZG83NHVEeFJ0WjJaaFJXUENJclNjdXRHTG9penhFNE9QNDVrRWlvYUJWMXc4UXZYTTh0b3RYcWdiZ1BGOUR0?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "税理士業界DXへ連携強化",
+      "body": "辻・本郷ITコンサルティングとSoLaboは、税理士業界のデジタルトランスフォーメーション（DX）を推進するため、出向型連携を開始した。両社は、ITコンサルティングと税務・会計サービスの専門知識を融合させ、税理士事務所の業務効率化とサービス向上を目指す。\n\nこの連携により、税理士事務所は最新のIT技術を活用した業務システムの導入や、クラウド会計ソフトの活用支援などを受けられるようになる。また、SoLaboは、辻・本郷ITコンサルティングのIT人材育成ノウハウを活用し、税理士業界に特化したDX人材の育成にも力を入れていく方針だ。\n\n少子高齢化や働き方改革が進む中、税理士業界においてもDXは喫緊の課題となっている。今回の連携が、業界全体の生産性向上に貢献することが期待される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "辻・本郷ITコンサルティングとSoLabo、税理士業界のDX人材育成に向けた出向型連携を開始 - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMS1hxLTVHT3M0bEpxWm9jN1JPeVNuWExONzBYMTg5SGNiZllnekxIOXpaWE5xYjBTQ3RNeUMwb3ZaVTBqR0txTnpUcFVhT1ktV3JybEp1ei15UlFGWUxpRzRnQ0dDcVJmZ3VR?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "小学生向け科学体験イベント開催",
+      "body": "静岡大学は8月3日、小学生を対象とした科学体験イベントを学内で開催する。参加者は、水素ロケットの製作や顕微鏡を使ったミクロの世界の観察など、様々な科学実験に触れることができる。\n\nこのイベントは、子供たちの知的好奇心を刺激し、科学への興味関心を深めることを目的としている。専門家による分かりやすい解説や、実際に手を動かして学ぶ体験を通じて、科学の面白さを伝える。夏休みの自由研究のヒントにもなるだろう。\n\n参加申し込みは、静岡大学のウェブサイトで受け付けている。定員に達し次第、締め切られるため、早めの応募が推奨される。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "【夏休み2026】静岡大、小学生向け科学体験8/3…水素ロケットや顕微鏡製作も",
+          "url": "https://resemom.jp/article/2026/06/26/86562.html",
+          "source": "リセマム",
+          "topicId": "education"
+        }
+      ],
+      "ogImage": "https://resemom.jp/imgs/ogp_f/397682.jpg"
+    },
+    {
+      "title": "北海道・興部町でクマ出没",
+      "body": "北海道興部町宇津地区で6月26日、クマが目撃された。町は付近住民に対し、クマに遭遇しないよう注意を呼びかけている。\n\n目撃されたのは、体長約1メートルほどのヒグマとみられている。現在、警察と町が連携してパトロールを実施し、クマの行動範囲の特定と駆除に向けた対応を進めている。\n\n町は、山菜採りやハイキングなどで山に入る際は、クマ鈴を携帯するなど、十分な注意を払うよう呼びかけている。また、万が一クマに遭遇した場合は、刺激しないように静かにその場を離れることを推奨している。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "（北海道）興部町宇津でクマ出没 ６月２６日 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQTBLSEJWaTVyUV9MOTJPRk5SWVJJYkpHdG4tRG9hcDRIYWJsTUJpU3NZU2RkN09oTzFneWRHT0dVZ1A0MTY1WVBndkpXUFR4OVpUUHE1UU45M1hfSWhYQVE3eFNyNnQ5aWhnb1Rkb3FJdDVYb2lXQjJDX1pnd3VNVmdBOFdTSDNHNHJqYzRJaVQzU285TU92RkVNRDZPNTgxQXfSAaIBQVVfeXFMT0EwS0hCVmk1clFfTDkyT0ZOUllSSWJKR3RuLURvYXA0SGFibE1CaVNzWVNkZDdPaE8xZ3lkR09HVWdQNDE2NVlQZ3ZKV1BUeDlaVFBxNVFOOTNYX0loWEFRN3hTcjZ0OWloZ29UZG9xSXQ1WG9pV0IyQ19aZ3d1TVZnQThXU0gzRzRyamM0SWlUM1NvOU1PdkZFTUQ2TzU4MUF3?oc=5",
+          "source": "Google: 興部",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "SAK University、IT・AI分野のオープンキャンパス開催",
+      "body": "SAK Universityは7月、IT・AI分野に特化したオープンキャンパスを開催する。最新の研究動向や学部・学科の紹介に加え、AI関連の体験プログラムも用意されている。受験生にとって、将来のキャリアを考える上で貴重な機会となるだろう。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/26/86563.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "小田急、夏休みは「おしごと体験」",
+      "body": "小田急電鉄は、夏休み期間中に小学生向け「おしごと体験」を実施する。沿線95種類のお仕事を体験できるプログラムで、6月26日から募集を開始した。子供たちの職業観を育む貴重な機会となる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/26/86560.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "下野新聞社、生成AIセミナー開催",
+      "body": "下野新聞社は、県内企業を対象に生成AIの活用法に関するセミナーを開催した。参加者は、AI技術の最新動向やビジネスへの応用について理解を深めた。企業におけるAI導入の機運が高まっている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lVkR6aGw2RnBlSFQzU1pfY2F1aGljQUlWM0k4NDF4NWVLbGdXcnZsd21NTWxEY0JLVFNJUlVaQTh1LUdMS1ZFbTg2cUhpbFlUNWttLUlqeDdTQVE?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "生成AI活用イベント「AI HACKATHON」開催",
+      "body": "生成AIを駆使した実践的な開発イベント「AI HACKATHON 2026」が8月に開催される。参加者はチームを組み、与えられた課題に対してAIを活用したソリューション開発に挑戦する。イノベーション創出の場として期待される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB5a0IwLXRocDVoSnRGQ1VQaV9IMWp2dnkwekhBZjZEM1hDbXRKR1NyNHdieDUwSkhTNkdNT1diRXpuMTVh?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "高校野球北北海道大会、釧北陽が快勝",
+      "body": "夏の高校野球北北海道大会の釧根地区予選で、釧北陽高校が初戦をコールドゲームで制した。強打線が爆発し、投打がかみ合った試合展開で勝利を掴んだ。今後の活躍が期待される。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15TFkzdC0wTENHNmlfNGpBVjhfdWtpNG9sRlNVSTVxZjVxdVk5SHBPS2pnd3czYk9wb3pWWjRLZDRqUDVaRHU1MUNvbVRPOTlwSUZF?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "高校野球北見ブロック、遠軽が開幕戦勝利",
+      "body": "夏の高校野球北北海道大会の北見ブロック予選が開幕し、遠軽高校が初戦で勝利を収めた。序盤から主導権を握り、着実に得点を重ねての快勝となった。地区予選突破を目指し、チーム一丸となって戦う。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHdlBfNXctaWhDek5IOFJ6N0drTzZ5WUlHR1BueGFBOGVvQjA3WktLN0lvV3J0bS13NTJDalZjYkZOVmVqV2M2VFFPSlIwcVRGNXZJcEo2SXBEZw?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
