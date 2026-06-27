@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-06-28",
+  "generatedAt": "2026-06-28T05:43:37.206+09:00",
+  "lead": "2026年6月28日朝刊。AI技術の急速な進化と社会実装が進む中、その倫理的・法的課題が顕在化しています。本紙では、生成AIの活用ガイドライン策定や、AIによるサイバー犯罪の新たな手口、さらには国際的なAI開発競争の動向まで、多角的に報道します。教育現場でのICT活用や、地域経済の活性化に向けた取り組みも注目されます。",
+  "topStory": {
+    "title": "生成AI活用ガイドライン改定 公的機関の利用基準更新",
+    "body": "デジタル庁は27日、公的機関における生成AIの調達・利活用に関するガイドラインの第2.0版を決定したと発表した。今回の改定では、急速に進展する生成AI技術の動向を踏まえ、より具体的かつ実践的な利用基準が盛り込まれている。\n\n新たなガイドラインでは、情報セキュリティの確保を最優先事項としつつ、業務効率化や新たなサービス創出に生成AIをどのように活用できるか、その指針を明確化している。特に、個人情報や機密情報の取り扱いに関する注意喚起が強化され、利用目的の明確化、出力内容の検証プロセスの導入などが求められる。\n\nまた、公的機関が生成AIサービスを調達する際の選定基準についても、透明性と公平性を確保するための具体的な項目が追加された。技術的な仕様だけでなく、開発元の信頼性や倫理的な配慮なども評価の対象となる見込みだ。これにより、国民への説明責任を果たしつつ、先進技術の恩恵を安全に享受できる体制を目指す。\n\nデジタル庁は、今後も生成AI技術の進化や社会情勢の変化に対応するため、ガイドラインを定期的に見直し、更新していく方針を示している。関係省庁や地方自治体との連携を深め、ガイドラインの周知徹底と円滑な運用を図ることで、生成AIの健全な発展と社会実装を推進していく考えだ。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "デジタル庁が「生成AIガイドライン第2.0版」を決定！公的機関の調達・利活用基準が大幅アップデート - DXマガジン",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBPb1JTRGxyZG9EV05PeEd6eEgtT3hzd3l0djlvaHlKVUhwblJEakhRV2M3NnhZT3JCVFFYVUFMdEhPYUhlQUowakhOQ3ZZR2ltRWdPZTZ6RjI?oc=5",
+        "source": "Google: 生成AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "中高生ら9人サイバー犯罪で立件 生成AIでランサムウェア作成か",
+      "body": "千葉県警は27日、県内在住の中高生ら10代の若者9人をサイバー犯罪の容疑で立件したと発表した。捜査関係者によると、彼らはインターネット上で入手した生成AIツールを使い、ランサムウェア（身代金要求型ウイルス）を作成・拡散した疑いが持たれている。\n\n県警によると、被害は県内外の複数の企業や個人に及んでおり、金銭を要求するメッセージが確認されている。若者らは、匿名性の高い通信手段を使い、犯行が発覚しにくいように工夫していたという。今回の事件は、生成AI技術が悪用されたサイバー犯罪の新たな手口として、関係当局に衝撃を与えている。\n\n県警は、今後も同様の犯罪が増加する可能性を指摘し、若年層に対するインターネットリテラシー教育の重要性を改めて強調した。また、生成AIツールの提供者に対しても、悪用防止策の強化を求めていく方針だ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "千葉県警が中高生ら10代若者9人をサイバー犯罪で立件、生成AIでランサムウェア作成も - ビジネス+IT",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBxQVBiVEpjenV4U195VG1MVDYtV3drNDBBSWpRZmk5bG1JQmVOaTBjMVJkS1hnT2tuaGd1MUVhaGZVYkFSYkF5ZGdVY3ZWTHVBYTJz?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "アリババ、AI盗用か アンソロピックが米上院に告発",
+      "body": "AI開発企業アンソロピックは27日、中国のアリババグループが同社の基盤モデル「Claude」の技術を不正に利用した疑いがあると、米上院に告発した。アンソロピックは、この不正利用が「史上最大規模のAI盗用」にあたる可能性があると指摘している。\n\n告発によると、アリババはClaudeの学習データやモデル構造に関する機密情報を不正に入手し、自社開発のAIモデルに組み込んだとされる。アンソロピックは、この行為が知的財産権の侵害にあたるとして、アリババに対し法的措置も辞さない構えを見せている。\n\nアリババ側は現時点でこの告発に対する公式なコメントを発表していない。今回の件は、急速に発展するAI分野における国際的な競争と、それに伴う倫理的・法的な課題を浮き彫りにする事例として注目される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "アリババがClaudeに対し「史上最大規模のAI盗用」か、アンソロピックが米上院に告発 - 財経新聞",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8xa0tySHNLY3JDeWRaNHl4bWxKN0gwSmVkWXp2b3NtbWF2NWYyUUphd3htRmVEUXJpb0JHN2QzQ2RyNU1LVWVyei1hT2w2aTdGUkhlQktTUm9fNmlVZFlZTG5ma9IBaEFVX3lxTE1SMEo0UlQ0X29iWlctZzNjSzlEMzNSTWhONmthMjFRclp0cl9vQmhhekFlNkRHRW83dFU5Y0toVXFNQjZJekFETXN5MGxZd2c3TjJOU3lfT3I1b25tR3VoSTJFSlB0eC1H?oc=5",
+          "source": "Google: Claude AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "豊見城中、探究学習で地域課題解決 生徒の自主性育成へ",
+      "body": "沖縄県豊見城市立豊見城中学校では、生徒の主体的な学びを促す探究学習が成果を上げている。同校では、生徒たちが自ら地域の課題を発見し、その解決策を探る活動に積極的に取り組んでいる。\n\n例えば、地域の高齢化問題や環境保全といったテーマについて、生徒たちは地域住民への聞き取り調査や文献調査を行い、多角的な視点から課題を分析する。その後、自分たちで考案した解決策を発表するだけでなく、実際に地域と連携した活動へと発展させるケースも見られるという。\n\nこの探究学習は、知識の習得に留まらず、問題発見能力、情報収集・分析能力、そして他者と協力して課題に取り組む実践力を養うことを目的としている。学校関係者は、「生徒たちが自ら考え、行動する力を身につけることで、将来社会で活躍できる人材の育成につながる」と期待を寄せている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "地域の課題探り解決へ 生徒の自主性伸ばす狙い 豊見城中の探究学習 - 沖縄タイムス社",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54dl8tN19pRjdHUHo2bTl5ZkU4WFdCYXpibjlSZ0MzZzBJODZJTlEyQ3BmSGl2YTRMZFBFUlE3MGwwS25zQ1lYM2MzQnZmSlpaeVlJbVhQd2VnYmNTbWc?oc=5",
+          "source": "Google: 探究学習",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "全道高校登山、旭東が男女とも制覇 北海道大会",
+      "body": "第78回北海道高等学校総合体育大会登山競技（全道高校大会）が27日、札幌市近郊の山岳地帯で行われ、男子は札幌旭東高校、女子も同校がそれぞれ優勝を果たした。両チームとも、厳しい自然環境の中、チームワークと体力、そして高度な登山技術を発揮し、頂点に立った。\n\n男子の部では、札幌旭東が序盤から安定したペースを刻み、ライバル校を寄せ付けない力強い登りを見せた。女子の部でも、同校チームは冷静な判断力と粘り強い登攀で、他校を抑えて優勝を飾った。\n\n大会関係者は、「参加した選手たちは、日頃の厳しい訓練の成果を存分に発揮していた。自然の厳しさと向き合いながら、仲間と協力する大切さを学んだ貴重な経験となっただろう」と選手たちを称賛した。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "全道高校大会の登山 男女とも旭東が制覇 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lRXdmMmlRQXkxUnpZTGlIenVYaGFVM0dkajQ5b3lmWXNLSGcyNXhTZEtGRzRvSDlLNG5iTDNYNlNfZFJHSEdzak5UeWJ5bkdWT2hObzlTUFJsdw?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "法人向け生成AI研修、応用コース提供開始",
+      "body": "株式会社ifは27日、法人向けの生成AI研修「実務応用コース２.」の提供を開始した。社内ナレッジの組織知化や、対外発信・契約・AI利用ポリシーの品質・リスク統制を学ぶ。人材開発支援助成金で最大75%の助成が受けられる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vOWxuQ0ZvSEJBZjl0UDFBdjRiYnpuYkVMR0ZEa0tkNWxuNFZXcDI5Z2w2bVBGTU9VQ2dsOXFXSEtHbS1NZGc4T3pXdzFBdk1nUzlOb3E2S1FqM1h5WUw2SDVOZF9xcGh5emZz?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "議会質問まとめ 生成AI、NPO不正など論点",
+      "body": "ある議員は27日、6月の議会での質問内容をまとめた。主な論点として、生成AIの活用と倫理的課題、NPO法人不正対応、ごみ減量、麻疹対策などが挙げられている。具体的な質疑応答の内容も公表されている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9nblpGNV9kMjRERHFMV3QyVkZBbTZncnQxUUkxbEJJYzJZWllmaWhURTRDTHFIVWloT0sxNjhKdGlySE5WLUk1clZPR2FsYURkcFF5VGt4dUFOWVFnSWc?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "紋別市議選、初の無投票か 告示まで1週間",
+      "body": "北海道紋別市議会議員選挙が、告示まで1週間となった27日現在、立候補予定者が定数16人に対し16人にとどまっており、初の無投票となる可能性が高まっている。現職議員の多くが再選を目指す一方、新人の出馬は少ない状況だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSUHlES3FSelMxQlZ6OG1uYzgzY2lJZUxFMGJfNm96d2dBVkRQNEpRdjdJQ283aFg4N0VfYlN1YWQ2UVFvYmJ0TWNUa2drNVRVd3ZoaVBNXzlRUQ?oc=5",
+      "source": "Google: 紋別"
+    },
+    {
+      "title": "高校野球、父子対決は父に軍配",
+      "body": "南北海道大会は27日、北照高校が島田爽介投手の完投により、対戦相手に7回コールド勝ちを収めた。この試合では、父と息子がそれぞれ監督と選手として対峙する「父子対決」が実現し、父（監督）に軍配が上がった形となった。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qYUQ3clBqSUJHWEpvNUxoakoxNDNkN2hPV1p0a1NhX1hLSkpvaDZzRXFKaFl0LUx3ZDdhNDlWZnVXUjZhZVhTQlEya3BYWXV0RmdVUlBQRkZFVmNiczlSTnlwY0lZXzZIU05qVG5wMHRpVXd6NTRXZlo5TmFOWEHSAYcBQVVfeXFMT2FQR2h0ZVNCRmxKTXZMbUZrb0c3Mm5wYUxwYk9MVEFKMjB1cGlSd0RrUGtvN3hYMHJNN0pTY1hvZHJEaHRFbFVnSTV6LUlESWxNb0Q4R1VNaTRxRkdYSnBPYXgzNXZDZUNsdVI3VHgtNDF1NmVoNUZOeHhrSTRtQ2dpMThRUURz?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "高校野球・十勝ブロック 帯工がコールド勝ち",
+      "body": "夏の高校野球、十勝ブロックの試合が27日に行われ、帯広工業高校（帯工）が相手校にコールド勝ちを収めた。選手たちは暑さに負けず、力強いプレーを見せた。次の試合に向けて士気を高めている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtQTNEdnZ2Vm5zOUhLZUlLa3FERTJQbjdKRUJteFhCUC1pejhYSkdxVklfQ180TGFrV0U5czE5eE1aNFJsRmZjbDFHOUpCVnVmbElDRFlQTjBFQk40aXFnUDlxT2JvTVpLUTNoVVdhNWczMjVaUVpCNVA4NDfSAYIBQVVfeXFMUDJIZ3E2WThnXzVYMHhfRDNjcl9QSVhTejNmNVAxTzBlZmdHVnRIRFg4bkg2OXNQNTB3TUNUeTdkbEUwS2s5c000R1JMQTVWLWV6eGhvLTEwMVVzanBUVkZxSk50dnVlRjFyNG1MT09OQzNFSG1SZE5icEJQUk91MGJFUQ?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "高校野球・札幌ブロック グラウンド不良で6試合順延",
+      "body": "夏の高校野球、札幌ブロックの試合は27日、悪天候によるグラウンド不良のため、予定されていた6試合が順延となった。試合日程の変更については、関係各所と調整の上、改めて発表される見込みだ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5nbXpOWFZxc0UwcVQwZ1pvY25rQTBybmgzWHRtQnlMbm5teEtHQS1QWmNvWkx3elVPV3RmUVgySHAyeWI2S0JLWEwwY1FQSzM1MW9YdU9Yc3pBelBMNHcxSE15Q1NwWVdyOHFyWjhZLWxLNERPM09BWnFQZ2nSAYIBQVVfeXFMTXljXzJNRkhVQ29iYzJXenlydC0yT3EyOS1obC02WFNsWGRNNFRPeDZ0a29MWGJ1WDJBNHdNaFVBU2FGYk5NWDRLQnRxR0xUQW1ac1ZYTmVYckowb3pvekVFV2h4ZlRaMlZDaFlHV0RHOU10ZDdVVTZIWWtwTHNEUUVRQQ?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
