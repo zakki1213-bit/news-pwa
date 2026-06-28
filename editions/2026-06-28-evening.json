@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-06-28",
+  "generatedAt": "2026-06-28T19:16:21.729+09:00",
+  "lead": "2026年6月28日、夕刊紙面をお届けします。教育分野では探究学習を推進する新設高校の話題、商業分野では会計処理の事例や税理士会の記念式典、AI分野では輸出規制緩和やテレビ業界での活用、そして北海道からは高校野球の熱戦など、多岐にわたるニュースをお伝えします。",
+  "topStory": {
+    "title": "ドルトンX学園高、一関に2027年開校へ 自由な探究学習で新時代",
+    "body": "岩手県一関市に2027年4月、通信制・全寮制の「ドルトンX学園高等部」が開校する。教室での画一的な授業にとらわれず、生徒一人ひとりの興味関心に基づいた自由な探究学習を推進する新しい教育の形を目指す。\n\n同校は、生徒が自らのペースで学びを進められるよう、個別最適化された学習プランを提供する。教員は生徒の探究活動をサポートするファシリテーターとしての役割を担い、知識の伝達だけでなく、主体性や創造性、問題解決能力の育成に重点を置く。また、全寮制を採用することで、生徒同士の共同生活を通じて協調性やコミュニケーション能力も育む方針だ。\n\n探究学習のテーマは、科学技術、芸術、社会問題など多岐にわたり、生徒は興味のある分野を深く掘り下げることができる。外部の専門家や研究機関との連携も視野に入れ、実践的な学びの機会を豊富に提供する予定だ。これにより、生徒は変化の激しい社会で活躍するために必要なスキルと知識を習得することを目指す。\n\nドルトンX学園高の開校は、日本の教育界に新たな選択肢を提示するものとして注目される。従来の教育システムに疑問を持つ保護者や生徒にとって、自由な発想と主体的な学びを重視する同校は魅力的な選択肢となるだろう。地域社会との連携も深め、一関市ひいては岩手県の教育振興にも貢献することが期待されている。",
+    "topicId": "education",
+    "topicName": "教育・ICT",
+    "color": "#2563eb",
+    "references": [
+      {
+        "title": "ドルトンX学園高、一関に2027年開校へ 通信制・全寮制、教室を飛び出す自由な探究学習 - 岩手日報",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jcG9qeU1KZk1LaDhaNzJER1E4ZnBKTUFMVlVJNkNZT21qN29saEJOeThMQlBmSEVxa2hBVGREc25QcHphQVoxM3FLemNSOUlIMEp3SlJjdnVETFRlR0lYdQ?oc=5",
+        "source": "Google: 探究学習",
+        "topicId": "education"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "エア・ウォーター、不適切会計の調査報告書公表",
+      "body": "エア・ウォーター社で相次いだ不適切会計問題に関する詳細な調査報告書が公表された。300ページを超える報告書では、問題の背景や経緯、関与した人物などが詳細に記されているとされる。一部では「辞表もってこい」「給料返せ」といった厳しい言葉が飛び交ったとの情報もあり、組織内の混乱ぶりがうかがえる。\n\n報告書は、不適切会計がなぜ発生し、どのようにして長期間見過ごされてきたのか、その構造的な問題点を明らかにすることを目指している。金融監督当局もこの問題を注視しており、再発防止策の徹底が求められている。企業の信頼回復に向けた同社の今後の対応が注目される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "「辞表もってこい」「給料返せ」――300ページ超のエア・ウォーター調査報告書を読む 不適切会計がなぜ相次いだ？ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhdzl1WHprQnpnYmFET2xVZjdfbE1XRDQxMGw4V294M0xXdjlnMHlMVVp1azNoV0V5OUNZLXAweEphU1NxV3l6WWt1ZWFHbzhRT2VrcWloZ1k0QnhldG1JMDMzeVg0Q0xzZDl1aXVtbkRwX1RXQ2V0dnpTTWx4bHM?oc=5",
+          "source": "Google: 会計",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "テレビ業界、AI活用で映像制作の幅広げる",
+      "body": "テレビ業界において、AI（人工知能）を活用した映像制作の動きが活発化している。特に、再現VTRやドラマ制作の現場で、AIによるシーン生成技術の導入が進んでいる。例えば、火事のシーンなどをAIでリアルに再現することで、制作コストの削減や表現の幅の拡大が期待されている。\n\nテレビ東京は、こうしたAI技術を積極的に活用する方針を示しており、その理由として、制作現場の効率化や、これまで表現が難しかったシーンの実現可能性を挙げている。AI技術の進化は、テレビ番組のクオリティ向上に貢献するだけでなく、新たな表現手法を生み出す可能性を秘めている。今後、他の放送局や制作会社でも同様の動きが広がる見通しだ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "火事のシーンもAIで… テレビ業界で活用の動き テレ東、再現VTR＆ドラマで利用 その理由を聞いた（オリコン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0SDctcXN3SVBOSmJHVUdNQ2J2bUJiamFwbkNyMkltSjN1VGNUTDNDYTVnbzNvbjZpZXVhTTBZcDd2dnktNnBhVmxtRHMyNkdZeUl5NGxfcEpOemY5ajB4eExUU3RxcG5pYnFOTHlJYVZaTS1OYlpfb2FBYU5ocU0?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "北北海道大会、クラーク国際などコールド発進",
+      "body": "夏の高校野球、北北海道大会が開幕し、注目校が順調な滑り出しを見せた。クラーク国際、帯広農、士別翔雲、網走南ケ丘といった有力校が、いずれもコールドゲームで勝利を収め、次戦への駒を進めた。\n\n各チームとも、夏の大会に向けた調整が順調に進んでいることをうかがわせる試合展開となった。特に打線が爆発したチームや、投打がかみ合ったチームなど、その戦いぶりは様々だ。これから始まるトーナメント戦で、どのような熱戦が繰り広げられるのか、注目が集まる。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "クラーク国際、帯広農、士別翔雲、網走南ケ丘がコールド発進！北北海道大会【26年夏高校野球】｜記事一覧 - 高校野球ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xTndHZTl0Y2Q4R3pJTXplZFZTR241X0RUOEZfcngyV25fajZJYUgySWFYcTFLaE1RWm4tNHlPc3FNSVBlc3BHMWVVSThPRDY4VUE?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "税理士会藤沢支部、70周年記念式典を開催",
+      "body": "税理士会藤沢支部は、設立70周年を記念する式典を盛大に開催した。長年にわたり地域社会の税務行政に貢献してきた会員たちの功績を称え、今後のさらなる発展を誓い合った。\n\n式典では、歴代会長や会員、関係者が出席し、支部設立からの歩みを振り返るとともに、税理士を取り巻く環境の変化や将来展望について意見交換が行われた。参加者からは、「これまでの研鑽が無駄にならないよう、今後も専門性を高めていきたい」といった決意の声が聞かれた。藤沢支部は、今後も地域経済の発展に貢献していくことを目指す。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "「研さん無駄にならない」 税理士会藤沢支部が70周年式典〈藤沢市〉 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0yckZGMHB4V0Q5VzlveVBYcUI3RWFtMEFPN3o4cGpzUXBFZEM1Q1FTaHc1TXVaVF9qclVUb0s2ZW9GdGE2MEJPcTdKU3lYNUc1dEdJSlM4VDluYnMwcjhURkRMaFhGekU2c0dNd3ZJRkRkOFk2SmRkQ0h3d9IBgAFBVV95cUxNR1lrbi05ektoeDVCX1lXQS1JQ0Q3eVJnUWVqU0tucElTUWlMbEdZRFhXM09KNGNWeUtDZnI3OUNYZXJjcjNaZnhZdzV0cG91VTUxa2pYVlV1NlFIZ05fd2FFeGZpNWFNNENiUmQwZkgxTWVvUHVIaVJJa1NSamZpVQ?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "紋別市の小学校近くでクマ出没",
+      "body": "北海道紋別市の小学校近くでクマが目撃された。学校や周辺住民に注意が呼びかけられている。現在、警察や関係機関がパトロールを強化し、クマの行動範囲の確認と駆除に向けた警戒にあたっている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnYUlWOUE3ZC0ycUhkd0YyTjJtemQ2WjFvRDdhSVllcG01R1UzejQ4cmFEYkY5QWV5WDFtc2ZGN3dmWE43dDVlTjlkWGlGVWxRN3BQUU5MX3dxQQ?oc=5",
+      "source": "Google: 紋別"
+    },
+    {
+      "title": "小樽双葉、投打がかみ合い5回コールド勝ち",
+      "body": "高校野球、北海道大会で小樽双葉が投打の活躍で5回コールド勝ちを収めた。エースの右腕は4回を無失点に抑え、7奪三振の快投を披露。打線も効率よく得点を重ね、圧勝で初戦を突破した。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkY0ZHZXMwUWdPU3F3M2pyRVl6d0NVcjNGQXJwWF96UkdiQzg5SDVrRjFsdGV1N1JtOHYyNzEycFM2djlmMzFpWmlyX2ZYMzN5NWQtd1gyQ2YtYk5yS29kX3drbndXdmJNUVpmMzFtdl94X2xPSW1GSXdSNlhBSmc?oc=5",
+      "source": "Google: 北海道 高校"
+    },
+    {
+      "title": "生成AI使いランサムウェア作成、少年逮捕",
+      "body": "生成AI（人工知能）を利用してランサムウェアを作成したとして、19歳の少年が逮捕された。少年は「自分もやってやろうと思った」と容疑を認めているという。AIの悪用による犯罪行為が現実のものとなっており、対策が急務となっている。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96NTRxWG5VcnlXWnpJc2E5UTNMSW1SSFl1cDBuNE9QZlhxSjVFaHExVnZRWk5SM0xsc0VESm9uUmpPRXkyQVhfZ0diZHpZZ1R3VHNFWUpKS1B1clZZWFBlZHFVUHRtZw?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "大分商業高珠算部、全国大会へ決意新た",
+      "body": "大分商業高校珠算部の3年生、帯刀琉太さんが、全国大会への出場に向け、決意を新たにしている。日々の厳しい練習に励み、大会での活躍を目指す。商業高校における珠算教育の重要性が改めて認識されている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBVSFV4X1BUcmZ2N0hqVUI1ZUhQcGpjUGsyd2ZRNnVMbVZIak4zRTJZaTFfam16dEswTVNqYWlYVUFpck95YUlYRzBB?oc=5",
+      "source": "Google: 商業高校"
+    },
+    {
+      "title": "iOS27、1つの電話番号で2台のiPhone利用可能に",
+      "body": "次期iOS27では、1つの電話番号で最大2台のiPhoneを連携させて利用できる新機能が搭載される見通しだ。これにより、仕事用と個人用で端末を使い分けたいユーザーなどの利便性が向上すると期待される。料金プランへの影響なども含め、詳細な仕様が注目される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://iphone-mania.jp/ios-602878/",
+      "source": "はてブIT人気"
+    },
+    {
+      "title": "飲食店での「追加注文」巡るトラブル、法的問題は？",
+      "body": "飲食店で店員から勧められたメニューを注文したところ、会計時に想定外の料金を請求されたという体験談がSNSで共感を呼んでいる。このようなケースで法的に問題となるか、消費生活アドバイザーが解説。店側の説明責任や消費者の権利について考えさせられる。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE92UFVtRmRUc0RrTGRpQl9GempBVHFXekQxWUR2cGVLM2J1U1VXNlVtTnVzR0xQaEphdE15RUNXVzF4R3ZSTGcwUWVfN3haTmwwRDdyWmtCTFV1aG81UXJv0gFkQVVfeXFMUDZUMU9sRnBpMlhacUowY1RlQkVUZWVDcm90SHJlbkNWaXlFWkxJNk1UeVlVSHJKUmk3M1pNMXRVOWFtdGhrQmRZMVkyVVdCMlNhbGR2cUlIYjRuZjI2X2JIbDVsaw?oc=5",
+      "source": "Google: 会計"
+    }
+  ]
+}
