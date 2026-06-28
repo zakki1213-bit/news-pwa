@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-06-29",
+  "generatedAt": "2026-06-29T05:45:30.320+09:00",
+  "lead": "2026年6月29日朝刊。教育分野では高等教育の複線化が進む一方、AI技術の進化は製造業の知財活用に新たな可能性をもたらしています。商業分野では社会保険の適用拡大が迫る中、北海道では高校野球が熱戦を繰り広げています。",
+  "topStory": {
+    "title": "高等教育、学術と実践の「複線型」へ 多様な学びを尊重",
+    "body": "高等教育のあり方が、学術的な探求と実践的なスキルの習得を両立させる「複線型」へと移行しつつある。急速に変化する社会に対応するため、大学や専門学校は、従来の画一的な教育から、学生一人ひとりの多様なニーズに応じた学びの提供を目指している。\n\nこの動きは、特に専門職大学や短期大学などで顕著に見られる。企業との連携を強化し、インターンシップや共同プロジェクトを通じて、実践的な課題解決能力を養うプログラムが拡充されている。これにより、卒業生は即戦力として社会で活躍できる人材へと育成されることが期待される。\n\nまた、オンライン学習プラットフォームの普及も、教育の多様化を後押ししている。時間や場所に縛られずに学習できる環境は、社会人や子育て中の人々にも学び直しの機会を提供し、生涯学習社会の実現に貢献するだろう。学術的な深掘りと、社会で役立つスキルの習得という二つの軸を、学生が自身の目標に合わせて選択できる柔軟な教育システムが、これからの高等教育のスタンダードとなる可能性が高い。",
+    "topicId": "education",
+    "topicName": "教育・ICT",
+    "color": "#2563eb",
+    "references": [
+      {
+        "title": "これからの高等教育像、学術と実践の「複線型」に 多様な学び尊重 - 日本経済新聞",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44bXV2N3ROS0FwbFNjSGFkU251UjFqRFBnVUxLTEh1a2c4Yms1RUJxVzBUN0pUMjhYLWpMSmR6czhSTnVVQ1dzYUhSYUNTckxDTUVjei1nRllPalc1TjRLaFZEdnoyXzJhakdlVw?oc=5",
+        "source": "Google: 高校教育",
+        "topicId": "education"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "製造業の暗黙知、生成AIで「使える知」に",
+      "body": "製造業における長年の経験や勘といった「暗黙知」を、生成AI（人工知能）を活用して形式知化し、組織全体で共有・活用する取り組みが進んでいる。熟練技術者の高齢化や退職に伴う知識継承の課題解決に繋がると期待されている。\n\n具体的には、AIがベテラン技術者の作業プロセスや判断基準を学習し、マニュアル化されていないノウハウをデータとして抽出する。これにより、若手技術者でも熟練者と同等の品質や効率で作業できるようになる可能性がある。\n\nこの技術は、品質管理の向上や生産性向上だけでなく、新たな製品開発やイノベーションの創出にも貢献すると見込まれる。AIによる暗黙知の形式知化は、製造業の持続的な成長に不可欠な要素となりつつある。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "製造業の暗黙知を、生成ＡＩで「使える知」に変える（ニュースイッチ） - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5ZGJ6NHpPcjIwbndrWTNxZHdhYzE1WXZqdTh3T3FvQi1QdmdCYV9fY3pRcExMSExfQlJDUW12VVE0dksxYmRHSENLVFhpTHpHdEx3U3VzNVA4Z2N2TjVrdnF0ZXZaYkpwNGEzdm1IOEJxSVMwSFZ1eXJTOXUtSHc?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "社会保険の適用拡大、スケジュールを確認",
+      "body": "2026年10月から、短時間労働者に対する社会保険の適用が段階的に拡大される。これまで社会保険に加入できなかった多くの労働者にとって、年金や健康保険といったセーフティネットが拡充されることになる。\n\n今回の適用拡大により、週20時間以上勤務し、月額賃金8万8千円以上などの一定の条件を満たすパート・アルバイト労働者が新たに被保険者となる。企業は、対象となる従業員の把握と、保険料負担の増加への対応が求められる。\n\n制度変更に伴い、企業の人事・労務担当者は、適用スケジュールや加入要件を正確に理解し、適切な手続きを行う必要がある。労働者側も、自身の加入資格や受給できる給付について確認しておくことが重要だ。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "社会保険の適用拡大スケジュール - 寺田税理士･社会保険労務士事務所",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQc3BVamFDRVZEUXVkYVJuNzFoSy1tdnFWQTJkQ2dRTGU1WGxuaFJrR3paTFBrMmlLMFVKcFk0dWROVFBocVBhc0F0WUUyZHM1UVBDdDVjTmVRQUNaUXBlS1dCRGtvMnlmVV9aZHZ2Q09IV2JCemhoWmJCRGhzbEx4VUc3Um1PeVdYYWNTSkVNSHFTbnRlbGJtbQ?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    },
+    {
+      "title": "北見の飲食店でノロウイルス集団発生、22人発症",
+      "body": "北海道北見市の飲食店で、ノロウイルスによる集団食中毒が発生した。28日までに、この店を利用した客や従業員ら計22人が下痢や嘔吐などの症状を訴え、保健所が食中毒と断定した。当該店舗は2日間の営業停止処分を受けた。\n\n保健所によると、患者の便からノロウイルスが検出された。現在、感染経路の特定を進めているが、調理従事者の感染や、食品の二次汚染などが考えられるという。\n\n保健所は、飲食店に対し、衛生管理の徹底と従業員の健康管理の重要性を改めて指導した。市民に対しても、手洗いの励行など、食中毒予防策の実施を呼びかけている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "北見の飲食店でノロウイルス 22人発症 2日間営業停止処分 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JUzRobHJ3MWlTS0ZyeU9memE5MV9ZUjdJd1pJemJGTE9LTkVQOG1CT2pYNEZwNjB1TFNVd3o4Y2lmTzVULU54ZkI2Vk9vclo5Y1VMc19xOHdFZw?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "名門・北海、コールド発進！高校野球南北海道大会",
+      "body": "夏の全国高校野球選手権南北海道大会が29日開幕し、名門・北海高校が初戦で北海道文教大付高校に7回コールドゲームで勝利し、順調な滑り出しを見せた。U-18（18歳以下）日本代表候補にも選ばれている2年生右腕が、強打線相手に好投を見せた。\n\n北海は初回から打線がつながり、着実に得点を重ねた。投げては、エースが最速140キロ台の直球と切れのある変化球を武器に、相手打線をわずか1失点に抑え込んだ。\n\nこの勝利で北海は2回戦に進出。優勝候補の一角として、今後の戦いからも目が離せない。大会は今後、熱戦が繰り広げられる予定だ。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "名門・北海が7回コールド勝ち発進！U-18代表候補の2年生右腕が好投【北海道】（高校野球ドットコム） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MbV9IR1ctM1hBYTN0QWlGSUcwOVZUSzhQYk5QaVAxV1BlNW5sNjBJdGxUZ29PbnMtMHpFYmpqSmtnTDRrajZHX2hPZHAzemhPLVdsRlBodU9mTU9SVUQzNWZwdzA2Y3duMWwxcU1paWlGQ1d2SVd0OUFOOGRZQm8?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "原爆詩人・峠三吉の青春、平和学習教材に",
+      "body": "原爆詩人として知られる峠三吉の母校、広島商業高校が、彼の在学中の日記やアルバムなどを平和学習の教材として活用し始めた。峠氏の若き日の葛藤や平和への思いを伝えることで、生徒たちの平和意識の向上を目指す。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqcHNPaWRjWC0xWERiUTd6anlTYi1PMGJwTmxRMjZCemktOGpXRXp1WTZfdzIzajR1SWVTWkt1SkZwTk5hcnJZaW40Y0dRdWNXb2lZLVlkM0NJQQ?oc=5",
+      "source": "Google: 商業高校"
+    },
+    {
+      "title": "飯田将成、焼肉店で60人分の会計全額負担",
+      "body": "タレントの飯田将成さんが、自身の焼肉店で罰ゲームとして60人分の会計を全額負担したことが話題になっている。その金額は「桁が違う」とSNSで驚きの声が上がっており、その太っ腹ぶりが注目を集めている。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAtXzh0cXlEenZqekJWMVZnTGpyVDB1a3RPVVRmWkpaSm5zTXdvMC1jOGR5VHNhaXhiMU5yY1o1NThHek1oTXBmMjktQUJhNkp2WjE0?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "剣道男子団体、秋田商が東北大会で優勝",
+      "body": "東北高校選手権剣道競技男子団体戦で、秋田商業高校が秋田南高校を破り優勝を果たした。個人戦でも同校の小野選手が優勝するなど、秋田勢の活躍が目立った大会となった。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1FaERYOEZXa0dTTExPU244VGNIOG5DbDRBeWVycWZfVzNiajI3enljMEJNWUladEpkM0RENFFwelNrV0dtbTB0MnNrV3JsM2cwUGtrM3E2Q1RtUkNiWlg0SXRB?oc=5",
+      "source": "Google: 商業高校"
+    },
+    {
+      "title": "Deno 2.9正式リリース、性能向上と新機能",
+      "body": "JavaScript/TypeScriptランタイムのDenoがバージョン2.9に正式リリースされた。起動速度が2倍に向上し、メモリ消費量が半分になるなど性能が大幅に改善。WebViewを利用したデスクトップアプリ開発機能も追加された。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://www.publickey1.jp/blog/26/deno_292webviewdeno_desktop.html",
+      "source": "Publickey"
+    },
+    {
+      "title": "AIエージェント連合、アジア市場攻略へ",
+      "body": "マイクロソフト、OpenAI、Anthropicなどの主要AI企業がGensparkと共に「AIエージェント連合」を設立した。アジア市場でのAI活用拡大を目指し、連携を強化していく方針だ。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hQkVHckcwWVRzYjBMUVlvYjdGZGVsWXR5RnRrWDRWWTdCRlpqMVg2MXlKSWFYSnhiVHNKYjdTdEZlZ1Vwd3BuN0hsdTZfMVBkLUdyUFBnQlowRzQtRm1oQ1E1eThxZ0RJdVBWZ1plTk5JbWMw?oc=5",
+      "source": "Google: Anthropic"
+    },
+    {
+      "title": "紋別、昨日の天気は曇り時々晴れ",
+      "body": "北海道紋別地方の28日の天気は、曇り時々晴れだった。最高気温は20度前後で、過ごしやすい一日となった。29日も同様の天候が続く見込み。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44M3pMZHBYRFEyeE5uSnQ3bHFtaTRwNGZ0cnB5ZE9ReEJubE9pOXBpT1lNYXRnZEJmaWJOWEIyQ2pkQ2Q2VFdRY2VibjZZeGZwX2M4TEwyMUhiSVpfMEZ5cg?oc=5",
+      "source": "Google: 紋別"
+    }
+  ]
+}
