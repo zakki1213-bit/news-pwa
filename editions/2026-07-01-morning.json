@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-07-01",
+  "generatedAt": "2026-07-01T06:19:25.678+09:00",
+  "lead": "本日の朝刊では、教育改革の新たな動きとして、全国各地の高校が国の拠点校に採択されたニュースをトップに据えました。また、AI技術の進化は目覚ましく、その応用範囲の広がりを示す記事も注目されます。商業分野では、税理士選びの基準やAI導入のメリットに迫りました。北海道からは、地域に根差した話題や、高校での不正事案に関する続報をお届けします。",
+  "topStory": {
+    "title": "国の高校教育改革拠点校に黒沢尻工業など採択",
+    "body": "文部科学省は、高校教育改革を推進する新たな拠点校として、岩手県の黒沢尻工業高校と盛岡農業高校を選定したと発表した。これらの学校は、今後3年間にわたり、国の支援を受けながら、探究学習の深化や地域連携の強化など、先進的な教育プログラムの開発・実践に取り組む。\n\n今回の選定は、教育現場の多様なニーズに応え、未来を担う人材育成を目指す国の「ネクストハイスクール構想」の一環として行われた。採択された学校は、最新の教育手法やICT（情報通信技術）の活用を積極的に導入し、その成果を全国の高校に波及させる役割を担うことが期待されている。\n\n黒沢尻工業高校は、ものづくり教育における実践的なスキル習得と、地域産業との連携強化に重点を置く。一方、盛岡農業高校は、持続可能な農業技術の開発や、食料問題への貢献を目指した教育を展開する予定だ。両校は、それぞれの特色を生かしながら、高校生が主体的に学び、将来の進路や社会で活躍するための力を育む教育モデルの構築を目指す。\n\n文部科学省は、今回の選定校の取り組みを通じて得られた知見や成果を、全国の教育委員会や学校関係者と共有し、高校教育全体の質の向上に繋げていく方針だ。これにより、変化の激しい社会に対応できる、より実践的で創造的な人材の育成を目指す。",
+    "topicId": "education",
+    "topicName": "教育・ICT",
+    "color": "#2563eb",
+    "references": [
+      {
+        "title": "岩手 国の高校教育改革拠点校 黒沢尻工業と盛岡農業が採択 - NHKニュース",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KcFNjeFlTdWp3NWd2VWgxQ3BVU09TME5NU2dxVzRweHo4LTd3ZUJmazdvSUVhQmVDTWZtdHREc293cHgtNXJLbG1xbUp3Vm92a2ZTX2tjYko?oc=5",
+        "source": "Google: 高校教育",
+        "topicId": "education"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "生成AI、政策立案に活用 登別の専門学校",
+      "body": "北海道登別市の専門学校が、政策立案の資料作成に生成AI（人工知能）を導入した。学生たちは、地域課題の分析や解決策の提案を行う演習において、生成AIを活用し、効率的かつ多角的な情報収集と分析を行っている。\n\nこの取り組みは、AI技術の急速な発展に対応し、学生たちの実践的な問題解決能力を高めることを目的としている。生成AIを用いることで、従来は多くの時間を要していたデータ分析やレポート作成が迅速化され、学生はより創造的な思考や戦略立案に集中できるようになった。\n\n学校側は、AIの倫理的な利用や情報リテラシー教育にも力を入れており、学生がAIを効果的かつ責任ある形で活用できるよう指導している。今回の試みは、教育現場におけるAI活用の可能性を示すものとして注目される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "「政策立案」資料に生成AI 登別の専門学校 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZZFJQNUhDLUt2alg3RU5uOTc5OFozRlFxZ2dhbVpXSklRTFpDeXNGUXp2TzdReld4RzltamN3b1BkS0J4WlVnMHhZSXBVb1lTczFud19iMmpoUQ?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic、高度なAIエージェント機能を持つClaude Sonnet 5発表",
+      "body": "AI開発企業Anthropicは、最新の大規模言語モデル「Claude Sonnet 5」を発表した。新モデルは、低価格でありながら高度なエージェント機能を搭載しており、複雑なタスクの実行や自律的な意思決定能力が大幅に向上している。\n\nClaude Sonnet 5は、自然言語理解能力の向上に加え、複数のツールを連携させてタスクを遂行する能力に優れている。これにより、顧客対応の自動化、ソフトウェア開発の支援、データ分析など、幅広い分野での応用が期待される。\n\n同社は、AIの安全性と倫理性を重視しており、Claude Sonnet 5においても、有害なコンテンツの生成を抑制し、公平性を確保するための技術が組み込まれている。今回の発表は、AI技術のさらなる進化と、その社会実装の加速を示唆している。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "AnthropicがClaude Sonnet 5を発表、低価格で高度なエージェント機能を提供 - Межа. Новини України.",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8ySnlfNVRLTFJqaXVqM3MtYm53RndORFFmSFVCQ2xoRzd5dUk5LWl6TnhNd1FucjRFV2tYNVBGbTB1ODZGcXFFLWtGZF84VjRDVDM4dG1kbEdXQncwNXpiclNxWUYtU1E0ODE1Y29Lcw?oc=5",
+          "source": "Google: Anthropic",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "高校の不明金、元事務長を再逮捕 横領容疑",
+      "body": "北海道石狩南高校で発生した約1300万円の使途不明金事件で、道警は1日、元事務長の男（61）を業務上横領の疑いで再逮捕した。男は修学旅行費や副教材費などを着服した疑いが持たれている。\n\n再逮捕容疑は、2023年4月から2024年3月にかけて、学校の口座から複数回にわたり現金を自身の口座に移し替えるなどして横領した疑い。警察は、これまでに約1300万円が使途不明となっていることから、全容解明を進めている。\n\n取り調べに対し、男は「記憶がはっきりしていない」と容疑を否認しているという。警察は、動機や詳しい経緯について慎重に捜査を進めている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "【石狩南高校の不明金約1300万円】元事務長の61歳男が修学旅行や副教材費を横領した疑いで再逮捕「記憶がはっきりしていない」容疑を否認〈北海道〉 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tUXdLdm4zeE5IeXdJT2dhV0doMGVCZXU4cWp0RGdsdzc0dEJIeE5Fb0tWZW9BelhLYjRBdjBfVXNDYms4c2hXTm51azB6dzdYSlRHWEh2SEZQRkVCb2lmeU02OC1lT2xVTDNmLVF6RElPRWdYTmhKMzB5eDRKZG8?oc=5",
+          "source": "Google: 北海道 高校",
+          "topicId": "hokkaido"
+        }
+      ]
+    },
+    {
+      "title": "税理士変更、小谷野税理士法人が手順示す",
+      "body": "税理士法人小谷野は、税務調査の通知を受けた際の税理士変更に関する手順と判断基準を公表した。同法人は、税理士を変更する際には、過去の対応実績、専門性、コミュニケーション能力、そして料金体系などを総合的に評価することが重要だと指摘している。\n\n具体的には、まず現在の税理士との信頼関係や、変更によって生じるであろう事務手続きの負担を考慮する必要がある。また、新しい税理士候補については、過去の類似案件での成功事例や、税務調査に対する深い理解度を確認することが推奨される。\n\n同法人は、これらの点を踏まえ、4つの条件を満たす税理士を選ぶことで、より円滑かつ効果的な税務対応が可能になると解説している。この情報は、税務に関する不安を抱える企業や個人にとって有益な指針となるだろう。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "「調査の通知が来たが、税理士を替えられるか」に向き合った小谷野税理士法人が示す手順と4条件 - 愛媛新聞",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1QWnJQZ2FpV0R0cTZTQ3VGRS05YXdZdThWajdEUkJVQnRreGxiNGx5R2NOaTNQN2xOVi1jNURWTHVYWDB1b1J5X01fbmhPUnp2U0RnN01GSXZ5RjlCMHdSS09B?oc=5",
+          "source": "Google: 税理士",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "今治工、北条清新が拠点校に 文科省支援",
+      "body": "文部科学省は、愛媛県立今治工業高校と北条清新高校を、高校教育改革の推進拠点校に選定した。今後3年間、国の支援を受け、探究学習の充実や地域連携の強化などに取り組む。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GZXNxaHpJc0p5MW56QzM2aUttYlVNa0RjanZfX3luUVRRbWFqeFVUS0xnRmhXRWhtS2lva2JISDJvRFJhSGRrV0FsLUFfWG5CRF9ibHlMUV9lbGIyYVlfQw?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "長崎県内3高校、教育改革の先導拠点に",
+      "body": "長崎県内の3つの県立高校が、文部科学省の高校教育改革先導拠点校に採択された。これらの学校は、先進的な教育プログラムの開発と実践を通じて、県全体の教育力向上を目指す。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PYnZPZU1WQy1FT013d2ZOVjNzUmJMOERnRUsxM1BOV3dGcnZZOXBOR1BNSXctYWJBcUhhT0JRR3pzc2VNeUtFODc4N3NpLVpMY2lpTmo2Z0ZqcDVDaVJBSjVlbXlrYjNGNUNmTmhn?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "和歌山県立3高校、国のネクストハイスクール構想拠点校に",
+      "body": "和歌山県立の3高校が、国の「ネクストハイスクール構想」の拠点校に選ばれた。高校から大学・大学院までを見据えた教育改革を加速させ、地域社会の発展に貢献する人材育成を目指す。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zZzBTMktIdzc3TURDcUFXbWFOVmFfUGxETjRrcUYzeW9xZU43V3J3X2RBOEdpRG13eHVhVTAtRWUxQ0tFaEEycEtyM01KU1FqTWlJdEdXRzBDbEROM2U3Tmg4bVdBU0VkcmNFdWpMbkYxNjV6SXlHV0l5OWNHZjA?oc=5",
+      "source": "Google: 高校教育"
+    },
+    {
+      "title": "スマホキーボードでAI起動 Actiが新機能",
+      "body": "Actiは、スマートフォンキーボード上でAIエージェントを起動できる新機能を発表した。入力中に提案や要約を提供し、ユーザーの作業効率向上を支援する。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBqOG5hVFZCcG9IZnkyMnNILXpiUHpYdnFKbzFoWTRIdHJQT3VDcG9tdlZYTFBEbXBtZGtXZ2k2S1NZQ0h2X1dWcGtrRjh5ZWtlS1h4dWh0a01HdE5Oc0NKdGI0dw?oc=5",
+      "source": "Google: Claude AI"
+    },
+    {
+      "title": "紋別で住宅敷地にクマ出没",
+      "body": "北海道紋別市の住宅敷地にクマが出没した。住民に注意を呼びかけるとともに、警察と自治体が連携してパトロールを強化している。けが人の情報は入っていない。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44RUFTeW54LXh2UHY5cU9sRWZiaDZaWDlOajdEMElEd2NNQkJUQTFjdnctRkhWbmg4VEpwYktFOVkwWWFsUTRfSzNTOVFadVhpRzFEUk9nc2dsQQ?oc=5",
+      "source": "Google: 紋別"
+    },
+    {
+      "title": "高円宮杯U-18サッカー北海道ブロックリーグ結果",
+      "body": "2026年度高円宮杯JFA U-18サッカー北海道ブロックリーグの6月27、28日に行われた試合結果が発表された。次回は7月4、5日に開催予定。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBwOXFTTzRXZThmNWxEcm45LXMxb1NLV09VZ1diVFdvN1gyVmVTT19mclNId2djWjduenZHVEV2bFhkM3U5UXF4YWhhWXBzMVZDWW56Q3ZZMVJKZw?oc=5",
+      "source": "Google: 北海道 高校"
+    }
+  ]
+}
