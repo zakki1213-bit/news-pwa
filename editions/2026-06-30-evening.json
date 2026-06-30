@@ -1,0 +1,139 @@
+{
+  "type": "evening",
+  "date": "2026-06-30",
+  "generatedAt": "2026-06-30T19:44:44.769+09:00",
+  "lead": "2026年6月30日、夏の本格的な到来を告げる暑さの中、教育現場ではGIGAスクール構想の進展や高校教育改革に向けた動きが活発化しています。また、AI技術の進化はビジネスや行政の効率化に貢献し、地域経済の活性化にも新たな可能性をもたらしています。本紙では、これらの動きを多角的に報じます。",
+  "topStory": {
+    "title": "GIGAスクール時代の学校ネットワークと周辺機器",
+    "body": "GIGAスクール構想が進む中、学校現場におけるネットワーク環境と周辺機器の重要性が増しています。EDIX東京2026では、これらの動向に迫る展示やセミナーが行われました。児童生徒一人一台端末の活用を支えるためには、安定した高速通信網の整備が不可欠です。また、端末管理やセキュリティ対策を担う周辺機器の選定も、教育効果を最大化する上で重要な要素となります。\n\n文部科学省は、GIGAスクール構想の実現に向け、全国の小中学校に整備された1人1台端末について、さらなる活用を促進する方針です。これに伴い、学校現場では、Wi-Fi環境の強化や、校内LANの整備、さらには教員のICT活用能力向上のための研修なども急務となっています。特に、オンライン授業やデジタル教材の活用が進むにつれて、ネットワークの帯域幅の確保や、セキュリティ対策の強化が求められています。\n\n周辺機器としては、タブレット端末の充電や保管を効率化する充電保管庫、校内での情報共有を円滑にする電子黒板やプロジェクター、そして、児童生徒の学習状況を把握・支援するための学習支援システムなどが注目されています。これらの機器は、教育DX（デジタルトランスフォーメーション）を推進する上で、欠かせない存在となっています。\n\nEDIX東京2026では、これらの課題に対応する最新のソリューションが多数展示されました。各メーカーは、学校現場のニーズに応えるべく、高性能かつ低コストな製品開発を進めており、教育現場のICT化を力強く後押ししています。今後も、教育現場の声を反映した、より使いやすく、より効果的なネットワーク環境と周辺機器の整備が期待されます。",
+    "topicId": "education",
+    "topicName": "教育・ICT",
+    "color": "#2563eb",
+    "references": [
+      {
+        "title": "GIGAスクール時代の学校に欠かせない「ネットワーク」と「周辺機器」 その動向に迫る：EDIX 東京 2026（1/3 ページ） - ITmedia PC USER - ITmedia",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1USmVXc05NRmJFMXBDTFJsc2FCb0tPZlNNcF8wMGxmeEg1cVZJb01sRG5vYnZtelNFaC13c1F2Yy1vUzRaNTV5Q2J2TzFCVDZOUWZPQ2d3SU5jR2hFczNvY1FRZ2VOM0FDRzlFMlY1VdIBaEFVX3lxTE1mM2lic2piRnFmUWRfelZJSHZNVTA5LWd0NVlYOUV3UFNfc1RQaTVYVU5QaENLTVIyb2ZqUjdtekxmWTkxLXY2R2pDcU85bVVOR0ZwNEJSMlRzdV9OZkdyc2Q3RTJ3X21P?oc=5",
+        "source": "Google: GIGAスクール",
+        "topicId": "education"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "文科省、高校教育改革の先導校75校を採択",
+      "body": "文部科学省は、高校教育改革を推進する先導校として、全国から75校を新たに採択しました。これらの学校は、探究学習の充実や、STEAM教育の推進、地域との連携強化など、特色ある教育活動を展開し、その成果を全国の高校に共有する役割を担います。\n\n採択された学校には、山梨県、静岡県、徳島県からそれぞれ4校が含まれており、各地域の実情に応じた改革が進められることが期待されます。これらの先導校は、新たな学習指導要領の趣旨を踏まえ、生徒の主体的な学びを促すためのカリキュラム開発や、ICTを活用した授業実践などを積極的に行います。\n\n今回の採択により、高校教育の質的向上が図られるとともに、グローバル化や情報化社会に対応できる人材育成に向けた取り組みが加速することが見込まれます。文科省は、今後もこれらの先導校の活動を支援し、全国の高校への波及効果を最大化していく方針です。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "文科省、高校教育改革の先導校75校を採択…山梨・静岡・徳島は各4校採択 - リセマム",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Ja3ZKSnJJdDdLRG9tSzFhUG80TDVZcVgzWGNPSXlpdXVLMkwxNUtfaGRDdkNpWW51Y2Y0cWFpSEEyb2cxZUtfMzZKZGxfWm85UnhKZjBhQldSTVRHLWtVZGNQeGdMZw?oc=5",
+          "source": "Google: 高校教育",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "AI活用職員にボーナスアップ 徳島県、業務効率化狙い",
+      "body": "徳島県は、業務効率化を目的にAI（人工知能）を活用した職員に対し、ボーナスを増額する制度を導入しました。AIツールを積極的に導入し、業務の自動化や効率化に貢献した職員の功績を評価し、インセンティブを与えることで、県全体の生産性向上を目指します。\n\n具体的には、AIによる文章作成支援やデータ分析、問い合わせ対応などの業務で成果を上げた職員が対象となります。この制度は、AI技術の活用を促進し、職員一人ひとりのスキルアップを促すことで、県政サービスの質の向上にも繋がると期待されています。\n\n県は、今後もAI技術のさらなる活用を推進し、職員がより創造的で高度な業務に集中できる環境を整備していく方針です。今回の取り組みは、全国の自治体におけるAI導入の先進事例として注目されています。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "AIの使い手職員はボーナスアップ 徳島県、業務の効率化狙い - 毎日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qclIxbURaRklDOXFJT2FrbWx2bHRfRnBmTlRoQWRoYVV2cWdCY0V0cVBVYkhpdko3RjFMbk82YXE4bkRDMmdTdnlGVk5RZUlYNU15dWNGZTFqOVhCc2dXZDhtcms2Njkw?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "MIXI、動画生成AIのRunwayと提携",
+      "body": "MIXIは、動画生成AIを開発するRunwayと業務提携を結びました。この提携により、MIXIはRunwayの最先端AI技術を活用し、ゲームやアニメーション制作における新たな表現手法の開発を目指します。AIを前提とした制作プロセスへの移行が、エンターテインメント業界にどのような変革をもたらすか注目されます。\n\nRunwayは、テキストから動画を生成するAI技術などで知られ、クリエイティブ分野での活用が期待されています。MIXIは、この技術を取り入れることで、これまで時間とコストがかかっていた映像制作の効率化や、新たなコンテンツ創出の可能性を追求します。\n\n今回の提携は、AI技術がエンターテインメントコンテンツの制作プロセスに深く関わる時代の到来を示唆しており、今後の業界全体の動向に影響を与える可能性があります。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "MIXI、動画生成AIのRunwayと電撃タッグ…ゲーム・アニメ制作が“AI前提”に変わるか？ - ビジネス+IT",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9pNVR6NDhDSjhpN05VT1YxWWNWR1NaMDBHaHBlcUdqVkRXT2ZjYTZUcDFsTXoydW5KUk5iRTRlNXh2VUFFdXppQnhRWjNtWWNveEFj?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "北見市、職員へのカスハラ対策方針を策定",
+      "body": "北見市は、市職員に対するカスタマーハラスメント（カスハラ）への対策基本方針を策定しました。悪質なケースに対しては、警察への通報や法的措置も辞さない構えで、職員の心身の健康を守るとともに、毅然とした対応でカスハラ行為を根絶することを目指します。\n\n方針では、カスハラ行為の定義や、相談・対応体制、再発防止策などが盛り込まれています。職員が安心して業務に取り組める環境を整備するため、全職員への周知徹底と研修の実施を進めます。\n\n市民サービスの提供にあたる職員が、心ない言動によって傷つくことのないよう、市は今後も継続的な対策を講じていくとしています。この取り組みは、全国の自治体における職員保護の観点からも注目されます。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "references": [
+        {
+          "title": "北見市が「市職員カスハラ対策基本方針」策定 悪質な場合は警察通報や法的措置も - 47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4zZ3dqbXNuM1VFWVVPWE5nWDlyVjFmbEkzMlE0WExZOTIzVzM5cHg0X2pnSF80Yjl3UmVmdXIybUZPSXg1Yk9lWTdQcw?oc=5",
+          "source": "Google: 北見市",
+          "topicId": "hokkaido"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "ロイロノート、探究学習ライブラリー「SPARKE」と連携",
+      "body": "教育ICTツールのロイロノート・スクールコネクトは、探究学習ライブラリー「SPARKE」との連携を開始しました。これにより、教材の共有や活用が容易になり、探究学習の質向上に貢献することが期待されます。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5HRFY5ZHlKbGFFejkxdUQyWFk1NjRhQU1Cek1lZTdUcjJFX0RJUFo5dlg4SEVDS1dkemVXYzQzNF9ZcTNCSUdINXp6dzY4dGFyQUE?oc=5",
+      "source": "Google: 探究学習"
+    },
+    {
+      "title": "神奈川県、待機児童65人で過去最少",
+      "body": "神奈川県は、2026年4月時点の待機児童数が65人となり、過去最少を記録しました。利用申込率も過去最高を更新しており、待機児童解消に向けた取り組みが進展していることがうかがえます。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/06/30/86594.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "話題の実務書、累計1万部突破",
+      "body": "会計分野の実務書が異例のヒットとなり、発売即重版、累計1万部を突破しました。Amazonの会計専門書ランキングでも1位を独走しており、その内容への関心の高さを示しています。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5UTXN0VTUtZzJKQXhNR004MGlrRU1ibDdKeDVqY25hRTU2Y1pUcnRHUVBySXAwME9iMHFtZGROTEdRbHEtVG8xemxITGw3ejFWZW5pRkdwTjZyYy1ZTmxBdHRiSUM1b3lYQngxRENjT1YySXdFVXFLVWpBaw?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "ニデック、会計不正で提出期限延長承認",
+      "body": "会計不正問題で揺れるニデックは、昨年度の有価証券報告書の提出期限を3カ月延長することが承認されました。再発防止策の策定と信頼回復に向けた取り組みが求められます。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsTGZ1MWNWMWlpQUl1UlAyc0tXY1pZWHZTb1dJLTFNc3dEUFJCQVVqc25XZHFfa0VQMDlYNWFHZjE4RVU5S2xmUk83V2xXd0FsYncwUWU0NW1EU2JPbXpYVzMyR3dwd1QtOE9aNlp4TEtjVS1SN3BwR2hCVQ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "ソフトバンク、国産生成AI「Sarashina」提供開始",
+      "body": "ソフトバンクは、国産生成AIサービス「Sarashina」の提供を「Cloud PF Type A」上で開始しました。国内企業のAI活用を支援する新たな選択肢となります。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tMkZhMzM1Zm15UnhvalNwdlRYVF9JUFdIdzctRGtGZnpXeU1JZk9wWmJKYnJFRnRzVU55YlNaSUkyRENlTVg2RzJVVGc0MkRieXBNQzhYYUNyV1I1YkNpUUxWTXQtQ2JGMm1xcnZIQlBhalpYb3I4NDhmNkhobUk?oc=5",
+      "source": "Google: 生成AI"
+    },
+    {
+      "title": "オホーツク宿泊税活用、モニターツアー企画",
+      "body": "北海道オホーツク地域では、宿泊税を活用し、11月に野鳥観察や遺跡巡りなどのモニターツアーを企画しています。地域資源を生かした新たな観光振興策として期待されます。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WVXJTNGhqTWowZEtIbnlLdm52a0o0VDg5eFhEOElfeGtmMS1wOHhzWmhFZnRhaUs5Mk9wVF9uSnpTdTF1NmU0NVhqR1FWRENGWGxaTldCTzVmUQ?oc=5",
+      "source": "Google: オホーツク"
+    }
+  ]
+}
