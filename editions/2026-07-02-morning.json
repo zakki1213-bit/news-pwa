@@ -1,0 +1,139 @@
+{
+  "type": "morning",
+  "date": "2026-07-02",
+  "generatedAt": "2026-07-02T06:11:59.129+09:00",
+  "lead": "2026年7月2日朝刊。AI技術の進化が社会の様々な分野に影響を与える中、教育現場では新たな人材育成の試みが始まっています。また、地域経済の活性化や持続可能な社会の実現に向けた取り組みも各地で進められています。本紙では、これらの動きを多角的に報じます。",
+  "topStory": {
+    "title": "米、AI「Claude」規制解除 世界的なアクセス回復へ",
+    "body": "米国政府は、Anthropic社が開発した大規模言語モデル「Claude Fable 5」および「Claude Mythos 5」に対する輸出禁止措置を解除した。これにより、これらのAIモデルは世界中の研究者や開発者が利用できるようになり、AI技術のさらなる発展と普及が期待される。\n\n今回の規制解除は、AI技術の国際的な競争と協力を促進する上で重要な一歩となる。これまで一部の国や地域に限られていたアクセスが広がることで、多様な視点からの研究開発が進み、AIの倫理的かつ安全な利用に向けた議論も深まることが予想される。\n\nAnthropic社は、AIの安全性と倫理性を重視した開発で知られており、今回のClaudeモデルは、その最新技術を結集したものである。自然な対話能力や高度な情報処理能力を持ち、様々な分野での応用が期待されている。\n\n規制解除により、日本を含む世界各国の研究機関や企業がClaudeモデルを活用し、新たなサービスやアプリケーションの開発に取り組むことが可能になる。これにより、AI分野における国際的な連携が強化され、イノベーションの加速につながるだろう。",
+    "topicId": "ai_tech",
+    "topicName": "AI・プログラミング",
+    "color": "#7c3aed",
+    "references": [
+      {
+        "title": "米国、 Anthropic の Claude Fable 5 と Mythos 5 に対する輸出禁止措置を解除し、世界的なアクセスを回復 - BigGo ファイナンス",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbnV1TkZBQzlxZnlpNUl4dm8zSEo1ZkM1VWtES1lHdGJ2NDFiSHlrUmszR1lhTXpyRGRoZzd6NEgtZFZVSU4wOWxBQmFxamxWalJmY3ZGcTlhejVUakxXRXRNTTBqM2lWczNrcmt3dkpjZ3hvaXg5WUNIS2JCQzFoekhfWGNGY0stTmlNaUVuUlBZNDViWktz?oc=5",
+        "source": "Google: Claude AI",
+        "topicId": "ai_tech"
+      }
+    ]
+  },
+  "midStories": [
+    {
+      "title": "小学生向けプログラミングコンテスト応募開始",
+      "body": "日本最大級の小学生向けプログラミングコンテスト「Tech Kids Grand Prix 2026」の応募受付が開始された。本コンテストは、Cygamesが特別協賛しており、未来のIT人材育成を目的としている。\n\n参加者は、自身のアイデアを形にするプログラミング作品を制作し、応募する。優秀作品は、専門家による審査を経て表彰される。コンテストを通じて、子どもたちの創造性や論理的思考力、問題解決能力の育成が期待される。\n\n応募期間は〇月〇日まで。詳細は公式サイトで確認できる。多くの小学生の挑戦が待たれる。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "日本最大の小学生向けプログラミングコンテスト「Tech Kids Grand Prix 2026」Supported by Cygames 応募受付開始 - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6X1I2TU9lS1hEbHhIYnQwY0ZHa2s3OEh5LWlrVDVka3V4OGx4TTZtMzE3MlU5RUQydmQ3WXhIa19taFlCdVVGdFNhT1JKWVB1MGk3X3lEVUpiVUhwc2ExWko3eFVrVFIxUHlWOVVkbk1WaHZaOFo1MnR3Zw?oc=5",
+          "source": "Google: プログラミング教育",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "山口高校、理数系人材育成の拠点校に",
+      "body": "国の高校教育改革の一環として、山口高校が理数系人材育成の拠点校に採択された。これにより、同校は先進的な科学技術教育プログラムを展開し、将来の科学技術分野を担う人材の育成を目指す。\n\n拠点校としての取り組みには、最新の研究設備への投資や、大学・研究機関との連携強化が含まれる。生徒たちは、より専門的で実践的な学びを通じて、科学への探求心を深めることができるだろう。\n\nこの取り組みは、全国の高校教育における理数系分野の活性化に貢献することが期待されている。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "references": [
+        {
+          "title": "国の高校教育改革 山口高校が理数系人材育成の拠点校に採択 - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9pNTJFZVRlVWI2TW5HYU1BNE5OR3duWVVNT2N6ZHpTU29kWDI4RHdTUWRxUDdsU1hxTUVVUUE1MldCZGx3dXNrdEJjX1lMMlBlakU5c0ZKVmY?oc=5",
+          "source": "Google: 高校教育",
+          "topicId": "education"
+        }
+      ]
+    },
+    {
+      "title": "酪農DX、市販カメラとAIで推進",
+      "body": "市販のカメラとAI技術を組み合わせた、現場発の酪農DX（デジタル・トランスフォーメーション）推進プロジェクトが発表された。この取り組みは、酪農現場の効率化と生産性向上を目指すものだ。\n\nAIがカメラ映像を解析し、家畜の健康状態や行動パターンを把握することで、異常の早期発見や飼育管理の最適化が可能になる。これにより、省力化と生産コストの削減が期待される。\n\nPR TIMESによる発表では、この技術が中小規模の酪農場でも導入しやすい点が強調されており、今後の普及が注目される。",
+      "topicId": "ai_tech",
+      "topicName": "AI・プログラミング",
+      "color": "#7c3aed",
+      "references": [
+        {
+          "title": "プレスリリース：市販カメラ×AIで始める、現場発の酪農DX（PR TIMES） - 毎日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RWUNjbzVfcnJhMGdqVWZjekRVcmhuSnhLUTRqM1RqZDJpeXd3RmhzTFRSTi1oOG1nU2hwSXVkdmRjLWZUb0p5N3J1WDRGTVhla2tnVWdKNFR0V2lkb25qaE00a2lDYnIz?oc=5",
+          "source": "Google: 生成AI",
+          "topicId": "ai_tech"
+        }
+      ]
+    },
+    {
+      "title": "呉商業高校で統合計画説明会",
+      "body": "呉商業高校で、学校統合に関する説明会が開催された。説明会では、統合計画の概要が説明されたが、同窓生からは人材流出や地域経済への影響を懸念する声が上がった。\n\n説明会では、統合による教育効果の向上や、より多様な学習機会の提供などがメリットとして挙げられた。しかし、地域に根差した学校がなくなることへの不安も表明された。\n\n今後、地域住民や関係者との丁寧な対話を通じて、理解を深めていくことが求められる。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "references": [
+        {
+          "title": "呉商業高校で統合計画説明会 同窓生は人材流出など懸念 - 中国新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12RDZ0YzZ0NHdLYkFwaFlUQUxrdG5TODR1VUtRSXkwSGlLY0psMUVtOFdhOUVFMUk3M1hET0cwaXc2TVAzNi1DSHlVVUk5TVpPZzVRYWFOcWM3QQ?oc=5",
+          "source": "Google: 商業高校",
+          "topicId": "business"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "title": "千葉県公立高入試 評定分布公表",
+      "body": "千葉県は2026年度公立高校入試における評定分布を公表した。社会の評定5は全体の29.7％だった。このデータは、高校入試における内申点の評価傾向を理解する上で参考となる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/07/01/86620.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "看護師志望者向けサマーキャンプ開催",
+      "body": "看護師を目指す中高生を対象とした「サマーキャンプ」が夏休みに開催される。参加者は、看護の現場を体験し、専門職としての理解を深めることができる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/07/01/86619.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "ドローン合宿で国家資格取得へ",
+      "body": "16歳から参加可能な「学生ドローン合宿」が伊豆大島で開催される。合宿では、ドローンの操縦技術を習得し、国家資格の取得を目指すことができる。",
+      "topicId": "education",
+      "topicName": "教育・ICT",
+      "color": "#2563eb",
+      "url": "https://resemom.jp/article/2026/07/01/86617.html",
+      "source": "リセマム"
+    },
+    {
+      "title": "ナイキ株、12年ぶり安値",
+      "body": "ナイキの株価が12年ぶりの安値を記録した。会計上の販売不振が背景にあるとみられ、今後の業績回復が注目される。",
+      "topicId": "business",
+      "topicName": "商業・簿記・会計",
+      "color": "#059669",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFM0JLUU5ydy1SREFJME9JMG1MVTh1X1RhbHF2OS1kUkM2X3pJU3FOWjZvOHlqTFlBdWNLN0tSeFVUUjAzM0NUOUdjVXFneC0tU24xSkQ2engyNkpsVkpnYW53QlpiNmhxaXg3V3RlT290UQ?oc=5",
+      "source": "Google: 会計"
+    },
+    {
+      "title": "アパマンキャラ「北見編」ダンス公開",
+      "body": "アパマンショップの公式キャラクター「べあ～君＆ハニちゃん」による「50音ダンス企画」の第8弾「北見編」が7月1日に公開された。地域色豊かなダンスが披露されている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EeDF3T0d1bElnSldyWTNkVnNhYkUxSDVQeElqR2pmUThINS1TRmFyLU80aVZVLWVvQTh0dEhkcjM1REhuMThobk9uZXk2Z0M3ejh6dWxrYXItV1ZDbl9pUE5iUTloOGY1?oc=5",
+      "source": "Google: 北見市"
+    },
+    {
+      "title": "網走市、太陽光発電を許可制に",
+      "body": "網走市は、10キロワット以上の太陽光発電設備設置を許可制とする条例案の骨子をまとめた。景観や環境への配慮が目的とされている。",
+      "topicId": "hokkaido",
+      "topicName": "北海道ローカル",
+      "color": "#dc2626",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBTVG0wU0F3ckhxSWxPR3lWSHVocFJJNFQ4amdWd0Jmai1kMWw2cXR6LTZUNmJONFNGT1pkLS1sSk9wRHllRUdRN3ZDbXJ0NnVIbWJYVVNjTWg4Zw?oc=5",
+      "source": "Google: 網走"
+    }
+  ]
+}
